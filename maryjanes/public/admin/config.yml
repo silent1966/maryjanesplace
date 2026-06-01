@@ -1,0 +1,128 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+site_url: https://maryjanesplace.co.uk
+display_url: https://maryjanesplace.co.uk
+logo_url: https://maryjanesplace.co.uk/logo.png
+
+collections:
+  # Site-wide settings: hours, address, contact, social, membership tiers, partner categories
+  - name: "site"
+    label: "Site settings"
+    delete: false
+    editor:
+      preview: false
+    files:
+      - file: "src/content/site/settings.json"
+        label: "Settings (hours, address, contact, membership, partners)"
+        name: "settings"
+        fields:
+          - label: "Brand"
+            name: "brand"
+            widget: "object"
+            fields:
+              - { label: "Name",          name: "name",          widget: "string" }
+              - { label: "Tagline",       name: "tagline",       widget: "string" }
+              - { label: "Short tagline", name: "shortTagline",  widget: "string" }
+              - { label: "Location",      name: "location",      widget: "string" }
+              - { label: "National line", name: "national",      widget: "string" }
+          - label: "Contact"
+            name: "contact"
+            widget: "object"
+            fields:
+              - label: "Address"
+                name: "address"
+                widget: "object"
+                fields:
+                  - { label: "Street",    name: "line1",    widget: "string" }
+                  - { label: "City",      name: "city",     widget: "string" }
+                  - { label: "Postcode",  name: "postcode", widget: "string" }
+                  - { label: "Country",   name: "country",  widget: "string" }
+                  - { label: "Latitude",  name: "lat",      widget: "number", value_type: "float" }
+                  - { label: "Longitude", name: "lng",      widget: "number", value_type: "float" }
+              - { label: "Phone (display)",        name: "phone",         widget: "string" }
+              - { label: "Phone (international)",  name: "phoneIntl",     widget: "string" }
+              - { label: "Email",                  name: "email",         widget: "string" }
+              - { label: "Google Maps URL",        name: "googleMapsUrl", widget: "string" }
+          - label: "Social"
+            name: "social"
+            widget: "object"
+            fields:
+              - { label: "Instagram URL",  name: "instagram",  widget: "string" }
+              - { label: "Facebook URL",   name: "facebook",   widget: "string" }
+              - { label: "Google Maps",    name: "googleMaps", widget: "string" }
+          - label: "Opening hours"
+            name: "hours"
+            widget: "list"
+            fields:
+              - { label: "Day",      name: "day",      widget: "string" }
+              - { label: "Sessions", name: "sessions", widget: "string" }
+              - { label: "Closed",   name: "closed",   widget: "boolean", required: false, default: false }
+          - label: "Headline facts (stats band)"
+            name: "facts"
+            widget: "list"
+            fields:
+              - { label: "Value", name: "value", widget: "string" }
+              - { label: "Label", name: "label", widget: "string" }
+          - label: "Membership"
+            name: "membership"
+            widget: "object"
+            fields:
+              - { label: "Intro paragraph", name: "intro", widget: "text" }
+              - label: "Tiers"
+                name: "tiers"
+                widget: "list"
+                fields:
+                  - { label: "ID (lowercase, no spaces)", name: "id", widget: "string" }
+                  - { label: "Name", name: "name", widget: "string" }
+                  - { label: "Price (display)", name: "price", widget: "string" }
+                  - { label: "Frequency", name: "frequency", widget: "string" }
+                  - { label: "Tagline", name: "tagline", widget: "string" }
+                  - { label: "Features (one per line)", name: "features", widget: "list", field: { label: "Feature", name: "feature", widget: "string" } }
+                  - { label: "CTA label", name: "cta", widget: "string" }
+                  - { label: "Highlight as primary tier?", name: "primary", widget: "boolean", default: false }
+          - label: "Partner categories"
+            name: "partnerCategories"
+            widget: "list"
+            fields:
+              - { label: "ID (lowercase)", name: "id", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Blurb", name: "blurb", widget: "text" }
+              - { label: "What we're interested in", name: "interestedIn", widget: "text" }
+
+  # Shop products (each is a JSON file in src/content/products)
+  - name: "products"
+    label: "Shop · Products"
+    folder: "src/content/products"
+    extension: "json"
+    format: "json"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Name",        name: "name",        widget: "string" }
+      - { label: "Category",    name: "category",    widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Price from",  name: "priceFrom",   widget: "string", required: false }
+      - { label: "Order",       name: "order",       widget: "number", value_type: "int", default: 0 }
+      - { label: "Available",   name: "available",   widget: "boolean", default: true }
+
+  # Blog posts
+  - name: "posts"
+    label: "Blog · Posts"
+    folder: "src/content/posts"
+    extension: "md"
+    format: "frontmatter"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title",   name: "title",   widget: "string" }
+      - { label: "Date",    name: "date",    widget: "datetime" }
+      - { label: "Summary", name: "summary", widget: "text", required: false }
+      - { label: "Draft",   name: "draft",   widget: "boolean", default: false }
+      - { label: "Body",    name: "body",    widget: "markdown" }

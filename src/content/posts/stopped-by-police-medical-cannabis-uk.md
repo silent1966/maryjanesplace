@@ -1,83 +1,50 @@
 ---
-title: "Stopped by police with a medical cannabis prescription? Here's exactly what to do"
+title: "Stopped by the police with a prescription. Here's exactly what to do."
 date: 2026-05-05
-summary: "A practical, step-by-step guide for prescribed UK patients on what to say, what to show and what not to do when stopped by police — anchored on the official NPCC guidance approved in November 2024."
+summary: "Most officers haven't been trained on medical cannabis yet. How you handle the first two minutes is everything. The practical playbook for prescribed UK patients, built on the NPCC guidance issued in November 2024."
 draft: false
 ---
 
-Imagine you're walking home with your prescription in a paper bag, or driving back from the pharmacy, when you're stopped by an officer. You're a lawful patient with a lawful medicine, and you should not be in trouble. But the reality on the ground is that not every officer has had training on medical cannabis yet — and how you handle the next two minutes will shape the entire encounter.
+You're walking home with a sealed pharmacy bag, or driving back from the pharmacy, or sitting in a park before vaping a dose. An officer approaches. You are a lawful patient carrying a lawful medicine and you should not be in trouble — but the reality on the ground in 2026 is that not every officer has had refresher training on medical cannabis yet, and the next 120 seconds will shape the entire encounter.
 
-This is the practical playbook, written for the patient. It is built on the official [NPCC-approved police guidance](https://library.college.police.uk/docs/NPCC/Medicinal-cannabis-guidance-2025.pdf.PDF) — the document that, since November 2024, is national policy across all 43 forces in England and Wales.
+This is the practical playbook, written from the patient side of the conversation. It is built on the [NPCC and APCDLO police guidance approved in November 2024](https://library.college.police.uk/docs/NPCC/Medicinal-cannabis-guidance-2025.pdf.PDF) — national policy across all 43 forces in England and Wales.
 
-## Step 1 — Stay calm
+## 1. Stay calm. You are not guilty.
 
-The most important thing you can do in the first ten seconds is not act guilty. You are not guilty. You have a prescription from a UK specialist for a medicine that has been lawful on prescription since November 2018. Behave like the patient you are: polite, cooperative, unflustered. The NPCC guidance directs officers to approach you as a patient first — meet them halfway.
+The instinct is to apologise. Don't. You have done nothing wrong. Cannabis-based medicines have been lawful on a specialist prescription since November 2018, and the police guidance is explicit that officers should approach you as a patient first. Meet them halfway. Polite, cooperative, unflustered. Don't reach for pockets without telling the officer what you're going to do. Don't hand over your phone. Don't volunteer your medical condition — you have no obligation to disclose it.
 
-Don't reach into pockets without telling the officer what you're doing. Don't hand over your phone unless you choose to. Don't volunteer your medical condition — you're not required to disclose it.
+## 2. Say the words
 
-## Step 2 — Say the magic words
+There is one sentence to learn:
 
-The single most useful sentence you can say, calmly, is:
+> "I am a UK medical cannabis patient. I have a prescription. May I show you the official NPCC guidance and my dispensing label?"
 
-> "I'm a medical cannabis patient. I have a UK prescription. May I show you the dispensing label?"
+That sentence does three things at once. It establishes that you have a prescription. It signals that you know the guidance the officer is operating under. And it gives the officer a graceful path out — they don't have to recall the policy in the moment; you're offering it to them.
 
-That sentence does three things at once. It frames you as a patient (which the NPCC guidance asks the officer to treat as the default). It tells the officer the legal category they're dealing with. And it offers the proof that the same guidance recognises as sufficient.
+## 3. What to actually show
 
-## Step 3 — Show the dispensing label
+You should be able to produce:
 
-The dispensing label is the printed label your pharmacy sticks to the original packaging when they fill the prescription. It contains your name, the medicine, the dose, the prescriber and the date.
+- **Your dispensing label** — the pharmacy label on the original packaging of your medicine. This is, in itself, proof that you are a prescribed patient.
+- **A copy of your prescription, or a prescriber letter**, dated within the last six months — keep one on your phone.
+- **The NPCC guidance**, on your phone or printed — the [PDF is here](https://library.college.police.uk/docs/NPCC/Medicinal-cannabis-guidance-2025.pdf.PDF) and the [College of Policing's drug policy](https://www.college.police.uk/app/investigation/policing-drugs) refers to it.
 
-According to the NPCC guidance, this label — combined with photo ID — is recognised proof of lawful possession. You don't have to carry the original prescription. You don't have to carry a prescriber letter. You don't have to carry a "Cancard" (which the NPCC guidance explicitly notes is a controversial private scheme and not a legal requirement).
+You are not legally required to carry any of these, but carrying them shortens every interaction by an order of magnitude.
 
-If your medicine is in its original packaging with the dispensing label intact, you have what you need.
+## 4. If the officer is unsure
 
-## Step 4 — What if you don't have the original packaging?
+The guidance is clear, but officers do not all have it at their fingertips yet. If a particular officer seems uncertain, ask — politely — that they call their duty inspector or check the force's own version of the policy. The [APCDLO website](https://www.apcdlo.org/) is the body that co-produced the guidance. Most forces have it on their internal systems under "medicinal cannabis" or "controlled drugs — prescribed".
 
-This is the trickiest scenario, and the NPCC guidance addresses it directly: if a patient has no documentation, officers are asked to consider further enquiries with healthcare partners — for example, contacting the prescribing clinic — rather than treating the absence of paperwork as automatic evidence of an offence.
+A patient who knows the guidance and presents the documents will, in nearly every case, be on their way within minutes.
 
-In practice, this means you can say something like:
+## 5. What about driving?
 
-> "My medicine is at home in its original packaging. I'm prescribed by [your clinic name]. They're available to confirm my prescription on [clinic phone number]."
+Driving with a UK medical cannabis prescription is permitted, and there is a statutory medical defence under **Section 5A of the Road Traffic Act 1988** for THC at otherwise-prohibited levels, provided the medicine was lawfully prescribed and taken as directed. The defence is real, but you must not be impaired. If a roadside swab is positive, the prescription is what you put on the table at the police station and, if necessary, in court. Carry it with you when you drive.
 
-You should keep your clinic's contact number saved in your phone for exactly this reason. Most clinics have a patient line that can verify within minutes during business hours, and some operate 24/7 for police verification.
+The [GOV.UK drug-driving guidance](https://www.gov.uk/drug-driving-law) confirms the statutory medical defence applies. Don't drive impaired; don't argue at the roadside; let the documentation do the talking.
 
-## Step 5 — Ask for the CDLO
+## The bigger picture
 
-Every UK police force has a **Controlled Drug Liaison Officer (CDLO)** — the specialist who handles exactly these situations. The NPCC guidance encourages officers to consult their CDLO when they're unsure.
+Every encounter that goes well builds the precedent that goes into the next force-level briefing. Every patient who knows the guidance and behaves like a patient — calm, prepared, courteous — moves the needle slightly. The 2024 NPCC document is the single biggest legal protection prescribed UK patients have ever had. Carry it. Use it. Be the patient the guidance describes.
 
-You're allowed to ask the officer to do this. A polite phrasing:
-
-> "I understand officers can consult their force's Controlled Drug Liaison Officer for medical cannabis cases. Could you do that?"
-
-The directory of CDLOs is maintained by the [Association of Police Controlled Drug Liaison Officers (APCDLO)](https://www.apcdlo.org). It's a legitimate, mainstream resource — not patient activism. Asking for it signals that you're informed.
-
-## Step 6 — What if they want to search you or your car?
-
-You can decline a search of your home without a warrant. Searches of your person and vehicle on the street are governed by ordinary stop-and-search powers — you don't need to consent, but the officer can search you if they have reasonable grounds.
-
-If they do search and find your prescribed medicine, the dispensing label settles it. They may seize the medicine pending verification (the NPCC guidance allows this where there's genuine doubt) but it should be returned to you intact once you've been verified.
-
-## Step 7 — If you're driving
-
-Driving is a separate offence — the [Road Traffic Act 1988, section 5A](https://www.legislation.gov.uk/ukpga/1988/52/section/5A) — and it works on blood limits, not on possession. There's a statutory medical defence: if you've taken your medicine as prescribed and you're not impaired, the section 5A offence doesn't apply. But — and this is critical — that defence does not cover impaired driving.
-
-If you have medicated, **don't drive.** The defence is narrower than people think, and impairment is a separate offence (section 4) that the medical defence does not protect against. If you're stopped while driving, the officer will likely conduct a roadside impairment test alongside the drug-screening swab.
-
-## Step 8 — Afterwards
-
-If you feel you were treated badly — disbelieved, detained too long, embarrassed in public — write it down while it's fresh. Note the officer's name and number, the time, the location, and what was said. You can complain through the local force's professional standards department, and you can copy in your MP and [United Patients Alliance](https://www.unitedpatientsalliance.org/). The advocacy bodies track patterns of mistreatment and use them to keep the police service accountable.
-
-## The short version
-
-1. Stay calm. Behave like a patient, not a suspect.
-2. Say: "I'm a medical cannabis patient. I have a UK prescription."
-3. Show: dispensing label + photo ID.
-4. Ask: for the CDLO if there's confusion.
-5. Don't volunteer your medical history.
-6. Never drive after medicating.
-
-You don't have to be perfect. You just have to be calm, clear, and informed. The NPCC guidance was written precisely so that patients have the law on their side — and now you do too.
-
----
-
-*This article is general information, not legal advice. For advice on your specific circumstances, consult a qualified solicitor.*
+If you've been stopped and the encounter didn't go well, [tell us](/visit#contact). We collect these stories — anonymised — to feed back into the advocacy bodies pushing for better officer training.

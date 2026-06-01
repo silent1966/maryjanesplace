@@ -1,105 +1,84 @@
 ---
-title: "The best dry-herb vaporisers for UK medical cannabis patients in 2026"
+title: "The dry-herb vaporisers actually worth buying in 2026"
 date: 2026-04-25
-summary: "An honest, patient-first guide to the dry-herb vaporisers worth buying in 2026 — the portables, the desktops, and what each one actually does well for someone using cannabis as medicine."
+summary: "The market is mature. The marketing isn't. An honest, opinionated guide to the devices we recommend, the ones we don't, and how to put your money on the right kit for your prescription."
 draft: false
 ---
 
-The dry-herb vaporiser market is now mature enough that "best vape" depends almost entirely on what you, the patient, actually need. The Mighty+ is rightly famous, but it's not the right device for everyone. This guide groups the realistic options into three categories — daily-driver portables, pocket-friendly portables, and at-home desktops — and explains who each one suits, from a patient's perspective.
+If you are spending £200 to £500 on a dry-herb vaporiser you intend to use for a medical prescription, you should treat the purchase like buying a piece of medical equipment, not a consumer gadget. The market in 2026 is mature — there are about a dozen devices that genuinely deserve a UK patient's attention, and roughly a hundred that don't. The marketing won't tell you which is which.
 
-Every device on this list is one we either stock, demo or have direct hands-on experience with at the sanctuary. None of this is paid placement.
+Every device below is one we have personally tested, demoed for patients, or stocked at the space. None of this is paid placement, and we don't take affiliate commission on any of it. Where we have a strong opinion, we say so.
 
-## Category 1 — Daily-driver portables
+## The category map
 
-These are the devices most prescribed UK patients end up settling on. Reliable, easy to clean, and engineered for many years of daily use.
+Patients tend to want one of three things:
 
-### Storz & Bickel Mighty+ (£275–£300)
+- **A daily-driver portable** — the device you'll reach for several times a day, often for years. Has to be reliable, easy to clean, and feel good in the hand. Battery matters.
+- **A pocket-friendly portable** — smaller, lighter, less power. The device you take to a friend's house, on a walk, on a trip away. A second device for most prescribed patients, not a primary one.
+- **An at-home desktop** — plugged in, more thermal mass, bigger draws, cleaner taste. The device you use when you're settled.
 
-The reference. German-made, medically certified as a [Class IIa medical device in the EU](https://www.storz-bickel.com/), full convection heating, hybrid airflow, and a battery that genuinely lasts a long session. The Mighty+ added USB-C charging and faster heat-up over the original Mighty.
+What you actually need depends on how often you medicate, what your dose looks like, and whether you mostly use cannabis at home or out.
 
-**Who it suits:** Patients who medicate multiple times a day and want the most clinical, consistent vapour available. Particularly good for chronic pain patients on higher doses.
+## Daily drivers worth buying
 
-**Downside:** It's not small. It looks like a medical device, because it is one. Pocket-discreet it is not.
+### Storz & Bickel Mighty+ (~£275)
 
-### Tinymight 2 (£330)
+The reference. German-made, registered as a [Class IIa medical device in the EU](https://www.storz-bickel.com/), full convection heating, hybrid airflow, USB-C charging, and a battery that handles a long session without flagging. It is, frankly, hard to argue against the Mighty+ for any patient medicating more than twice a day.
 
-Made in Finland by a small team, the Tinymight 2 is a hand-finished convection device with extraordinary vapour quality. Powerful, fast, manual draw-activated.
+What it does best: a clinical, consistent dose, every time. What's annoying: the size and the price.
 
-**Who it suits:** Experienced users who want the best vapour-per-puff on the market and don't mind a slight learning curve. Patients on lower doses who want every milligram to count.
+**Buy if** you are medicating consistently, want a device that will outlive your phone, and don't mind paying for it.
 
-**Downside:** Higher learning curve, more user maintenance, and the company is small so spares can take longer.
+### Tinymight 2 (~£330)
 
-### DaVinci IQ2 / IQC (£200–£260)
+The patient-favourite alternative. American-made, full convection, almost surgical control over draw and temperature. Lighter than the Mighty, faster heat-up, and a flavour profile that many patients prefer.
 
-Stylish, clean American engineering. The IQC is the simpler newer model; the IQ2 has more features and dose-tracking via the official app.
+**Buy if** you've outgrown the Mighty or want something a touch more refined. Not the device for someone who wants a soft learning curve.
 
-**Who it suits:** Patients who like data — the IQ2 measures and logs the dose used per session, useful for keeping a real diary. Good vapour at conservative temperatures.
+### Arizer Solo III (~£200)
 
-**Downside:** Conduction-based, so flavour is less pure than convection models like the Mighty+ or Tinymight.
+The understated workhorse. Hybrid convection-conduction, glass stems, a battery that lasts. Less famous than the Mighty, often more comfortable. The cooling stems make for a smooth, easy draw.
 
-## Category 2 — Pocket-friendly portables
+**Buy if** you want most of the Mighty experience at significantly less money.
 
-Smaller devices for daytime medication when you need something genuinely discreet.
+## Pocket portables
 
-### Storz & Bickel Venty (£375)
+### DynaVap M Plus (~£90)
 
-The newest portable from Storz & Bickel. Adjustable airflow, very fast heat-up (around 20 seconds), and excellent vapour. Pocketable, just.
+Not for everyone, but for some patients it becomes the only device they want. A simple butane-heated capsule that produces extraordinary flavour and zero electronics to fail. Requires a separate butane torch (around £25). A genuine cult object, and the most repairable vaporiser on the market.
 
-**Who it suits:** Mighty+ fans who want to go portable without compromising too much on vapour quality.
+**Buy if** you like ritual, hate batteries, and want something that will still work in fifteen years.
 
-**Downside:** Premium price. Battery is integrated (not user-swappable like the Mighty+).
+### Pax Plus (~£200)
 
-### Crafty+ (£190)
+The most discreet portable money buys. Looks like a pen. Conduction heating, so a little harsher than the convection models above. Reliable, easy to clean.
 
-The Mighty+'s little brother. Single-button operation, smartphone app for temperature, and the same hybrid convection-conduction heating. Smaller than the Mighty+ but not much faster.
+**Buy if** discretion is the priority. **Don't buy if** flavour and dose precision are.
 
-**Who it suits:** Patients who want Storz & Bickel quality at a lower price and in a smaller form factor.
+## Desktops
 
-**Downside:** Battery life is roughly half a Mighty+'s. Heat-up is slow for a 2026-era portable.
+### Storz & Bickel Volcano Hybrid (~£500)
 
-### Arizer Solo 3 / Air Max (£175–£230)
+The original and still the standard. A balloon vaporiser — you fill the bag, then breathe it. Extraordinary thermal accuracy, used in clinical trials for decades. Overkill for most prescribed patients; correct for a handful.
 
-Canadian-built, glass stem aesthetic, exceptional flavour, swappable batteries. The Solo 3 is the chunky-but-flagship version; the Air Max is the more pocketable sibling.
+**Buy if** you live with chronic pain and have settled into a regular high-dose pattern at home.
 
-**Who it suits:** Patients who prioritise flavour and don't mind a stem-based design.
+### Arizer Extreme Q (~£200)
 
-**Downside:** Glass stems are fragile in pockets. Not the most discreet during use.
+The desktop most patients should consider before the Volcano. Whip and balloon, far cheaper, perfectly clean vapour. The plastic build is the giveaway, but the price-to-experience ratio is unmatched.
 
-## Category 3 — At-home desktops
+**Buy if** you want a desktop experience without spending £500.
 
-If you medicate primarily at home, a desktop vaporiser is a serious upgrade. Better vapour, easier on the lungs, and they pay for themselves over time in cannabis efficiency.
+## Devices we don't recommend
 
-### Storz & Bickel Volcano Hybrid (£550–£600)
+We are blunt about this because it matters: any "dry-herb vape" sold for under £40 on Amazon, marketed in lurid colours and with extravagant claims, is conduction-based, runs hot enough to combust your flower, and produces a draw that has more in common with smoke than with vapour. You will inhale degraded medicine. You will get a worse dose. And you will, in some cases, technically be smoking under [the legal definition we wrote about here](/blog/why-your-specialist-says-vaporise-not-smoke-the-law-behind-the-line).
 
-The undisputed king. German clinical-grade build, balloon or whip delivery, infinitely consistent. The original Volcano has been in continuous production since the late 1990s and is the reference standard for medical vaporisation.
+If a vaporiser is the price of a takeaway, treat it as a takeaway, not as medical equipment.
 
-**Who it suits:** Daily home medicators, patients with respiratory conditions who need the gentlest possible vapour, anyone who wants the absolute best.
+## A short word on accessories
 
-**Downside:** Big, immobile, and not cheap. Get one second-hand if budget is tight — they last decades.
+A decent grinder (£25 for a four-piece aluminium model) does more for your dose consistency than the next £100 you spend on a fancier device. A glass cooling stem reduces throat irritation by a noticeable margin. An airtight UV-shielded jar keeps flower fresh for a month longer than the original pharmacy packaging. All three are worth the money before you upgrade your vaporiser.
 
-### Arizer XQ2 (£330)
+## Come try them
 
-Whip-based desktop with strong vapour and very efficient herb usage. Quieter and more affordable than the Volcano.
-
-**Who it suits:** Home users who want serious desktop quality without the Volcano price.
-
-## What we'd actually recommend, by patient type
-
-| If you're… | Consider |
-| --- | --- |
-| New to vaping, prescribed flower | Mighty+ — least to learn, most forgiving |
-| On higher doses, daily use | Mighty+ for portability or Volcano Hybrid for home |
-| Looking for the smallest possible device | Crafty+ or Venty |
-| A flavour enthusiast | Tinymight 2 or Arizer Solo 3 |
-| On a tight budget | Refurbished Mighty (original) or Arizer Air Max |
-| Looking for the absolute best | Volcano Hybrid (desktop) + Mighty+ (portable) |
-
-## Try before you buy
-
-The single best piece of advice we can give: don't choose a vaporiser from reviews alone. Vapour is a personal thing — what one patient finds smooth, another finds harsh; what one person calls "discreet," another calls "fiddly." A device that looks perfect on YouTube can feel completely wrong in your hand.
-
-That's literally why Mary Jane's Place exists in part. Come down, [arrange a demo](/visit), and try three or four devices side-by-side with your own medicine before you spend £300. We don't take commissions from any brand, and our only goal is for you to end up with the right device first time.
-
----
-
-*Prices and availability shown are accurate at time of writing and subject to change. This is general buying guidance, not medical advice — your prescriber should advise on what's appropriate for your specific medicine and condition.*
+We demo most of these devices at the space. If you're a verified UK patient and you'd like to try a Mighty next to a Tinymight before you commit, [come and see us](/visit). Trying a device before you buy a device is the single best decision you can make with this money.

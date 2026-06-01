@@ -1,82 +1,44 @@
 ---
-title: "How to get a medical cannabis prescription in the UK in 2026"
+title: "How to actually get a UK medical cannabis prescription (the short version)"
 date: 2026-05-20
-summary: "A patient's guide to getting prescribed medical cannabis in the UK. How specialist clinics work, what conditions qualify, what it costs, how long it takes, and which clinic suits which patient."
+summary: "Three years googling. One email. The medicine is real, the route is legal, and most people stay stuck on a problem that no longer exists. A patient-first walkthrough of what actually happens."
 draft: false
 ---
 
-Cannabis-based products for medicinal use (CBPMs) have been lawfully prescribable in the UK since November 2018. Yet over seven years later, most people who could benefit from them either don't know that's possible, or assume the route is harder than it actually is. This is a plain-English walkthrough of the real process in 2026 — written for the patient about to take the first step.
+A man called us last week. Fifty-something. Back pain. Three years on the codeine carousel. He'd been googling "is medical cannabis actually legal in the UK" the entire time and never quite trusted the answer. The reason he hadn't picked up the phone earlier was that the whole thing sounded too unbelievable to be real.
 
-## The short version
+It is real. Cannabis-based medicines have been lawful on a specialist prescription in the UK since November 2018, and the route from "considering it" to "holding a sealed pharmacy bag in your hand" is much shorter than nearly everyone assumes.
 
-You don't need a GP referral. You approach a specialist medical cannabis clinic directly, fill in a form, and if you qualify — broadly, you have a diagnosed condition that hasn't been adequately controlled by at least two other treatments — a GMC-registered specialist will assess you and, where appropriate, prescribe. Most prescriptions are private; NHS prescriptions remain very rare. Costs vary, but the realistic range for a typical patient is around £150–£300 in the first month including consultation and medicine, then £100–£250/month thereafter.
+There is no NHS referral. There is no tribunal. There is a form.
 
-## Who can prescribe medical cannabis in the UK?
+## The short version, properly
 
-Only **GMC-registered specialist doctors** on the GMC Specialist Register can initiate a prescription for an unlicensed cannabis-based medicine. Your GP cannot. In practice, this means going through one of the dedicated medical cannabis clinics, where the specialists are pain consultants, psychiatrists, neurologists, palliative-care doctors and the like.
+You contact a specialist clinic directly. They reply by email — usually within a day. If you have a diagnosed condition that two conventional treatments haven't adequately controlled, and a specialist consultant agrees, you'll be prescribed. The CQC regulates the clinics. The General Medical Council registers the consultants. Almost all of this happens privately, because the NHS prescribes cannabis-based medicines in only a handful of edge cases.
 
-NHS prescribing is technically possible but [extremely rare in practice](https://www.nhs.uk/conditions/medical-cannabis/) — only a small number of NHS prescriptions have been issued since 2018, mostly for specific paediatric epilepsy syndromes (where Epidyolex is licensed) and MS-related spasticity (Sativex). The realistic route for most adults is private.
+Expect a first month of around £150–£300 (consultation included) and £100–£250 a month thereafter, depending on whether you're prescribed flower or oil and where your specialist arrives at on dose.
 
-## Which conditions qualify?
+That is the entire system in three sentences.
 
-There is no statutory list. A specialist may prescribe wherever the clinical evidence supports it and licensed alternatives have been tried. The most commonly prescribed-for conditions are:
+## What it actually feels like
 
-- Chronic pain (the largest single group — around 60% of prescriptions)
-- Anxiety, PTSD and treatment-resistant depression
-- Multiple sclerosis-related spasticity
-- Severe insomnia
-- Chemotherapy-induced nausea and palliative care
-- Treatment-resistant epilepsy
-- Endometriosis, fibromyalgia, IBD and a growing list of others
+You email a clinic — Releaf, Mamedica, Curaleaf, Alternaleaf, any of the ten or so reputable ones — and tell them what you're being treated for. They send you a form. You upload your medical summary (your GP records, which you have a legal right to). A specialist consultant reviews it; if it looks viable, they offer you a consultation, usually £100–£150. At the consultation they discuss your condition, your previous treatments, your goals. If they prescribe, the medicine ships from a UK pharmacy in a sealed bag with a dispensing label, like any other Schedule 2 controlled medicine.
 
-You'll generally need to show you've tried at least two licensed treatments for your condition without enough benefit — though for some conditions a single licensed alternative is enough.
+Most patients describe the consultation as the first time a doctor has properly listened to them about pain or anxiety. That part doesn't surprise us.
 
-## The major UK clinics — at a glance
+## What people get stuck on
 
-The market has consolidated around a handful of well-known providers. The choice mostly comes down to clinical style, cost structure and waiting times.
+The single biggest barrier in 2026 is no longer the law, the access or the cost. It's the assumption that there must be a catch. There isn't. Specialist prescribing of cannabis is no more legally exotic than specialist prescribing of ketamine — both are Schedule 2 controlled drugs, both are regulated, both can be lawfully prescribed when the clinical case is there.
 
-- **Releaf** — currently the highest-rated UK clinic on Trustpilot and the most engaged with patients. Subscription model with unlimited clinical contact during titration. Best for new patients who want a lot of guidance.
-- **Mamedica** — strong reputation for product quality and process simplicity. Recently launched a £200 lifetime access scheme for students, veterans and benefits recipients.
-- **Curaleaf Clinic** — formerly Sapphire Medical Clinics. Long-established, awarded Cannabis Clinic of the Year 2024.
-- **Cantourage Clinic** — awarded European Clinic of the Year 2025. Lowered initial consultation cost recently. Particularly known for guided onboarding.
-- **Alternaleaf** — typically the most affordable. Fast appointments. Mixed reviews on consistency.
-- **Lyphe Clinic** — tailored treatment plans, broad condition list.
-- **Integro Medical** — Harley Street-based, strong on pain and psychiatric conditions.
+The second barrier is paperwork. You will need your GP records summary. You have a legal right to this, free of charge, under the Data Protection Act 2018. Most surgeries will email it within a fortnight. Phrase the request as "summary care record for medical purposes" and don't get into a debate about why.
 
-[CompareTheLeaf](https://comparetheleaf.co.uk/) and [Medical Cannabis Patients Hub](https://mcph.org.uk/) maintain up-to-date independent comparisons if you want to dig deeper.
+The third — for some people — is the lingering fear that being on the prescription puts you on a list someone, somewhere, can use against you. It does not. Specialist medical cannabis prescriptions are confidential medical records. Your employer is not told. Your insurer is not told. Your GP is informed, by the consultant, to keep the record complete — but the relationship is patient–doctor, like every other prescription you've ever had.
 
-## What it actually costs
+## Where we come in
 
-A realistic full-year cost breakdown for a typical patient on flower (the most common format):
+Once you have a prescription, the practical question becomes where you actually use it. A growing number of patients prefer not to vaporise their medicine in their own house — kids, partners who don't tolerate the smell, landlords, the simple wish to keep one's home a place of rest rather than treatment.
 
-| Item | Cost |
-| --- | --- |
-| Initial consultation | £50–£200 (one-off; varies by clinic) |
-| Follow-ups | £30–£75 each, typically every 1–3 months |
-| Medicine (flower) | £5–£8/gram retail; most patients use 1–3g/day |
-| Pharmacy fees | £0–£30/order |
+[Mary Jane's Place](/visit) exists for that gap. We're a safe space in Bournemouth — open to verified UK patients from anywhere in the country — where you can use what you've been prescribed, calmly, with the right equipment and people who don't blink.
 
-The biggest variable is the prescribed daily dose. A patient prescribed 30g/month at £6/g is paying around £180/month for medicine alone. A patient prescribed 60g/month is paying £360+/month.
+If you're still on the fence about the prescription itself: get in touch. We won't sell you anything; we'll just point you at clinics we know are good and patients you can speak to.
 
-## How long it takes
-
-For most clinics, the timeline from application to first medicine in hand is **2–6 weeks**. Faster options book within 1–2 weeks; busier or more cautious clinics may take longer. All major clinics now accept patient transfers without re-qualifying, so it's straightforward to switch if your first choice isn't a good fit.
-
-## What to prepare
-
-Before contacting a clinic, get the following together:
-
-1. **Your medical history.** A summary GP record (you can request this for free from your GP), or a private record of the relevant condition and treatments tried.
-2. **Evidence of past treatments.** Prescription lists, hospital letters, anything documenting what hasn't worked.
-3. **Photo ID.** Passport or driving licence.
-4. **Realistic expectations.** This is medicine, not a recreational shortcut. You'll be titrating doses, keeping a symptom diary, and reviewing with your specialist on a schedule.
-
-## After the prescription
-
-Once you've got a valid UK prescription, the dispensing label on your pharmacy packaging is your proof of lawful possession. You don't need a "Cancard" — that's a private scheme that the [NPCC's official guidance for police](/for-police-and-venues) describes as not required and not a substitute for a real prescription.
-
-And once you have a prescription, you have somewhere to use it: a sanctuary like [Mary Jane's Place](/visit) exists for exactly that moment — when the medicine is in your hand and you'd like to take it somewhere other than your own bathroom.
-
----
-
-*This article is general information drawn from public UK sources. It is not medical advice. Whether medical cannabis is appropriate for you is a decision for a qualified specialist clinician.*
+The medicine is real. The route is legal. There is no catch.

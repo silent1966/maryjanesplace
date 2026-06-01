@@ -11,8 +11,8 @@ interface Props {
 }
 
 const {
-  title = "Mary Jane's Place — A safe space for medical cannabis patients · Bournemouth",
-  description = "Mary Jane's Place is a safe space for medical cannabis patients in Bournemouth. A members' space where prescribed patients can use their medicine, with the information, community and equipment that should come with it.",
+  title = "Mary Jane's Place — A private sanctuary for prescribed medical cannabis patients · Bournemouth",
+  description = "Mary Jane's Place is a private sanctuary in Bournemouth where prescribed medical cannabis patients can use their medicine without judgment. Legal, vaporiser-friendly, prescription required. Clear information on medical cannabis, the law and your rights.",
   ogImage = "/logo.png",
 } = Astro.props;
 
@@ -48,7 +48,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site).toString();
           "name": site.brand.name,
           "url": "https://maryjanesplace.co.uk",
           "logo": "https://maryjanesplace.co.uk/logo.png",
-          "description": "A safe space for medical cannabis patients. Located in Bournemouth, serving the UK community.",
+          "description": "Britain's first patient sanctuary for prescribed medical cannabis. A flagship in Bournemouth, with a national network in development.",
           "sameAs": [site.social.instagram, site.social.facebook],
           "contactPoint": [{
             "@type": "ContactPoint",

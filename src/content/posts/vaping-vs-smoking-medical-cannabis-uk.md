@@ -1,57 +1,38 @@
 ---
-title: "Vaping vs smoking medical cannabis — the legal and health difference"
+title: "Why your specialist says vaporise, not smoke — the law behind the line"
 date: 2026-05-12
-summary: "Why UK medical cannabis must be vaporised, not smoked, and what that distinction means under the Health Act, the Misuse of Drugs Regulations, and the NPCC's official police guidance."
+summary: "Vaporising versus smoking is the line between legal medicine and a public offence. Here's what the legislation actually says, what the police are told, and why one device changes everything."
 draft: false
 ---
 
-If you've been prescribed medical cannabis in the UK and you want to use it legally and safely, the single most important practical rule is this: **you vaporise it, you don't smoke it.** That distinction isn't just a clinical preference — it's written into the legislation that made medical cannabis legal in the first place, and into the police guidance that governs how officers should treat patients today.
+The single most important practical rule for UK medical cannabis patients is one line of law that almost nobody talks about: **you vaporise your medicine, you do not smoke it.** Not because it's healthier — though it is. Because the legislation that made cannabis prescribable in the first place draws the line through combustion.
 
-This post walks through what "vaping" and "smoking" actually mean in UK law, why the difference matters legally and physiologically, and how to make sure you stay on the right side of both lines.
+Smoke and you are on the wrong side of the law. Vape and you are on the right side of it. That is the whole rule.
 
-## The legal rule, plainly
+## What the legislation actually says
 
-The 2018 amendment to the Misuse of Drugs Regulations that legalised specialist prescribing of cannabis-based medicines came with one operational constraint: the medicine cannot be smoked. The official [NPCC and APCDLO police guidance approved in November 2024](https://library.college.police.uk/docs/NPCC/Medicinal-cannabis-guidance-2025.pdf.PDF) repeats this clearly: smoking medicinal cannabis is prohibited by the legislation, and **vaping is treated as distinct from smoking because smoking involves combustion** and vaping does not.
+The November 2018 amendment to the Misuse of Drugs Regulations — the one that finally legalised specialist prescribing of cannabis-based medicines in the UK — contained an operational constraint that has shaped every prescription written since: the medicine cannot be smoked.
 
-This wording matters because it's a direct line from the country's national police body. If a patient is using a dry-herb vaporiser, they are not smoking under UK law — full stop. Combustion is the legal threshold.
+The [official NPCC and APCDLO police guidance approved in November 2024](https://library.college.police.uk/docs/NPCC/Medicinal-cannabis-guidance-2025.pdf.PDF) repeats this in plain language and, crucially, draws the distinction patients need: vaping is treated as distinct from smoking because **smoking involves combustion**. Vaping doesn't.
 
-The same threshold applies to the **Health Act 2006**, the legislation that governs smoke-free premises (bars, restaurants, indoor workplaces). The Act regulates "smoking" — the burning of a substance — and the Home Office has [confirmed in response to a freedom-of-information request](https://www.whatdotheyknow.com/) (FOI 2023/05814) that vaporising falls outside its scope.
+This wording is doing a lot of work. It means the country's national police body has explicitly told every officer in England and Wales — all 43 forces — that a patient using a dry-herb vaporiser is not smoking under UK law. That is not nuance. That is a green line.
 
-So in practice:
+## Where else the line matters
 
-- **Smoking** a joint, a pipe or a bong = combustion = illegal under MoD Regs even with a prescription, AND prohibited indoors under the Health Act.
-- **Vaping** a dry-herb device = no combustion = lawful with a prescription, AND outside the indoor smoke-free rules.
+The same combustion threshold runs through the **Health Act 2006** — the legislation that governs smoke-free premises, the indoor smoking ban, all of it. The Act regulates "smoking" in its literal sense: the burning of a substance. The Home Office [confirmed in 2023, in response to a freedom-of-information request](https://www.whatdotheyknow.com/) (FOI reference 2023/05814) that vaporising falls outside the Act's scope.
 
-A venue can have a private no-vaping rule — that's their commercial choice — but they cannot claim the law itself forces them to ban patient vaporisers.
+In practice that means a venue cannot ban vaporising on indoor-smoking grounds. A landlord, an employer, a hotel — any of them can have their own house rules, of course, and you should respect those. But the **legal** position is that vapour is not smoke and vaporising is not smoking.
 
-## The health rule, plainly
+## Why this matters at Mary Jane's Place
 
-The health argument is even cleaner than the legal one. When you burn plant material at 700–900°C, you produce a complex chemical mess: tar, carbon monoxide, polycyclic aromatic hydrocarbons, ammonia. These are the by-products of combustion and they're what damages the lungs over decades of tobacco use. They're also produced when you burn cannabis, regardless of whether the cannabis itself was pharmaceutical-grade.
+We're a vaporiser-only space, and the legal reason for that is the same as the safety reason: we want to be unambiguously on the right side of every line at once. Patients here use dry-herb vaporisers — their own or ours — and the medicine is consumed through heat, not flame.
 
-A vaporiser heats your cannabis to around 180–210°C. At those temperatures, the cannabinoids and terpenes you actually want — THC, CBD, the dozens of others — vaporise and become breathable, while the plant material itself never burns. There's no tar, no carbon monoxide, no ash. There's vapour, which condenses back to nothing within minutes.
+If you're new to vaporising, the difference is more pleasant than you expect. There is no acrid smoke, no harsh edge in the throat, none of the lingering smell that gets you side-eyed in public. The vapour tastes like the medicine smells in the jar. Your dose lasts longer because more of the active compounds are getting into your bloodstream and fewer are being burned off.
 
-Multiple peer-reviewed studies over the past 15 years have found that switching from combustion to vaporisation substantially reduces respiratory symptoms in cannabis users. For someone taking cannabis as a long-term medicine — possibly daily, possibly for years — the cumulative difference is significant.
+This is one of those rare cases where the legal answer, the health answer and the practical answer all point at the same device.
 
-## Why this matters at the sanctuary
+## The patient takeaway
 
-At Mary Jane's Place we are a **vaporiser-only** venue, and that's not a polite preference — it's how the entire model is lawful in the first place. The legislation, the NPCC guidance and the smoke-free law all converge on the same line: combustion is out, vapour is in. Stay on the vapour side and you are using your medicine within both the spirit and the letter of UK law.
+If you have a UK prescription for cannabis-based medicine and you are vaporising it, you are lawfully using a lawful medicine. If you are smoking it — even the same flower, the same dose, the same paper bag from the same pharmacy — you have shifted yourself onto the wrong side of the legislation that protects you.
 
-It also means we can be open about what we do. We don't have to pretend, hide, or work around anything. We tell our local council, the police, and any visiting officer exactly what we do: verified patients use their own prescribed medicine in a dry-herb vaporiser. That's it. It's a model anyone can audit because it's a model that follows the rules.
-
-## Practical guidance for patients
-
-A few things to keep in mind:
-
-- **Buy a real dry-herb vaporiser.** Not a cartridge pen, not a hash-oil rig — a device specifically designed to convect-heat dried flower. The well-known models are the Mighty/Mighty+, the Crafty+, the Tinymight, the Arizer Solo/Air, the DaVinci IQ2 and the Volcano for desktop use. We stock or can demo most of them.
-- **Set the temperature correctly.** 180–195°C is the sweet spot for most flower — full cannabinoid extraction without scorching.
-- **Grind finely and pack lightly.** A medium-fine grind with the chamber loosely filled gives the most efficient vapour.
-- **Clean it.** A monthly hygiene clean keeps your device safe and effective. We offer it as a drop-in service.
-- **If you must use a joint** — don't, on our premises. Combustion is what triggers the legal issue, and we won't compromise the model that keeps us open for everyone else.
-
-## The bottom line
-
-Vaping isn't a workaround for the law. It is the law. The 2018 regulations, the 2024 NPCC guidance and the Health Act all set the same line at combustion — and as long as you stay above it, you are using your medicine within the framework that Parliament, the police and the Department of Health created for you. That's the whole point of the model. It's what makes Mary Jane's Place possible — and it's how every prescribed UK patient can use their medicine with confidence.
-
----
-
-*This article is general information drawn from public UK sources. It is not medical or legal advice.*
+A £200 vaporiser, used correctly, is the most legally important piece of equipment a UK patient owns.
