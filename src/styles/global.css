@@ -151,13 +151,16 @@ nav.links a.active {
   display: none;
   flex-direction: column;
   gap: 5px;
-  background: none;
-  border: 0;
+  background: var(--panel);
+  border: 1px solid var(--sage-soft);
+  border-radius: 9px;
   cursor: pointer;
-  padding: 8px;
+  padding: 10px 11px;
+  transition: 0.2s;
 }
+.hamb:hover { border-color: var(--sage); background: var(--tint); }
 .hamb span {
-  width: 24px;
+  width: 22px;
   height: 2px;
   background: var(--olive-d);
   transition: 0.3s;
@@ -167,29 +170,78 @@ nav.links a.active {
 .hamb.open span:nth-child(2) { opacity: 0; }
 .hamb.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
 
-.drawer {
+.drawer-backdrop {
   position: fixed;
   inset: 0;
+  z-index: 998;
+  background: rgba(16, 59, 20, 0.42);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.35s ease;
+}
+.drawer-backdrop.open { opacity: 1; pointer-events: auto; }
+
+.drawer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: min(86vw, 380px);
   z-index: 999;
-  background: var(--olive-d);
-  color: #fff;
-  transform: translateY(-100%);
-  transition: transform 0.45s cubic-bezier(0.7, 0, 0.2, 1);
+  background: var(--paper);
+  border-left: 1px solid var(--sage-soft);
+  box-shadow: -20px 0 60px -28px rgba(16, 59, 20, 0.32);
+  transform: translateX(100%);
+  transition: transform 0.4s cubic-bezier(0.7, 0, 0.2, 1);
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding: 40px 32px;
+  padding: 26px 26px 36px;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
-.drawer.open { transform: translateY(0); }
+.drawer.open { transform: translateX(0); }
+.drawer::before {
+  content: "Menu";
+  display: block;
+  font-family: var(--font);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--olive);
+  padding: 4px 4px 18px;
+  border-bottom: 1px solid var(--line);
+  margin-bottom: 8px;
+}
 .drawer a {
-  font-size: 26px;
-  font-weight: 800;
-  color: #fff;
-  padding: 11px 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--ink);
+  padding: 14px 8px;
+  border-radius: 9px;
   cursor: pointer;
-  letter-spacing: -0.01em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: 0.18s;
+  letter-spacing: -0.005em;
+  margin: 2px 0;
 }
+.drawer a::after {
+  content: "→";
+  font-size: 16px;
+  color: var(--sage);
+  opacity: 0;
+  transition: 0.2s;
+  transform: translateX(-4px);
+}
+.drawer a:hover, .drawer a:focus-visible {
+  background: var(--tint);
+  color: var(--olive-d);
+}
+.drawer a:hover::after, .drawer a:focus-visible::after { opacity: 1; transform: translateX(0); }
 
 /* layout */
 .pad { padding: 84px 0; }
@@ -568,3 +620,69 @@ footer {
   * { animation: none !important; transition: none !important; }
   .rv { opacity: 1; transform: none; }
 }
+
+/* footer legal row */
+.foot-legal { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; font-size: 12.5px; color: var(--ink-soft); }
+.foot-legal a { color: var(--olive); font-weight: 600; }
+.foot-legal a:hover { color: var(--olive-d); text-decoration: underline; }
+.foot-legal span { opacity: 0.55; }
+
+/* 18+ age gate */
+.age-gate {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: rgba(16, 59, 20, 0.78);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  display: grid;
+  place-items: center;
+  padding: 22px;
+}
+.age-gate-card {
+  background: var(--paper);
+  border: 1px solid var(--sage-soft);
+  border-radius: var(--r);
+  box-shadow: 0 32px 70px -20px rgba(0,0,0,0.4);
+  max-width: 480px;
+  width: 100%;
+  padding: 36px 32px;
+  text-align: left;
+}
+.age-gate-eyebrow {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--olive);
+  margin-bottom: 12px;
+}
+.age-gate-card h2 {
+  font-family: var(--font);
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--olive-d);
+  margin-bottom: 12px;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+}
+.age-gate-card p {
+  font-size: 14.5px;
+  line-height: 1.55;
+  color: var(--ink-soft);
+  margin-bottom: 16px;
+}
+.age-gate-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 18px 0 14px;
+}
+.age-gate-actions .btn { justify-content: center; }
+.age-gate-fine {
+  font-size: 12px;
+  color: var(--ink-soft);
+  margin: 0;
+}
+.age-gate-fine a { color: var(--olive); font-weight: 600; }
+.age-gate-fine a:hover { text-decoration: underline; }

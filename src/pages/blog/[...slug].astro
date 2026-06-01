@@ -41,6 +41,32 @@ const articleSchema = {
   "mainEntityOfPage": { "@type": "WebPage", "@id": `https://maryjanesplace.co.uk/blog/${post.slug}` },
   "description": post.data.summary || "",
 };
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://maryjanesplace.co.uk/" },
+    { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://maryjanesplace.co.uk/blog" },
+    { "@type": "ListItem", "position": 3, "name": post.data.title, "item": `https://maryjanesplace.co.uk/blog/${post.slug}` }
+  ]
+};
+
+// HowTo schema for the prescription guide post only — earns rich step-by-step results
+const howToSchema = post.slug === "how-to-get-a-medical-cannabis-prescription-uk-2026" ? {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to get a UK medical cannabis prescription",
+  "description": "The practical, patient-first walkthrough for getting a lawful UK medical cannabis prescription in 2026.",
+  "totalTime": "PT2W",
+  "estimatedCost": { "@type": "MonetaryAmount", "currency": "GBP", "value": "150-300" },
+  "step": [
+    { "@type": "HowToStep", "name": "Contact a specialist medical cannabis clinic", "text": "Email a CQC-regulated specialist clinic directly. No NHS referral or GP involvement is required." },
+    { "@type": "HowToStep", "name": "Request your GP records summary", "text": "Request a summary care record from your GP surgery (free under the Data Protection Act 2018). Upload it to the clinic." },
+    { "@type": "HowToStep", "name": "Attend a specialist consultation", "text": "Book a private consultation (typically £100–£150) with a GMC-registered specialist consultant who will discuss your condition and treatment goals." },
+    { "@type": "HowToStep", "name": "Receive your prescription", "text": "If the specialist prescribes, the medicine ships from a UK pharmacy in a sealed bag with a dispensing label, like any other Schedule 2 controlled medicine." }
+  ]
+} : null;
 ---
 
 <Base
@@ -48,6 +74,8 @@ const articleSchema = {
   description={post.data.summary || `${post.data.title} — written for UK medical cannabis patients by Mary Jane's Place.`}
 >
   <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+  {howToSchema && <script type="application/ld+json" set:html={JSON.stringify(howToSchema)} />}
 
   <article>
     <section class="ph-top pad">

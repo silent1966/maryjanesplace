@@ -1,0 +1,31 @@
+{
+  "slug": "puffco-peak-pro",
+  "name": "Puffco Peak Pro",
+  "brand": "Puffco",
+  "category": "dab-rigs",
+  "price": 419.0,
+  "image": "/products/placeholder.svg",
+  "summary": "The reference concentrate device. App-controlled, fully serviceable, in a league of its own.",
+  "description": "The Peak Pro is what every other concentrate device gets measured against. App control, four pre-set temperatures and custom profiles, ceramic atomiser, hydraulic-style glass percolation. If you're prescribed concentrate medicine and want the best, this is it.",
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Smart concentrate rig"
+    },
+    {
+      "label": "App control",
+      "value": "Yes (iOS/Android)"
+    },
+    {
+      "label": "Atomiser",
+      "value": "3D Chamber"
+    }
+  ],
+  "featured": true,
+  "tags": [
+    "concentrate",
+    "premium",
+    "smart"
+  ],
+  "order": 18
+}

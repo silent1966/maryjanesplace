@@ -10,7 +10,7 @@ display_url: https://maryjanesplace.co.uk
 logo_url: https://maryjanesplace.co.uk/logo.png
 
 collections:
-  # Site-wide settings: hours, address, contact, social, membership tiers, partner categories
+  # SITE-WIDE SETTINGS — single source of truth for brand, contact, hours, perks
   - name: "site"
     label: "Site settings"
     delete: false
@@ -18,18 +18,18 @@ collections:
       preview: false
     files:
       - file: "src/content/site/settings.json"
-        label: "Settings (hours, address, contact, membership, partners)"
+        label: "Brand, contact, hours, member perks, partners"
         name: "settings"
         fields:
           - label: "Brand"
             name: "brand"
             widget: "object"
             fields:
-              - { label: "Name",          name: "name",          widget: "string" }
-              - { label: "Tagline",       name: "tagline",       widget: "string" }
-              - { label: "Short tagline", name: "shortTagline",  widget: "string" }
-              - { label: "Location",      name: "location",      widget: "string" }
-              - { label: "National line", name: "national",      widget: "string" }
+              - { label: "Name",          name: "name",         widget: "string" }
+              - { label: "Tagline",       name: "tagline",      widget: "string" }
+              - { label: "Short tagline", name: "shortTagline", widget: "string" }
+              - { label: "Location",      name: "location",     widget: "string" }
+              - { label: "National line", name: "national",     widget: "string" }
           - label: "Contact"
             name: "contact"
             widget: "object"
@@ -68,23 +68,13 @@ collections:
             fields:
               - { label: "Value", name: "value", widget: "string" }
               - { label: "Label", name: "label", widget: "string" }
-          - label: "Membership"
-            name: "membership"
-            widget: "object"
+          - label: "Member perks"
+            name: "memberPerks"
+            widget: "list"
             fields:
-              - { label: "Intro paragraph", name: "intro", widget: "text" }
-              - label: "Tiers"
-                name: "tiers"
-                widget: "list"
-                fields:
-                  - { label: "ID (lowercase, no spaces)", name: "id", widget: "string" }
-                  - { label: "Name", name: "name", widget: "string" }
-                  - { label: "Price (display)", name: "price", widget: "string" }
-                  - { label: "Frequency", name: "frequency", widget: "string" }
-                  - { label: "Tagline", name: "tagline", widget: "string" }
-                  - { label: "Features (one per line)", name: "features", widget: "list", field: { label: "Feature", name: "feature", widget: "string" } }
-                  - { label: "CTA label", name: "cta", widget: "string" }
-                  - { label: "Highlight as primary tier?", name: "primary", widget: "boolean", default: false }
+              - { label: "Icon (vape / tag / star / people / calendar / mail)", name: "icon",  widget: "select", options: ["vape", "tag", "star", "people", "calendar", "mail"] }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Body",  name: "body",  widget: "text" }
           - label: "Partner categories"
             name: "partnerCategories"
             widget: "list"
@@ -94,7 +84,7 @@ collections:
               - { label: "Blurb", name: "blurb", widget: "text" }
               - { label: "What we're interested in", name: "interestedIn", widget: "text" }
 
-  # Shop products (each is a JSON file in src/content/products)
+  # SHOP PRODUCTS — full e-commerce editing without GitHub
   - name: "products"
     label: "Shop · Products"
     folder: "src/content/products"
@@ -103,15 +93,47 @@ collections:
     create: true
     delete: true
     slug: "{{slug}}"
+    summary: "{{name}} — £{{price}} ({{category}})"
     fields:
       - { label: "Name",        name: "name",        widget: "string" }
-      - { label: "Category",    name: "category",    widget: "string" }
-      - { label: "Description", name: "description", widget: "text" }
-      - { label: "Price from",  name: "priceFrom",   widget: "string", required: false }
-      - { label: "Order",       name: "order",       widget: "number", value_type: "int", default: 0 }
-      - { label: "Available",   name: "available",   widget: "boolean", default: true }
+      - { label: "Brand",       name: "brand",       widget: "string" }
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        options:
+          - { label: "Portable vapes",      value: "portable-vapes" }
+          - { label: "Desktop vapes",       value: "desktop-vapes" }
+          - { label: "Pen vapes",           value: "pen-vapes" }
+          - { label: "Dab pens",            value: "dab-pens" }
+          - { label: "510 batteries",       value: "cartridge-batteries" }
+          - { label: "Concentrate rigs",    value: "dab-rigs" }
+          - { label: "Grinders",            value: "grinders" }
+          - { label: "Storage",             value: "storage" }
+          - { label: "Cleaning",            value: "cleaning" }
+          - { label: "Accessories",         value: "accessories" }
+          - { label: "Batteries",           value: "batteries" }
+          - { label: "Cases",               value: "cases" }
+      - { label: "Price (£)",         name: "price",       widget: "number", value_type: "float" }
+      - { label: "Sale price (£) — leave blank if not on sale", name: "salePrice", widget: "number", value_type: "float", required: false }
+      - { label: "Image (URL or upload)", name: "image",   widget: "image", required: true, default: "/products/placeholder.svg" }
+      - { label: "Gallery images",        name: "gallery", widget: "list",  required: false, field: { label: "Image", name: "image", widget: "image" } }
+      - { label: "Short summary (1 sentence)", name: "summary",     widget: "text" }
+      - { label: "Full description",      name: "description", widget: "text" }
+      - label: "Specifications"
+        name: "specs"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Label", name: "label", widget: "string" }
+          - { label: "Value", name: "value", widget: "string" }
+      - { label: "In stock?",  name: "inStock",  widget: "boolean", default: true }
+      - { label: "Featured?",  name: "featured", widget: "boolean", default: false }
+      - { label: "Tags",       name: "tags",     widget: "list", required: false, field: { label: "Tag", name: "tag", widget: "string" } }
+      - { label: "Stripe Payment Link URL (leave empty to use enquiry form)", name: "stripeLink", widget: "string", required: false, default: "" }
+      - { label: "Retail North SKU (internal)", name: "rnSku", widget: "string", required: false }
+      - { label: "Display order (lower = first)", name: "order", widget: "number", value_type: "int", default: 999 }
 
-  # Blog posts
+  # BLOG POSTS — content editing without GitHub
   - name: "posts"
     label: "Blog · Posts"
     folder: "src/content/posts"

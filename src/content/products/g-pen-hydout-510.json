@@ -1,0 +1,29 @@
+{
+  "slug": "g-pen-hydout-510",
+  "name": "G Pen Hydout 510 Cartridge Battery",
+  "brand": "G Pen",
+  "category": "cartridge-batteries",
+  "price": 44.95,
+  "image": "/products/placeholder.svg",
+  "summary": "510-thread battery for cartridge prescriptions. Reliable, pocket-sized, USB-C.",
+  "description": "The Hydout is G Pen's clean, modern 510-thread battery for patients prescribed cartridge-based medicine. Three-level temperature control, USB-C charging, magnetic adapter, sensible price.",
+  "specs": [
+    {
+      "label": "Thread",
+      "value": "510"
+    },
+    {
+      "label": "Voltage",
+      "value": "Adjustable, 3 levels"
+    },
+    {
+      "label": "Charging",
+      "value": "USB-C"
+    }
+  ],
+  "tags": [
+    "510",
+    "cartridge"
+  ],
+  "order": 20
+}

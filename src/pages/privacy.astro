@@ -1,0 +1,91 @@
+---
+import Base from "../layouts/Base.astro";
+import site from "../content/site/settings.json";
+---
+
+<Base
+  title="Privacy Policy — Mary Jane's Place"
+  description="How Mary Jane's Place collects, uses and protects your personal data under UK GDPR and the Data Protection Act 2018."
+>
+  <section class="ph-top pad-sm">
+    <div class="wrap narrow legal-body">
+      <div class="eyebrow kick rv">Legal</div>
+      <h1 class="rv">Privacy Policy</h1>
+      <p class="rv" style="color:var(--ink-soft);margin-top:8px;font-size:14px">Last updated: 1 June 2026</p>
+
+      <div class="rv legal-prose">
+        <h2>1. Who we are</h2>
+        <p>Mary Jane's Place ("we", "us", "our") is a members' space for prescribed UK medical cannabis patients. Our registered address is 7 Stafford Road, Bournemouth BH1 1JH. We are the data controller for the personal data described in this policy.</p>
+
+        <h2>2. What this policy covers</h2>
+        <p>This policy explains what personal data we collect, why we collect it, how we use it, who we share it with, and what your rights are. It applies to the website maryjanesplace.co.uk and to in-person interactions at our Bournemouth location.</p>
+
+        <h2>3. What data we collect</h2>
+        <p>We collect:</p>
+        <ul>
+          <li><b>Contact details</b> — name, email address, phone number — when you contact us, join our newsletter, apply for membership or place an order.</li>
+          <li><b>Membership verification</b> — sight of your photo ID and proof of prescription on a one-off basis when you apply for membership. We do not retain copies of these documents; we record only that verification has taken place and the membership number issued.</li>
+          <li><b>Order data</b> — items purchased, delivery address, billing address, transaction reference. We do not store card details on our servers; payment processing is handled by Stripe.</li>
+          <li><b>Website data</b> — basic analytics (anonymous traffic statistics, no personal identification), cookies for site functionality.</li>
+        </ul>
+
+        <h2>4. Why we collect it (lawful basis under UK GDPR)</h2>
+        <ul>
+          <li><b>Contract</b> — to provide products and services you order, fulfil membership benefits, and respond to enquiries.</li>
+          <li><b>Legitimate interests</b> — to operate and improve our website and services.</li>
+          <li><b>Consent</b> — for marketing communications (e.g. newsletter), which you can withdraw at any time.</li>
+          <li><b>Legal obligation</b> — to comply with tax, accounting and anti-fraud requirements.</li>
+        </ul>
+
+        <h2>5. Who we share data with</h2>
+        <p>We do not sell your personal data. We share limited data only with the service providers needed to operate the site and fulfil orders:</p>
+        <ul>
+          <li><b>Stripe</b> — for payment processing (card data goes directly to Stripe, never to us).</li>
+          <li><b>Retail North / drop-shipping partners</b> — for fulfilling product orders (name, delivery address).</li>
+          <li><b>Netlify</b> — for website hosting and form submissions.</li>
+          <li><b>Microsoft 365 / GoDaddy</b> — for email correspondence.</li>
+          <li><b>Tax authorities and regulators</b> — where required by law.</li>
+        </ul>
+        <p>We do not share personal data with clinics, insurers, employers, or the police, except where compelled to do so by law (e.g. a court order).</p>
+
+        <h2>6. How long we keep it</h2>
+        <p>Order records and contact data are kept for 7 years for tax and accounting purposes. Newsletter subscriber data is kept until you unsubscribe. Membership records are kept while your membership is active and for 12 months thereafter.</p>
+
+        <h2>7. Your rights</h2>
+        <p>You have the right to:</p>
+        <ul>
+          <li>Request a copy of the data we hold about you</li>
+          <li>Correct inaccurate data</li>
+          <li>Ask us to delete your data (subject to legal retention requirements)</li>
+          <li>Object to or restrict processing of your data</li>
+          <li>Withdraw consent to marketing at any time (each email contains an unsubscribe link)</li>
+          <li>Lodge a complaint with the UK Information Commissioner's Office (ICO) at <a class="tlink" href="https://ico.org.uk" target="_blank" rel="noopener">ico.org.uk</a></li>
+        </ul>
+
+        <h2>8. Cookies</h2>
+        <p>We use only essential cookies (for site functionality, e.g. remembering you've accepted the 18+ age gate). We do not use third-party advertising or tracking cookies.</p>
+
+        <h2>9. Children</h2>
+        <p>The site and our services are strictly for adults 18 and over. We do not knowingly collect data from anyone under 18. If we discover we have collected such data, we will delete it.</p>
+
+        <h2>10. Contact</h2>
+        <p>For privacy enquiries, contact us at <a class="tlink" href={`mailto:${site.contact.email}`}>{site.contact.email}</a> or in writing to the address above.</p>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .legal-body { padding-top: 30px; }
+  .legal-prose h2 {
+    font-family: var(--font);
+    font-size: 19px;
+    font-weight: 700;
+    color: var(--olive-d);
+    margin: 28px 0 10px;
+    letter-spacing: -0.005em;
+  }
+  .legal-prose p, .legal-prose li { font-size: 15.5px; line-height: 1.7; color: var(--ink); margin-bottom: 12px; }
+  .legal-prose ul { padding-left: 22px; margin-bottom: 16px; }
+  .legal-prose li { margin-bottom: 6px; }
+</style>

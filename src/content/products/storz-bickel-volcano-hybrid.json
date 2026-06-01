@@ -1,0 +1,39 @@
+{
+  "slug": "storz-bickel-volcano-hybrid",
+  "name": "Storz & Bickel Volcano Hybrid",
+  "brand": "Storz & Bickel",
+  "category": "desktop-vapes",
+  "price": 489.0,
+  "image": "/products/placeholder.svg",
+  "summary": "The original and still the standard. Balloon vaporiser used in clinical trials for decades.",
+  "description": "The Volcano Hybrid is the desktop reference. Used in clinical trials and medical research since the 2000s. Fill the balloon, breathe it. Extraordinary thermal precision, the most consistent dose available at home. Built like medical equipment, because it essentially is.",
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Desktop balloon vaporiser"
+    },
+    {
+      "label": "Heating",
+      "value": "Convection"
+    },
+    {
+      "label": "Made in",
+      "value": "Germany"
+    },
+    {
+      "label": "Warranty",
+      "value": "3 years"
+    },
+    {
+      "label": "Medical",
+      "value": "EU Class IIa medical device"
+    }
+  ],
+  "featured": true,
+  "tags": [
+    "desktop",
+    "medical-grade",
+    "premium"
+  ],
+  "order": 10
+}

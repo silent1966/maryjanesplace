@@ -1,92 +1,353 @@
 ---
 import Base from "../layouts/Base.astro";
 import { getCollection } from "astro:content";
+import site from "../content/site/settings.json";
 
-const all = await getCollection("products");
-const products = all
-  .filter((p) => p.data.available)
-  .sort((a, b) => a.data.order - b.data.order);
+const allProducts = await getCollection("products");
+const products = allProducts
+  .map((p) => ({ ...p.data, slug: p.id }))
+  .sort((a, b) => (a.order ?? 999) - (b.order ?? 999));
+
+const categories = [
+  { id: "all", label: "All products" },
+  { id: "portable-vapes", label: "Portable vapes" },
+  { id: "desktop-vapes", label: "Desktop vapes" },
+  { id: "pen-vapes", label: "Pen vapes" },
+  { id: "dab-pens", label: "Dab pens" },
+  { id: "dab-rigs", label: "Concentrate rigs" },
+  { id: "cartridge-batteries", label: "510 batteries" },
+  { id: "grinders", label: "Grinders" },
+  { id: "storage", label: "Storage" },
+  { id: "cleaning", label: "Cleaning" },
+  { id: "accessories", label: "Accessories" },
+];
+
+const FREE_DELIVERY_OVER = 60;
 ---
 
 <Base
-  title="Shop — Mary Jane's Place"
-  description="Dry-herb vaporisers and accessories for prescribed UK medical cannabis patients. Buy what you've tried, get it serviced, trade it in when you're ready to upgrade."
+  title="Shop — Vaporisers, grinders and accessories for UK medical cannabis patients · Mary Jane's Place"
+  description="The UK shop for prescribed medical cannabis patients. Storz & Bickel, Arizer, DynaVap, PAX, Puffco and more — competitive UK pricing, free delivery over £60, 30-day returns."
 >
-  <section class="ph-top pad">
-    <div class="wrap narrow">
+  <section class="shop-hero pad-sm">
+    <div class="wrap">
       <div class="eyebrow kick rv">Shop</div>
-      <h1 class="rv">Equipment for patients.</h1>
-      <p class="rv lede" style="margin-top:16px">
-        Dry-herb vaporisers and accessories for use with lawfully prescribed medicine.
-        Want to try first? You can <a class="tlink" href="/hire">hire any of these for £5 a session</a>
-        before buying — so you only spend money on the device that actually suits you.
+      <h1 class="rv" style="margin-bottom:14px">Equipment for prescribed UK patients.</h1>
+      <p class="rv lede" style="max-width:64ch">
+        Vaporisers, grinders, storage and accessories — hand-picked for medical use,
+        priced to match or beat any UK retailer. Free UK delivery over £{FREE_DELIVERY_OVER},
+        30-day returns, 18+ verification at checkout.
       </p>
+      <div class="rv reassure" style="margin-top:18px">
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12l5 5L20 6"/></svg> Authorised UK retailer</span>
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12l5 5L20 6"/></svg> Free delivery over £{FREE_DELIVERY_OVER}</span>
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12l5 5L20 6"/></svg> Secure card payment</span>
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12l5 5L20 6"/></svg> 30-day returns</span>
+      </div>
     </div>
   </section>
 
-  <section class="pad-sm" style="padding-top:0">
+  <section class="pad-sm" style="padding-top:8px">
     <div class="wrap">
-      <div class="rv">
-        <div class="eyebrow kick">Buy</div>
-        <h2 style="margin-bottom:18px">Curated devices, fairly priced.</h2>
+      <div class="shop-controls rv" role="region" aria-label="Filter products">
+        <div class="cat-scroll" role="tablist" aria-label="Category filter">
+          {categories.map((c, i) => (
+            <button class:list={["cat-pill", { active: i === 0 }]} data-cat={c.id} type="button" role="tab" aria-selected={i === 0}>
+              {c.label}
+            </button>
+          ))}
+        </div>
+        <div class="shop-sort">
+          <label for="sort-by" class="sr-only">Sort by</label>
+          <select id="sort-by" class="sort-select">
+            <option value="featured">Featured first</option>
+            <option value="price-asc">Price: low to high</option>
+            <option value="price-desc">Price: high to low</option>
+            <option value="name-asc">Name: A–Z</option>
+          </select>
+        </div>
       </div>
-      <div class="prods">
+
+      <div class="prod-grid" id="prod-grid">
         {products.map((p) => (
-          <div class="prod rv">
-            <div class="ph">
-              <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.2">
-                <rect x="22" y="12" width="20" height="38" rx="6"/>
-                <path d="M28 50v6h8v-6M32 6v6M27 22h10M27 30h10"/>
-              </svg>
+          <a
+            class="prod-card rv"
+            href={`/shop/${p.slug}/`}
+            data-cat={p.category}
+            data-price={p.price}
+            data-name={p.name}
+            data-featured={p.featured ? "1" : "0"}
+            data-order={p.order ?? 999}
+          >
+            <div class="prod-image">
+              {p.featured && <span class="prod-badge">Featured</span>}
+              <img src={p.image} alt={p.name} loading="lazy" width="600" height="600" />
             </div>
-            <div class="body">
-              <div class="cat">{p.data.category}</div>
-              <h3>{p.data.name}</h3>
-              <p>{p.data.description}</p>
-              {p.data.priceFrom && <div class="pr">{p.data.priceFrom}</div>}
+            <div class="prod-meta">
+              <div class="prod-brand">{p.brand}</div>
+              <h3 class="prod-name">{p.name}</h3>
+              <div class="prod-price">
+                <span class="price-main">£{p.price.toFixed(2)}</span>
+                {p.salePrice && <span class="price-was">£{p.salePrice.toFixed(2)}</span>}
+              </div>
             </div>
-          </div>
+          </a>
         ))}
+      </div>
+
+      <div class="empty-state" id="empty-state" style="display:none">
+        <p>No products in this category yet — more coming soon.</p>
       </div>
     </div>
   </section>
 
   <section class="pad-sm">
     <div class="wrap">
-      <div class="rv">
-        <div class="eyebrow kick">Repair, clean &amp; trade-in</div>
-        <h2 style="margin-bottom:18px">Keep your device working for years.</h2>
-      </div>
-      <div class="three">
-        <div class="step rv">
-          <div class="n">SERVICE 1</div>
-          <h3>Hygiene clean</h3>
-          <p>Full strip-down, ultrasonic clean and rebuild of your dry-herb vape — for medication safety and longer device life. Drop it off any session.</p>
+      <div class="trust-band rv">
+        <div class="trust-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="8" width="18" height="11" rx="2"/><path d="M7 8V6a5 5 0 0110 0v2"/></svg>
+          <div>
+            <b>Secure checkout</b>
+            <span>Card payments via Stripe, encrypted end-to-end. PCI-DSS compliant.</span>
+          </div>
         </div>
-        <div class="step rv">
-          <div class="n">SERVICE 2</div>
-          <h3>Repair &amp; parts</h3>
-          <p>Most vape issues are fixable. We carry parts for the popular UK patient devices and can post off to specialists when needed.</p>
+        <div class="trust-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 7h13l4 4v6h-2a2 2 0 11-4 0H9a2 2 0 11-4 0H3z"/><circle cx="7" cy="17" r="2"/><circle cx="15" cy="17" r="2"/></svg>
+          <div>
+            <b>Discreet delivery</b>
+            <span>Plain packaging, tracked next-day available, dropshipped from NI.</span>
+          </div>
         </div>
-        <div class="step rv">
-          <div class="n">SERVICE 3</div>
-          <h3>Trade-in &amp; upgrade</h3>
-          <p>Outgrown your first device? Trade in toward a new one. Old devices are refurbished and offered to patients who couldn't otherwise afford one.</p>
+        <div class="trust-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 12a9 9 0 0118 0"/><path d="M21 6v6h-6"/><path d="M3 18a9 9 0 0118 0"/></svg>
+          <div>
+            <b>30-day returns</b>
+            <span>Unused, in original packaging. Distance Selling Regulations apply.</span>
+          </div>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="pad-sm" style="padding-top:0">
-    <div class="wrap">
-      <div class="disc rv">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16h.01"/></svg>
-        <div>
-          Equipment shown is illustrative — final prices and models will be set in store. All
-          equipment is sold for use with lawfully prescribed medicine by patients aged 18+. We
-          do not sell cannabis or any controlled substance.
+        <div class="trust-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M9 12l2 2 4-4"/></svg>
+          <div>
+            <b>Authorised stockists</b>
+            <span>Genuine product, manufacturer warranties, UK consumer rights.</span>
+          </div>
         </div>
       </div>
     </div>
   </section>
 </Base>
+
+<script>
+  const grid = document.getElementById('prod-grid');
+  const pills = document.querySelectorAll('.cat-pill');
+  const sortSel = document.getElementById('sort-by') as HTMLSelectElement;
+  const empty = document.getElementById('empty-state');
+
+  let currentCat = 'all';
+
+  function apply() {
+    if (!grid) return;
+    const cards = Array.from(grid.querySelectorAll('.prod-card')) as HTMLAnchorElement[];
+    let visible = 0;
+    cards.forEach((c) => {
+      const cat = c.dataset.cat;
+      const show = currentCat === 'all' || cat === currentCat;
+      c.style.display = show ? '' : 'none';
+      if (show) visible++;
+    });
+    if (empty) empty.style.display = visible === 0 ? 'block' : 'none';
+
+    const sortKey = sortSel?.value || 'featured';
+    const visibleCards = cards.filter((c) => c.style.display !== 'none');
+    visibleCards.sort((a, b) => {
+      if (sortKey === 'price-asc') return parseFloat(a.dataset.price!) - parseFloat(b.dataset.price!);
+      if (sortKey === 'price-desc') return parseFloat(b.dataset.price!) - parseFloat(a.dataset.price!);
+      if (sortKey === 'name-asc') return (a.dataset.name || '').localeCompare(b.dataset.name || '');
+      const aF = parseInt(a.dataset.featured || '0');
+      const bF = parseInt(b.dataset.featured || '0');
+      if (aF !== bF) return bF - aF;
+      return parseInt(a.dataset.order || '999') - parseInt(b.dataset.order || '999');
+    });
+    visibleCards.forEach((c) => grid.appendChild(c));
+  }
+
+  pills.forEach((p) => {
+    p.addEventListener('click', () => {
+      pills.forEach((x) => { x.classList.remove('active'); x.setAttribute('aria-selected', 'false'); });
+      p.classList.add('active');
+      p.setAttribute('aria-selected', 'true');
+      currentCat = (p as HTMLElement).dataset.cat || 'all';
+      apply();
+    });
+  });
+  sortSel?.addEventListener('change', apply);
+  apply();
+</script>
+
+<style>
+  .shop-hero { padding-top: 128px; padding-bottom: 24px; }
+
+  .shop-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 18px;
+    margin: 22px 0 24px;
+    padding: 14px 0;
+    border-bottom: 1px solid var(--line);
+    border-top: 1px solid var(--line);
+    background: var(--paper);
+    position: sticky;
+    top: 76px;
+    z-index: 50;
+  }
+  .cat-scroll {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    flex: 1;
+    padding: 4px 0;
+    scrollbar-width: thin;
+  }
+  .cat-scroll::-webkit-scrollbar { height: 4px; }
+  .cat-scroll::-webkit-scrollbar-thumb { background: var(--sage-soft); border-radius: 2px; }
+  .cat-pill {
+    flex: none;
+    background: var(--panel);
+    border: 1px solid var(--sage-soft);
+    border-radius: 999px;
+    padding: 8px 16px;
+    font-family: var(--font);
+    font-size: 13.5px;
+    font-weight: 600;
+    color: var(--ink-soft);
+    cursor: pointer;
+    transition: 0.18s;
+    white-space: nowrap;
+  }
+  .cat-pill:hover { color: var(--olive-d); border-color: var(--sage); }
+  .cat-pill.active { background: var(--olive-d); color: #fff; border-color: var(--olive-d); }
+  .sort-select {
+    background: var(--panel);
+    border: 1px solid var(--sage-soft);
+    border-radius: 8px;
+    padding: 8px 14px;
+    font-family: var(--font);
+    font-size: 13.5px;
+    font-weight: 600;
+    color: var(--ink);
+    cursor: pointer;
+  }
+
+  .prod-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  .prod-card {
+    display: block;
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: var(--r);
+    overflow: hidden;
+    transition: 0.22s;
+    text-decoration: none;
+    color: inherit;
+  }
+  .prod-card:hover {
+    border-color: var(--sage);
+    transform: translateY(-4px);
+    box-shadow: 0 16px 38px -22px rgba(16, 59, 20, 0.28);
+  }
+  .prod-image {
+    position: relative;
+    aspect-ratio: 1 / 1;
+    background: var(--paper);
+    overflow: hidden;
+  }
+  .prod-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 12px;
+    transition: 0.4s;
+  }
+  .prod-card:hover .prod-image img { transform: scale(1.04); }
+  .prod-badge {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background: var(--olive-d);
+    color: #fff;
+    font-size: 10.5px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 5px 9px;
+    border-radius: 5px;
+  }
+  .prod-meta {
+    padding: 14px 16px 18px;
+    border-top: 1px solid var(--line);
+  }
+  .prod-brand {
+    font-size: 11.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--olive);
+    margin-bottom: 4px;
+  }
+  .prod-name {
+    font-family: var(--font);
+    font-size: 15.5px;
+    font-weight: 700;
+    color: var(--ink);
+    margin-bottom: 8px;
+    line-height: 1.3;
+    letter-spacing: -0.01em;
+  }
+  .prod-price { display: flex; align-items: baseline; gap: 8px; }
+  .price-main { font-size: 17px; font-weight: 800; color: var(--olive-d); letter-spacing: -0.01em; }
+  .price-was { font-size: 13.5px; color: var(--ink-soft); text-decoration: line-through; }
+
+  .empty-state {
+    padding: 60px 20px;
+    text-align: center;
+    color: var(--ink-soft);
+  }
+
+  .trust-band {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: var(--r);
+    padding: 26px;
+  }
+  .trust-item { display: flex; align-items: flex-start; gap: 12px; }
+  .trust-item svg { width: 28px; height: 28px; flex: none; color: var(--olive); margin-top: 2px; }
+  .trust-item b { display: block; font-size: 14px; font-weight: 700; color: var(--olive-d); margin-bottom: 2px; }
+  .trust-item span { font-size: 13px; color: var(--ink-soft); line-height: 1.45; }
+
+  .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+
+  @media (max-width: 1100px) {
+    .prod-grid { grid-template-columns: repeat(3, 1fr); }
+    .trust-band { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 760px) {
+    .shop-hero { padding-top: 108px; }
+    .prod-grid { grid-template-columns: repeat(2, 1fr); gap: 14px; }
+    .shop-controls { flex-direction: column; align-items: stretch; gap: 12px; position: relative; top: 0; }
+    .sort-select { width: 100%; }
+    .prod-meta { padding: 12px 14px 16px; }
+    .prod-name { font-size: 14.5px; }
+    .price-main { font-size: 16px; }
+  }
+  @media (max-width: 420px) {
+    .prod-grid { grid-template-columns: 1fr; }
+    .trust-band { grid-template-columns: 1fr; }
+  }
+</style>

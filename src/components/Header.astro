@@ -31,6 +31,7 @@ function active(p: string) {
   </div>
 </header>
 
+<div class="drawer-backdrop" id="drawer-backdrop"></div>
 <div class="drawer" id="drawer">
   <a href="/">Home</a>
   <a href="/medical-cannabis">Medical Cannabis</a>
@@ -54,18 +55,22 @@ function active(p: string) {
 
   const hamb = document.getElementById('hamb');
   const drawer = document.getElementById('drawer');
+  const backdrop = document.getElementById('drawer-backdrop');
+  const closeDrawer = () => {
+    drawer?.classList.remove('open');
+    backdrop?.classList.remove('open');
+    hamb?.classList.remove('open');
+    document.body.style.overflow = '';
+  };
   hamb?.addEventListener('click', () => {
     const open = drawer?.classList.toggle('open');
+    backdrop?.classList.toggle('open', !!open);
     hamb.classList.toggle('open', !!open);
     document.body.style.overflow = open ? 'hidden' : '';
   });
-  drawer?.querySelectorAll('a').forEach((a) => {
-    a.addEventListener('click', () => {
-      drawer.classList.remove('open');
-      hamb?.classList.remove('open');
-      document.body.style.overflow = '';
-    });
-  });
+  backdrop?.addEventListener('click', closeDrawer);
+  drawer?.querySelectorAll('a').forEach((a) => a.addEventListener('click', closeDrawer));
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeDrawer(); });
 
   const io = new IntersectionObserver(
     (es) => es.forEach((e) => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }),

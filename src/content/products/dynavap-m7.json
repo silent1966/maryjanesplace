@@ -1,0 +1,30 @@
+{
+  "slug": "dynavap-m7",
+  "name": "DynaVap M 7",
+  "brand": "DynaVap",
+  "category": "pen-vapes",
+  "price": 65.0,
+  "image": "/products/placeholder.svg",
+  "summary": "Entry-level DynaVap. Same titanium tip, simpler body, same magic.",
+  "description": "The M 7 is the DynaVap to start with. Identical titanium tip to the M Plus, simpler body. Same butane-heated, no-battery, repairable design. Best entry into the DynaVap world for under \u00a370.",
+  "specs": [
+    {
+      "label": "Heating",
+      "value": "Butane torch (separate)"
+    },
+    {
+      "label": "Material",
+      "value": "Titanium tip"
+    },
+    {
+      "label": "Battery",
+      "value": "None"
+    }
+  ],
+  "tags": [
+    "pen",
+    "entry",
+    "no-battery"
+  ],
+  "order": 14
+}

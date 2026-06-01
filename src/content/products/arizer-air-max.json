@@ -1,0 +1,29 @@
+{
+  "slug": "arizer-air-max",
+  "name": "Arizer Air Max",
+  "brand": "Arizer",
+  "category": "portable-vapes",
+  "price": 179.95,
+  "image": "/products/placeholder.svg",
+  "summary": "Compact Arizer with a swappable battery and the same all-glass airpath the Solo is known for.",
+  "description": "The Air Max is the pocketable Arizer \u2014 smaller than the Solo, with the convenience of swappable 18650 batteries so you're never grounded. Glass airpath, hybrid heating, easy to clean. A genuinely portable medical option.",
+  "specs": [
+    {
+      "label": "Heating",
+      "value": "Hybrid"
+    },
+    {
+      "label": "Battery",
+      "value": "18650 (swappable)"
+    },
+    {
+      "label": "Weight",
+      "value": "125g"
+    }
+  ],
+  "tags": [
+    "compact",
+    "swappable-battery"
+  ],
+  "order": 5
+}

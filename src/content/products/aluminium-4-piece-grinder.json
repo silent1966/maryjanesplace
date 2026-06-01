@@ -1,0 +1,29 @@
+{
+  "slug": "aluminium-4-piece-grinder",
+  "name": "4-Piece Aluminium Grinder",
+  "brand": "Generic",
+  "category": "grinders",
+  "price": 19.95,
+  "image": "/products/placeholder.svg",
+  "summary": "The honest entry-level grinder. Aluminium, four pieces, magnetic lid, pollen catch.",
+  "description": "Sometimes the basics are the right answer. A four-piece aluminium grinder with magnetic lid and pollen catch does 95% of what a \u00a380 grinder does for under \u00a320. The kit every patient should own before upgrading anything else.",
+  "specs": [
+    {
+      "label": "Material",
+      "value": "Anodised aluminium"
+    },
+    {
+      "label": "Pieces",
+      "value": "4"
+    },
+    {
+      "label": "Diameter",
+      "value": "55mm"
+    }
+  ],
+  "tags": [
+    "entry",
+    "value"
+  ],
+  "order": 22
+}

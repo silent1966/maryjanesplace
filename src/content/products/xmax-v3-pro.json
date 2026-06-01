@@ -1,0 +1,25 @@
+{
+  "slug": "xmax-v3-pro",
+  "name": "XMAX V3 Pro",
+  "brand": "XMAX",
+  "category": "portable-vapes",
+  "price": 89.95,
+  "image": "/products/placeholder.svg",
+  "summary": "The patient budget-portable that punches above its weight.",
+  "description": "The V3 Pro is the budget portable that legitimately works. Convection heating, swappable battery, three-screen system for clean dose pulls. Best vape under \u00a3100 for serious patients.",
+  "specs": [
+    {
+      "label": "Heating",
+      "value": "Convection"
+    },
+    {
+      "label": "Battery",
+      "value": "18650 (swappable)"
+    }
+  ],
+  "tags": [
+    "value",
+    "budget"
+  ],
+  "order": 16
+}

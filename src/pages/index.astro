@@ -7,6 +7,23 @@ import site from "../content/site/settings.json";
   title="Mary Jane's Place — A safe space for medical cannabis patients · Bournemouth"
   description="Mary Jane's Place is a members' space in Bournemouth where prescribed medical cannabis patients can use their medicine. Open to verified UK patients. Legal, vaporiser-only, prescription required."
 >
+  <!-- Speakable schema for voice search assistants -->
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "url": "https://maryjanesplace.co.uk/",
+    "speakable": {
+      "@type": "SpeakableSpecification",
+      "cssSelector": [".sub", "h1", ".lede"]
+    },
+    "isPartOf": { "@id": "https://maryjanesplace.co.uk/#website" },
+    "about": [
+      { "@type": "Thing", "name": "Medical cannabis" },
+      { "@type": "Thing", "name": "UK medical cannabis prescriptions" },
+      { "@type": "Thing", "name": "Dry herb vaporiser lounge" }
+    ]
+  })} />
+
   <section class="hero">
     <div class="wrap hero-copy">
       <div class="eyebrow kick rv">Medical Cannabis · Bournemouth</div>

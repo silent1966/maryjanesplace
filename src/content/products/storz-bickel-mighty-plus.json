@@ -1,0 +1,47 @@
+{
+  "slug": "storz-bickel-mighty-plus",
+  "name": "Storz & Bickel Mighty+",
+  "brand": "Storz & Bickel",
+  "category": "portable-vapes",
+  "price": 259.95,
+  "image": "/products/placeholder.svg",
+  "summary": "The reference portable for medical patients. Full convection, German-engineered, registered as a Class IIa medical device.",
+  "description": "The Mighty+ is the gold-standard portable dry-herb vaporiser. Hybrid heating with full convection delivers a clinically consistent dose every time. USB-C charging, ceramic-coated chamber for purer flavour, faster heat-up than the original Mighty. Genuinely lasts a long medicating session on one charge. If you medicate multiple times a day, this is the device that pays back over years.",
+  "specs": [
+    {
+      "label": "Heating",
+      "value": "Hybrid (convection-dominant)"
+    },
+    {
+      "label": "Heat-up time",
+      "value": "~60 seconds"
+    },
+    {
+      "label": "Battery life",
+      "value": "~90 mins continuous use"
+    },
+    {
+      "label": "Charging",
+      "value": "USB-C, supercharge in 40 min"
+    },
+    {
+      "label": "Made in",
+      "value": "Germany"
+    },
+    {
+      "label": "Medical certification",
+      "value": "EU Class IIa medical device"
+    },
+    {
+      "label": "Warranty",
+      "value": "2 years"
+    }
+  ],
+  "featured": true,
+  "tags": [
+    "medical-grade",
+    "convection",
+    "premium"
+  ],
+  "order": 1
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "arizer-xq2",
+  "name": "Arizer XQ2",
+  "brand": "Arizer",
+  "category": "desktop-vapes",
+  "price": 219.95,
+  "image": "/products/placeholder.svg",
+  "summary": "Desktop convection without the Volcano price tag. Whip and balloon, perfectly clean vapour.",
+  "description": "The XQ2 is the desktop most patients should consider before the Volcano. Whip and balloon delivery, full convection, accurate temperature control. The plastic build is the visible cost-saving, but the vapour quality genuinely competes with units twice the price.",
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Desktop whip/balloon"
+    },
+    {
+      "label": "Heating",
+      "value": "Convection"
+    },
+    {
+      "label": "Delivery",
+      "value": "Whip + balloon options"
+    }
+  ],
+  "tags": [
+    "desktop",
+    "value"
+  ],
+  "order": 11
+}

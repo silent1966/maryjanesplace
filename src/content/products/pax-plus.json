@@ -1,0 +1,29 @@
+{
+  "slug": "pax-plus",
+  "name": "PAX Plus",
+  "brand": "PAX",
+  "category": "portable-vapes",
+  "price": 179.95,
+  "image": "/products/placeholder.svg",
+  "summary": "The most discreet patient vape money buys. Pen-shaped, magnetic oven lid, reliable.",
+  "description": "If discretion is the priority, the PAX Plus is the answer. Conduction heating means a slightly harsher edge than convection devices, but the trade-off is unmatched discreetness. Reliable, easy to clean, easy to carry.",
+  "specs": [
+    {
+      "label": "Heating",
+      "value": "Conduction"
+    },
+    {
+      "label": "Form factor",
+      "value": "Discreet pen-shape"
+    },
+    {
+      "label": "Charging",
+      "value": "USB-C"
+    }
+  ],
+  "tags": [
+    "discreet",
+    "conduction"
+  ],
+  "order": 9
+}

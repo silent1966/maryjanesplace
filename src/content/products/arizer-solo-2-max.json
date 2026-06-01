@@ -1,0 +1,29 @@
+{
+  "slug": "arizer-solo-2-max",
+  "name": "Arizer Solo 2 Max",
+  "brand": "Arizer",
+  "category": "portable-vapes",
+  "price": 169.95,
+  "image": "/products/placeholder.svg",
+  "summary": "The Solo 2 redux \u2014 longer battery, refined stems, the same dependable hybrid heat.",
+  "description": "The Solo 2 Max takes the original Solo 2 and gives it a bigger battery and better stems. Same Arizer reliability, same clean flavour. A practical, dependable patient portable for daily medicating.",
+  "specs": [
+    {
+      "label": "Heating",
+      "value": "Hybrid convection-conduction"
+    },
+    {
+      "label": "Battery life",
+      "value": "Approx 3 hours continuous"
+    },
+    {
+      "label": "Stems",
+      "value": "Glass with 14mm adapter"
+    }
+  ],
+  "tags": [
+    "hybrid",
+    "value"
+  ],
+  "order": 4
+}

@@ -1,0 +1,73 @@
+---
+import Base from "../layouts/Base.astro";
+import site from "../content/site/settings.json";
+---
+
+<Base
+  title="Terms & Conditions — Mary Jane's Place"
+  description="Terms of sale and use for maryjanesplace.co.uk."
+>
+  <section class="ph-top pad-sm">
+    <div class="wrap narrow legal-body">
+      <div class="eyebrow kick rv">Legal</div>
+      <h1 class="rv">Terms &amp; Conditions</h1>
+      <p class="rv" style="color:var(--ink-soft);margin-top:8px;font-size:14px">Last updated: 1 June 2026</p>
+
+      <div class="rv legal-prose">
+        <h2>1. About us</h2>
+        <p>maryjanesplace.co.uk is operated by Mary Jane's Place, 7 Stafford Road, Bournemouth BH1 1JH, United Kingdom. Contact: <a class="tlink" href={`mailto:${site.contact.email}`}>{site.contact.email}</a>.</p>
+
+        <h2>2. Acceptance of terms</h2>
+        <p>By using this site or placing an order, you agree to these terms. If you do not agree, do not use the site.</p>
+
+        <h2>3. Age restriction</h2>
+        <p>This site sells products restricted to adults aged 18 or over. By placing an order you confirm you are 18+. We reserve the right to verify age and to refuse or cancel orders where age cannot be verified.</p>
+
+        <h2>4. Product information</h2>
+        <p>We take reasonable care to ensure product descriptions, prices and images are accurate. Minor variations may exist. Prices include UK VAT at the applicable rate.</p>
+
+        <h2>5. Orders and acceptance</h2>
+        <p>Placing an order is an offer to buy. We confirm acceptance by sending an order confirmation email. We may refuse to accept an order at our discretion (e.g. product unavailable, suspected fraud, age verification failure).</p>
+
+        <h2>6. Pricing and payment</h2>
+        <p>All prices are in pounds sterling (GBP) and include UK VAT where applicable. Payment is taken at the time of order via Stripe; we do not store card details. We reserve the right to correct pricing errors before or after an order is placed.</p>
+
+        <h2>7. Delivery</h2>
+        <p>UK delivery times are typically 1–3 business days. Free delivery applies to orders over £60. We use tracked courier services. Delivery times are estimates and not guarantees.</p>
+
+        <h2>8. Cancellation and returns</h2>
+        <p>See our <a class="tlink" href="/returns">Returns Policy</a>. You have a statutory 14-day right to cancel, which we extend to 30 days as a goodwill gesture.</p>
+
+        <h2>9. Product use</h2>
+        <p>Products sold on this site are vaporisers and accessories intended for use with lawfully prescribed medicines. It is the customer's responsibility to ensure their use of any product complies with UK law. We do not sell, supply or prescribe cannabis or any controlled substance.</p>
+
+        <h2>10. Intellectual property</h2>
+        <p>All site content (text, images, logos, design) is the property of Mary Jane's Place or its licensors and is protected by UK and international copyright law. You may not reproduce site content without written permission.</p>
+
+        <h2>11. Limitation of liability</h2>
+        <p>We are not liable for indirect or consequential losses arising from use of products or this site. Our total liability for any order is limited to the value of that order. Nothing in these terms excludes liability for death, personal injury caused by negligence, or fraudulent misrepresentation.</p>
+
+        <h2>12. Governing law</h2>
+        <p>These terms are governed by the laws of England and Wales. Disputes are subject to the exclusive jurisdiction of the courts of England and Wales.</p>
+
+        <h2>13. Changes</h2>
+        <p>We may update these terms from time to time. The "last updated" date at the top reflects the most recent revision. Orders are subject to the terms in force at the time the order is placed.</p>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .legal-body { padding-top: 30px; }
+  .legal-prose h2 {
+    font-family: var(--font);
+    font-size: 19px;
+    font-weight: 700;
+    color: var(--olive-d);
+    margin: 28px 0 10px;
+    letter-spacing: -0.005em;
+  }
+  .legal-prose p, .legal-prose li { font-size: 15.5px; line-height: 1.7; color: var(--ink); margin-bottom: 12px; }
+  .legal-prose ul, .legal-prose ol { padding-left: 22px; margin-bottom: 16px; }
+  .legal-prose li { margin-bottom: 6px; }
+</style>

@@ -1,0 +1,31 @@
+{
+  "slug": "pax-four",
+  "name": "PAX Four",
+  "brand": "PAX",
+  "category": "portable-vapes",
+  "price": 219.0,
+  "image": "/products/placeholder.svg",
+  "summary": "PAX's flagship redesigned. Hybrid heating, redesigned oven, dense clouds, the cleanest discreet portable on the market.",
+  "description": "The PAX FOUR is PAX's most refined portable yet. Hybrid heating system with a redesigned oven for improved airflow and easier loading. Produces dense, flavourful vapour while staying discreet enough to use without drawing eyes. The patient device for those who value form alongside function.",
+  "specs": [
+    {
+      "label": "Heating",
+      "value": "Hybrid"
+    },
+    {
+      "label": "Form factor",
+      "value": "Pocket-friendly, magnetic lid"
+    },
+    {
+      "label": "Charging",
+      "value": "USB-C"
+    }
+  ],
+  "featured": true,
+  "tags": [
+    "discreet",
+    "premium",
+    "new"
+  ],
+  "order": 8
+}

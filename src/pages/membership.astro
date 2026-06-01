@@ -7,6 +7,37 @@ import site from "../content/site/settings.json";
   title="Membership — Mary Jane's Place"
   description="Free membership for UK medical cannabis patients. Verified once with your prescription. £5 vape hire, 10% off equipment, loyalty points, refer-a-friend rewards, members-only events."
 >
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What counts as proof of prescription?",
+        "acceptedAnswer": { "@type": "Answer", "text": "The dispensing label on your original pharmacy packaging is best. A prescriber letter or a copy of your current prescription, dated within the last six months, also works. We don't need to see your medical history, just enough to confirm you're a prescribed UK patient." }
+      },
+      {
+        "@type": "Question",
+        "name": "How do you store loyalty points?",
+        "acceptedAnswer": { "@type": "Answer", "text": "On a simple membership card linked to your phone number. Show it at the counter, we tot up your points, you spend them when you like. No app required, no data harvesting." }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I bring a non-patient friend in?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. Anyone over 18 is welcome to visit and have a drink. Only the act of using your medicine here requires verification. Your friend just can't join in on that side of things." }
+      },
+      {
+        "@type": "Question",
+        "name": "What if I lose my prescription paperwork?",
+        "acceptedAnswer": { "@type": "Answer", "text": "We can re-verify with any new prescription or dispensing label. Your membership and points roll over. You don't lose anything because life happened." }
+      },
+      {
+        "@type": "Question",
+        "name": "Is membership going to cost me eventually?",
+        "acceptedAnswer": { "@type": "Answer", "text": "The Patient Member tier stays free, always. We'll add optional paid tiers later for people who want to support our expansion across the UK. Nobody who joined free will ever be moved to a paid plan against their will." }
+      }
+    ]
+  })} />
   <section class="ph-top pad">
     <div class="wrap narrow">
       <div class="eyebrow kick rv">Membership</div>

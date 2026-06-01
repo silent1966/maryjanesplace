@@ -1,0 +1,29 @@
+{
+  "slug": "boveda-62-humidity-pack",
+  "name": "Boveda 62% Humidity Pack (8g)",
+  "brand": "Boveda",
+  "category": "storage",
+  "price": 6.95,
+  "image": "/products/placeholder.svg",
+  "summary": "Two-way humidity control. Keeps flower at optimal moisture for months.",
+  "description": "Boveda packs are the industry standard for keeping prescribed flower at the right humidity. Drop one in your storage jar; it absorbs excess moisture or releases as needed, keeping your medicine at 62% \u2014 the sweet spot for terpene preservation and clean vapour.",
+  "specs": [
+    {
+      "label": "Humidity level",
+      "value": "62%"
+    },
+    {
+      "label": "Size",
+      "value": "8g"
+    },
+    {
+      "label": "Lifespan",
+      "value": "2\u20134 months"
+    }
+  ],
+  "tags": [
+    "consumable",
+    "humidity"
+  ],
+  "order": 23
+}

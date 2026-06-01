@@ -1,0 +1,66 @@
+---
+import Base from "../layouts/Base.astro";
+import site from "../content/site/settings.json";
+---
+
+<Base
+  title="Returns & Refunds — Mary Jane's Place"
+  description="Our 30-day returns policy. Your statutory rights under the UK Consumer Contracts Regulations 2013."
+>
+  <section class="ph-top pad-sm">
+    <div class="wrap narrow legal-body">
+      <div class="eyebrow kick rv">Legal</div>
+      <h1 class="rv">Returns &amp; Refunds</h1>
+      <p class="rv" style="color:var(--ink-soft);margin-top:8px;font-size:14px">Last updated: 1 June 2026</p>
+
+      <div class="rv legal-prose">
+        <h2>1. The short version</h2>
+        <p>You have <b>14 days</b> from the day you receive your order to change your mind, under the <a class="tlink" href="https://www.legislation.gov.uk/uksi/2013/3134/contents/made" target="_blank" rel="noopener">UK Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013</a>. We extend this to <b>30 days</b> as a goodwill gesture, on condition the product is unused and in its original packaging.</p>
+
+        <h2>2. How to start a return</h2>
+        <ol>
+          <li>Email us at <a class="tlink" href={`mailto:${site.contact.email}`}>{site.contact.email}</a> with your order number and the reason for return.</li>
+          <li>We'll reply with a return address and (where applicable) a pre-paid return label.</li>
+          <li>Pack the item securely with all original accessories, manuals and packaging.</li>
+          <li>Send it back. We refund within 14 days of receiving the returned item, to your original payment method.</li>
+        </ol>
+
+        <h2>3. Faulty or damaged items</h2>
+        <p>If an item arrives damaged or develops a fault within 30 days, contact us immediately at <a class="tlink" href={`mailto:${site.contact.email}`}>{site.contact.email}</a>. Under the Consumer Rights Act 2015 you are entitled to a repair, replacement or refund. We cover return shipping for faulty items.</p>
+
+        <h2>4. Manufacturer warranties</h2>
+        <p>Faults that develop after 30 days are typically handled under the manufacturer's warranty (e.g. Storz &amp; Bickel offer 2 years on the Mighty+ and 3 years on the Volcano). We will help facilitate warranty claims. Warranty terms are set by each manufacturer.</p>
+
+        <h2>5. What we cannot refund</h2>
+        <ul>
+          <li>Used or partially-used hygiene-sensitive items (mouthpieces, screens) once the seal has been broken</li>
+          <li>Products returned without their original packaging or accessories</li>
+          <li>Products damaged through misuse, modification or accident</li>
+          <li>Custom-engraved or personalised items</li>
+        </ul>
+
+        <h2>6. Your statutory rights</h2>
+        <p>Nothing in this policy affects your statutory rights as a consumer under UK law. Where this policy is less favourable than your statutory rights, your statutory rights take precedence.</p>
+
+        <h2>7. Contact</h2>
+        <p>Returns enquiries: <a class="tlink" href={`mailto:${site.contact.email}`}>{site.contact.email}</a><br/>
+        Postal address: Mary Jane's Place, 7 Stafford Road, Bournemouth BH1 1JH</p>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .legal-body { padding-top: 30px; }
+  .legal-prose h2 {
+    font-family: var(--font);
+    font-size: 19px;
+    font-weight: 700;
+    color: var(--olive-d);
+    margin: 28px 0 10px;
+    letter-spacing: -0.005em;
+  }
+  .legal-prose p, .legal-prose li { font-size: 15.5px; line-height: 1.7; color: var(--ink); margin-bottom: 12px; }
+  .legal-prose ul, .legal-prose ol { padding-left: 22px; margin-bottom: 16px; }
+  .legal-prose li { margin-bottom: 6px; }
+</style>

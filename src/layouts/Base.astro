@@ -43,13 +43,42 @@ const canonical = new URL(Astro.url.pathname, Astro.site).toString();
       "@context": "https://schema.org",
       "@graph": [
         {
+          "@type": "WebSite",
+          "@id": "https://maryjanesplace.co.uk/#website",
+          "url": "https://maryjanesplace.co.uk",
+          "name": "Mary Jane's Place",
+          "description": "A safe space for UK medical cannabis patients",
+          "publisher": { "@id": "https://maryjanesplace.co.uk/#org" },
+          "inLanguage": "en-GB",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://maryjanesplace.co.uk/shop?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        },
+        {
           "@type": "Organization",
           "@id": "https://maryjanesplace.co.uk/#org",
           "name": site.brand.name,
           "url": "https://maryjanesplace.co.uk",
-          "logo": "https://maryjanesplace.co.uk/logo.png",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://maryjanesplace.co.uk/logo.png",
+            "width": 760,
+            "height": 307
+          },
           "description": "A safe space for medical cannabis patients. Located in Bournemouth, serving the UK community.",
-          "sameAs": [site.social.instagram, site.social.facebook],
+          "sameAs": [site.social.instagram, site.social.facebook, site.social.googleMaps],
+          "knowsAbout": [
+            "Medical cannabis",
+            "UK medical cannabis prescriptions",
+            "Cannabis-based medicinal products",
+            "Dry herb vaporisers",
+            "Patient rights and police guidance",
+            "NPCC medicinal cannabis guidance",
+            "Misuse of Drugs Regulations 2018",
+            "Bournemouth medical cannabis"
+          ],
           "contactPoint": [{
             "@type": "ContactPoint",
             "telephone": site.contact.phoneIntl,
@@ -68,6 +97,15 @@ const canonical = new URL(Astro.url.pathname, Astro.site).toString();
           "telephone": site.contact.phoneIntl,
           "email": site.contact.email,
           "image": "https://maryjanesplace.co.uk/logo.png",
+          "priceRange": "££",
+          "currenciesAccepted": "GBP",
+          "paymentAccepted": "Cash, Credit Card, Debit Card",
+          "areaServed": [
+            { "@type": "Country", "name": "United Kingdom" },
+            { "@type": "City", "name": "Bournemouth" }
+          ],
+          "isAccessibleForFree": false,
+          "hasMap": site.contact.googleMapsUrl,
           "address": {
             "@type": "PostalAddress",
             "streetAddress": site.contact.address.line1,
@@ -80,7 +118,20 @@ const canonical = new URL(Astro.url.pathname, Astro.site).toString();
             "latitude": site.contact.address.lat,
             "longitude": site.contact.address.lng
           },
-          "sameAs": [site.social.instagram, site.social.facebook]
+          "openingHoursSpecification": [
+            { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Wednesday","Thursday","Friday","Sunday"], "opens": "08:30", "closes": "14:30" },
+            { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Wednesday","Thursday","Friday","Sunday"], "opens": "17:30", "closes": "20:30" },
+            { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "08:30", "closes": "14:30" },
+            { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "17:30", "closes": "22:30" }
+          ],
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5.0",
+            "reviewCount": "2",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "sameAs": [site.social.instagram, site.social.facebook, site.social.googleMaps]
         }
       ]
     })} />
@@ -91,5 +142,38 @@ const canonical = new URL(Astro.url.pathname, Astro.site).toString();
       <slot />
     </main>
     <Footer />
+
+    <div id="age-gate" class="age-gate" hidden>
+      <div class="age-gate-card">
+        <div class="age-gate-eyebrow">Age verification</div>
+        <h2>This site is for adults aged 18 and over.</h2>
+        <p>Mary Jane's Place is a UK members' space and shop for prescribed medical cannabis patients. The products and information here are intended only for adults 18+. By continuing you confirm you are 18 or over.</p>
+        <div class="age-gate-actions">
+          <button class="btn" id="age-yes" type="button">I am 18 or over — continue</button>
+          <a class="btn ghost" href="https://www.nhs.uk" rel="noopener">Take me away</a>
+        </div>
+        <p class="age-gate-fine">We will remember this choice on this browser. See our <a href="/privacy">privacy policy</a> and <a href="/terms">terms</a>.</p>
+      </div>
+    </div>
+    <script>
+      (function() {
+        try {
+          var key = 'mjp-age-ok';
+          if (!sessionStorage.getItem(key) && !localStorage.getItem(key)) {
+            var g = document.getElementById('age-gate');
+            if (g) {
+              g.hidden = false;
+              document.body.style.overflow = 'hidden';
+            }
+            var btn = document.getElementById('age-yes');
+            btn && btn.addEventListener('click', function() {
+              try { localStorage.setItem(key, '1'); } catch(e) { sessionStorage.setItem(key, '1'); }
+              if (g) g.hidden = true;
+              document.body.style.overflow = '';
+            });
+          }
+        } catch(e) {}
+      })();
+    </script>
   </body>
 </html>

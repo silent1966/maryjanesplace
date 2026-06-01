@@ -1,0 +1,356 @@
+---
+import Base from "../../layouts/Base.astro";
+import { getCollection, type CollectionEntry } from "astro:content";
+import site from "../../content/site/settings.json";
+
+export async function getStaticPaths() {
+  const products = await getCollection("products");
+  return products.map((p) => ({
+    params: { slug: p.id },
+    props: { product: p, all: products },
+  }));
+}
+
+type Props = { product: CollectionEntry<"products">; all: CollectionEntry<"products">[] };
+const { product, all } = Astro.props as Props;
+const p = product.data;
+const slug = product.id;
+
+const related = all
+  .filter((x) => x.id !== slug && x.data.category === p.category)
+  .slice(0, 4)
+  .map((x) => ({ ...x.data, slug: x.id }));
+
+const FREE_DELIVERY_OVER = 60;
+const enquiryHref = `/visit#contact?product=${encodeURIComponent(p.name)}`;
+const checkoutHref = p.stripeLink && p.stripeLink.length > 0 ? p.stripeLink : enquiryHref;
+const checkoutLabel = p.stripeLink && p.stripeLink.length > 0 ? "Buy now" : "Enquire to buy";
+
+const catLabel = {
+  "portable-vapes": "Portable vapes",
+  "desktop-vapes": "Desktop vapes",
+  "pen-vapes": "Pen vapes",
+  "dab-pens": "Dab pens",
+  "cartridge-batteries": "510 batteries",
+  "dab-rigs": "Concentrate rigs",
+  "grinders": "Grinders",
+  "storage": "Storage",
+  "cleaning": "Cleaning",
+  "accessories": "Accessories",
+  "batteries": "Batteries",
+  "cases": "Cases",
+}[p.category] || p.category;
+---
+
+<Base
+  title={`${p.name} — ${p.brand} · Mary Jane's Place`}
+  description={`${p.summary} Buy from Mary Jane's Place — UK delivery, 30-day returns, secure payment.`}
+>
+  <section class="pad-sm" style="padding-top:120px">
+    <div class="wrap">
+      <nav class="crumbs rv" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span>›</span>
+        <a href="/shop">Shop</a>
+        <span>›</span>
+        <span>{p.name}</span>
+      </nav>
+
+      <article class="product-detail">
+        <div class="pd-image rv">
+          {p.featured && <span class="prod-badge">Featured</span>}
+          <img src={p.image} alt={p.name} width="800" height="800" />
+        </div>
+
+        <div class="pd-info rv">
+          <div class="prod-brand">{p.brand}</div>
+          <h1 class="pd-name">{p.name}</h1>
+          <div class="pd-price-row">
+            <span class="price-main">£{p.price.toFixed(2)}</span>
+            {p.salePrice && <span class="price-was">£{p.salePrice.toFixed(2)}</span>}
+            <span class="vat-note">incl. VAT</span>
+          </div>
+
+          <p class="pd-summary">{p.summary}</p>
+
+          <div class="pd-stock">
+            {p.inStock
+              ? <><span class="stock-dot in"></span><span>In stock — drop-shipped from UK warehouse, typically 1–3 business days</span></>
+              : <><span class="stock-dot out"></span><span>Currently out of stock — enquire for restock date</span></>
+            }
+          </div>
+
+          <div class="pd-cta-row">
+            <a class="btn" href={checkoutHref}>{checkoutLabel} <span class="arr">→</span></a>
+            <a class="btn ghost" href="/visit#contact">Ask a question</a>
+          </div>
+
+          <ul class="pd-tiny">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12l5 5L20 6"/></svg>Free UK delivery over £{FREE_DELIVERY_OVER}</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12l5 5L20 6"/></svg>30-day returns (unused, original packaging)</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12l5 5L20 6"/></svg>Authorised UK retailer · manufacturer warranty</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12l5 5L20 6"/></svg>Discreet plain packaging · 18+ verification at checkout</li>
+          </ul>
+        </div>
+      </article>
+
+      <div class="pd-details">
+        <div class="rv">
+          <h2 class="pd-section-h">About this device</h2>
+          <p class="pd-desc">{p.description}</p>
+        </div>
+
+        {p.specs && p.specs.length > 0 && (
+          <div class="rv">
+            <h2 class="pd-section-h">Specifications</h2>
+            <table class="pd-specs">
+              <tbody>
+                {p.specs.map((s) => (
+                  <tr><th>{s.label}</th><td>{s.value}</td></tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        )}
+      </div>
+
+      {related.length > 0 && (
+        <div class="pd-related rv">
+          <h2 class="pd-section-h">More in {catLabel}</h2>
+          <div class="related-grid">
+            {related.map((r) => (
+              <a class="rel-card" href={`/shop/${r.slug}/`}>
+                <div class="rel-image"><img src={r.image} alt={r.name} loading="lazy"/></div>
+                <div class="rel-meta">
+                  <div class="prod-brand">{r.brand}</div>
+                  <div class="rel-name">{r.name}</div>
+                  <div class="price-main">£{r.price.toFixed(2)}</div>
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
+    </div>
+  </section>
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": p.name,
+    "brand": { "@type": "Brand", "name": p.brand },
+    "description": p.summary,
+    "image": [`https://maryjanesplace.co.uk${p.image}`],
+    "sku": p.rnSku || slug,
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "GBP",
+      "price": p.price.toFixed(2),
+      "availability": p.inStock ? "https://schema.org/InStock" : "https://schema.org/OutOfStock",
+      "url": `https://maryjanesplace.co.uk/shop/${slug}/`,
+      "seller": { "@type": "Organization", "name": "Mary Jane's Place" }
+    }
+  })}/>
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://maryjanesplace.co.uk/" },
+      { "@type": "ListItem", "position": 2, "name": "Shop", "item": "https://maryjanesplace.co.uk/shop" },
+      { "@type": "ListItem", "position": 3, "name": p.name, "item": `https://maryjanesplace.co.uk/shop/${slug}/` }
+    ]
+  })}/>
+</Base>
+
+<style>
+  .crumbs {
+    font-size: 13px;
+    color: var(--ink-soft);
+    margin-bottom: 22px;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .crumbs a { color: var(--olive); text-decoration: none; font-weight: 600; }
+  .crumbs a:hover { text-decoration: underline; }
+
+  .product-detail {
+    display: grid;
+    grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+    gap: 44px;
+    margin-bottom: 56px;
+  }
+  .pd-image {
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: var(--r);
+    aspect-ratio: 1 / 1;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    position: relative;
+  }
+  .pd-image img { width: 100%; height: 100%; object-fit: contain; padding: 36px; }
+  .pd-image .prod-badge {
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    background: var(--olive-d);
+    color: #fff;
+    font-size: 10.5px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 6px 10px;
+    border-radius: 5px;
+  }
+
+  .pd-info { padding-top: 12px; }
+  .prod-brand {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--olive);
+    margin-bottom: 8px;
+  }
+  .pd-name {
+    font-family: var(--font);
+    font-size: clamp(28px, 4vw, 40px);
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    color: var(--olive-d);
+    margin-bottom: 18px;
+  }
+  .pd-price-row {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 22px;
+  }
+  .pd-price-row .price-main { font-size: 32px; font-weight: 800; color: var(--olive-d); }
+  .pd-price-row .price-was { font-size: 18px; color: var(--ink-soft); text-decoration: line-through; }
+  .vat-note { font-size: 13px; color: var(--ink-soft); }
+  .pd-summary {
+    font-size: 17px;
+    line-height: 1.55;
+    color: var(--ink);
+    margin-bottom: 22px;
+    max-width: 56ch;
+  }
+  .pd-stock {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14.5px;
+    color: var(--ink-soft);
+    margin-bottom: 22px;
+    padding: 10px 14px;
+    background: var(--tint);
+    border-radius: 8px;
+  }
+  .stock-dot {
+    width: 10px; height: 10px; border-radius: 50%;
+  }
+  .stock-dot.in { background: #4d8b3a; box-shadow: 0 0 0 4px rgba(77, 139, 58, 0.18); }
+  .stock-dot.out { background: #c45a3e; }
+
+  .pd-cta-row {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 26px;
+    flex-wrap: wrap;
+  }
+  .pd-cta-row .btn { min-width: 180px; justify-content: center; }
+
+  .pd-tiny {
+    list-style: none;
+    display: grid;
+    gap: 9px;
+    padding: 16px 0 0;
+    border-top: 1px solid var(--line);
+  }
+  .pd-tiny li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13.5px;
+    color: var(--ink-soft);
+  }
+  .pd-tiny svg { width: 16px; height: 16px; color: var(--olive); flex: none; }
+
+  .pd-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 44px;
+    margin-bottom: 60px;
+    padding-top: 36px;
+    border-top: 1px solid var(--line);
+  }
+  .pd-section-h {
+    font-family: var(--font);
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--olive-d);
+    margin-bottom: 16px;
+    letter-spacing: -0.01em;
+  }
+  .pd-desc { font-size: 16px; line-height: 1.65; color: var(--ink); }
+  .pd-specs {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--paper);
+    border-radius: var(--r);
+    overflow: hidden;
+    border: 1px solid var(--line);
+  }
+  .pd-specs tr { border-bottom: 1px solid var(--line); }
+  .pd-specs tr:last-child { border-bottom: 0; }
+  .pd-specs th, .pd-specs td {
+    text-align: left;
+    padding: 11px 16px;
+    font-size: 14px;
+  }
+  .pd-specs th {
+    font-weight: 600;
+    color: var(--ink-soft);
+    width: 42%;
+    background: var(--panel);
+  }
+  .pd-specs td { color: var(--ink); }
+
+  .pd-related { margin-bottom: 40px; padding-top: 30px; border-top: 1px solid var(--line); }
+  .related-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+  }
+  .rel-card {
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: var(--r);
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    transition: 0.22s;
+  }
+  .rel-card:hover { border-color: var(--sage); transform: translateY(-3px); }
+  .rel-image { aspect-ratio: 1/1; background: var(--paper); }
+  .rel-image img { width: 100%; height: 100%; object-fit: contain; padding: 10px; }
+  .rel-meta { padding: 12px 14px 14px; border-top: 1px solid var(--line); }
+  .rel-name { font-size: 14px; font-weight: 700; color: var(--ink); margin: 4px 0 6px; }
+  .price-main { font-size: 15px; font-weight: 800; color: var(--olive-d); }
+
+  @media (max-width: 980px) {
+    .product-detail { grid-template-columns: 1fr; gap: 26px; }
+    .pd-details { grid-template-columns: 1fr; gap: 30px; }
+    .related-grid { grid-template-columns: repeat(3, 1fr); }
+  }
+  @media (max-width: 680px) {
+    .pd-cta-row { flex-direction: column; }
+    .pd-cta-row .btn { width: 100%; }
+    .related-grid { grid-template-columns: repeat(2, 1fr); }
+    .pd-image img { padding: 22px; }
+  }
+</style>

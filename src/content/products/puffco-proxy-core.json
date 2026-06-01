@@ -1,0 +1,30 @@
+{
+  "slug": "puffco-proxy-core",
+  "name": "Puffco Proxy Core Kit",
+  "brand": "Puffco",
+  "category": "dab-pens",
+  "price": 219.0,
+  "image": "/products/placeholder.svg",
+  "summary": "Modular concentrate vape from the brand that defined the category.",
+  "description": "The Puffco Proxy Core Kit takes Puffco's award-winning concentrate technology and shrinks it into a pocketable, modular system. Ceramic atomiser, intuitive temperature control, app-paired. For patients prescribed concentrate medicine.",
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Concentrate vaporiser"
+    },
+    {
+      "label": "Atomiser",
+      "value": "Ceramic"
+    },
+    {
+      "label": "Charging",
+      "value": "USB-C"
+    }
+  ],
+  "featured": true,
+  "tags": [
+    "concentrate",
+    "premium"
+  ],
+  "order": 17
+}

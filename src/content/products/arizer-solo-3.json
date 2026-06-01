@@ -1,0 +1,39 @@
+{
+  "slug": "arizer-solo-3",
+  "name": "Arizer Solo 3",
+  "brand": "Arizer",
+  "category": "portable-vapes",
+  "price": 199.99,
+  "image": "/products/placeholder.svg",
+  "summary": "The understated workhorse. Hybrid heating, glass stems, all-day battery, exceptional flavour.",
+  "description": "The Solo 3 is the device most patients should consider before spending more. Hybrid convection-conduction with all-glass stems means cool, smooth, flavourful vapour. Battery lasts a full medicating day. Cheaper than the Mighty, comfortable in the hand, easy to clean. The patient's quiet choice.",
+  "specs": [
+    {
+      "label": "Heating",
+      "value": "Hybrid convection-conduction"
+    },
+    {
+      "label": "Heat-up time",
+      "value": "~20 seconds"
+    },
+    {
+      "label": "Battery life",
+      "value": "Approx 2 hours continuous"
+    },
+    {
+      "label": "Stems",
+      "value": "Glass (included)"
+    },
+    {
+      "label": "Made in",
+      "value": "Canada"
+    }
+  ],
+  "featured": true,
+  "tags": [
+    "hybrid",
+    "all-day",
+    "value"
+  ],
+  "order": 3
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "dynavap-m-plus",
+  "name": "DynaVap M Plus",
+  "brand": "DynaVap",
+  "category": "pen-vapes",
+  "price": 89.0,
+  "image": "/products/placeholder.svg",
+  "summary": "Butane-heated, no electronics, extraordinary flavour. The most repairable vaporiser made.",
+  "description": "The DynaVap M Plus is a different category. A simple titanium capsule, heated with a butane torch (sold separately), produces clouds of clean, flavourful vapour with zero battery anxiety. Modular, repairable, will still work in fifteen years. A cult object \u2014 for the right patient, the only device they want.",
+  "specs": [
+    {
+      "label": "Heating",
+      "value": "Butane torch (separate)"
+    },
+    {
+      "label": "Material",
+      "value": "Titanium tip, hardwood body"
+    },
+    {
+      "label": "Battery",
+      "value": "None"
+    },
+    {
+      "label": "Maintenance",
+      "value": "User-serviceable"
+    }
+  ],
+  "featured": true,
+  "tags": [
+    "pen",
+    "no-battery",
+    "cult-favourite"
+  ],
+  "order": 13
+}

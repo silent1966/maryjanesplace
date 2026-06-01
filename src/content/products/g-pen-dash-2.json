@@ -1,0 +1,29 @@
+{
+  "slug": "g-pen-dash-2",
+  "name": "G Pen Dash 2",
+  "brand": "G Pen",
+  "category": "portable-vapes",
+  "price": 89.95,
+  "image": "/products/placeholder.svg",
+  "summary": "G Pen's most popular pocket portable, refreshed for 2026.",
+  "description": "The Dash 2 is G Pen's all-rounder. Compact, fast heat-up, easy operation. Lower price point than the premium brands but reliable enough for daily medicating. A solid first portable for new patients.",
+  "specs": [
+    {
+      "label": "Heating",
+      "value": "Conduction"
+    },
+    {
+      "label": "Heat-up",
+      "value": "~30 seconds"
+    },
+    {
+      "label": "Charging",
+      "value": "USB-C"
+    }
+  ],
+  "tags": [
+    "entry",
+    "compact"
+  ],
+  "order": 19
+}

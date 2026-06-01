@@ -1,0 +1,30 @@
+{
+  "slug": "arizer-go-srt",
+  "name": "Arizer Go SRT",
+  "brand": "Arizer",
+  "category": "portable-vapes",
+  "price": 199.95,
+  "image": "/products/placeholder.svg",
+  "summary": "Arizer's 2026 release. Convection-dominant SRT tech, fast heat-up, exceptional flavour.",
+  "description": "The Go SRT is Arizer's newest portable. Convection-dominant hybrid heating with Smart Response Technology gives fast heat-up and consistent vapour density. Refined airpath, refined flavour. A 2026 patient-favourite in waiting.",
+  "specs": [
+    {
+      "label": "Heating",
+      "value": "Convection-dominant hybrid SRT"
+    },
+    {
+      "label": "Heat-up time",
+      "value": "~15 seconds"
+    },
+    {
+      "label": "Released",
+      "value": "2026"
+    }
+  ],
+  "featured": true,
+  "tags": [
+    "new",
+    "convection"
+  ],
+  "order": 7
+}
