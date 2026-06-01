@@ -142,38 +142,5 @@ const canonical = new URL(Astro.url.pathname, Astro.site).toString();
       <slot />
     </main>
     <Footer />
-
-    <div id="age-gate" class="age-gate" hidden>
-      <div class="age-gate-card">
-        <div class="age-gate-eyebrow">Age verification</div>
-        <h2>This site is for adults aged 18 and over.</h2>
-        <p>Mary Jane's Place is a UK members' space and shop for prescribed medical cannabis patients. The products and information here are intended only for adults 18+. By continuing you confirm you are 18 or over.</p>
-        <div class="age-gate-actions">
-          <button class="btn" id="age-yes" type="button">I am 18 or over — continue</button>
-          <a class="btn ghost" href="https://www.nhs.uk" rel="noopener">Take me away</a>
-        </div>
-        <p class="age-gate-fine">We will remember this choice on this browser. See our <a href="/privacy">privacy policy</a> and <a href="/terms">terms</a>.</p>
-      </div>
-    </div>
-    <script>
-      (function() {
-        try {
-          var key = 'mjp-age-ok';
-          if (!sessionStorage.getItem(key) && !localStorage.getItem(key)) {
-            var g = document.getElementById('age-gate');
-            if (g) {
-              g.hidden = false;
-              document.body.style.overflow = 'hidden';
-            }
-            var btn = document.getElementById('age-yes');
-            btn && btn.addEventListener('click', function() {
-              try { localStorage.setItem(key, '1'); } catch(e) { sessionStorage.setItem(key, '1'); }
-              if (g) g.hidden = true;
-              document.body.style.overflow = '';
-            });
-          }
-        } catch(e) {}
-      })();
-    </script>
   </body>
 </html>

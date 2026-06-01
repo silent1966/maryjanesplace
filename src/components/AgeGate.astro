@@ -1,0 +1,63 @@
+---
+// Age gate — only included on shop pages where the legal need exists.
+// Script is is:inline so Astro doesn't bundle/defer it — it runs the moment it parses.
+---
+<div id="age-gate" class="age-gate" hidden>
+  <div class="age-gate-card">
+    <div class="age-gate-eyebrow">Age verification</div>
+    <h2>This shop is for adults aged 18 and over.</h2>
+    <p>Mary Jane's Place sells vaporisers and accessories intended for use with lawfully prescribed medicines in the UK. By continuing you confirm you are 18 or over.</p>
+    <div class="age-gate-actions">
+      <button class="btn" id="age-yes" type="button">I am 18 or over — continue</button>
+      <button class="btn ghost" id="age-no" type="button">Take me back</button>
+    </div>
+    <p class="age-gate-fine">We will remember this choice on this browser. See our <a href="/privacy">privacy policy</a> and <a href="/terms">terms</a>.</p>
+  </div>
+</div>
+<script is:inline>
+  (function() {
+    function ageGateInit() {
+      try {
+        var key = 'mjp-age-ok';
+        var ok = false;
+        try { ok = !!(localStorage.getItem(key) || sessionStorage.getItem(key)); } catch (e) {}
+        if (ok) return;
+
+        var g = document.getElementById('age-gate');
+        if (!g) return;
+        g.hidden = false;
+        document.documentElement.style.overflow = 'hidden';
+        document.body.style.overflow = 'hidden';
+
+        var yes = document.getElementById('age-yes');
+        var no = document.getElementById('age-no');
+
+        function dismiss() {
+          try { localStorage.setItem(key, '1'); }
+          catch (e) { try { sessionStorage.setItem(key, '1'); } catch (e2) {} }
+          g.hidden = true;
+          document.documentElement.style.overflow = '';
+          document.body.style.overflow = '';
+        }
+
+        function leave() {
+          // Sensible exit: go back if we have history, otherwise neutral fallback
+          if (window.history.length > 1) {
+            window.history.back();
+          } else {
+            window.location.href = 'https://www.google.com';
+          }
+        }
+
+        if (yes) yes.addEventListener('click', dismiss);
+        if (no) no.addEventListener('click', leave);
+      } catch (e) {}
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', ageGateInit);
+    } else {
+      ageGateInit();
+    }
+  })();
+</script>
