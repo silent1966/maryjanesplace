@@ -1,0 +1,159 @@
+---
+import Base from "../layouts/Base.astro";
+import site from "../content/site/settings.json";
+---
+
+<Base
+  title="The Vaping Lounge — Mary Jane's Place"
+  description="The private vaping lounge at Mary Jane's Place in Bournemouth. House rules, etiquette and what to bring for verified UK medical cannabis patients. Vaporiser-only, prescription required, 18+."
+>
+  <section class="ph-top pad">
+    <div class="wrap narrow">
+      <div class="eyebrow kick rv">The Vaping Lounge</div>
+      <h1 class="rv">A private room. Sensible rules. Real medicine.</h1>
+      <p class="rv lede" style="margin-top:16px">
+        The Vaping Lounge is the heart of Mary Jane's Place — a private, vapour-only members'
+        room where verified UK medical cannabis patients use their own prescribed medicine.
+        It's quiet, lawful, hygienic and adults-only. These are the house rules that keep it
+        that way.
+      </p>
+    </div>
+  </section>
+
+  <!-- Quick facts band -->
+  <section class="pad-sm" style="padding-top:0">
+    <div class="wrap">
+      <div class="band rv">
+        <div class="facts">
+          <div class="fact"><div class="big">18+</div><div class="lbl">Verified patients only</div></div>
+          <div class="fact"><div class="big">Vapour</div><div class="lbl">No combustion, no smoke, no flame</div></div>
+          <div class="fact"><div class="big">£5</div><div class="lbl">Vaporiser hire per session</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- House rules -->
+  <section class="pad-sm">
+    <div class="wrap">
+      <div class="eyebrow kick rv">House rules</div>
+      <h2 class="rv" style="margin-bottom:22px">Six rules. That's it.</h2>
+      <div class="rules">
+        <div class="rule rv">
+          <span class="rn">1</span>
+          <div>
+            <b>Verified patients only.</b>
+            <p>Photo ID and proof of prescription (dispensing label or letter dated within
+            six months) on your first visit. Once verified, you're a member — no checks
+            after that.</p>
+          </div>
+        </div>
+        <div class="rule rv">
+          <span class="rn">2</span>
+          <div>
+            <b>Vaporise. Don't smoke.</b>
+            <p>Dry-herb vaporisers only. No flames, no lighters, no rolling papers, no
+            combustion of any kind. This is the legal line, and we hold it.</p>
+          </div>
+        </div>
+        <div class="rule rv">
+          <span class="rn">3</span>
+          <div>
+            <b>Your medicine, only yours.</b>
+            <p>Use only what you've been lawfully prescribed. We don't sell, share or supply
+            cannabis. Sharing or selling on-site ends your membership immediately.</p>
+          </div>
+        </div>
+        <div class="rule rv">
+          <span class="rn">4</span>
+          <div>
+            <b>Respect the room.</b>
+            <p>No phone cameras in the lounge. Don't ask other patients about their
+            condition, prescription or dose. Keep conversation considerate of people
+            medicating for chronic pain or anxiety.</p>
+          </div>
+        </div>
+        <div class="rule rv">
+          <span class="rn">5</span>
+          <div>
+            <b>Hygiene matters.</b>
+            <p>Don't share mouthpieces or devices. Every hire device is fully serviced and
+            cleaned between members. If yours needs a clean, ask — we'll do it on the spot.</p>
+          </div>
+        </div>
+        <div class="rule rv">
+          <span class="rn">6</span>
+          <div>
+            <b>Don't drive impaired.</b>
+            <p>The lawful medical defence under the Road Traffic Act doesn't protect you if
+            you're actually impaired. Walk, taxi, train. Read
+            <a class="tlink" href="/your-rights">Your Rights</a> for the full position.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What to bring -->
+  <section class="pad-sm">
+    <div class="wrap two">
+      <div class="rv card" style="background:var(--paper);border-left:4px solid var(--olive)">
+        <div class="eyebrow">First visit</div>
+        <h3 style="margin-top:8px;margin-bottom:12px">What to bring</h3>
+        <ul class="checks">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12l5 5L20 6"/></svg><span><b>Photo ID</b> — passport, driving licence or PASS card.</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12l5 5L20 6"/></svg><span><b>Proof of prescription</b> — dispensing label on your packaging, or a prescriber letter dated within six months.</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12l5 5L20 6"/></svg><span><b>Your medicine</b> — in its original, sealed pharmacy packaging.</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12l5 5L20 6"/></svg><span><b>A vaporiser, or £5</b> — bring your own device, or hire one of ours for the session.</span></li>
+        </ul>
+      </div>
+      <div class="rv card" style="background:var(--paper);border-left:4px solid var(--olive)">
+        <div class="eyebrow">Return visits</div>
+        <h3 style="margin-top:8px;margin-bottom:12px">After verification</h3>
+        <ul class="checks">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12l5 5L20 6"/></svg><span>Just show your <b>member ID</b> at the counter. No paperwork to dig out again.</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12l5 5L20 6"/></svg><span><b>Loyalty points</b> are tracked on every visit and purchase — 1 point per £1 spent.</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12l5 5L20 6"/></svg><span><b>10% off</b> equipment and accessories for members, every visit.</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12l5 5L20 6"/></svg><span><b>Refer a friend</b> who joins and you both get £10 store credit.</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking + hire -->
+  <section class="pad-sm">
+    <div class="wrap">
+      <div class="callout rv">
+        <div>
+          <div class="eyebrow">Booking and hire</div>
+          <h3 style="margin-top:6px">Walk-in any session. Hire on arrival.</h3>
+          <p>
+            Drop in any time during opening hours — no booking required for a single
+            session. Saturday evenings and members' events fill up, so pre-booking is
+            recommended for those. Vaporiser hire is £5 a session, and devices include a
+            <a class="tlink" href="/hire">Mighty+, Tinymight 2, Arizer Solo III or DynaVap</a>
+            (subject to availability), each fully serviced and cleaned between members.
+          </p>
+        </div>
+        <a class="btn" href="/visit#contact">Plan your first visit <span class="arr">→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Closing -->
+  <section class="pad-sm">
+    <div class="wrap narrow center">
+      <div class="eyebrow kick rv">In short</div>
+      <h2 class="rv">A calm room. Real patients. Lawful medicine.</h2>
+      <p class="rv" style="margin-top:14px;max-width:62ch;margin-left:auto;margin-right:auto">
+        Mary Jane's Place is the room patients have wanted for years —
+        somewhere lawful, dignified and unbothered, run by people who get it.
+        The rules above are what make that possible.
+      </p>
+      <div class="rv" style="margin-top:22px;display:flex;gap:12px;flex-wrap:wrap;justify-content:center">
+        <a class="btn" href="/membership">Become a member <span class="arr">→</span></a>
+        <a class="btn ghost" href="/visit">Visit info</a>
+      </div>
+    </div>
+  </section>
+</Base>
