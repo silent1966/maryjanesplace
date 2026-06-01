@@ -1,6 +1,5 @@
 ---
 import Base from "../../layouts/Base.astro";
-import AgeGate from "../../components/AgeGate.astro";
 import { getCollection, type CollectionEntry } from "astro:content";
 import site from "../../content/site/settings.json";
 
@@ -47,7 +46,6 @@ const catLabel = {
   title={`${p.name} — ${p.brand} · Mary Jane's Place`}
   description={`${p.summary} Buy from Mary Jane's Place — UK delivery, 30-day returns, secure payment.`}
 >
-  <AgeGate />
   <section class="pad-sm" style="padding-top:120px">
     <div class="wrap">
       <nav class="crumbs rv" aria-label="Breadcrumb">
