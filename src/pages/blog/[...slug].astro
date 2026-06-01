@@ -1,0 +1,165 @@
+---
+import Base from "../../layouts/Base.astro";
+import { getCollection, type CollectionEntry } from "astro:content";
+
+export async function getStaticPaths() {
+  const all = await getCollection("posts");
+  const posts = all
+    .filter((p) => !p.data.draft)
+    .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+  return posts.map((post, i) => ({
+    params: { slug: post.slug },
+    props: { post, prev: posts[i + 1], next: posts[i - 1] },
+  }));
+}
+
+interface Props {
+  post: CollectionEntry<"posts">;
+  prev?: CollectionEntry<"posts">;
+  next?: CollectionEntry<"posts">;
+}
+
+const { post, prev, next } = Astro.props;
+const { Content } = await post.render();
+const dateStr = post.data.date.toLocaleDateString("en-GB", {
+  day: "numeric",
+  month: "long",
+  year: "numeric",
+});
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": post.data.title,
+  "datePublished": post.data.date.toISOString(),
+  "author": { "@type": "Organization", "name": "Mary Jane's Place" },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Mary Jane's Place",
+    "logo": { "@type": "ImageObject", "url": "https://maryjanesplace.co.uk/logo.png" },
+  },
+  "mainEntityOfPage": { "@type": "WebPage", "@id": `https://maryjanesplace.co.uk/blog/${post.slug}` },
+  "description": post.data.summary || "",
+};
+---
+
+<Base
+  title={`${post.data.title} — Mary Jane's Place`}
+  description={post.data.summary || `${post.data.title} — written for UK medical cannabis patients by Mary Jane's Place.`}
+>
+  <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+
+  <article>
+    <section class="ph-top pad">
+      <div class="wrap narrow">
+        <div class="eyebrow kick rv">
+          <a href="/blog" class="tlink" style="border:0;color:var(--olive);font-weight:700">← All posts</a>
+        </div>
+        <h1 class="rv" style="margin-top:14px">{post.data.title}</h1>
+        <div class="rv" style="margin-top:18px;font-size:13.5px;color:var(--ink-soft);font-weight:600">
+          Published {dateStr} · Mary Jane's Place editorial
+        </div>
+        {post.data.summary && (
+          <p class="rv lede" style="margin-top:18px">{post.data.summary}</p>
+        )}
+      </div>
+    </section>
+
+    <section class="pad-sm" style="padding-top:0">
+      <div class="wrap narrow">
+        <div class="prose rv">
+          <Content />
+        </div>
+      </div>
+    </section>
+  </article>
+
+  <section class="pad-sm">
+    <div class="wrap narrow">
+      <div class="nav-posts rv">
+        {prev ? (
+          <a class="nav-post" href={`/blog/${prev.slug}`}>
+            <span class="dir">← Previous</span>
+            <b>{prev.data.title}</b>
+          </a>
+        ) : <div></div>}
+        {next ? (
+          <a class="nav-post nav-post--right" href={`/blog/${next.slug}`}>
+            <span class="dir">Next →</span>
+            <b>{next.data.title}</b>
+          </a>
+        ) : <div></div>}
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .prose { color: var(--ink-soft); font-size: 17px; line-height: 1.78; max-width: 70ch; }
+  .prose h2 {
+    font-size: 24px;
+    color: var(--olive-d);
+    margin: 38px 0 12px;
+    line-height: 1.25;
+  }
+  .prose h3 {
+    font-size: 19px;
+    color: var(--olive-d);
+    margin: 28px 0 8px;
+  }
+  .prose p { margin-bottom: 16px; }
+  .prose ul, .prose ol { margin: 0 0 18px 22px; }
+  .prose li { margin-bottom: 8px; }
+  .prose a { color: var(--olive-d); border-bottom: 2px solid var(--sage); font-weight: 600; }
+  .prose a:hover { border-color: var(--olive); }
+  .prose strong, .prose b { color: var(--ink); font-weight: 800; }
+  .prose blockquote {
+    border-left: 4px solid var(--olive);
+    background: var(--panel);
+    padding: 16px 22px;
+    border-radius: 0 8px 8px 0;
+    margin: 22px 0;
+    font-size: 16px;
+    color: var(--ink);
+  }
+  .prose code {
+    background: var(--sand);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.92em;
+  }
+
+  .nav-posts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+    padding-top: 30px;
+    border-top: 1px solid var(--line);
+  }
+  .nav-post {
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: var(--r);
+    padding: 18px 22px;
+    box-shadow: var(--shadow-sm);
+    transition: 0.25s;
+    cursor: pointer;
+  }
+  .nav-post:hover { border-color: var(--sage); box-shadow: var(--shadow); }
+  .nav-post--right { text-align: right; }
+  .nav-post .dir {
+    display: block;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--olive);
+    margin-bottom: 6px;
+  }
+  .nav-post b { font-size: 15.5px; color: var(--olive-d); }
+
+  @media (max-width: 680px) {
+    .nav-posts { grid-template-columns: 1fr; }
+    .nav-post--right { text-align: left; }
+  }
+</style>

@@ -1,0 +1,92 @@
+---
+import Base from "../layouts/Base.astro";
+import { getCollection } from "astro:content";
+
+const all = await getCollection("products");
+const products = all
+  .filter((p) => p.data.available)
+  .sort((a, b) => a.data.order - b.data.order);
+---
+
+<Base
+  title="Shop — Mary Jane's Place"
+  description="Dry-herb vaporisers and accessories for prescribed UK medical cannabis patients. Buy what you've tried, get it serviced, trade it in when you're ready to upgrade."
+>
+  <section class="ph-top pad">
+    <div class="wrap narrow">
+      <div class="eyebrow kick rv">Shop</div>
+      <h1 class="rv">Equipment for patients.</h1>
+      <p class="rv lede" style="margin-top:16px">
+        Dry-herb vaporisers and accessories for use with lawfully prescribed medicine.
+        Want to try first? You can <a class="tlink" href="/hire">hire any of these for £5 a session</a>
+        before buying — so you only spend money on the device that actually suits you.
+      </p>
+    </div>
+  </section>
+
+  <section class="pad-sm" style="padding-top:0">
+    <div class="wrap">
+      <div class="rv">
+        <div class="eyebrow kick">Buy</div>
+        <h2 style="margin-bottom:18px">Curated devices, fairly priced.</h2>
+      </div>
+      <div class="prods">
+        {products.map((p) => (
+          <div class="prod rv">
+            <div class="ph">
+              <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.2">
+                <rect x="22" y="12" width="20" height="38" rx="6"/>
+                <path d="M28 50v6h8v-6M32 6v6M27 22h10M27 30h10"/>
+              </svg>
+            </div>
+            <div class="body">
+              <div class="cat">{p.data.category}</div>
+              <h3>{p.data.name}</h3>
+              <p>{p.data.description}</p>
+              {p.data.priceFrom && <div class="pr">{p.data.priceFrom}</div>}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="pad-sm">
+    <div class="wrap">
+      <div class="rv">
+        <div class="eyebrow kick">Repair, clean &amp; trade-in</div>
+        <h2 style="margin-bottom:18px">Keep your device working for years.</h2>
+      </div>
+      <div class="three">
+        <div class="step rv">
+          <div class="n">SERVICE 1</div>
+          <h3>Hygiene clean</h3>
+          <p>Full strip-down, ultrasonic clean and rebuild of your dry-herb vape — for medication safety and longer device life. Drop it off any session.</p>
+        </div>
+        <div class="step rv">
+          <div class="n">SERVICE 2</div>
+          <h3>Repair &amp; parts</h3>
+          <p>Most vape issues are fixable. We carry parts for the popular UK patient devices and can post off to specialists when needed.</p>
+        </div>
+        <div class="step rv">
+          <div class="n">SERVICE 3</div>
+          <h3>Trade-in &amp; upgrade</h3>
+          <p>Outgrown your first device? Trade in toward a new one. Old devices are refurbished and offered to patients who couldn't otherwise afford one.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pad-sm" style="padding-top:0">
+    <div class="wrap">
+      <div class="disc rv">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16h.01"/></svg>
+        <div>
+          Equipment shown is illustrative — final prices and models will be set in store. All
+          equipment is sold for use with lawfully prescribed medicine by patients aged 18+. We
+          do not sell cannabis or any controlled substance.
+        </div>
+      </div>
+    </div>
+  </section>
+</Base>

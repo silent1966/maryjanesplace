@@ -1,0 +1,89 @@
+---
+import Base from "../../layouts/Base.astro";
+import { getCollection } from "astro:content";
+
+const all = await getCollection("posts");
+const posts = all
+  .filter((p) => !p.data.draft)
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+
+function fmt(d: Date) {
+  return d.toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" });
+}
+---
+
+<Base
+  title="Blog & Patient News — Mary Jane's Place"
+  description="Guides, news and patient-first writing on UK medical cannabis. The law, the clinics, the equipment, the experience — updated regularly by Mary Jane's Place."
+>
+  <section class="ph-top pad">
+    <div class="wrap narrow">
+      <div class="eyebrow kick rv">Blog &amp; patient news</div>
+      <h1 class="rv">Written for patients, by patients.</h1>
+      <p class="rv lede" style="margin-top:16px">
+        Guides, news and how-tos on UK medical cannabis — the clinics, the law, the
+        equipment, and the lived experience of being a prescribed patient in 2026.
+      </p>
+    </div>
+  </section>
+
+  <section class="pad-sm" style="padding-top:0">
+    <div class="wrap">
+      {posts.length === 0 ? (
+        <p class="rv">No posts yet — check back soon.</p>
+      ) : (
+        <div class="posts">
+          {posts.map((p) => (
+            <a class="post-card rv" href={`/blog/${p.slug}`}>
+              <div class="post-date">{fmt(p.data.date)}</div>
+              <h2>{p.data.title}</h2>
+              {p.data.summary && <p>{p.data.summary}</p>}
+              <span class="go">Read more →</span>
+            </a>
+          ))}
+        </div>
+      )}
+    </div>
+  </section>
+</Base>
+
+<style>
+  .posts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+  }
+  .post-card {
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: var(--r);
+    padding: 28px;
+    box-shadow: var(--shadow-sm);
+    cursor: pointer;
+    transition: 0.25s;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .post-card:hover {
+    border-color: var(--sage);
+    box-shadow: var(--shadow);
+    transform: translateY(-3px);
+  }
+  .post-date {
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--olive);
+  }
+  .post-card h2 { font-size: 21px; line-height: 1.25; margin: 0; }
+  .post-card p { font-size: 15px; color: var(--ink-soft); margin: 0; }
+  .post-card .go {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--olive);
+    margin-top: 8px;
+  }
+  @media (max-width: 980px) { .posts { grid-template-columns: 1fr; } }
+</style>

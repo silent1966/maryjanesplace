@@ -1,0 +1,117 @@
+---
+import Base from "../layouts/Base.astro";
+import site from "../content/site/settings.json";
+---
+
+<Base
+  title="Partnerships — Mary Jane's Place"
+  description="Mary Jane's Place is the UK's first patient sanctuary network. We partner with clinics, advocacy bodies, equipment makers, hospitality operators, media and future-sanctuary founders to advance medical cannabis access and dignity for patients."
+>
+  <section class="ph-top pad">
+    <div class="wrap narrow">
+      <div class="eyebrow kick rv">Partnerships</div>
+      <h1 class="rv">Let's build the patient side of UK medical cannabis — together.</h1>
+      <p class="rv lede" style="margin-top:16px">
+        The clinics prescribe. The pharmacies dispense. The advocacy bodies campaign.
+        We're the missing piece — a real, physical space where patients actually use
+        their medicine. If you operate in this ecosystem, we want to work with you.
+      </p>
+    </div>
+  </section>
+
+  <section class="pad-sm" style="padding-top:0">
+    <div class="wrap two vc">
+      <div class="rv">
+        <div class="eyebrow kick">Why partner</div>
+        <h2 style="font-size:24px;margin-bottom:11px">A new channel into 150,000+ UK patients.</h2>
+        <p style="margin-bottom:13px">
+          Patient-led, lawfully operated, education-first — Mary Jane's Place is the
+          high-trust environment your work deserves. Our members are prescribed adults
+          actively engaged with their medicine: a hard audience to reach anywhere else.
+        </p>
+        <p>
+          We won't host anything we can't stand behind. Every partnership is reviewed
+          for clinical accuracy, patient benefit and lawful conduct before we go public with it.
+        </p>
+      </div>
+      <div class="rv card">
+        <h3 style="margin-bottom:12px">What we offer partners</h3>
+        <ul class="checks">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12l5 5L20 6"/></svg><span><b>A real, recognised venue.</b> Co-host clinic days, advocacy meet-ups, product demos, journalist sit-downs and education evenings.</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12l5 5L20 6"/></svg><span><b>An engaged, verified audience.</b> Newsletter placements, in-sanctuary events, blog contributions, social amplification.</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12l5 5L20 6"/></svg><span><b>A national platform in development.</b> Be part of every Mary Jane's Place sanctuary as we open them.</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12l5 5L20 6"/></svg><span><b>Lawful, transparent operations.</b> NPCC-aligned policies, public-facing rules, professional record-keeping.</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="pad-sm">
+    <div class="wrap">
+      <div class="eyebrow kick rv">Who we partner with</div>
+      <h2 class="rv" style="margin-bottom:22px">Six lanes of partnership.</h2>
+      <div class="partners">
+        {site.partnerCategories.map((p) => (
+          <div class="partner rv">
+            <h3 set:html={p.title}></h3>
+            <p>{p.blurb}</p>
+            <div class="partner-int">
+              <div class="eyebrow" style="margin-bottom:5px">We're interested in</div>
+              <p set:html={p.interestedIn}></p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="pad-sm">
+    <div class="wrap">
+      <div class="card rv" style="background:var(--olive-d);color:#fff;border:none;padding:42px 38px;text-align:center">
+        <div class="eyebrow" style="color:var(--sage-soft)">A note on the ecosystem we love</div>
+        <h2 style="color:#fff;margin:12px 0 14px">We stand alongside, not against, the work already underway.</h2>
+        <p style="color:rgba(255,255,255,.85);max-width:62ch;margin:0 auto 24px">
+          We have huge respect for United Patients Alliance, PLEA, Drug Science, Cancard,
+          the Cannabis Industry Council, and every clinician and operator who has fought
+          for prescribed-patient access since 2018. Mary Jane's Place is one more brick in
+          a wall many people have built. If you're working in this space, please get in touch.
+        </p>
+        <a class="btn" href="/visit#contact" style="background:#fff;color:var(--olive-d);border-color:#fff">Start a partnership conversation <span class="arr">→</span></a>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .partners {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+  }
+  .partner {
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: var(--r);
+    padding: 26px;
+    box-shadow: var(--shadow-sm);
+    transition: 0.25s;
+    display: flex;
+    flex-direction: column;
+  }
+  .partner:hover {
+    border-color: var(--sage);
+    box-shadow: var(--shadow);
+    transform: translateY(-3px);
+  }
+  .partner h3 { font-size: 19px; margin-bottom: 9px; }
+  .partner p { font-size: 15px; }
+  .partner-int {
+    margin-top: 18px;
+    padding-top: 16px;
+    border-top: 1px dashed var(--line);
+  }
+  .partner-int p { font-size: 13.5px; color: var(--ink-soft); }
+
+  @media (max-width: 980px) { .partners { grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 680px) { .partners { grid-template-columns: 1fr; } }
+</style>

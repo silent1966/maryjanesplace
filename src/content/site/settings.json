@@ -1,0 +1,133 @@
+{
+  "brand": {
+    "name": "Mary Jane's Place",
+    "tagline": "Britain's first patient sanctuary for prescribed medical cannabis",
+    "shortTagline": "Medicinal Cannabis · Bournemouth",
+    "location": "Bournemouth",
+    "national": "A nationwide network in the making — flagship sanctuary in Bournemouth, England."
+  },
+  "contact": {
+    "address": {
+      "line1": "7 Stafford Rd",
+      "city": "Bournemouth",
+      "postcode": "BH1 1JH",
+      "country": "United Kingdom",
+      "lat": 50.722711,
+      "lng": -1.8685807
+    },
+    "phone": "07922 431038",
+    "phoneIntl": "+447922431038",
+    "email": "hello@maryjanesplace.co.uk",
+    "googleMapsUrl": "https://maps.app.goo.gl/523QHBCksUqdyxfa9"
+  },
+  "social": {
+    "instagram": "https://www.instagram.com/maryjanesplaceuk",
+    "facebook": "https://www.facebook.com/people/MARY-JANES-PLACE/61583657375085/",
+    "googleMaps": "https://maps.app.goo.gl/523QHBCksUqdyxfa9"
+  },
+  "hours": [
+    { "day": "Mon", "sessions": "8:30am–2:30pm · 5:30–8:30pm" },
+    { "day": "Tue", "sessions": "Closed", "closed": true },
+    { "day": "Wed", "sessions": "8:30am–2:30pm · 5:30–8:30pm" },
+    { "day": "Thu", "sessions": "8:30am–2:30pm · 5:30–8:30pm" },
+    { "day": "Fri", "sessions": "8:30am–2:30pm · 5:30–8:30pm" },
+    { "day": "Sat", "sessions": "8:30am–2:30pm · 5:30–10:30pm" },
+    { "day": "Sun", "sessions": "8:30am–2:30pm · 5:30–8:30pm" }
+  ],
+  "facts": [
+    { "value": "150k+", "label": "UK patients prescribed medical cannabis (CQC, 2025)" },
+    { "value": "2018", "label": "Legal on prescription since November" },
+    { "value": "73%", "label": "Of the UK public support medical prescribing" }
+  ],
+  "membership": {
+    "intro": "Every verified patient is a member. The free tier covers everything you need to use the sanctuary; the paid tiers fund the wider mission.",
+    "tiers": [
+      {
+        "id": "patient",
+        "name": "Patient Member",
+        "price": "Free",
+        "frequency": "Verified once with prescription",
+        "tagline": "Everything you need to use the sanctuary, on us.",
+        "features": [
+          "Verified-patient access to the Bournemouth sanctuary",
+          "Use of demonstration vaporisers at £5 per session",
+          "Peer community and education evenings",
+          "Members-only newsletter with UK-wide patient news",
+          "Discounts on selected equipment"
+        ],
+        "cta": "Apply to join",
+        "primary": false
+      },
+      {
+        "id": "plus",
+        "name": "Patient Plus",
+        "price": "Launching soon",
+        "frequency": "Register your interest",
+        "tagline": "Priority access, partner perks and exclusive content.",
+        "features": [
+          "Everything in Patient Member",
+          "Priority booking for workshops and education evenings",
+          "Discounts on equipment and partner products",
+          "Early access to new sanctuary locations as we open them",
+          "Members-only events and patient meet-ups"
+        ],
+        "cta": "Register interest",
+        "primary": true
+      },
+      {
+        "id": "founding",
+        "name": "Founding Member",
+        "price": "Launching soon",
+        "frequency": "For our earliest supporters",
+        "tagline": "Help us build the network — and get the inner circle in return.",
+        "features": [
+          "Everything in Patient Plus",
+          "Founding-member listing in the sanctuary",
+          "Invitations to private industry and advocacy events",
+          "Direct input into our expansion plans",
+          "Personal welcome from the founder"
+        ],
+        "cta": "Reserve a Founding spot",
+        "primary": false
+      }
+    ]
+  },
+  "partnerCategories": [
+    {
+      "id": "clinics",
+      "title": "Prescribing clinics",
+      "blurb": "We refer patients who are exploring a prescription, and provide a real-world safe space for clinic patients to use what's prescribed.",
+      "interestedIn": "Co-branded patient education evenings, clinic-day pop-ups, referral pathways."
+    },
+    {
+      "id": "advocacy",
+      "title": "Advocacy and community",
+      "blurb": "We work alongside the bodies driving reform, hosting events and amplifying patient voices.",
+      "interestedIn": "Hosting UPA, PLEA, Cancard, Drug Science and Cannabis Industry Council activity in Bournemouth and beyond."
+    },
+    {
+      "id": "industry",
+      "title": "Equipment and pharma",
+      "blurb": "We let patients try real devices in a real setting — the most valuable demo space in the UK.",
+      "interestedIn": "Vaporiser brands, accessory makers, dispensaries and licensed cultivators."
+    },
+    {
+      "id": "operators",
+      "title": "Hospitality and venues",
+      "blurb": "If you run a venue and want to be patient-friendly, we'll share the operational playbook.",
+      "interestedIn": "Hotels, restaurants, members' clubs, retreats and event organisers."
+    },
+    {
+      "id": "media",
+      "title": "Media and press",
+      "blurb": "We speak openly about patient experience, the law and what it really looks like to live with a prescription.",
+      "interestedIn": "Print, broadcast, podcast and online journalists."
+    },
+    {
+      "id": "locations",
+      "title": "Future sanctuaries",
+      "blurb": "If you want to open a Mary Jane's Place in your city — talk to us.",
+      "interestedIn": "Patient advocates, operators and investors looking to open a sanctuary in their own town or city."
+    }
+  ]
+}

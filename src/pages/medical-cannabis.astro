@@ -1,0 +1,150 @@
+---
+import Base from "../layouts/Base.astro";
+---
+
+<Base
+  title="Medical Cannabis — Mary Jane's Place"
+  description="A clear, honest overview of medical cannabis in the UK: what it is, who can be prescribed it, how it is used, and the law that governs it."
+>
+  <section class="ph-top pad">
+    <div class="wrap narrow">
+      <div class="eyebrow kick rv">Medical Cannabis</div>
+      <h1 class="rv">Medical cannabis, explained.</h1>
+      <p class="rv lede" style="margin-top:16px">
+        A clear, honest overview of what medical cannabis is in the UK, who can be
+        prescribed it, and how patients use it. This is general information, not medical advice.
+      </p>
+    </div>
+  </section>
+
+  <section class="pad-sm" style="padding-top:0">
+    <div class="wrap">
+      <div class="info">
+        <div class="info-block rv">
+          <h3>What it is</h3>
+          <p>
+            Cannabis-based products for medicinal use (CBPMs) are pharmaceutical-grade
+            medicines — flower, oils or capsules — manufactured to a consistent, tested
+            standard. Since November 2018 they have been Schedule 2 controlled drugs that
+            specialist doctors can lawfully prescribe.
+            <span class="src">Misuse of Drugs (Amendments) Regulations 2018</span>
+          </p>
+        </div>
+        <div class="info-block rv">
+          <h3>Who can be prescribed it</h3>
+          <p>
+            Typically adults (18+) with a diagnosed condition who have tried at least two
+            other treatments without adequate relief. Only a GMC-registered specialist can
+            initiate a prescription — GPs cannot — and most prescriptions are private. No GP
+            referral is needed to approach a clinic.
+          </p>
+        </div>
+        <div class="info-block rv">
+          <h3>THC, CBD &amp; the endocannabinoid system</h3>
+          <p>
+            THC is the psychoactive cannabinoid that helps with pain, nausea and muscle
+            relaxation; CBD is non-psychoactive, with calming and anti-inflammatory
+            properties. Both work via the body's endocannabinoid system. Most prescriptions
+            blend the two to suit the patient.
+          </p>
+        </div>
+        <div class="info-block rv">
+          <h3>How it's taken</h3>
+          <p>
+            Patients use a dry-herb vaporiser, which gently heats the flower rather than
+            burning it, or take oils and capsules. <b style="color:var(--ink)">Smoking remains
+            prohibited even with a prescription</b> — which is exactly why a vaporiser-only
+            space like ours is appropriate and lawful.
+          </p>
+        </div>
+        <div class="info-block rv">
+          <h3>Dosing</h3>
+          <p>
+            The guiding principle is "start low, go slow." Patients titrate to the lowest
+            effective dose under their prescriber's guidance. Our team can help you
+            understand a device, but dosing decisions always sit with you and your clinician.
+          </p>
+        </div>
+        <div class="info-block rv">
+          <h3>Conditions commonly treated</h3>
+          <p>
+            There is no fixed list — a specialist may prescribe wherever the clinical
+            evidence supports it. Common areas include chronic pain, anxiety, PTSD,
+            MS-related spasticity, chemotherapy-induced nausea, and treatment-resistant
+            epilepsy.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pad-sm">
+    <div class="wrap narrow">
+      <div class="eyebrow kick rv">Common questions</div>
+      <div class="acc rv" style="margin-top:14px;border-top:1px solid var(--line)">
+        <details class="acc-item">
+          <summary>Is medical cannabis the same as street cannabis?</summary>
+          <div>
+            No. Prescribed CBPMs are manufactured to Good Manufacturing Practice (GMP)
+            standards — tested for contaminants, with consistent labelled cannabinoid
+            content and full batch traceability. Unregulated cannabis has none of these
+            safeguards.
+          </div>
+        </details>
+        <details class="acc-item">
+          <summary>How do I become a patient?</summary>
+          <div>
+            You can approach a specialist medical cannabis clinic directly, without a GP
+            referral. They will assess your eligibility and, if appropriate, a specialist
+            will prescribe. Access schemes exist for some patients on low incomes, veterans
+            and students.
+          </div>
+        </details>
+        <details class="acc-item">
+          <summary>Why vaporising and not smoking?</summary>
+          <div>
+            Smoking cannabis is prohibited by the legislation even with a prescription,
+            because the issue is combustion. A vaporiser heats the flower without burning
+            it, producing vapour rather than smoke — and falls outside the smoke-free law.
+          </div>
+        </details>
+        <details class="acc-item">
+          <summary>Do you sell or supply cannabis?</summary>
+          <div>
+            No, and we never will. We are not a dispensary. Patients bring their own
+            prescribed medicine; we provide the sanctuary, the equipment to use it, and
+            the information.
+          </div>
+        </details>
+      </div>
+      <div class="disc rv" style="margin-top:24px">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16h.01"/></svg>
+        <div>
+          This page is general information drawn from public UK sources and patient
+          organisations. It is <b>not medical advice</b>. Whether medical cannabis is right
+          for you is a decision for a qualified specialist. For your legal rights, see
+          <a class="tlink" href="/your-rights">Your Rights</a>.
+        </div>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .acc-item { border-bottom: 1px solid var(--line); }
+  .acc-item summary {
+    list-style: none; cursor: pointer; padding: 19px 2px;
+    display: flex; justify-content: space-between; gap: 16px; align-items: center;
+    font-family: var(--font); font-size: 18px; font-weight: 700; color: var(--olive-d);
+  }
+  .acc-item summary::-webkit-details-marker { display: none; }
+  .acc-item summary::after {
+    content: "+"; flex: none; width: 24px; height: 24px; border-radius: 6px;
+    border: 1.5px solid var(--line); display: grid; place-items: center;
+    transition: 0.25s; font-size: 17px; color: var(--olive); line-height: 1;
+  }
+  .acc-item[open] summary::after {
+    background: var(--olive); border-color: var(--olive); color: #fff; transform: rotate(45deg);
+  }
+  .acc-item > div { padding: 0 2px 20px; color: var(--ink-soft); font-size: 16px; max-width: 74ch; }
+</style>

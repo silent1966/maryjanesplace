@@ -1,0 +1,174 @@
+---
+import Base from "../layouts/Base.astro";
+import site from "../content/site/settings.json";
+import Hours from "../components/Hours.astro";
+
+const addr = `${site.contact.address.line1}, ${site.contact.address.city} ${site.contact.address.postcode}`;
+const mapQuery = encodeURIComponent(addr);
+const mapSrc = `https://maps.google.com/maps?q=${mapQuery}&z=16&hl=en&output=embed`;
+---
+
+<Base
+  title="Visit — Mary Jane's Place"
+  description="How to find Mary Jane's Place at 7 Stafford Rd, Bournemouth BH1 1JH. Opening hours, house rules and contact."
+>
+  <section class="ph-top pad">
+    <div class="wrap narrow">
+      <div class="eyebrow kick rv">Visit</div>
+      <h1 class="rv">Visit Mary Jane's Place.</h1>
+      <p class="rv lede" style="margin-top:16px">
+        Membership is free and there are no formal sign-up forms. To use your medicine here,
+        just bring two things — and if you'd like to settle in, buy a drink, the same as any café.
+      </p>
+    </div>
+  </section>
+
+  <section class="pad-sm" style="padding-top:0">
+    <div class="wrap">
+      <div class="band rv">
+        <div class="three" style="gap:22px">
+          <div>
+            <div class="eyebrow">Bring</div>
+            <h3 style="color:#fff;margin:8px 0 4px">Photo ID</h3>
+            <p style="color:rgba(255,255,255,.85);font-size:15px">To confirm you're 18 or over.</p>
+          </div>
+          <div>
+            <div class="eyebrow">Bring</div>
+            <h3 style="color:#fff;margin:8px 0 4px">Proof of prescription</h3>
+            <p style="color:rgba(255,255,255,.85);font-size:15px">Dispensing label or letter, dated within the last six months. Verified once at the counter.</p>
+          </div>
+          <div>
+            <div class="eyebrow">Good to know</div>
+            <h3 style="color:#fff;margin:8px 0 4px">Try the devices</h3>
+            <p style="color:rgba(255,255,255,.85);font-size:15px">Message ahead and we'll have clean demo vaporisers ready for you.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Find us / Map -->
+  <section class="pad-sm">
+    <div class="wrap">
+      <div class="eyebrow kick rv">Find us</div>
+      <h2 class="rv" style="margin-bottom:6px">In the heart of Bournemouth</h2>
+      <p class="rv" style="margin-bottom:20px">
+        <b style="color:var(--ink)">{addr}</b> — find us on the map below, or open directions and reviews on Google.
+      </p>
+      <div class="map-embed rv">
+        <iframe
+          src={mapSrc}
+          loading="lazy"
+          title={`Mary Jane's Place, ${addr}`}
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      <div class="hero-cta rv" style="margin-top:18px">
+        <a class="btn" href={site.contact.googleMapsUrl} target="_blank" rel="noopener">Open in Google Maps <span class="arr">→</span></a>
+        <a class="btn ghost" href={site.contact.googleMapsUrl} target="_blank" rel="noopener">Directions &amp; reviews</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- House rules -->
+  <section class="pad-sm">
+    <div class="wrap">
+      <div class="eyebrow kick rv">House rules</div>
+      <h2 class="rv" style="margin-bottom:22px">The rules that keep us safe &amp; lawful</h2>
+      <div class="rules rv">
+        <div class="rule"><span class="rn">1</span><p><b>Patients verified to use.</b> ID and prescription (within six months) at the counter before using your medicine. Everyone is welcome to visit and have a drink.</p></div>
+        <div class="rule"><span class="rn">2</span><p><b>Vaporisers only.</b> No smoking or open flame on the premises.</p></div>
+        <div class="rule"><span class="rn">3</span><p><b>Your own medicine only.</b> No sharing, gifting, buying or selling. We are not a dispensary.</p></div>
+        <div class="rule"><span class="rn">4</span><p><b>18 and over.</b> This is an adults-only sanctuary.</p></div>
+        <div class="rule"><span class="rn">5</span><p><b>Don't drive after using.</b> Speak to us and we'll help arrange a taxi or lift.</p></div>
+        <div class="rule"><span class="rn">6</span><p><b>Respect and discretion.</b> No judgment, no photographs of other patients. What's shared here stays here.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="pad-sm" id="contact">
+    <div class="wrap visit-grid">
+      <div class="rv">
+        <form
+          class="card"
+          name="contact"
+          method="POST"
+          data-netlify="true"
+          netlify-honeypot="bot-field"
+          action="/visit?sent=1#contact"
+        >
+          <h3 style="margin-bottom:15px">Get in touch</h3>
+          <input type="hidden" name="form-name" value="contact" />
+          <p style="display:none"><label>Don't fill this in: <input name="bot-field" /></label></p>
+          <div style="margin-bottom:15px">
+            <label style="display:block;font-size:13px;font-weight:800;margin-bottom:6px;color:var(--olive-d)">Your name</label>
+            <input required type="text" name="name" placeholder="First name is fine" style="width:100%;padding:12px 14px;border:1.5px solid var(--line);border-radius:9px;background:var(--paper);font-family:var(--font);font-size:15px;color:var(--ink)" />
+          </div>
+          <div style="margin-bottom:15px">
+            <label style="display:block;font-size:13px;font-weight:800;margin-bottom:6px;color:var(--olive-d)">Email</label>
+            <input required type="email" name="email" placeholder="you@email.com" style="width:100%;padding:12px 14px;border:1.5px solid var(--line);border-radius:9px;background:var(--paper);font-family:var(--font);font-size:15px;color:var(--ink)" />
+          </div>
+          <div style="margin-bottom:15px">
+            <label style="display:block;font-size:13px;font-weight:800;margin-bottom:6px;color:var(--olive-d)">I'm contacting you as a…</label>
+            <select name="type" style="width:100%;padding:12px 14px;border:1.5px solid var(--line);border-radius:9px;background:var(--paper);font-family:var(--font);font-size:15px;color:var(--ink)">
+              <option>Patient (planning a visit)</option>
+              <option>Someone exploring a prescription</option>
+              <option>Carer or companion</option>
+              <option>Police officer / venue / landlord</option>
+              <option>Press or media</option>
+              <option>Partner / investor</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div style="margin-bottom:15px">
+            <label style="display:block;font-size:13px;font-weight:800;margin-bottom:6px;color:var(--olive-d)">Message</label>
+            <textarea name="message" rows="3" placeholder="How can we help?" style="width:100%;padding:12px 14px;border:1.5px solid var(--line);border-radius:9px;background:var(--paper);font-family:var(--font);font-size:15px;color:var(--ink)"></textarea>
+          </div>
+          <button class="btn" type="submit" style="width:100%;justify-content:center">Send message <span class="arr">→</span></button>
+          <div style="font-size:12.5px;color:var(--sage);margin-top:10px">
+            We handle your details with care and never share them.
+            {Astro.url.searchParams.get("sent") === "1" && (
+              <span style="display:block;margin-top:6px;color:var(--olive-d);font-weight:800">Thank you — your message is on its way. We'll reply by email.</span>
+            )}
+          </div>
+        </form>
+      </div>
+      <div class="rv">
+        <div class="info-row">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22s8-7 8-12a8 8 0 10-16 0c0 5 8 12 8 12z"/><circle cx="12" cy="10" r="2.5"/></svg>
+          <div>
+            <b>Address</b>
+            <span>{addr} · <a href={site.contact.googleMapsUrl} target="_blank" rel="noopener" class="tlink">view on Google Maps</a></span>
+          </div>
+        </div>
+        <div class="info-row">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+          <div style="flex:1">
+            <b>Opening hours</b>
+            <Hours />
+          </div>
+        </div>
+        <div class="info-row">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 4h4l2 5-3 2a12 12 0 005 5l2-3 5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2z"/></svg>
+          <div><b>Phone</b><span><a href={`tel:${site.contact.phoneIntl}`} class="tlink">{site.contact.phone}</a></span></div>
+        </div>
+        <div class="info-row">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+          <div><b>Email</b><span><a href={`mailto:${site.contact.email}`} class="tlink">{site.contact.email}</a></span></div>
+        </div>
+        <div class="info-row">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/></svg>
+          <div>
+            <b>Follow us</b>
+            <span>
+              <a href={site.social.instagram} target="_blank" rel="noopener" class="tlink">Instagram @maryjanesplaceuk</a>
+              {" · "}
+              <a href={site.social.facebook} target="_blank" rel="noopener" class="tlink">Facebook</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</Base>

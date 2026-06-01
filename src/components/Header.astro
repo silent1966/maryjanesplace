@@ -1,0 +1,77 @@
+---
+const { pathname } = Astro.url;
+function active(p: string) {
+  if (p === "/" && pathname === "/") return "active";
+  if (p !== "/" && pathname.startsWith(p)) return "active";
+  return "";
+}
+---
+
+<header id="hdr">
+  <div class="nav">
+    <a class="brand" href="/" aria-label="Mary Jane's Place — home">
+      <img class="brand-logo" src="/logo.png" alt="Mary Jane's Place" width="200" height="80" />
+    </a>
+    <nav class="links" id="navlinks">
+      <a href="/" class={active("/")}>Home</a>
+      <a href="/medical-cannabis" class={active("/medical-cannabis")}>Medical Cannabis</a>
+      <a href="/your-rights" class={active("/your-rights")}>Your Rights</a>
+      <a href="/membership" class={active("/membership")}>Membership</a>
+      <a href="/shop" class={active("/shop")}>Shop</a>
+      <a href="/hire" class={active("/hire")}>Hire</a>
+      <a href="/blog" class={active("/blog")}>Blog</a>
+      <a href="/visit" class={active("/visit")}>Visit</a>
+    </nav>
+    <div class="nav-cta">
+      <a class="btn" href="/membership">Join <span class="arr">→</span></a>
+      <button class="hamb" id="hamb" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="drawer" id="drawer">
+  <a href="/">Home</a>
+  <a href="/medical-cannabis">Medical Cannabis</a>
+  <a href="/your-rights">Your Rights</a>
+  <a href="/membership">Membership</a>
+  <a href="/shop">Shop</a>
+  <a href="/hire">Hire (£5/session)</a>
+  <a href="/blog">Blog</a>
+  <a href="/about">About</a>
+  <a href="/partnerships">Partnerships</a>
+  <a href="/for-police-and-venues">For Police &amp; Venues</a>
+  <a href="/visit">Visit</a>
+</div>
+
+<script>
+  const hdr = document.getElementById('hdr');
+  const onScroll = () => hdr?.classList.toggle('scrolled', window.scrollY > 30);
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
+  const hamb = document.getElementById('hamb');
+  const drawer = document.getElementById('drawer');
+  hamb?.addEventListener('click', () => {
+    const open = drawer?.classList.toggle('open');
+    hamb.classList.toggle('open', !!open);
+    document.body.style.overflow = open ? 'hidden' : '';
+  });
+  drawer?.querySelectorAll('a').forEach((a) => {
+    a.addEventListener('click', () => {
+      drawer.classList.remove('open');
+      hamb?.classList.remove('open');
+      document.body.style.overflow = '';
+    });
+  });
+
+  const io = new IntersectionObserver(
+    (es) => es.forEach((e) => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }),
+    { threshold: 0.1, rootMargin: '0px 0px -40px 0px' }
+  );
+  document.querySelectorAll('.rv').forEach((el, i) => {
+    (el as HTMLElement).style.transitionDelay = Math.min(i * 45, 260) + 'ms';
+    io.observe(el);
+  });
+</script>

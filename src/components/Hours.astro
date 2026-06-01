@@ -1,0 +1,12 @@
+---
+import site from "../content/site/settings.json";
+---
+
+<div class="hours">
+  {site.hours.map((h) => (
+    <div>
+      <span class="d">{h.day}</span>
+      <span class={"t" + (h.closed ? " cl" : "")}>{h.sessions}</span>
+    </div>
+  ))}
+</div>
