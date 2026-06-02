@@ -1,0 +1,55 @@
+{
+  "slug": "flowermate-slick",
+  "name": "Flowermate Slick",
+  "brand": "Flowermate",
+  "category": "portable-vapes",
+  "price": 77.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Flowermate-slick-vaporizer.jpg?v=1620661889",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Flowermate-slick-vaporizer-top-on.jpg?v=1620661889",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Flowermate-slick-vaporizer-1_279e4664-0bc4-40f2-91f6-d1367976fe10.jpg?v=1620661889",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Flowermate-slick-vaporizer-size-in-hand.jpg?v=1620661889"
+  ],
+  "summary": "A conduction pen-style vaporiser for dry herb and concentrate with a glass mouthpiece and swappable battery, for patients who want one device for both.",
+  "description": "The Flowermate Slick is a slim pen-format vaporiser that takes both dry herb and concentrate via separate pods, so it covers two prescription formats in one device. A borosilicate glass vapour path keeps flavour clean, and three presets (196, 204 and 215C) are selected with a single button. The 18650 battery is removable, so you can swap in a charged cell instead of waiting. The 0.3g oven suits single-person dosing. For a UK patient who wants flexibility between herb and concentrate in a discreet pen, the Slick is a practical all-rounder. One-year warranty.",
+  "specs": [
+    {
+      "label": "Weight",
+      "value": "144g (5oz)"
+    },
+    {
+      "label": "Temperature range",
+      "value": "Button press"
+    },
+    {
+      "label": "Battery",
+      "value": "18650 2500mAh Lithium Ion Battery"
+    },
+    {
+      "label": "Chamber",
+      "value": "0.3g"
+    },
+    {
+      "label": "Material",
+      "value": "Carbon Fibre and Metal"
+    },
+    {
+      "label": "Made in",
+      "value": "China"
+    },
+    {
+      "label": "Warranty",
+      "value": "One Year Warranty"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "portable",
+    "dry-herb",
+    "flowermate"
+  ],
+  "stripeLink": "",
+  "rnSku": "6980026564777",
+  "order": 28
+}

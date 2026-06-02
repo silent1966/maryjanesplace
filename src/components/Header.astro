@@ -23,6 +23,9 @@ function active(p: string) {
       <a href="/visit" class={active("/visit")}>Visit</a>
     </nav>
     <div class="nav-cta">
+      <button class="nav-search-btn" id="nav-search-btn" aria-label="Search the shop" type="button">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+      </button>
       <a class="btn" href="/membership">Join <span class="arr">→</span></a>
       <button class="hamb" id="hamb" aria-label="Menu">
         <span></span><span></span><span></span>
@@ -31,8 +34,23 @@ function active(p: string) {
   </div>
 </header>
 
+<div class="search-overlay" id="search-overlay" role="dialog" aria-modal="true" aria-label="Search the shop">
+  <div class="search-box">
+    <form class="search-form" id="search-form" role="search" action="/shop">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+      <input type="search" name="q" id="search-overlay-input" placeholder="Search vaporisers, grinders, accessories…" autocomplete="off" aria-label="Search products" />
+      <button type="button" class="search-close" id="search-close" aria-label="Close search">✕</button>
+    </form>
+    <p class="search-hint">Press Enter to search the shop</p>
+  </div>
+</div>
+
 <div class="drawer-backdrop" id="drawer-backdrop"></div>
 <div class="drawer" id="drawer">
+  <form class="drawer-search" role="search" action="/shop">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+    <input type="search" name="q" placeholder="Search the shop…" autocomplete="off" aria-label="Search products" />
+  </form>
   <a href="/">Home</a>
   <a href="/medical-cannabis">Medical Cannabis</a>
   <a href="/your-rights">Your Rights</a>
@@ -70,7 +88,28 @@ function active(p: string) {
   });
   backdrop?.addEventListener('click', closeDrawer);
   drawer?.querySelectorAll('a').forEach((a) => a.addEventListener('click', closeDrawer));
-  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeDrawer(); });
+
+  // search overlay
+  const searchBtn = document.getElementById('nav-search-btn');
+  const overlay = document.getElementById('search-overlay');
+  const overlayInput = document.getElementById('search-overlay-input') as HTMLInputElement;
+  const searchClose = document.getElementById('search-close');
+  const openSearch = () => {
+    overlay?.classList.add('open');
+    document.body.style.overflow = 'hidden';
+    setTimeout(() => overlayInput?.focus(), 60);
+  };
+  const closeSearch = () => {
+    overlay?.classList.remove('open');
+    document.body.style.overflow = '';
+  };
+  searchBtn?.addEventListener('click', openSearch);
+  searchClose?.addEventListener('click', closeSearch);
+  overlay?.addEventListener('click', (e) => { if (e.target === overlay) closeSearch(); });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') { closeDrawer(); closeSearch(); }
+  });
 
   const io = new IntersectionObserver(
     (es) => es.forEach((e) => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }),

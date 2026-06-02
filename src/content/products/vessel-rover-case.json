@@ -1,0 +1,42 @@
+{
+  "slug": "vessel-rover-case",
+  "name": "Vessel Rover Case",
+  "brand": "Vessel",
+  "category": "accessories",
+  "price": 28.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vessel-Scout-Case-Black_ea7f08ea-28f7-4c08-babe-4774c177e100.jpg?v=1770216089",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vessel-Rover-Case-navy.jpg?v=1763755982",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vessel-Rover-Case-Charcoal.jpg?v=1763755982",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vessel-Rover-Case-Cognac.jpg?v=1763755982"
+  ],
+  "summary": "The Vessel Rover Case is a sleek, travel-ready storage solution designed to keep Vessel batteries and cartridges neatly organised and protected.",
+  "description": "The Vessel Rover Case is a sleek, travel-ready storage solution designed to keep Vessel batteries and cartridges neatly organised and protected. Built with a moulded EVA core and wrapped in premium soft-touch matte faux leather, the Rover Case offers durability, discretion, and everyday portability for your customers. The Rover Case is engineered to fit a wide range of Vessel 510-thread devices, including the Craftsman, Expedition, and Vista Edge series. It securely stores two batteries and two cartridges while providing space for small accessories. A practical part to keep your device working as it should.",
+  "specs": [
+    {
+      "label": "Dimensions",
+      "value": "7″ (L) × 3.4″ (W) × 1.5″ (D)"
+    },
+    {
+      "label": "Weight",
+      "value": "approx. 78 g / 2.75 oz"
+    },
+    {
+      "label": "Material",
+      "value": "Moulded EVA core with soft-touch matte faux leather wrap"
+    },
+    {
+      "label": "Warranty",
+      "value": "1-year limited"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "accessory",
+    "vessel"
+  ],
+  "stripeLink": "",
+  "rnSku": "15456077775222",
+  "order": 348
+}

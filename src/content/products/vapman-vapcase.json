@@ -1,0 +1,36 @@
+{
+  "slug": "vapman-vapcase",
+  "name": "Vapman VapCase",
+  "brand": "Inhale Vaporizers",
+  "category": "accessories",
+  "price": 61.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vapman-VapCase-Padauk.jpg?v=1758652568",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vapman-VapCase-inside.jpg?v=1758652568"
+  ],
+  "summary": "Handcrafted for both durability and style, this VapCase brings natural elegance to everyday use.",
+  "description": "Handcrafted for both durability and style, this VapCase brings natural elegance to everyday use. Made from high-quality wood with a rich, warm finish, the VapCase combines timeless design with reliable functionality. Its solid construction protects your Vapman and accessories from daily bumps and scratches, while the smooth finish adds a touch of sophistication to your setup. Compact yet spacious inside, the Vapman VapCase is built for portability and convenience. A practical part to keep your device working as it should.",
+  "specs": [
+    {
+      "label": "Material",
+      "value": "High-quality wood"
+    },
+    {
+      "label": "Compatibility",
+      "value": "All Vapman models"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Compact and portable"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "accessory",
+    "inhale-vaporizers"
+  ],
+  "stripeLink": "",
+  "rnSku": "15354845692278",
+  "order": 440
+}

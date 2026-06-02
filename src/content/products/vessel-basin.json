@@ -1,0 +1,37 @@
+{
+  "slug": "vessel-basin",
+  "name": "Vessel Basin",
+  "brand": "Vessel",
+  "category": "accessories",
+  "price": 27.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vessel-Basin-Black.jpg?v=1763755989",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vessel-Basin-Gold.jpg?v=1763755989",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vessel-Basin-Graphite.jpg?v=1763755989"
+  ],
+  "summary": "The Vessel Basin in Silver is a premium, travel-friendly storage container engineered from anodized aircraft-grade aluminium.",
+  "description": "The Vessel Basin in Silver is a premium, travel-friendly storage container engineered from anodized aircraft-grade aluminium. The Vessel Basin functions as a universal dry herb storage solution and integrates seamlessly into any accessory lineup. It is not a vaporiser or charging component — its sole purpose is to protect, preserve, and conceal stored contents. Its durable construction makes it a strong add-on for retail bundles, starter kits, or everyday carry accessories. A practical part to keep your device working as it should.",
+  "specs": [
+    {
+      "label": "Material",
+      "value": "Anodized aircraft-grade aluminium"
+    },
+    {
+      "label": "Weight",
+      "value": "~40 g (1.4 oz)"
+    },
+    {
+      "label": "Warranty",
+      "value": "6-month limited"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "accessory",
+    "vessel"
+  ],
+  "stripeLink": "",
+  "rnSku": "15456078135670",
+  "order": 333
+}

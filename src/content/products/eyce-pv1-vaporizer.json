@@ -1,0 +1,32 @@
+{
+  "slug": "eyce-pv1-vaporizer",
+  "name": "Eyce PV1 Vaporizer",
+  "brand": "Eyce",
+  "category": "portable-vapes",
+  "price": 102.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Eyce-PV1-Vaporizer-all-colors.jpg?v=1764851465",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Eyce-PV1-Vaporizer-black.jpg?v=1764851466",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Eyce-PV1-Vaporizer-in-use.jpg?v=1764851465",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Eyce-PV1-Vaporizer-green.jpg?v=1764851465",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Eyce-PV1-Vaporizer-pink.jpg?v=1764851465"
+  ],
+  "summary": "A rugged conduction dry-herb portable with guided heat settings and a replaceable battery, for patients who want durable, no-thinking operation.",
+  "description": "The Eyce PV1 is built to be knocked about: an anodised aluminium body with a silicone grip and a glass-coated ceramic oven. Its AutoFlow system steps through four heat presets over a five-minute cycle, so you get a balanced extraction without setting anything yourself — an LED ring shows the stage and haptics tell you when it's ready. The 0.5g chamber and removable 3000mAh battery give roughly 12-14 sessions per charge, with USB-C charging and a Stealth Mode for discretion. For a UK patient who wants a tough, guided device rather than fine manual control, the PV1 keeps things simple. One-year warranty.",
+  "specs": [
+    {
+      "label": "Temperature range",
+      "value": "350–370°F"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "portable",
+    "dry-herb",
+    "eyce"
+  ],
+  "stripeLink": "",
+  "rnSku": "15477423112566",
+  "order": 41
+}

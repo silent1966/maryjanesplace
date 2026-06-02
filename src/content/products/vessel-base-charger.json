@@ -1,0 +1,38 @@
+{
+  "slug": "vessel-base-charger",
+  "name": "Vessel Base Charger",
+  "brand": "Vessel",
+  "category": "batteries",
+  "price": 35.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vessel-Base-Charger.jpg?v=1765828718",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vessel-Base-Charger-2.jpg?v=1765828718",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vessel-Base-Charger-3.jpg?v=1765828718",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vessel-Base-Charger-4.jpg?v=1765828718"
+  ],
+  "summary": "The Vessel Base Charger in Black is a premium desktop charging stand designed to securely display and power compatible Vessel pen-style devices.",
+  "description": "The Vessel Base Charger in Black is a premium desktop charging stand designed to securely display and power compatible Vessel pen-style devices. Featuring a solid weighted base, anti-slip padding, and a contoured cradle, this charger delivers a stable and professional charging solution ideal for retail counters, offices, or home setups. This Base Charger is engineered specifically for select Vessel pen vaporisers, including the Vessel Wood, Craftsman, Style, Formula, Expedition, Canyon, and the Vista Series. It is not compatible with the Vessel Compass or Compass Rise models. Keeps your device charged and ready.",
+  "specs": [
+    {
+      "label": "Dimensions",
+      "value": "approx. 1.72″ × 1.72″ × 1.44″"
+    },
+    {
+      "label": "Weight",
+      "value": "approx. 157 g"
+    },
+    {
+      "label": "Warranty",
+      "value": "12-month limited manufacturer coverage"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "battery",
+    "vessel"
+  ],
+  "stripeLink": "",
+  "rnSku": "15502455800182",
+  "order": 495
+}

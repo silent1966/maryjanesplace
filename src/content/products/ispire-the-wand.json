@@ -1,0 +1,56 @@
+{
+  "slug": "ispire-the-wand",
+  "name": "Ispire The Wand",
+  "brand": "Ispire",
+  "category": "desktop-vapes",
+  "price": 141.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/ispire-The-Wand-e-nail_88ca8b33-a633-4f5f-9c47-548d77ba6f45.jpg?v=1707146834",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/ispire-The-Wand-in-use_5760a2e6-a9b5-4a38-81ba-84a89f7e37c1.jpg?v=1707146834",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/ispire-The-Wand-size-in-hand_3c6fcd02-1675-439e-80ad-fe93b5df7306.jpg?v=1707146834",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/ispire-The-Wand-how-it-works_c243aa18-cbab-4a0e-b2e1-d51ad2cbf0b5.jpg?v=1707146834",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/ispire-The-Wand-e-nail-included-box.jpg?v=1707146834"
+  ],
+  "summary": "A torchless induction heater for concentrate bangers and DynaVap caps, for patients who prefer flame-free dabbing.",
+  "description": "The Ispire Wand is a battery-powered induction heater that brings a borosilicate glass banger up to your chosen temperature without a butane torch. It runs across a wide manual temperature range on two replaceable 18650 batteries, and also heats DynaVap caps if you use one. For patients prescribed concentrates who want consistent, flame-free dabs, it removes the main hazard and guesswork of torch dabbing. The body is plastic and it pairs with a separate rig or DynaVap rather than working alone, so think of it as the heat source in a wider setup.",
+  "specs": [
+    {
+      "label": "Dimensions",
+      "value": "7.3 × 5.3 × 1.8 in"
+    },
+    {
+      "label": "Weight",
+      "value": "1.08 lbs"
+    },
+    {
+      "label": "Temperature range",
+      "value": "Manual"
+    },
+    {
+      "label": "Battery",
+      "value": "Two replaceable 18650 batteries."
+    },
+    {
+      "label": "Material",
+      "value": "Platic"
+    },
+    {
+      "label": "Made in",
+      "value": "China"
+    },
+    {
+      "label": "Warranty",
+      "value": "1 Year"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "desktop",
+    "dry-herb",
+    "ispire"
+  ],
+  "stripeLink": "",
+  "rnSku": "7903388827817",
+  "order": 85
+}

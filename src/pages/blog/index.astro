@@ -34,7 +34,7 @@ function fmt(d: Date) {
       ) : (
         <div class="posts">
           {posts.map((p) => (
-            <a class="post-card rv" href={`/blog/${p.slug}`}>
+            <a class="post-card rv" href={`/blog/${p.id}`}>
               <div class="post-date">{fmt(p.data.date)}</div>
               <h2>{p.data.title}</h2>
               {p.data.summary && <p>{p.data.summary}</p>}

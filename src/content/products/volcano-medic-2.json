@@ -1,0 +1,29 @@
+{
+  "slug": "volcano-medic-2",
+  "name": "VOLCANO MEDIC 2",
+  "brand": "Storz & Bickel",
+  "category": "desktop-vapes",
+  "price": 507.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/volcano_medic_2_0_1.jpg?v=1778883002",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/volcano_-medic-2-onyx_1_1.jpg?v=1778883002"
+  ],
+  "summary": "The medically certified Volcano desktop for patients who need documented, prescription-grade hardware.",
+  "description": "The Volcano Medic 2 is the Class IIa medical device version of Storz & Bickel's Volcano Hybrid, manufactured in Germany. The hardware mirrors the Hybrid closely — digital control from 40°C to 230°C, both balloon and whip delivery, app connectivity — but it carries medical device certification assessed beyond the standard for a consumer product. That certification is the reason to choose it: for patients who need certified hardware for prescription use, insurance reimbursement or clinical documentation, the Medic 2 is the appropriate choice. If you do not need the regulatory paperwork, the standard Hybrid offers the same vapour for less.",
+  "specs": [
+    {
+      "label": "Warranty",
+      "value": "2 years"
+    }
+  ],
+  "inStock": true,
+  "featured": true,
+  "tags": [
+    "desktop",
+    "dry-herb",
+    "storz-bickel"
+  ],
+  "stripeLink": "",
+  "rnSku": "15741490463094",
+  "order": 3
+}

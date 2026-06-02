@@ -1,0 +1,60 @@
+{
+  "slug": "pax-mini",
+  "name": "Pax New Mini 2",
+  "brand": "PAX",
+  "category": "portable-vapes",
+  "price": 125.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/PAX-New-Mini-Onyx.jpg?v=1769719773",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/PAX-New-Mini-Onyx-3.jpg?v=1769719773",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/PAX-New-Mini-Onyx-back.jpg?v=1769719773",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/PAX-New-Mini-Onyx-oven-lid.jpg?v=1769719773",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/PAX-mini-Onyx.jpg?v=1769719773"
+  ],
+  "summary": "A compact one-button conduction vaporiser from PAX, for patients who want simple, reliable dosing.",
+  "description": "The PAX Mini 2 strips things back to one-button operation with four intelligent heat modes that adjust automatically through the session, so there's nothing to fiddle with. Conduction heating gets it ready in about 22 seconds, and half-pack and full-pack oven lids let you match the load to how much you need. Charging is via a magnetic USB-C cable, with a 2-year warranty. It holds up to 0.25g and suits a patient who wants a pocketable, low-maintenance device without presets or apps to learn. Conduction means it's best loaded and used promptly rather than left part-finished.",
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Portable Dry Herb Vaporiser"
+    },
+    {
+      "label": "Heating",
+      "value": "Conduction"
+    },
+    {
+      "label": "Heat-up time",
+      "value": "≈ 22 seconds"
+    },
+    {
+      "label": "Battery",
+      "value": "Lithium-Ion"
+    },
+    {
+      "label": "Charging",
+      "value": "Magnetic USB-C"
+    },
+    {
+      "label": "Material",
+      "value": "Anodized AluMini 2um"
+    },
+    {
+      "label": "Made in",
+      "value": "China"
+    },
+    {
+      "label": "Warranty",
+      "value": "2 Years"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "portable",
+    "dry-herb",
+    "pax"
+  ],
+  "stripeLink": "",
+  "rnSku": "7779340419241",
+  "order": 55
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "flowermate-aura-vaporizer",
+  "name": "Flowermate Aura Vaporizer",
+  "brand": "Flowermate",
+  "category": "portable-vapes",
+  "price": 77.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/flowermate-aura-vaporizer-1_54be37f2-bb5f-4177-8ad9-14bbfbf671d4.jpg?v=1692736677",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/flowermate-aura-vaporizer-2_97b81e53-4c15-4dcc-a4a7-7f26d320f244.jpg?v=1692736677",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/flowermate-aura-vaporizer-3_1a98a524-d673-47eb-9e52-8fecdd52b31c.jpg?v=1692736677",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/flowermate-aura-vaporizer-4_49fcd787-0512-4f82-853a-e3af40c7b47c.jpg?v=1692736677",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/flowermate-aura-vaporizer-5_077eee73-de6c-436c-9de1-fcb27bdda538.jpg?v=1692736677"
+  ],
+  "summary": "A lightweight, affordable portable for dry herb, oil and concentrate, for patients who want a versatile starter device that won't cost much.",
+  "description": "The Flowermate Aura is a compact, plastic-bodied vaporiser that handles dry herb, oils and concentrates with a swappable capsule, which makes it unusually versatile for the money. A ceramic chamber and wide 40-230C range give you room to dial in your dose, with a fast 10-30 second heat-up and a battery that lasts well for the size. At well under the price of a full-size portable, it's an honest entry point. For a UK patient testing the water or wanting a cheap second device, the Aura does a lot — just accept the plastic build is a trade-off for the price. Two-year warranty.",
+  "specs": [
+    {
+      "label": "Dimensions",
+      "value": "147 mm x 28 mm x 28 mm"
+    },
+    {
+      "label": "Weight",
+      "value": "104 g"
+    },
+    {
+      "label": "Compatibility",
+      "value": "Dry Herb, Oil, Concentrates"
+    },
+    {
+      "label": "Temperature range",
+      "value": "40°-230° C"
+    },
+    {
+      "label": "Heat-up time",
+      "value": "10-30 Seconds"
+    },
+    {
+      "label": "Material",
+      "value": "Plastic"
+    },
+    {
+      "label": "Chamber",
+      "value": "Ceramic"
+    },
+    {
+      "label": "Warranty",
+      "value": "2 Years"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "portable",
+    "dry-herb",
+    "flowermate"
+  ],
+  "stripeLink": "",
+  "rnSku": "6980036198569",
+  "order": 27
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "veazy-vaporizer",
+  "name": "Veazy Vaporizer",
+  "brand": "Storz & Bickel",
+  "category": "portable-vapes",
+  "price": 236.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/storz-bickel-veazy-5-1000x1000.jpg?v=1758652553",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Veazy-Vaporizer-charging-usb-c.jpg?v=1758652552",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Veazy-Vaporizer-Dynamic-Blue.jpg?v=1758652552",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Veazy-Vaporizer-Inspiring-Orange.jpg?v=1758652552",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Veazy-Vaporizer-Charming-Pink.jpg?v=1758652552"
+  ],
+  "summary": "Storz & Bickel's most compact hybrid vaporiser, for patients who want German build in a pocket size.",
+  "description": "The Veazy is Storz & Bickel's lightest device at 134g, using a compact hybrid mini-heater that blends convection and conduction for smooth draws without combustion. Single-button operation and three preset temperatures keep it simple, with app support for finer control and a range from 40–210°C plus boost options. It heats in around 45 seconds from a ceramic-coated chamber, and comes in four finishes. It suits a patient who wants the reliability of the Mighty+ name in a far more portable, pocketable form. Three presets mean less granular control than dialled devices, with the app there if you want more.",
+  "specs": [
+    {
+      "label": "Weight",
+      "value": "134 g (0.3 lb)"
+    },
+    {
+      "label": "Temperature range",
+      "value": "40 °C – 210 °C (104 °F – 410 °F), with Boost options"
+    },
+    {
+      "label": "Heating",
+      "value": "Hybrid Mini-Heater (Convection + Conduction)"
+    },
+    {
+      "label": "Heat-up time",
+      "value": "Approx. 45 seconds (to 180 °C / 356 °F)"
+    },
+    {
+      "label": "Chamber",
+      "value": "Ceramic-coated, approx. 1.4 cm³"
+    },
+    {
+      "label": "Warranty",
+      "value": "2 years + 1 year registration extension"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "portable",
+    "dry-herb",
+    "storz-bickel"
+  ],
+  "stripeLink": "",
+  "rnSku": "15354841497974",
+  "order": 73
+}

@@ -3,28 +3,39 @@
   "name": "Arizer Go SRT",
   "brand": "Arizer",
   "category": "portable-vapes",
-  "price": 199.95,
-  "image": "/products/placeholder.svg",
-  "summary": "Arizer's 2026 release. Convection-dominant SRT tech, fast heat-up, exceptional flavour.",
-  "description": "The Go SRT is Arizer's newest portable. Convection-dominant hybrid heating with Smart Response Technology gives fast heat-up and consistent vapour density. Refined airpath, refined flavour. A 2026 patient-favourite in waiting.",
+  "price": 254.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Arizer-Go-SRT-Front.jpg?v=1773419635",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Arizer-Go-SRT-Front-2.jpg?v=1773419635",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Arizer-Go-SRT-Front-3.jpg?v=1773419635",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Arizer-Go-SRT-Vaporizer-2.jpg?v=1773419635",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Arizer-Go-SRT-Vaporizer-glass.jpg?v=1773419635"
+  ],
+  "summary": "A compact convection portable with adjustable session intensity for patients who want strong, flavourful vapour on the go.",
+  "description": "The Arizer Go SRT is a portable convection vaporiser with rapid heat-up and Arizer's V-Scale system, which lets you dial session intensity from light, flavour-led draws up to dense vapour. The glass vapour path keeps flavour pure, and a simple three-button interface with a vertical display makes one-handed use easy. A 14mm water pipe adapter is included for cooler draws through glass. It suits patients who want adjustable strength and convection performance in a pocketable, durable aluminium body. The heating element carries a lifetime warranty.",
   "specs": [
     {
+      "label": "Type",
+      "value": "Portable Vaporiser"
+    },
+    {
       "label": "Heating",
-      "value": "Convection-dominant hybrid SRT"
+      "value": "Convection Heating"
     },
     {
-      "label": "Heat-up time",
-      "value": "~15 seconds"
-    },
-    {
-      "label": "Released",
-      "value": "2026"
+      "label": "Warranty",
+      "value": "Lifetime Heating Element Warranty"
     }
   ],
+  "inStock": true,
   "featured": true,
   "tags": [
-    "new",
-    "convection"
+    "portable",
+    "convection",
+    "dry-herb",
+    "arizer"
   ],
-  "order": 7
+  "stripeLink": "",
+  "rnSku": "15650025505142",
+  "order": 9
 }

@@ -1,0 +1,56 @@
+{
+  "slug": "smono-no-3-vaporizer",
+  "name": "Smono 3 Vaporizer",
+  "brand": "Smono",
+  "category": "portable-vapes",
+  "price": 93.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Smono-no-3-included_2b091d7e-15f6-43d0-ad31-43032ae01013.jpg?v=1693246479",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Smono-no-3-vaporizer.jpg?v=1693246479",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Smono_no_3_uk.jpg?v=1693246479",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/smono_no_3_mouthpiece.jpg?v=1693246479",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/smono_no_3_included.jpg?v=1693246479"
+  ],
+  "summary": "One of the smallest convection vaporisers around, for patients who want discretion at a low price.",
+  "description": "The Smono 3 is a very compact closed-convection device that punches above its size, delivering clean vapour through a stainless steel chamber and glass mouthpiece. It handles both herbs and concentrates, with an included oil/wax chamber and adjustable temperature, heating in around 35 seconds. At roughly 8cm it's genuinely pocket-sized and discreet. It suits a patient who prioritises portability and a low price without giving up convection flavour. The plastic body keeps it light and cheap, which is the trade-off for the size and cost.",
+  "specs": [
+    {
+      "label": "Compatibility",
+      "value": "Herbs and concentrates"
+    },
+    {
+      "label": "Heating",
+      "value": "Closed Convection"
+    },
+    {
+      "label": "Temperature range",
+      "value": "Adjustable"
+    },
+    {
+      "label": "Heat-up time",
+      "value": "~35 Seconds"
+    },
+    {
+      "label": "Dimensions",
+      "value": "8.1 cm x 5 cm x 2.7 cm"
+    },
+    {
+      "label": "Weight",
+      "value": "137 g"
+    },
+    {
+      "label": "Made in",
+      "value": "China"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "portable",
+    "dry-herb",
+    "smono"
+  ],
+  "stripeLink": "",
+  "rnSku": "6980034298025",
+  "order": 36
+}

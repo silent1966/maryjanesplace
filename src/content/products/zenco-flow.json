@@ -1,0 +1,48 @@
+{
+  "slug": "zenco-flow",
+  "name": "Zenco Flow",
+  "brand": "Zenco",
+  "category": "portable-vapes",
+  "price": 209.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Zenco-flow-vaporizer-onyx.jpg?v=1692741924",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Zenco-flow-vaporizer-wood.jpg?v=1692741924"
+  ],
+  "summary": "A coil-based vaporiser with interchangeable glass for herb, concentrate and 510 carts, designed for shared use.",
+  "description": "The Zenco Flow uses instant coil heating with four temperature presets and interchangeable glass, covering dry herb, concentrates and 510 cartridges. Like the Duo, the silicone diffuser and supplied glasses detach for easy sharing, with the added 510 compatibility making it the more versatile of the pair. It manages around 12 sessions per charge over USB and weighs 320g, so it sits between social and tabletop use rather than discreet carry. A good fit for patients who use cartridges as well as flower and often medicate in company; one-year warranty.",
+  "specs": [
+    {
+      "label": "Heating",
+      "value": "Coil"
+    },
+    {
+      "label": "Battery life",
+      "value": "12 Session per charge"
+    },
+    {
+      "label": "Battery",
+      "value": "Lithium"
+    },
+    {
+      "label": "Dimensions",
+      "value": "5.63H × 3.74W × 2.2D (in) / 143H × 95W × 56D (mm)"
+    },
+    {
+      "label": "Weight",
+      "value": "320 grams"
+    },
+    {
+      "label": "Warranty",
+      "value": "1 Year"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "portable",
+    "zenco"
+  ],
+  "stripeLink": "",
+  "rnSku": "7779323084969",
+  "order": 70
+}

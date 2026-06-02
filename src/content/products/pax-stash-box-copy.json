@@ -1,0 +1,33 @@
+{
+  "slug": "pax-stash-box-copy",
+  "name": "PAX Large Stash Jar",
+  "brand": "PAX",
+  "category": "storage",
+  "price": 49.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/PAX-Large-Stash-Jar-1.jpg?v=1725388875",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/PAX-Large-Stash-Jar-open-lid.jpg?v=1725388875",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/PAX-Large-Stash-Jar-inside.jpg?v=1725388875"
+  ],
+  "summary": "This airtight Stash Jar is made of high-quality aluminium, ensuring your goods are well-protected from sunlight and stay fresh.",
+  "description": "This airtight Stash Jar is made of high-quality aluminium, ensuring your goods are well-protected from sunlight and stay fresh. It is perfectly compatible with the PAX Small Stash Jar and PAX Grinder (sold separately), making it a convenient addition to your collection. Capacity : Holds up to 1 oz of dry herb Dimensions : 5.3”L x 2.8”W x 2.6”H / 13.5 x 7.2 x 6.5 cm Keeps prescribed flower at its best for longer.",
+  "specs": [
+    {
+      "label": "Chamber",
+      "value": "Holds up to 1 oz of dry herb"
+    },
+    {
+      "label": "Dimensions",
+      "value": "5.3”L x 2.8”W x 2.6”H / 13.5 x 7.2 x 6.5 cm"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "storage",
+    "pax"
+  ],
+  "stripeLink": "",
+  "rnSku": "8257783201961",
+  "order": 151
+}

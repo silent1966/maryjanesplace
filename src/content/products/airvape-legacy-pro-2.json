@@ -1,0 +1,25 @@
+{
+  "slug": "airvape-legacy-pro-2",
+  "name": "AirVape Legacy Pro 2",
+  "brand": "AirVape",
+  "category": "portable-vapes",
+  "price": 204.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Airvape-Legacy-PRO-2.jpg?v=1775079748",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/AirVape-Legacy-Pro-2-open-inside.jpg?v=1775079748",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/AirVape-Legacy-Pro-2-size-in-hand.jpg?v=1775079748"
+  ],
+  "summary": "A hybrid-heating portable vaporiser for dry herb and concentrates with a gold-plated chamber and replaceable battery, for patients who want fast, flexible sessions.",
+  "description": "The AirVape Legacy Pro 2 combines convection and conduction heating with a gold-plated chamber and glass airpath for clean, full-flavoured vapour. It heats in under 15 seconds and gives full temperature control from 100C to 240C, so you can dial in your dose precisely. The 3200mAh battery is replaceable, and it charges over both USB-C and wirelessly. It handles dry herb and concentrates. A solid all-rounder for patients who want quick heat-up, fine temperature control and the long-term value of a user-replaceable battery.",
+  "specs": [],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "portable",
+    "dry-herb",
+    "airvape"
+  ],
+  "stripeLink": "",
+  "rnSku": "15682708275574",
+  "order": 69
+}

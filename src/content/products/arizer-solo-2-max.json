@@ -3,27 +3,50 @@
   "name": "Arizer Solo 2 Max",
   "brand": "Arizer",
   "category": "portable-vapes",
-  "price": 169.95,
-  "image": "/products/placeholder.svg",
-  "summary": "The Solo 2 redux \u2014 longer battery, refined stems, the same dependable hybrid heat.",
-  "description": "The Solo 2 Max takes the original Solo 2 and gives it a bigger battery and better stems. Same Arizer reliability, same clean flavour. A practical, dependable patient portable for daily medicating.",
+  "price": 149.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Arizer-Solo-2-Max-vaporizer-glass-stem-adapter.jpg?v=1708109878",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Arizer-Solo-2-Max-vaporizer-1.jpg?v=1708109878",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Arizer-Solo-2-Max-vaporizer-2.jpg?v=1708109878",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Arizer-Solo-2-Max-vaporizer-glass-stem.jpg?v=1708109878",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Arizer-Solo-2-Max-vaporizer-included_827d11a4-90b2-4252-b054-5402e7087fcc.jpg?v=1708109878"
+  ],
+  "summary": "A robust all-glass-path portable vaporiser for patients who want reliable all-day sessions at home or out.",
+  "description": "The Solo 2 Max is Arizer's hybrid portable vaporiser with an all-glass vapour path, an OLED screen and degree-by-degree control from 50°C to 220°C. Heat-up is around 30 seconds, and a large battery delivers consistent vapour through a full day of medicating. The long glass aroma tube cools the draw and keeps flavour clean, with a full range of attachments available. It suits patients who value durability and flavour over a slim profile. It is larger and heavier than some pocket vapes at 210g, so it favours flavour and battery life over discreet portability.",
   "specs": [
     {
-      "label": "Heating",
-      "value": "Hybrid convection-conduction"
+      "label": "Dimensions",
+      "value": "4.6cm by 3.5cm by 11.5cm"
     },
     {
-      "label": "Battery life",
-      "value": "Approx 3 hours continuous"
+      "label": "Weight",
+      "value": "210g"
     },
     {
-      "label": "Stems",
-      "value": "Glass with 14mm adapter"
+      "label": "Temperature range",
+      "value": "50-220°C"
+    },
+    {
+      "label": "Material",
+      "value": "Stainless steel"
+    },
+    {
+      "label": "Made in",
+      "value": "Canada"
+    },
+    {
+      "label": "Warranty",
+      "value": "2 years"
     }
   ],
+  "inStock": true,
+  "featured": true,
   "tags": [
-    "hybrid",
-    "value"
+    "portable",
+    "dry-herb",
+    "arizer"
   ],
-  "order": 4
+  "stripeLink": "",
+  "rnSku": "7912213348521",
+  "order": 7
 }

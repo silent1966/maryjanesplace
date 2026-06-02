@@ -1,0 +1,38 @@
+{
+  "slug": "vessel-ash",
+  "name": "Vessel Ash",
+  "brand": "Vessel",
+  "category": "accessories",
+  "price": 127.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vessel-Ash-Walnut.jpg?v=1763755991",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vessel-Ash-Walnut-parts.jpg?v=1763755991",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vessel-Ash-Walnut-3.jpg?v=1763755991",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vessel-Ash-Walnut-2.jpg?v=1763755992"
+  ],
+  "summary": "The Vessel Ash is a premium, design-forward ashtray built with a three-piece modular system.",
+  "description": "The Vessel Ash is a premium, design-forward ashtray built with a three-piece modular system. Featuring a solid concrete ash insert, real walnut wood storage tray, and matching walnut lid, it delivers a blend of modern style, durability, and practical functionality for everyday use. This elevated ashtray and storage solution is engineered to complement the full Vessel accessory lineup, including Helix, Air, Carbon, and more (sold separately). Its multi-layer structure makes it both a functional tool and a stylish addition to any setup. A practical part to keep your device working as it should.",
+  "specs": [
+    {
+      "label": "Dimensions",
+      "value": "~5.9″ (L) × 5.9″ (W) × 2.7″ (H)"
+    },
+    {
+      "label": "Weight",
+      "value": "~66.6 oz (~1.89 kg)"
+    },
+    {
+      "label": "Material",
+      "value": "Concrete ash insert + walnut wood lid and tray"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "accessory",
+    "vessel"
+  ],
+  "stripeLink": "",
+  "rnSku": "15456078233974",
+  "order": 472
+}

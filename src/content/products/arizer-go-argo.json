@@ -1,0 +1,46 @@
+{
+  "slug": "arizer-go-argo",
+  "name": "Arizer ArGo",
+  "brand": "Arizer",
+  "category": "portable-vapes",
+  "price": 112.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/arizer-argo-uk_a263b6ef-fcdc-49a1-a892-e87c8afdb4be.jpg?v=1620661923",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/arizer-argo-full-kit-uk.jpg?v=1620661923",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/arizer-argo-battery-uk.jpg?v=1620661924"
+  ],
+  "summary": "A pocket-sized hybrid vaporiser with an all-glass vapour path and full temperature control, for cost-conscious patients who want discretion.",
+  "description": "The Arizer ArGo is one of the smallest dry-herb vaporisers around, but it keeps the glass aroma tube that gives Arizer its clean, flavourful vapour. Hybrid convection and conduction heating with manual temperature control from 45C to 220C lets you set your dose by degree, and presets are there if you'd rather keep it simple. The 0.2g chamber suits microdosing and lighter sessions, and heat-up takes 30-60 seconds. Small enough to stay genuinely discreet. A good fit for patients who want Arizer flavour in a budget-friendly, pocketable device, backed by a 2-year warranty.",
+  "specs": [
+    {
+      "label": "Temperature range",
+      "value": "Manual – by degrees"
+    },
+    {
+      "label": "Heating",
+      "value": "Hybrid (convection & conduction)"
+    },
+    {
+      "label": "Material",
+      "value": "Plastic and aluminium"
+    },
+    {
+      "label": "Made in",
+      "value": "Canada"
+    },
+    {
+      "label": "Warranty",
+      "value": "2 years"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "portable",
+    "dry-herb",
+    "arizer"
+  ],
+  "stripeLink": "",
+  "rnSku": "6980035313833",
+  "order": 48
+}

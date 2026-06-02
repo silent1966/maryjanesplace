@@ -1,31 +1,39 @@
 {
   "slug": "puffco-peak-pro",
-  "name": "Puffco Peak Pro",
+  "name": "Puffco New Peak Pro",
   "brand": "Puffco",
   "category": "dab-rigs",
-  "price": 419.0,
-  "image": "/products/placeholder.svg",
-  "summary": "The reference concentrate device. App-controlled, fully serviceable, in a league of its own.",
-  "description": "The Peak Pro is what every other concentrate device gets measured against. App control, four pre-set temperatures and custom profiles, ceramic atomiser, hydraulic-style glass percolation. If you're prescribed concentrate medicine and want the best, this is it.",
+  "price": 563.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Puffco-New-Peak-Pro-Onyx-front-usb-c.jpg?v=1692736949",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Puffco-New-Peak-Pro-Onyx-side.jpg?v=1692736949",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Puffco-New-Peak-Pro-Onyx.jpg?v=1692736949",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Puffco-New-Peak-Pro-Onyx-back-button.jpg?v=1692736949",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Puffco-New-Peak-Pro-smartphone-app.jpg?v=1692736949"
+  ],
+  "summary": "A desktop-style electric dab rig for concentrate patients who medicate at home and want no torch.",
+  "description": "The Peak Pro is a battery-powered dab rig with a ceramic 3D chamber and built-in water filtration, so concentrate patients get a smooth, cooled draw without a butane torch or exposed nail. Heat-up takes around 30 seconds, with four temperature presets from 232°C to 316°C and fine control through the Puffco app. The glass mouthpiece and laser-cut perc keep flavour clean. It suits patients prescribed cannabis extracts, wax or shatter who want consistent, repeatable dosing at home. It is bulkier and pricier than a pen, so it is a home device, not a pocket one.",
   "specs": [
     {
-      "label": "Type",
-      "value": "Smart concentrate rig"
+      "label": "Dimensions",
+      "value": "7\" High and 2.75\" Base / 17.7 cm x 6.98 cm"
     },
     {
-      "label": "App control",
-      "value": "Yes (iOS/Android)"
+      "label": "Temperature range",
+      "value": "232 °C-316 °C → 450 °F - 620 °F"
     },
     {
-      "label": "Atomiser",
-      "value": "3D Chamber"
+      "label": "Made in",
+      "value": "USA"
     }
   ],
+  "inStock": true,
   "featured": true,
   "tags": [
     "concentrate",
-    "premium",
-    "smart"
+    "puffco"
   ],
-  "order": 18
+  "stripeLink": "",
+  "rnSku": "6980038820009",
+  "order": 15
 }

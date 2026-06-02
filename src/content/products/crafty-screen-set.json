@@ -1,0 +1,31 @@
+{
+  "slug": "crafty-screen-set",
+  "name": "Crafty Screen Set",
+  "brand": "Storz & Bickel",
+  "category": "accessories",
+  "price": 26.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/f4da7397dd9244762573249d6293b92e.jpg?v=1620661881",
+  "gallery": [],
+  "summary": "This set includes 6 replacement screens for the Crafty+ portable Device from Storz & Bickel.",
+  "description": "This set includes 6 replacement screens for the Crafty+ portable Device from Storz & Bickel. This trusted information is sourced from the manufacturer. A practical part to keep your device working as it should.",
+  "specs": [
+    {
+      "label": "Dimensions",
+      "value": "0.25 x 0.75 x 1.25 in."
+    },
+    {
+      "label": "Weight",
+      "value": "0.05 lbs."
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "accessory",
+    "consumable",
+    "storz-bickel"
+  ],
+  "stripeLink": "",
+  "rnSku": "6980023943337",
+  "order": 320
+}

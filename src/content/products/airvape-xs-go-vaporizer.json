@@ -1,0 +1,60 @@
+{
+  "slug": "airvape-xs-go-vaporizer",
+  "name": "AirVape XS GO",
+  "brand": "AirVape",
+  "category": "portable-vapes",
+  "price": 65.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Airvape-X-Go-vaporizer-1_5165f0fa-34c6-4307-84d0-e07b683905ef.jpg?v=1692736443",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Airvape-X-Go-size-in-hand-vape_65bb5b0a-1b5a-4e5c-9b7b-8b21d021aecf.jpg?v=1692736443",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/airvape-xs-go-included_251f2f03-1477-4d2e-9f83-2bec82b6797b.jpg?v=1692736443",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Airvape-X-Go-vaporizer_c40cab85-6ffb-419a-b89c-3088b7192e70.jpg?v=1692736443",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Airvape-X-Go-on-table_8dce313e-6452-4260-8110-b5ebf154dc24.jpg?v=1692736443"
+  ],
+  "summary": "A lightweight, affordable dry-herb vaporiser with ceramic chamber and five presets, for patients starting out or wanting a simple backup.",
+  "description": "At 57g the AirVape XS GO is about as light and pocketable as portables get. Single-button operation and five temperature presets keep it simple, hybrid heating with a ceramic chamber and ceramic vapour path gives clean flavour, and built-in tools mean less to carry. The 0.3-0.4g chamber suits everyday dosing. The ABS plastic body keeps cost and weight down rather than feeling like a high-end shell, which is the trade-off at this price. A sensible first vaporiser or simple backup, backed by a limited lifetime warranty.",
+  "specs": [
+    {
+      "label": "Dimensions",
+      "value": "9.6cm L x 2.5cm W x 3.3cm H (3.8in L x 1in W x 1.3in H)"
+    },
+    {
+      "label": "Weight",
+      "value": "2oz"
+    },
+    {
+      "label": "Temperature range",
+      "value": "Manual"
+    },
+    {
+      "label": "Battery",
+      "value": "1200mAh Battery"
+    },
+    {
+      "label": "Chamber",
+      "value": "0.3g - 0.4g"
+    },
+    {
+      "label": "Material",
+      "value": "ABS Plastic"
+    },
+    {
+      "label": "Made in",
+      "value": "China"
+    },
+    {
+      "label": "Warranty",
+      "value": "Limited Lifetime Warranty"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "portable",
+    "dry-herb",
+    "airvape"
+  ],
+  "stripeLink": "",
+  "rnSku": "6980023222441",
+  "order": 24
+}

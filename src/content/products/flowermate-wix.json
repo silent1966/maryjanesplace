@@ -1,0 +1,47 @@
+{
+  "slug": "flowermate-wix",
+  "name": "Flowermate WIX",
+  "brand": "Flowermate",
+  "category": "portable-vapes",
+  "price": 33.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Flowermate-Wix-pen.jpg?v=1736541637",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Flowermate-Wix-Vape-pen-in-use.jpg?v=1736541637",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Flowermate-Wix-pen-parts.jpg?v=1736541637",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Flowermate-Wix-Pen-Heating.jpg?v=1736541637"
+  ],
+  "summary": "A small, low-cost concentrate pen with three heat settings and a ceramic coil, for patients prescribed wax or extracts who want a basic on-the-go option.",
+  "description": "The Flowermate WIX is a concentrates-only pen built for simplicity and price. A pure ceramic heating coil offers three temperature settings, the atomiser is replaceable, and a 10-second pre-heat means it's ready almost immediately. The 510 thread and USB-C charging keep it flexible and easy to top up, and a zirconia mouthpiece keeps the draw cool. For a UK patient prescribed concentrates who wants a cheap, pocketable device for dosing on the move, the WIX does the job — the small 350mAh battery means it's best as a portable extra rather than a primary device.",
+  "specs": [
+    {
+      "label": "Chamber",
+      "value": "350mAh"
+    },
+    {
+      "label": "Temperature range",
+      "value": "Button press"
+    },
+    {
+      "label": "Material",
+      "value": "Carbon Fibre and Metal"
+    },
+    {
+      "label": "Made in",
+      "value": "China"
+    },
+    {
+      "label": "Warranty",
+      "value": "One Year Warranty"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "portable",
+    "dry-herb",
+    "flowermate"
+  ],
+  "stripeLink": "",
+  "rnSku": "15026606309750",
+  "order": 18
+}

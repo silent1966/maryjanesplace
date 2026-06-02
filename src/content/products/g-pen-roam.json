@@ -1,0 +1,39 @@
+{
+  "slug": "g-pen-roam",
+  "name": "G Pen Roam",
+  "brand": "Grenco Science",
+  "category": "portable-vapes",
+  "price": 60.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/G-pen-roam-cookies-blue.jpg?v=1692976038",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/G-pen-Roam-turned.jpg?v=1692976038",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/G-pen-Roam-vaporizer-bubbler.jpg?v=1692976038",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/G-pen-Roam-vaporizer-bubbler-size-in-hand.jpg?v=1692976038",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/G-pen-Roam-screen-side.jpg?v=1692976039"
+  ],
+  "summary": "A portable concentrate vaporiser with built-in water filtration and a swappable battery, for patients prescribed wax who want cool, filtered draws on the go.",
+  "description": "The G Pen Roam is a concentrates device built around water filtration: a borosilicate glass Hydro-Tube sits inside the body, giving genuinely cool, smooth vapour without needing a separate rig. A quartz tank and long vapour path handle the heat, with temperature adjustable from 600 to 800F in 25-degree steps for dosing control. The 1300mAh battery gives up to around 20 sessions, heats up in about 30 seconds, and is swappable for longer days. For a UK patient prescribed concentrates who wants the smoothness of water filtration in a portable, the Roam is a clever, self-contained option. One-year warranty.",
+  "specs": [
+    {
+      "label": "Material",
+      "value": "Aluminium"
+    },
+    {
+      "label": "Temperature range",
+      "value": "600°F - 800°F (25°F interval)"
+    },
+    {
+      "label": "Warranty",
+      "value": "1 year(s)"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "portable",
+    "grenco-science"
+  ],
+  "stripeLink": "",
+  "rnSku": "7779984933033",
+  "order": 22
+}

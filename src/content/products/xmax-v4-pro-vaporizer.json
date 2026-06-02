@@ -1,0 +1,60 @@
+{
+  "slug": "xmax-v4-pro-vaporizer",
+  "name": "XMAX V4 Pro Vaporizer",
+  "brand": "Topgreen",
+  "category": "portable-vapes",
+  "price": 123.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/XMax-V4-Pro-Dry-Herb-Vaporizer.jpg?v=1779392150",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/X-Max-V4-Pro-Vaporizer.jpg?v=1771970065",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/XMax-V4-Pro-Dry-Herbs-Vaporizer-Black-4_19bd38f0-03b2-4094-be2c-9babf0410a39.jpg?v=1771970065",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/XMAX-V4-Pro-size-in-hand.jpg?v=1771970065",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/XMax-V4-Pro-Dry-Herbs-Vaporizer-Black-3.jpg?v=1771970065"
+  ],
+  "summary": "A full-convection pen vaporiser for dry herb with session and on-demand modes, for patients wanting precise mid-range control.",
+  "description": "The XMAX V4 Pro uses true convection, passing hot air evenly through your herb for efficient extraction and good flavour retention. Temperature is adjustable in 1C steps from 100 to 220C on an OLED screen, with both session and on-demand modes and three airflow levels. It heats up in around 11 seconds, runs on a replaceable 18650 battery over USB-C, and includes a built-in 14mm/18mm water-pipe adapter for use with a bong. The fully isolated air path and ceramic chamber keep vapour clean. A strong choice for patients who want convection accuracy and on-demand dosing at a fair price.",
+  "specs": [
+    {
+      "label": "Temperature range",
+      "value": "100°C – 220°C"
+    },
+    {
+      "label": "Heat-up time",
+      "value": "~11 Seconds"
+    },
+    {
+      "label": "Battery",
+      "value": "18650 Replaceable"
+    },
+    {
+      "label": "Charging",
+      "value": "USB-C"
+    },
+    {
+      "label": "Vapour path",
+      "value": "3-Level Adjustable"
+    },
+    {
+      "label": "Display",
+      "value": "OLED Screen"
+    },
+    {
+      "label": "Chamber",
+      "value": "Ceramic"
+    },
+    {
+      "label": "Warranty",
+      "value": "1 Year Manufacturer Warranty"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "portable",
+    "dry-herb",
+    "topgreen"
+  ],
+  "stripeLink": "",
+  "rnSku": "15625683468662",
+  "order": 51
+}

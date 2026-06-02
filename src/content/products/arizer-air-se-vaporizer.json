@@ -1,0 +1,48 @@
+{
+  "slug": "arizer-air-se-vaporizer",
+  "name": "Arizer Air SE Vaporizer",
+  "brand": "Arizer",
+  "category": "portable-vapes",
+  "price": 93.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Arizer-Air-SE-Colours-small.jpg?v=1776283504",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Arizer-air-se-vaporizer.jpg?v=1776283504",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Arizer-air-se-vaporizer-blue-haze.jpg?v=1776283504",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Arizer-air-se-vaporizer-blue-haze-2.jpg?v=1776283504",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Arizer-air-se-vaporizer-Blue-Haze-glass.jpg?v=1776283504"
+  ],
+  "summary": "A glass-stem portable vaporiser with a swappable 18650 battery and five presets, for patients who want simple, reliable dosing on the go.",
+  "description": "The Arizer Air SE keeps things straightforward: five temperature presets, a glass aroma tube for clean flavour, and a removable 18650 battery you can swap in seconds rather than waiting to recharge. Heat-up is fast and results are consistent session to session. It can be used while charging, so it never has to be out of action. The glass stem means a little more care when carrying, but it's a big part of why the vapour tastes so clean. A dependable, no-fuss option for patients who value flavour and a serviceable battery.",
+  "specs": [
+    {
+      "label": "Dimensions",
+      "value": "Height: 7 in / 17.78 cm w/ Stem Diameter: 1.18 in / 3 cm"
+    },
+    {
+      "label": "Weight",
+      "value": "3.59 oz / 102 g w/o Stem"
+    },
+    {
+      "label": "Type",
+      "value": "Portable Vaporiser"
+    },
+    {
+      "label": "Temperature range",
+      "value": "5 Presets"
+    },
+    {
+      "label": "Fitting",
+      "value": "1.18 in / 3 cm"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "portable",
+    "dry-herb",
+    "arizer"
+  ],
+  "stripeLink": "",
+  "rnSku": "7779322658985",
+  "order": 35
+}

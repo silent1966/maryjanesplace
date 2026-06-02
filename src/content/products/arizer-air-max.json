@@ -3,27 +3,42 @@
   "name": "Arizer Air Max",
   "brand": "Arizer",
   "category": "portable-vapes",
-  "price": 179.95,
-  "image": "/products/placeholder.svg",
-  "summary": "Compact Arizer with a swappable battery and the same all-glass airpath the Solo is known for.",
-  "description": "The Air Max is the pocketable Arizer \u2014 smaller than the Solo, with the convenience of swappable 18650 batteries so you're never grounded. Glass airpath, hybrid heating, easy to clean. A genuinely portable medical option.",
+  "price": 144.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Arizer-Air-Max-vaporizer-sale.jpg?v=1692741827",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Arizer-Air-MAX-glass-tubes.jpg?v=1692741827",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Arizer-Air-MAX-glass-tube-on.jpg?v=1692741827",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Arizer-Air-MAX-glass-water-adapter.jpg?v=1692741827",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Arizer-Air-MAX-Parts-included.jpg?v=1692741827"
+  ],
+  "summary": "A pocketable dry-herb vaporiser with a swappable battery for patients who medicate away from home.",
+  "description": "The Air Max is Arizer's portable ceramic convection vaporiser with a glass vapour path for clean flavour and full temperature control from 50°C to 220°C, by single degrees or in 10-degree steps. The removable, rechargeable 26650 battery means you can carry a spare and keep going all day, with fast USB-C charging and use-while-charging. The pre-loadable glass pod system and 14mm glass connection make it flexible at home or out. It suits patients who want true all-day portability without being tied to a charger. Heat-up takes 60 to 90 seconds, slower than some rivals, but the swappable battery is the trade for it.",
   "specs": [
     {
-      "label": "Heating",
-      "value": "Hybrid"
+      "label": "Temperature range",
+      "value": "Manual – by degrees or 10 degrees"
     },
     {
-      "label": "Battery",
-      "value": "18650 (swappable)"
+      "label": "Material",
+      "value": "Anodized Aluminium"
     },
     {
-      "label": "Weight",
-      "value": "125g"
+      "label": "Made in",
+      "value": "Canada"
+    },
+    {
+      "label": "Warranty",
+      "value": "2 Years"
     }
   ],
+  "inStock": true,
+  "featured": true,
   "tags": [
-    "compact",
-    "swappable-battery"
+    "portable",
+    "dry-herb",
+    "arizer"
   ],
-  "order": 5
+  "stripeLink": "",
+  "rnSku": "7779322560681",
+  "order": 8
 }

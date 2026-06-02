@@ -1,0 +1,32 @@
+{
+  "slug": "x-max-starry-vaporizer",
+  "name": "XMAX Starry V4",
+  "brand": "Topgreen",
+  "category": "portable-vapes",
+  "price": 85.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/xmax-starry-4.0-vaporizer-colors_1.jpg?v=1732131887",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/xmax-starry-4.0-vaporizer-size-in-hand-2.jpg?v=1732131888",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/xmax-starry-4.0-vaporizer-size-in-hand.jpg?v=1732131888",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/xmax-starry-4.0-vaporizer-black.jpg?v=1732131888",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/xmax-starry-4.0-vaporizer-oven-chamber.jpg?v=1732131888"
+  ],
+  "summary": "An affordable conduction vaporiser for dry herb and concentrate, suited to patients new to vaping or on a budget.",
+  "description": "The XMAX Starry V4 is a long-running budget portable now in its fourth revision. It uses conduction heating with adjustable temperature on a full OLED display, charges over USB-C and runs on a replaceable Samsung 18650 battery, so you can carry spares for all-day use. A ceramic chamber and zirconia mouthpiece keep the vapour reasonably clean, and a concentrate pad is included for wax. A practical, low-cost starting point for patients who want a capable device without committing to a flagship price.",
+  "specs": [
+    {
+      "label": "Warranty",
+      "value": "2 years"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "portable",
+    "dry-herb",
+    "topgreen"
+  ],
+  "stripeLink": "",
+  "rnSku": "6980030595241",
+  "order": 31
+}

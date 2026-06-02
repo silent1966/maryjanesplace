@@ -1,0 +1,29 @@
+{
+  "slug": "wolkenkraft-fx-mini",
+  "name": "Wolkenkraft FX Mini",
+  "brand": "Wolkenkraft",
+  "category": "portable-vapes",
+  "price": 125.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Wolkenkraft-FX-Mini-Wood.jpg?v=1742394347",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Wolkenkraft-FX-Mini-Blue.webp?v=1742394511"
+  ],
+  "summary": "A compact German-engineered convection vaporiser for dry herb, suited to patients wanting portable precision.",
+  "description": "The Wolkenkraft FX Mini is a small convection device that heats only the air passing through your herb for clean, efficient extraction. It reaches temperature in around 30 seconds, with adjustable settings from 160 to 221C shown on a bright OLED display alongside battery and session timer. A titanium chamber and food-grade Pyrex mouthpiece keep flavour pure, and the 1600mAh battery gives roughly six to eight sessions per charge. With a concentrate capsule included it also handles wax and oil, making it a versatile, genuinely pocketable option for patients.",
+  "specs": [
+    {
+      "label": "Warranty",
+      "value": "2 years"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "portable",
+    "convection",
+    "wolkenkraft"
+  ],
+  "stripeLink": "",
+  "rnSku": "15123365101942",
+  "order": 53
+}

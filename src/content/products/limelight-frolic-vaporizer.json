@@ -1,0 +1,52 @@
+{
+  "slug": "limelight-frolic-vaporizer",
+  "name": "Limelight Frolic Vaporizer",
+  "brand": "Limelight",
+  "category": "portable-vapes",
+  "price": 382.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Limelight-Frolic-Vaporizer-2.jpg?v=1764970913",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Limelight-Frolic-Vaporizer-3.jpg?v=1764970913",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Limelight-Frolic-Vaporizer-4.jpg?v=1764970913",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Limelight-Frolic-Vaporizer-5.jpg?v=1764970913",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Limelight-Frolic-Vaporizer-6.jpg?v=1764970914"
+  ],
+  "summary": "A CNC-machined hybrid portable for patients who want serious output and a fully isolated airpath.",
+  "description": "The Frolic pairs a stainless-steel hybrid heater with a fully isolated PEEK airpath, so convection lifts the terpenes cleanly while gentle conduction from the chamber walls finishes the extraction evenly. It runs two styles: Session Mode (40–220°C) for set-and-draw, and an on-demand mode up to 240°C, controlled through a colour OLED display. Power comes from a removable 21700 5000mAh cell, so you swap rather than wait once it runs flat. The modular, serviceable build suits patients who medicate heavily and want a device they can keep running for years. At this price it sits at the top end, so it makes most sense if you vape daily and value airpath purity and repairability.",
+  "specs": [
+    {
+      "label": "Dimensions",
+      "value": "105 × 63 × 24 mm"
+    },
+    {
+      "label": "Weight",
+      "value": "~245 g (with battery)"
+    },
+    {
+      "label": "Battery",
+      "value": "Removable 21700 (5000 mAh)"
+    },
+    {
+      "label": "Charging",
+      "value": "USB-C"
+    },
+    {
+      "label": "Temperature range",
+      "value": "40–220°C (Session), 40–240°C (Demand)"
+    },
+    {
+      "label": "Display",
+      "value": "0.96\" colour OLED"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "portable",
+    "dry-herb",
+    "limelight"
+  ],
+  "stripeLink": "",
+  "rnSku": "15480451531126",
+  "order": 79
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "vessel-ridge-charger",
+  "name": "Vessel Ridge Charger",
+  "brand": "Vessel",
+  "category": "batteries",
+  "price": 39.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vessel-Ridge-Charger-1.jpg?v=1763755984",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vessel-Ridge-Charger-4.jpg?v=1763755984",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vessel-Ridge-Charger-2.jpg?v=1763755984",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vessel-Ridge-Charger-usb-c.jpg?v=1763755984"
+  ],
+  "summary": "The Vessel Ridge Charger in Black is a premium, weighted charging dock designed specifically for the Compass Series.",
+  "description": "The Vessel Ridge Charger in Black is a premium, weighted charging dock designed specifically for the Compass Series. With its sturdy base, compact profile, and modern industrial aesthetic, the Ridge provides a stable, reliable home for your device while delivering consistent charging performance. The Ridge Charger is engineered exclusively for the Vessel Compass Series. Please note that it is not compatible with the Compass Rise or other Vessel models. Keeps your device charged and ready.",
+  "specs": [
+    {
+      "label": "Dimensions",
+      "value": "~1.5″ × 1.72″ × 1.44″"
+    },
+    {
+      "label": "Weight",
+      "value": "~102 g"
+    },
+    {
+      "label": "Warranty",
+      "value": "1-year limited"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "battery",
+    "vessel"
+  ],
+  "stripeLink": "",
+  "rnSku": "15456077873526",
+  "order": 499
+}

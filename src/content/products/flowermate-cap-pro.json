@@ -1,0 +1,44 @@
+{
+  "slug": "flowermate-cap-pro",
+  "name": "Flowermate Cap Pro",
+  "brand": "Flowermate",
+  "category": "portable-vapes",
+  "price": 77.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Flowermate-cap-pro-vaporizer-Black.jpg?v=1620661946",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Flowermate-cap-pro-vaporizer.jpg?v=1620661946",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Flowermate-cap-pro-vaporizer-side-led-screen-buttons.jpg?v=1620661946",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Flowermate-cap-pro-vaporizer-parts-mouthpiece.jpg?v=1620661946",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Flowermate-cap-pro-vaporizer-size-in-hand.jpg?v=1620661946"
+  ],
+  "summary": "A compact conduction dry-herb vaporiser with full temperature control and an LED screen, for patients who want a discreet, simple everyday device.",
+  "description": "The Flowermate Cap Pro is a small, pocketable dry-herb vaporiser with a stainless steel chamber and a 20-30 second heat-up. Despite the size it gives you full temperature control from 148 to 230C on an LED screen, with a five-minute session timer and 18-20 sessions per charge. USB-C charging tops it up in about an hour. The 0.3g oven suits lighter, single-person dosing. For a UK patient who wants a discreet, easy-to-load device with proper temperature control rather than fixed presets, the Cap Pro is a sensible, affordable pick.",
+  "specs": [
+    {
+      "label": "Battery life",
+      "value": "18-20 Sessions"
+    },
+    {
+      "label": "Dimensions",
+      "value": "105mm x 24mm x 45mm [4.13in x 0.94in x 1.77in]"
+    },
+    {
+      "label": "Charging",
+      "value": "1 Hour"
+    },
+    {
+      "label": "Heat-up time",
+      "value": "20-30 seconds"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "portable",
+    "dry-herb",
+    "flowermate"
+  ],
+  "stripeLink": "",
+  "rnSku": "6980038885545",
+  "order": 26
+}

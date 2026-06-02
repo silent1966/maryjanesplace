@@ -1,0 +1,42 @@
+{
+  "slug": "smono-4-vaporizer",
+  "name": "Smono 4 Vaporizer",
+  "brand": "Smono",
+  "category": "portable-vapes",
+  "price": 85.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Smono-4-vaporizer-v1.jpg?v=1620661923",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/smono-4-in-the-box-v1.jpg?v=1620661923",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Smono-4-accessories-v1.jpg?v=1620661923"
+  ],
+  "summary": "A budget convection vaporiser for dry herb and concentrates, with eight preset temperatures.",
+  "description": "The Smono 4 uses convection heating and offers eight presets from 160°C up to 230°C, so you can step the temperature to suit flavour or density. It handles both dry herb and concentrates, has adjustable airflow, and gets 8–10 sessions from a 2300mAh battery. The full accessory kit, including cleaning tools and a USB cable, comes in the box, which is more than many cheap devices include. It suits a patient new to vaporising, or anyone wanting a reliable, inexpensive backup. At this price the build is basic, but the convection heating and preset range give it more flexibility than the cost suggests.",
+  "specs": [
+    {
+      "label": "Dimensions",
+      "value": "5.5cm x 2.6cm x 11.8cm"
+    },
+    {
+      "label": "Compatibility",
+      "value": "Dry Herb and Concentrates"
+    },
+    {
+      "label": "Battery",
+      "value": "2300mAh Battery"
+    },
+    {
+      "label": "Battery life",
+      "value": "8-10 (depending on temperature settings)"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "portable",
+    "dry-herb",
+    "smono"
+  ],
+  "stripeLink": "",
+  "rnSku": "6980035215529",
+  "order": 30
+}

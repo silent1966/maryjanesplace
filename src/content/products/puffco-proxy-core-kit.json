@@ -1,0 +1,51 @@
+{
+  "slug": "puffco-proxy-core-kit",
+  "name": "Puffco Proxy Core Kit",
+  "brand": "Puffco",
+  "category": "portable-vapes",
+  "price": 268.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Puffco-Proxy-Core-Kit-Portable-Concentrate-Vaporizer-m2.jpg?v=1773775874",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Puffco-Proxy-Core-size-in-hand.jpg?v=1773775874",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Puffco-Proxy-Core-Kit-Portable-Concentrate-Vaporizer-m1.jpg?v=1773775873",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Puffco-Proxy-Core-Kit-Portable-Concentrate-Vaporizer-m-1.jpg?v=1773775874",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Puffco-Proxy-Core-Kit-Portable-Concentrate-Vaporizer-7.jpg?v=1773775873"
+  ],
+  "summary": "The electronic core of the Proxy platform for concentrate patients building a torch-free setup.",
+  "description": "The Puffco Proxy Core Kit is the powered engine of the modular Proxy system — a compact base with a multi-directional ceramic 3D chamber that heats concentrates evenly for clean flavour. It is ready in about 25 seconds, offers four heat profiles plus custom settings via the Puffco app, and works with all Proxy glass pieces and accessories. Up to 15 sessions per charge and USB-C charging keep it portable, and three terp pearls are included to help distribute concentrate. It suits patients prescribed extracts who want a flexible, torch-free base to build around. It vaporises concentrates only, not dry herb.",
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Portable modular concentrate vaporiser"
+    },
+    {
+      "label": "Temperature range",
+      "value": "254°C – 285°C"
+    },
+    {
+      "label": "Heat-up time",
+      "value": "~25 seconds"
+    },
+    {
+      "label": "Battery life",
+      "value": "Up to 15"
+    },
+    {
+      "label": "Charging",
+      "value": "~2 hours"
+    },
+    {
+      "label": "Compatibility",
+      "value": "All Puffco Proxy glass and accessories"
+    }
+  ],
+  "inStock": true,
+  "featured": true,
+  "tags": [
+    "portable",
+    "puffco"
+  ],
+  "stripeLink": "",
+  "rnSku": "15656034468214",
+  "order": 16
+}

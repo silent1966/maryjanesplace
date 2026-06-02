@@ -1,0 +1,32 @@
+{
+  "slug": "mighty-medic",
+  "name": "MIGHTY+ MEDIC",
+  "brand": "Storz & Bickel",
+  "category": "portable-vapes",
+  "price": 335.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/mighty-plus-medic-7.jpg?v=1778876392",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/mighty_front_view_180_degree_1_1.jpg?v=1778876392",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/mighty_side_view_usb-c_1.jpg?v=1778876392",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/mighty_side_view_start_button_1.jpg?v=1778876391",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/mighty_cooling_unit_1.jpg?v=1778876392"
+  ],
+  "summary": "The medically certified Mighty+ for patients who need documented, prescription-grade portable hardware.",
+  "description": "The Mighty+ Medic is the Class IIa medical device version of Storz & Bickel's Mighty+, made in Germany to the same standard. The hardware is identical to the standard Mighty+ — hybrid convection and conduction heating, a ceramic-coated oven, SuperCharge USB-C charging and control from 40°C to 210°C — but it carries additional medical device certification. That certification is the reason to choose it: for patients who need documented hardware for insurance, prescription or clinical assurance, the Medic is the correct variant. If you do not need the paperwork, the standard Mighty+ delivers the same session for less.",
+  "specs": [
+    {
+      "label": "Warranty",
+      "value": "2 years"
+    }
+  ],
+  "inStock": true,
+  "featured": true,
+  "tags": [
+    "portable",
+    "dry-herb",
+    "storz-bickel"
+  ],
+  "stripeLink": "",
+  "rnSku": "15741420241270",
+  "order": 1
+}

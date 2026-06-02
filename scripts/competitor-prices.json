@@ -1,0 +1,226 @@
+{
+  "smono-4-pro": {
+    "min": 85,
+    "source": "smono-4-pro"
+  },
+  "smono-4-vaporizer": {
+    "min": 57.99,
+    "source": "smono-4-vaporizer"
+  },
+  "smono-5-vaporizer": {
+    "min": 114.45,
+    "source": "smono-5-vaporizer"
+  },
+  "smono-70s-vaporizer": {
+    "min": 78,
+    "source": "smono-70s-vaporizer"
+  },
+  "smono-baloo": {
+    "min": 79,
+    "source": "smono-baloo"
+  },
+  "smono-lunari": {
+    "min": 119.45,
+    "source": "smono-lunari"
+  },
+  "smono-no-3-vaporizer": {
+    "min": 75,
+    "source": "smono-no-3-vaporizer"
+  },
+  "smono-sunshine": {
+    "min": 78.5,
+    "source": "smono-sunshine"
+  },
+  "wolkenkraft-aris-ultra-copy": {
+    "min": 139,
+    "source": "wolkenkraft-aris-ultra"
+  },
+  "wolkenkraft-aris": {
+    "min": 126,
+    "source": "wolkenkraft-aris"
+  },
+  "wolkenkraft-fx-mini-ultra": {
+    "min": 109,
+    "source": "wolkenkraft-fx-mini-ultra"
+  },
+  "wolkenkraft-fx-mini": {
+    "min": 119,
+    "source": "wolkenkraft-fx-mini"
+  },
+  "wolkenkraft-live": {
+    "min": 379,
+    "source": "wolkenkraft-live"
+  },
+  "dr-dabber-ghost-2-vaporizer": {
+    "min": 129,
+    "source": "dr-dabber-ghost-2"
+  },
+  "dr-dabber-switch-2": {
+    "min": 419.45,
+    "source": "dr-dabber-switch-2"
+  },
+  "dr-dabber-switch-aln-induction-cup": {
+    "min": 99,
+    "source": "dr-dabber-switch-aln-induction-cup"
+  },
+  "dr-dabber-switch-sapphire-induction-cup": {
+    "min": 80,
+    "source": "dr-dabber-switch-sapphire-induction-cup"
+  },
+  "dr-dabber-switch-sic-induction-cup": {
+    "min": 80,
+    "source": "dr-dabber-switch-sic-induction-cup"
+  },
+  "xmax-v3-pro": {
+    "min": 99,
+    "source": "xmax-v3-pro"
+  },
+  "xmax-v4-pro-vaporizer": {
+    "min": 99,
+    "source": "xmax-v4-pro"
+  },
+  "xvape-aria": {
+    "min": 79,
+    "source": "xvape-aria"
+  },
+  "xvape-fog-pro": {
+    "min": 99,
+    "source": "xvape-fog-pro"
+  },
+  "davinci-artiq-vaporizer": {
+    "min": 49,
+    "source": "davinci-artiq"
+  },
+  "davinci-iq3": {
+    "min": 189,
+    "source": "davinci-iq3"
+  },
+  "davinci-iqc": {
+    "min": 159,
+    "source": "davinci-iqc"
+  },
+  "davinci-miqro-c-vaporizer": {
+    "min": 99,
+    "source": "davinci-miqro-c"
+  },
+  "airvape-legacy-pro-2": {
+    "min": 179,
+    "source": "airvape-legacy-pro-2"
+  },
+  "airvape-x-vaporizer": {
+    "min": 99,
+    "source": "airvape-x"
+  },
+  "auxo-calent-vaporizer": {
+    "min": 78,
+    "source": "auxo-calent"
+  },
+  "auxo-celsius-vaporizer": {
+    "min": 98,
+    "source": "auxo-celsius"
+  },
+  "auxo-cenote": {
+    "min": 148,
+    "source": "auxo-cenote"
+  },
+  "boundless-cfx": {
+    "min": 119,
+    "source": "boundless-cfx"
+  },
+  "lotus-cap": {
+    "min": 99,
+    "source": "lotus-cap"
+  },
+  "vapman-click": {
+    "min": 69,
+    "source": "vapman-click"
+  },
+  "vapman-heating-station": {
+    "min": 329,
+    "source": "vapman-heating-station"
+  },
+  "norddampf-hammah": {
+    "min": 76.5,
+    "source": "norddampf-hammah"
+  },
+  "norddampf-relict": {
+    "min": 107.1,
+    "source": "norddampf-relict"
+  },
+  "norddampf-voity": {
+    "min": 69,
+    "source": "norddampf-voity"
+  },
+  "fenix-2-max-vaporizer": {
+    "min": 149,
+    "source": "fenix-2-max"
+  },
+  "fenix-neo": {
+    "min": 139,
+    "source": "fenix-neo"
+  },
+  "zenco-duo": {
+    "min": 220,
+    "source": "zenco-duo"
+  },
+  "zenco-flow": {
+    "min": 220,
+    "source": "zenco-flow"
+  },
+  "aromed-4-0-vaporizer": {
+    "min": 399,
+    "source": "aromed-4-0"
+  },
+  "aveo-filling-capping-jig": {
+    "min": 299,
+    "source": "aveo-filling-capping-jig"
+  },
+  "eyce-pv1-vaporizer": {
+    "min": 69,
+    "source": "eyce-pv1"
+  },
+  "flowermate-v5-0s-pro-mini": {
+    "min": 79,
+    "source": "flowermate-v5-0s-pro-mini"
+  },
+  "g-pen-hyer-vaporizer": {
+    "min": 187.45,
+    "source": "g-pen-hyer"
+  },
+  "ispire-the-wand": {
+    "min": 120,
+    "source": "ispire-the-wand"
+  },
+  "limelight-frolic-vaporizer": {
+    "min": 299,
+    "source": "limelight-frolic"
+  },
+  "stundenglass-modul-vaporizer-6000mah": {
+    "min": 239,
+    "source": "stundenglass-modul-vaporizer"
+  },
+  "vessel-ash": {
+    "min": 139,
+    "source": "vessel-ash"
+  },
+  "herb-ripper-xl-4-piece-grinder": {
+    "min": 169,
+    "source": "herb-ripper-xl-4-piece"
+  },
+  "herb-ripper-standard-stainless-steel-grinder-3-piece": {
+    "min": 129,
+    "source": "herb-ripper-3-piece"
+  },
+  "herb-ripper-standard-stainless-steel-grinder-4-piece": {
+    "min": 98,
+    "source": "herb-ripper-4-piece-standard"
+  },
+  "airvape-legacy": {
+    "min": 179,
+    "source": "airvape-legacy-pro"
+  },
+  "focus-vape-pro-vaporizer": {
+    "min": 78,
+    "source": "focus-vape-pro-s"
+  }
+}

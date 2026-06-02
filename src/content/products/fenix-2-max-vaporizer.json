@@ -1,0 +1,64 @@
+{
+  "slug": "fenix-2-max-vaporizer",
+  "name": "Fenix 2 MAX Vaporizer",
+  "brand": "Weecke",
+  "category": "portable-vapes",
+  "price": 166.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/FENIX-2-MAX_Vaporizer.webp?v=1748878408",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/FENIX-2-MAX_Vaporizer-1.webp?v=1748878408",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/FENIX-2-MAX_Vaporizer-screen-led.webp?v=1748878408",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/FENIX-2-MAX_Vaporizer-2.webp?v=1748878408",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/FENIX-2-MAX_Vaporizer-screen.webp?v=1748878408"
+  ],
+  "summary": "The convection Fenix with a larger battery, USB-C and a dual OLED display, for patients who want all-day runtime and clean flavour.",
+  "description": "The Fenix 2 MAX is the upgraded version of the Fenix 2.0, keeping the AIR HEATING convection system but adding the things daily users actually ask for. The battery grows to 4800mAh — about 20% more runtime — charging moves to USB-C, and a dual OLED screen shows live temperature and a session timer. A fully insulated stainless steel air path with integrated cooling keeps draws smooth, and the magnetic mouthpiece makes cleaning easy. Temperature runs 160 to 220C with an adjustable 3-7 minute timer. For a UK patient who wants combustion-free convection flavour with modern charging and clear feedback, this is the one to pick over the 2.0.",
+  "specs": [
+    {
+      "label": "Heating",
+      "value": "AIR HEATING™ Convection"
+    },
+    {
+      "label": "Temperature range",
+      "value": "160°C – 220°C (adjustable)"
+    },
+    {
+      "label": "Heat-up time",
+      "value": "~30 seconds"
+    },
+    {
+      "label": "Vapour path",
+      "value": "Fully Isolated, Stainless Steel"
+    },
+    {
+      "label": "Battery",
+      "value": "4800 mAh Lithium-ion"
+    },
+    {
+      "label": "Charging",
+      "value": "USB-C Fast Charging"
+    },
+    {
+      "label": "Display",
+      "value": "0.96\" OLED Dual Screen"
+    },
+    {
+      "label": "Dimensions",
+      "value": "11 cm x 6 cm x 3 cm"
+    },
+    {
+      "label": "Weight",
+      "value": "Approx. 232 g"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "portable",
+    "convection",
+    "weecke"
+  ],
+  "stripeLink": "",
+  "rnSku": "15202559590774",
+  "order": 65
+}

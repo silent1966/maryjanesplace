@@ -1,0 +1,37 @@
+{
+  "slug": "lotus-hard-case",
+  "name": "Lotus Hard Case",
+  "brand": "Inhale Vaporizers",
+  "category": "cases",
+  "price": 43.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Lotus-hard-case-closed.jpg?v=1758652551",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Lotus-hard-case-open.jpg?v=1758652552",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Lotus-hard-case-open-inside.jpg?v=1758652551"
+  ],
+  "summary": "The Lotus Hard Case is a durable, travel-ready storage solution built to protect and organise your Lotus vaporiser and accessories.",
+  "description": "The Lotus Hard Case is a durable, travel-ready storage solution built to protect and organise your Lotus vaporiser and accessories. With a tough outer shell and custom-fit compartments, it keeps your essentials safe, secure, and ready for any setting. Featuring a rugged hard-shell exterior, the case shields your Lotus gear from bumps, scratches, and everyday wear. Inside, padded compartments keep your Lotus Cap, compatible pipe, and small accessories neatly in place, reducing movement during transport. Keeps your kit protected and discreet in transit.",
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Protective storage case"
+    },
+    {
+      "label": "Material",
+      "value": "Rugged hard-shell exterior with padded interior"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Approx. 15 × 10 × 6 cm"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "case",
+    "inhale-vaporizers"
+  ],
+  "stripeLink": "",
+  "rnSku": "15354841235830",
+  "order": 518
+}

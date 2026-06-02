@@ -1,0 +1,31 @@
+{
+  "slug": "dynavap-slingstash",
+  "name": "Dynavap Slingstash",
+  "brand": "DynaVap",
+  "category": "storage",
+  "price": 33.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Dynavap-Slingstash-Black-Angle.jpg?v=1698262607",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Dynavap-Slingstash-Green-Angle.jpg?v=1698262607",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Dynavap-Slingstash-Black_2fbb7cb8-b4f7-48fe-880c-90ebfb67661f.jpg?v=1698262607",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Dynavap-Slingstash-Green.jpg?v=1698262607",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Dynavap-Slingstash-Black-Off.jpg?v=1698262607"
+  ],
+  "summary": "The DynaVap SlingStash effectively stores and transports your device with its machined aluminium tubing and silicone sling.",
+  "description": "The DynaVap SlingStash effectively stores and transports your device with its machined aluminium tubing and silicone sling. Its design prevents dirt and noise, and the moulded decapper allows for easy single-handed use. The silicone cup is removable and can accommodate larger devices up to 108mm, although it is not compatible with BB6 or BB9 models - We highly recommend the The \"B\". Size: 90mm / 108mm without the storage. Keeps prescribed flower at its best for longer.",
+  "specs": [
+    {
+      "label": "Dimensions",
+      "value": "90mm / 108mm without the storage."
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "storage",
+    "dynavap"
+  ],
+  "stripeLink": "",
+  "rnSku": "7811727392937",
+  "order": 148
+}

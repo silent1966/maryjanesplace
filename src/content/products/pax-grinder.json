@@ -1,0 +1,31 @@
+{
+  "slug": "pax-grinder",
+  "name": "PAX Grinder",
+  "brand": "PAX",
+  "category": "grinders",
+  "price": 53.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/PAX-Grinder-Greenstone.jpg?v=1772558736",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/PAX-Grinder-Blue-Haze.jpg?v=1772558736",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/PAX-Grinder.jpg?v=1772558736",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/PAX-Grinder-Open.jpg?v=1772558736",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/PAX-3-Piece-Grinder.jpg?v=1772558736"
+  ],
+  "summary": "Enhance your grinding experience with the official 3-piece PAX Grinder.",
+  "description": "Enhance your grinding experience with the official 3-piece PAX Grinder. Made from durable aluminium alloy, its magnetic closure guarantees a secure seal and its ergonomic design offers a comfortable grip. This expertly crafted grinder provides a consistent, medium-coarse grind perfectly suited for joint rolling, bowl packing, and other purposes. Dimensions : 2.5\"L x 2.5\"W x 1.77\"H A small upgrade that makes every session more even.",
+  "specs": [
+    {
+      "label": "Dimensions",
+      "value": "2.5\"L x 2.5\"W x 1.77\"H"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "grinder",
+    "pax"
+  ],
+  "stripeLink": "",
+  "rnSku": "8257781301417",
+  "order": 140
+}

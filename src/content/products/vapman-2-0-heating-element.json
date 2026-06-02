@@ -1,0 +1,33 @@
+{
+  "slug": "vapman-2-0-heating-element",
+  "name": "Vapman 2.0 Heating Element",
+  "brand": "Inhale Vaporizers",
+  "category": "accessories",
+  "price": 49.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vapman-2.0-heating-element.jpg?v=1758652564",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vapman-2.0-heating-element-tools.jpg?v=1758652564",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vapman-2.0-heating-element-2.jpg?v=1758652564"
+  ],
+  "summary": "Restore peak performance to your Vapman vaporiser with the genuine Vapman 2.0 Heating Element.",
+  "description": "Restore peak performance to your Vapman vaporiser with the genuine Vapman 2.0 Heating Element. Engineered for precision and durability, this replacement part ensures smooth, efficient heating and consistently pure vapour output — exactly as the Vapman was designed to deliver. Crafted from premium high-temperature alloys and 24k gold-plated copper, the Vapman 2.0 Heating Element provides rapid heat-up and stable temperature control. Each draw remains flavorful and consistent, keeping your sessions efficient and satisfying over the long term. A practical part to keep your device working as it should.",
+  "specs": [
+    {
+      "label": "Material",
+      "value": "High-temp alloy, 24k gold-plated copper"
+    },
+    {
+      "label": "Compatibility",
+      "value": "All Vapman vaporiser models"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "accessory",
+    "inhale-vaporizers"
+  ],
+  "stripeLink": "",
+  "rnSku": "15354844610934",
+  "order": 421
+}

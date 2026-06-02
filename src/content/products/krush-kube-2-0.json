@@ -1,0 +1,39 @@
+{
+  "slug": "krush-kube-2-0",
+  "name": "KRUSH KUBE 2.0",
+  "brand": "Krush",
+  "category": "grinders",
+  "price": 47.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/krush-black-5_1.jpg?v=1779300419",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/krush-black-4_1.jpg?v=1779300419",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/krush-grey-front2_1.jpg?v=1779300420",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/krush-grey-front-open_1.jpg?v=1779300420",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/krush-grey-top-open_1.jpg?v=1779300419"
+  ],
+  "summary": "Transform your preferred dry herbs into finely shredded pieces with the Krush Kube 2.0 grinder.",
+  "description": "Transform your preferred dry herbs into finely shredded pieces with the Krush Kube 2.0 grinder. This collection of sleek 2 piece shredder grinders, featuring an ingeniously designed teeth system, is designed to produce the ideal particle size for effortless rolling and smoking enjoyment. The Kube 2.0 features anodized aluminium and a square shape, allowing for a secure grip and smooth operation. Its sturdy weight and high-quality design make it perfect for shredding dense herbs. A small upgrade that makes every session more even.",
+  "specs": [
+    {
+      "label": "Weight",
+      "value": "170 Grams"
+    },
+    {
+      "label": "Material",
+      "value": "Anodized Aluminium"
+    },
+    {
+      "label": "Dimensions",
+      "value": "55mm x 55mm 34mm"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "grinder",
+    "krush"
+  ],
+  "stripeLink": "",
+  "rnSku": "7781319475369",
+  "order": 139
+}

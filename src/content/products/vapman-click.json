@@ -1,0 +1,55 @@
+{
+  "slug": "vapman-click",
+  "name": "Vapman Click",
+  "brand": "Inhale Vaporizers",
+  "category": "pen-vapes",
+  "price": 124.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vapman-Click-Pure-Cherry-Wood.jpg?v=1758652540",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vapman-Click-Pure-Cherry-Wood-case.jpg?v=1758652542",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vapman-Click-Walnut.jpg?v=1758652540",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vapman-Click-Amaranth-wood.jpg?v=1758652541",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vapman-Click-Padouk.jpg?v=1758652541"
+  ],
+  "summary": "A handmade wooden butane vaporiser with a click mechanism that signals the right temperature, for patients who want flame-powered vapour without guesswork.",
+  "description": "The Vapman Click takes the uncertainty out of flame heating. A bi-metal disc clicks when the gold-plated copper bowl reaches vaporising temperature, then resets at around 180C to prevent overheating, so you simply apply heat, listen for the click and draw. The same mechanism gently stirs the material for even extraction, and airflow adjusts via the twistable mouthpiece. It heats in about 5 seconds, takes up to 0.2g for microdosing or a fuller chamber, and the pre-charred cherry-wood body stays cool to hold and develops character with use. At 50g and handmade in Italy, it suits patients who want a portable, battery-free device that takes the guesswork out of torch heating.",
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Portable Vaporiser (butane-heated)"
+    },
+    {
+      "label": "Compatibility",
+      "value": "Dry herbs & concentrates"
+    },
+    {
+      "label": "Heating",
+      "value": "Hybrid: conduction + convection (brass air injection)"
+    },
+    {
+      "label": "Heat-up time",
+      "value": "~5 seconds"
+    },
+    {
+      "label": "Chamber",
+      "value": "Up to 0.2 g (microdosing to full chamber)"
+    },
+    {
+      "label": "Vapour path",
+      "value": "Fully adjustable (mouthpiece twist or air hole control)"
+    },
+    {
+      "label": "Made in",
+      "value": "Swiss engineered, handmade in Italy"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "pen",
+    "inhale-vaporizers"
+  ],
+  "stripeLink": "",
+  "rnSku": "15354837795190",
+  "order": 99
+}

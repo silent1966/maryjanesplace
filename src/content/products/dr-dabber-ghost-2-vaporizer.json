@@ -1,0 +1,51 @@
+{
+  "slug": "dr-dabber-ghost-2-vaporizer",
+  "name": "Dr. Dabber Ghost 2",
+  "brand": "Dr. Dabber",
+  "category": "portable-vapes",
+  "price": 136.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Dr-Dabber-Ghost2-vaporizer-1.jpg?v=1774976854",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Dr-Dabber-Ghost2-vaporizer-side-led.jpg?v=1774976854",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Dr-Dabber-Ghost2-vaporizer-1-logo.jpg?v=1774976854",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Dr-Dabber-Ghost2-vaporizer-2-chamber.jpg?v=1774976854",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Dr-Dabber-Ghost2-vaporizer-3.jpg?v=1774976854"
+  ],
+  "summary": "A compact concentrate pen with a ceramic vapour path and fixed low temperature, for patients prescribed wax or extracts who want simple, flavour-led dosing.",
+  "description": "The Dr. Dabber Ghost 2 is a concentrates-only pen built for flavour rather than big clouds. A glazed ceramic vapour path and titanium heating element run at a single optimised low temperature, which protects terpenes and keeps draws smooth instead of harsh. Operation is one button: load a small amount, activate, inhale. USB-C fast charging with pass-through means you can keep using it while it tops up. For a UK patient prescribed concentrates who wants something pocket-sized and fuss-free, this is an easy choice — though the fixed temperature means no dosing control, and it does nothing for dry herb.",
+  "specs": [
+    {
+      "label": "Heating",
+      "value": "Titanium coil with ceramic vapour path"
+    },
+    {
+      "label": "Temperature range",
+      "value": "Optimised fixed low setting"
+    },
+    {
+      "label": "Battery",
+      "value": "Built-in Lithium-Ion"
+    },
+    {
+      "label": "Charging",
+      "value": "USB-C (60–90 minutes)"
+    },
+    {
+      "label": "Compatibility",
+      "value": "Wax & concentrates"
+    },
+    {
+      "label": "Warranty",
+      "value": "1 Year"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "portable",
+    "dr-dabber"
+  ],
+  "stripeLink": "",
+  "rnSku": "15679810830710",
+  "order": 58
+}

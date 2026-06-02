@@ -1,0 +1,39 @@
+{
+  "slug": "g-pen-connect",
+  "name": "G Pen Connect",
+  "brand": "Grenco Science",
+  "category": "dab-rigs",
+  "price": 77.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/G-pen-connect.jpg?v=1692976054",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/G-pen-connect-pick-apart.jpg?v=1692976054",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/G-pen-connect-cookie-blue.jpg?v=1692976054",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/G-pen-connect-vape-bubbler.jpg?v=1692976054",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/G-pen-connect-to-bong.jpg?v=1692976054"
+  ],
+  "summary": "A torch-free concentrate attachment that turns your own glass or bong into a dab vaporiser.",
+  "description": "The G Pen Connect is a battery-powered concentrate vaporiser that connects to your existing glass through a 14mm adapter, giving water-cooled dabs with no torch or exposed nail. It activates in about five seconds, uses a ceramic chamber and offers three voltage-based heat settings for light to heavier draws. Pass-through charging means you can use it while it powers up. It suits patients prescribed extracts who already own glass and want an affordable way to vaporise it cleanly. It is concentrate-only and charges over the older Micro USB rather than USB-C.",
+  "specs": [
+    {
+      "label": "Material",
+      "value": "Aluminium"
+    },
+    {
+      "label": "Temperature range",
+      "value": "Blue 3.1V / Green 3.6 V / Red 4.1 V"
+    },
+    {
+      "label": "Warranty",
+      "value": "1 year(s)"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "concentrate",
+    "grenco-science"
+  ],
+  "stripeLink": "",
+  "rnSku": "7779984998569",
+  "order": 104
+}

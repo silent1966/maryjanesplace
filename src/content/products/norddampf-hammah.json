@@ -1,0 +1,52 @@
+{
+  "slug": "norddampf-hammah",
+  "name": "Norddampf HAMMAH",
+  "brand": "Norddampf",
+  "category": "portable-vapes",
+  "price": 103.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Norddampf-HAMMAH-Vaporizer-Nordic-Blue.jpg?v=1754512021",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Norddampf-HAMMAH-Vaporizer-Black-USB-C.jpg?v=1754512022",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Norddampf-HAMMAH-Vaporizer-Nordic-Blue-mouthpiece.jpg?v=1754512021",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Norddampf-HAMMAH-Vaporizer-Nordic-Blue-side.jpg?v=1754512021",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Norddampf-HAMMAH-Vaporizer-Nordic-Blue-USB-C.jpg?v=1754512021"
+  ],
+  "summary": "A pocket-sized hybrid vaporiser with glass aroma pods, built for simple one-button dosing.",
+  "description": "The HAMMAH is a compact hybrid (convection plus conduction) device using Norddampf's GlassPod system, with short and long borosilicate pods that keep the vapour path glass for cleaner flavour. It heats in around 30 seconds, runs five presets from 180–220°C, and gets 6–10 sessions from the 1,600mAh battery with USB-C fast charging. At 90mm and 85g it genuinely pockets, and one-button operation keeps it straightforward for daily medical use. The internal battery means you charge rather than swap cells, so it suits a patient who medicates a few times a day rather than all day away from power.",
+  "specs": [
+    {
+      "label": "Heating",
+      "value": "Hybrid (Convection + Conduction)"
+    },
+    {
+      "label": "Heat-up time",
+      "value": "~30 seconds"
+    },
+    {
+      "label": "Battery",
+      "value": "1,600 mAh internal, USB‑C fast charge (~30–60 min)"
+    },
+    {
+      "label": "Battery life",
+      "value": "6–10 sessions"
+    },
+    {
+      "label": "Material",
+      "value": "Aluminium body, borosilicate glass pods, leather-like grip"
+    },
+    {
+      "label": "Temperature range",
+      "value": "180–220 °C"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "portable",
+    "dry-herb",
+    "norddampf"
+  ],
+  "stripeLink": "",
+  "rnSku": "15286475489654",
+  "order": 42
+}

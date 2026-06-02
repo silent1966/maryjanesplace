@@ -1,0 +1,60 @@
+{
+  "slug": "airvape-x-vaporizer",
+  "name": "AirVape X",
+  "brand": "AirVape",
+  "category": "portable-vapes",
+  "price": 134.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Airvape-X-Vaporizer-black.jpg?v=1620661882",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Airvape-X-Vaporizer-black-mouthpiece.jpg?v=1620661882",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/AirVape-X--3.jpg?v=1620661882",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/AirVape-X-5.jpg?v=1620661882",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Airvape-X-Vaporizer-black-thin-vape.jpg?v=1620661882"
+  ],
+  "summary": "A slim pocket-sized hybrid vaporiser for dry herb and concentrates with a full ceramic vapour path, for patients who want discretion.",
+  "description": "The AirVape X is one of the slimmer portables available, designed to disappear into a pocket. Hybrid convection and conduction heating with an all-ceramic interior delivers smooth, clean-tasting vapour, and fully adjustable temperature control from 93C to 220C lets you set your dose by degree. It handles both dry herb and concentrates, with a 0.25g chamber and a clear LED display. Battery life is modest given the slim 1300mAh cell, so it suits lighter sessions rather than all-day heavy use. A good choice for patients who value a discreet, flat profile and ceramic flavour, backed by a limited lifetime warranty.",
+  "specs": [
+    {
+      "label": "Dimensions",
+      "value": "10.4cm L x 4.6cm W x 1.2cm H (4.1in L x 1.85in W x 0.48in H)"
+    },
+    {
+      "label": "Weight",
+      "value": "90.7g (3.2oz)"
+    },
+    {
+      "label": "Temperature range",
+      "value": "Fully Adjustable Temperature Settings"
+    },
+    {
+      "label": "Battery",
+      "value": "1300mAh Lithium-Ion"
+    },
+    {
+      "label": "Chamber",
+      "value": "0.25g"
+    },
+    {
+      "label": "Material",
+      "value": "Steel"
+    },
+    {
+      "label": "Made in",
+      "value": "China"
+    },
+    {
+      "label": "Warranty",
+      "value": "Limited Lifetime Warranty"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "portable",
+    "dry-herb",
+    "airvape"
+  ],
+  "stripeLink": "",
+  "rnSku": "6980024041641",
+  "order": 57
+}

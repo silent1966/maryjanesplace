@@ -1,6 +1,6 @@
 ---
 import Base from "../../layouts/Base.astro";
-import { getCollection, type CollectionEntry } from "astro:content";
+import { getCollection, render, type CollectionEntry } from "astro:content";
 
 export async function getStaticPaths() {
   const all = await getCollection("posts");
@@ -8,7 +8,7 @@ export async function getStaticPaths() {
     .filter((p) => !p.data.draft)
     .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
   return posts.map((post, i) => ({
-    params: { slug: post.slug },
+    params: { slug: post.id },
     props: { post, prev: posts[i + 1], next: posts[i - 1] },
   }));
 }
@@ -20,7 +20,7 @@ interface Props {
 }
 
 const { post, prev, next } = Astro.props;
-const { Content } = await post.render();
+const { Content } = await render(post);
 const dateStr = post.data.date.toLocaleDateString("en-GB", {
   day: "numeric",
   month: "long",
@@ -38,7 +38,7 @@ const articleSchema = {
     "name": "Mary Jane's Place",
     "logo": { "@type": "ImageObject", "url": "https://maryjanesplace.co.uk/logo.png" },
   },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": `https://maryjanesplace.co.uk/blog/${post.slug}` },
+  "mainEntityOfPage": { "@type": "WebPage", "@id": `https://maryjanesplace.co.uk/blog/${post.id}` },
   "description": post.data.summary || "",
 };
 
@@ -48,12 +48,12 @@ const breadcrumbSchema = {
   "itemListElement": [
     { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://maryjanesplace.co.uk/" },
     { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://maryjanesplace.co.uk/blog" },
-    { "@type": "ListItem", "position": 3, "name": post.data.title, "item": `https://maryjanesplace.co.uk/blog/${post.slug}` }
+    { "@type": "ListItem", "position": 3, "name": post.data.title, "item": `https://maryjanesplace.co.uk/blog/${post.id}` }
   ]
 };
 
 // HowTo schema for the prescription guide post only — earns rich step-by-step results
-const howToSchema = post.slug === "how-to-get-a-medical-cannabis-prescription-uk-2026" ? {
+const howToSchema = post.id === "how-to-get-a-medical-cannabis-prescription-uk-2026" ? {
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to get a UK medical cannabis prescription",
@@ -106,13 +106,13 @@ const howToSchema = post.slug === "how-to-get-a-medical-cannabis-prescription-uk
     <div class="wrap narrow">
       <div class="nav-posts rv">
         {prev ? (
-          <a class="nav-post" href={`/blog/${prev.slug}`}>
+          <a class="nav-post" href={`/blog/${prev.id}`}>
             <span class="dir">← Previous</span>
             <b>{prev.data.title}</b>
           </a>
         ) : <div></div>}
         {next ? (
-          <a class="nav-post nav-post--right" href={`/blog/${next.slug}`}>
+          <a class="nav-post nav-post--right" href={`/blog/${next.id}`}>
             <span class="dir">Next →</span>
             <b>{next.data.title}</b>
           </a>

@@ -1,0 +1,31 @@
+{
+  "slug": "puffco-peak-pro-link",
+  "name": "Puffco Peak Pro Link",
+  "brand": "Puffco",
+  "category": "accessories",
+  "price": 171.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Puffco-Peak-Pro-Link-Onyx.jpg?v=1771950637",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Puffco-Peak-Pro-Link-app.jpg?v=1771950638",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Puffco-Peak-Pro-Link-in-use.jpg?v=1771950638",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Puffco-Peak-Pro-Link-Onyx-3.jpg?v=1771950638",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Puffco-Peak-Pro-Link-Onyx-4.jpg?v=1771950638"
+  ],
+  "summary": "The Puffco Peak Pro Link is an advanced connectivity accessory designed to expand the capabilities of the Peak Pro ecosystem.",
+  "description": "The Puffco Peak Pro Link is an advanced connectivity accessory designed to expand the capabilities of the Peak Pro ecosystem. Built with Puffco’s signature premium engineering, this smart accessory enables reliable wired integration with compatible glass setups, delivering improved responsiveness and a smoother overall experience. Designed for seamless performance, the Peak Pro Link enhances communication between your device and accessories while maintaining Puffco’s minimalist aesthetic. Whether upgrading your current setup or expanding your Peak Pro system, this accessory offers dependable connectivity and refined functionality. A practical part to keep your device working as it should.",
+  "specs": [
+    {
+      "label": "Compatibility",
+      "value": "Puffco Peak Pro Devices"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "accessory",
+    "puffco"
+  ],
+  "stripeLink": "",
+  "rnSku": "15625657319798",
+  "order": 477
+}

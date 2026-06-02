@@ -1,0 +1,40 @@
+{
+  "slug": "xmax-v3-nano",
+  "name": "XMAX V3 Nano",
+  "brand": "Topgreen",
+  "category": "portable-vapes",
+  "price": 59.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Xmax-v3-nano-vaporizer-black.jpg?v=1725307590",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Xmax-v3-nano-vaporizer-black-parts.jpg?v=1725307590",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Xmax-v3-nano-vaporizer-black-chamber.jpg?v=1725307590",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Xmax-v3-nano-vaporizer-oven.jpg?v=1725307590",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Xmax-v3-nano-vaporizer-usb-c.jpg?v=1725307590"
+  ],
+  "summary": "An ultra-portable single-button vaporiser for dry herb, for patients who want the simplest possible device.",
+  "description": "The XMAX V3 Nano strips things back to one button and no temperature menu, running a fixed preset range of 200 to 220C. You triple-click to switch on and draw; there is nothing to set up. It charges over USB-C on a 1000mAh battery and is small enough to disappear into a pocket. The trade-off is no temperature choice, but for casual or new patients who just want something straightforward, that simplicity is the point.",
+  "specs": [
+    {
+      "label": "Battery",
+      "value": "1000mAh"
+    },
+    {
+      "label": "Dimensions",
+      "value": "5.25in x 0.80in x 0.79in"
+    },
+    {
+      "label": "Charging",
+      "value": "USB-C"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "portable",
+    "dry-herb",
+    "topgreen"
+  ],
+  "stripeLink": "",
+  "rnSku": "8256150143145",
+  "order": 21
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "smono-premium-organic-wipes",
+  "name": "Smono Premium Organic Wipe",
+  "brand": "Smono",
+  "category": "cleaning",
+  "price": 14.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Smono-Premium-Organic-Vipes-10x_613cdb8b-317e-4239-b689-33a4093b914e.jpg?v=1692736782",
+  "gallery": [],
+  "summary": "This organic wipe makes cleaning your device and screen a breeze.",
+  "description": "This organic wipe makes cleaning your device and screen a breeze. With a 100% biodegradable formula, they are also responsibly made in Germany. This trusted information is sourced from the manufacturer. A clean device gives cleaner vapour and a more reliable dose.",
+  "specs": [
+    {
+      "label": "Made in",
+      "value": "Germany"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "cleaning",
+    "smono"
+  ],
+  "stripeLink": "",
+  "rnSku": "6980030103721",
+  "order": 158
+}

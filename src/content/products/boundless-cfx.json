@@ -1,0 +1,48 @@
+{
+  "slug": "boundless-cfx",
+  "name": "Boundless CFX",
+  "brand": "Boundless",
+  "category": "portable-vapes",
+  "price": 128.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Boundless_CFX.jpg?v=1692736398",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Boundless_CFX_uk.jpg?v=1692736398",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Boundless_CFX_wax.jpg?v=1692736398",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Boundless_CFX_chamber_screen.jpg?v=1692736398",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/boundless_cfx_side.jpg?v=1692736398"
+  ],
+  "summary": "A hybrid portable vaporiser for dry herb and concentrates with fast heat-up and full temperature control, for patients who want strong sessions at a fair price.",
+  "description": "The Boundless CFX heats in 20-25 seconds and gives full temperature control from 37C to 221C, with an 80W element driving hybrid convection and conduction heating through a ceramic chamber. The large 0.6g chamber suits fuller sessions, and an included pod lets you run waxes and oils as well as dry herb. An OLED screen and vibration alerts keep things simple. It's on the bulkier side at 208g, the trade-off for the big chamber and power. A capable all-rounder for patients who want fast, strong sessions, backed by a 3-year warranty on the unit.",
+  "specs": [
+    {
+      "label": "Temperature range",
+      "value": "Manual – by degrees, or preset only"
+    },
+    {
+      "label": "Material",
+      "value": "Silicone coated"
+    },
+    {
+      "label": "Made in",
+      "value": "China"
+    },
+    {
+      "label": "Warranty",
+      "value": "3 years on the unit; 90 days on battery"
+    },
+    {
+      "label": "Battery",
+      "value": "100 – 240 V"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "portable",
+    "dry-herb",
+    "boundless"
+  ],
+  "stripeLink": "",
+  "rnSku": "6980024926377",
+  "order": 56
+}

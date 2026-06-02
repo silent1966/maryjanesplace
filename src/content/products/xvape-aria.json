@@ -1,0 +1,46 @@
+{
+  "slug": "xvape-aria",
+  "name": "Xvape Aria+",
+  "brand": "Topgreen",
+  "category": "portable-vapes",
+  "price": 86.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/XVAPE-ARIA-Dry-Herb-Wax-Vaporizer-Gothic-Black-Wholesale-2-1.jpg?v=1770577055",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/XVAPE-ARIA-Dry-Herb-Wax-Vaporizer-Frostwave-Wholesale-2-1.jpg?v=1770577055",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/X-Vape-ARIA-Dry-Herb-Wax-Vaporizer-Forest.jpg?v=1770577074"
+  ],
+  "summary": "A conduction vaporiser for herb and concentrate with a large battery, for patients wanting long sessions in one device.",
+  "description": "The Xvape Aria+ is a compact conduction device with a full ceramic oven and ceramic mouthpiece, ready in about 15 to 20 seconds. It handles both dry herb and concentrates, with a wide 100 to 240C range on an OLED display showing temperature, battery and session status. The 2600mAh battery supports extended use with USB-C pass-through charging, and a built-in stir tool helps even out extraction. Haptic alerts and two session lengths round it off. A versatile, well-equipped option for patients who want a long-running dual-use device.",
+  "specs": [
+    {
+      "label": "Dimensions",
+      "value": "11.8 × 3.4 × 2.2 cm"
+    },
+    {
+      "label": "Heating",
+      "value": "Conduction"
+    },
+    {
+      "label": "Charging",
+      "value": "USB-C (Pass-Through Supported)"
+    },
+    {
+      "label": "Warranty",
+      "value": "1 Year Manufacturer Warranty"
+    },
+    {
+      "label": "Temperature range",
+      "value": "100–240°C"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "portable",
+    "dry-herb",
+    "topgreen"
+  ],
+  "stripeLink": "",
+  "rnSku": "7779312304297",
+  "order": 32
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "ccell-m4b-pro-battery",
+  "name": "CCELL - M4B Pro Battery",
+  "brand": "CCELL",
+  "category": "cartridge-batteries",
+  "price": 25.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/CCELL-M4B-Pro-Vape-Pen-Battery-Standard-510-Thread-Black.jpg?v=1764971122",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/CCELL-M4B-Pro-Vape-Pen-Battery-Standard-510-Thread-Black-usb-c.jpg?v=1764971123"
+  ],
+  "summary": "The CCELL M4B Pro is a sleek, high-performance 510 battery designed for thick oil cartridges.",
+  "description": "The CCELL M4B Pro is a sleek, high-performance 510 battery designed for thick oil cartridges. Built from durable stainless steel and featuring both draw activation and button activation, it offers flexibility for every type of user. The M4B Pro combines portability, power, and ease of use. Its 290mAh rechargeable capacity provides reliable all-day performance, while the slim design makes it ideal for discreet sessions on the go. Pairs with standard 510 cartridges.",
+  "specs": [
+    {
+      "label": "Charging",
+      "value": "USB-C"
+    },
+    {
+      "label": "Dimensions",
+      "value": "90.75 mm × 10.5 mm"
+    },
+    {
+      "label": "Material",
+      "value": "Stainless steel"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "510",
+    "ccell"
+  ],
+  "stripeLink": "",
+  "rnSku": "15480457068918",
+  "order": 117
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "puffco-new-peak",
+  "name": "Puffco New Peak",
+  "brand": "Puffco",
+  "category": "dab-rigs",
+  "price": 312.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Puffco-New-Peak-Concentrate-Portable-Vaporizer-1-1000x1000.jpg?v=1761766235",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Puffco-New-Peak-Onyx-2.jpg?v=1761766235",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Puffco-New-Peak-Onyx-1.jpg?v=1761766235",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Puffco-New-Peak-Onyx.jpg?v=1761766235",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Puffco-New-Peak-Size-in-hand.jpg?v=1761766235"
+  ],
+  "summary": "A countertop electronic dab rig for patients prescribed cannabis concentrates and extracts.",
+  "description": "The Puffco New Peak is an electronic dab rig that takes the torch and guesswork out of dabbing concentrates. A single button drives four temperature presets, the 3D chamber heats in around 20 seconds, and the glass attachment adds water filtration for a cooler draw. It suits patients who are prescribed extracts rather than dried flower and want consistent, repeatable dosing without a naked flame. It is a sizeable device for home use, not something to carry around — and at this price it only makes sense if concentrates are a regular part of your medicating.",
+  "specs": [
+    {
+      "label": "Dimensions",
+      "value": "7\" High and 2.75\" Base / 17.7cm x 6.98cm"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "concentrate",
+    "puffco"
+  ],
+  "stripeLink": "",
+  "rnSku": "14636172575094",
+  "order": 106
+}

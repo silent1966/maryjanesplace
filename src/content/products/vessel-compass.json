@@ -1,0 +1,35 @@
+{
+  "slug": "vessel-compass",
+  "name": "Vessel Compass",
+  "brand": "Vessel",
+  "category": "cartridge-batteries",
+  "price": 43.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/vessel-compass-gun-metal.jpg?v=1763755980",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/vessel-compass-mojave.jpg?v=1763755980",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/vessel-compass-mojave-back.jpg?v=1763755980",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/vessel-compass-yosemite.jpg?v=1763755980",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/vessel-compass-yosemite-back.jpg?v=1763755980"
+  ],
+  "summary": "The Vessel Compass is a compact, high-performance 510 battery designed to cartridge-based vaping.",
+  "description": "The Vessel Compass is a compact, high-performance 510 battery designed to cartridge-based vaping. Despite its small footprint, the Compass delivers exceptional power and reliability for everyday use. No — Vessel does not recommend using the Compass during charging. The three LED indicators will show when the battery needs a recharge. Pairs with standard 510 cartridges.",
+  "specs": [
+    {
+      "label": "Dimensions",
+      "value": "2.625\" (L) × 1.625\" (W) × 0.75\" (D)"
+    },
+    {
+      "label": "Weight",
+      "value": "66 g"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "510",
+    "vessel"
+  ],
+  "stripeLink": "",
+  "rnSku": "15456077709686",
+  "order": 124
+}

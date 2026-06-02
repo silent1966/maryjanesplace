@@ -1,0 +1,56 @@
+{
+  "total": 826,
+  "kept": 523,
+  "excluded": 303,
+  "skippedUnprofitable": 0,
+  "noImage": 0,
+  "catCounts": {
+    "cleaning": 10,
+    "desktop-vapes": 13,
+    "portable-vapes": 74,
+    "accessories": 310,
+    "grinders": 19,
+    "batteries": 27,
+    "cases": 19,
+    "cartridge-batteries": 22,
+    "pen-vapes": 15,
+    "storage": 10,
+    "dab-rigs": 4
+  },
+  "exclReasons": {
+    "all variants unavailable": 222,
+    "bong/pipe/water-pipe": 63,
+    "non-product/fee": 2,
+    "wholesale/display bulk unit": 15,
+    "no valid trade price": 1
+  },
+  "meanMarkup": 3.467,
+  "pricingSource": {
+    "map-nocompare": 61,
+    "sub40": 400,
+    "competitor": 56,
+    "fallback": 6
+  },
+  "atFloor": 506,
+  "atCeiling": 17,
+  "featured": [
+    "Storz & Bickel MIGHTY+ MEDIC",
+    "Storz & Bickel Volcano Hybrid Vaporizer",
+    "Storz & Bickel VOLCANO MEDIC 2",
+    "Storz & Bickel Crafty Plus V2 Vaporizer",
+    "Storz & Bickel Venty Vaporizer",
+    "Arizer Arizer Solo 3",
+    "Arizer Arizer Solo 2 Max",
+    "Arizer Arizer Air Max",
+    "Arizer Arizer Go SRT",
+    "Arizer Arizer XQ2",
+    "DynaVap DynaVap M Plus",
+    "DynaVap DynaVap M7 XL",
+    "DynaVap DynaVap The VonG Starter Kit",
+    "PAX PAX Four",
+    "Puffco Puffco New Peak Pro",
+    "Puffco Puffco Proxy Core Kit",
+    "Puffco Puffco New Proxy"
+  ],
+  "skippedDetail": []
+}

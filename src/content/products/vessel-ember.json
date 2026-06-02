@@ -1,0 +1,36 @@
+{
+  "slug": "vessel-ember",
+  "name": "Vessel Ember",
+  "brand": "Vessel",
+  "category": "accessories",
+  "price": 50.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/vessel-ember-gold.jpg?v=1763755990",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/vessel-ember-concrete.jpg?v=1763755990"
+  ],
+  "summary": "The Vessel Ember is a premium, modern ashtray engineered for customers who value clean design and high-quality materials.",
+  "description": "The Vessel Ember is a premium, modern ashtray engineered for customers who value clean design and high-quality materials. Crafted from solid brass and finished with a protective cork base, this accessory adds a refined touch to any smoking setup while keeping surfaces safe and scratch-free. Designed for dry herb users, roll-your-own sessions, and desktop consumption setups, the Ember delivers reliable performance in any environment. Its weight, stability, and minimalist profile make it a standout accessory for both personal and retail lounge use. A practical part to keep your device working as it should.",
+  "specs": [
+    {
+      "label": "Weight",
+      "value": "approx. 4.4 oz (125 g) for a solid, stable hold"
+    },
+    {
+      "label": "Material",
+      "value": "100% solid brass"
+    },
+    {
+      "label": "Dimensions",
+      "value": "~2.48″ (W) × ~0.92″ (H)"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "accessory",
+    "vessel"
+  ],
+  "stripeLink": "",
+  "rnSku": "15456078201206",
+  "order": 423
+}

@@ -1,0 +1,74 @@
+{
+  "davinci-iq3": {
+    "summary": "A precision conduction portable for dry herb and concentrate, suited to patients who want app-level dosage control and a long-cooled vapour path.",
+    "description": "The DaVinci IQ3 is built around control: single-degree temperature adjustment from a phone app or the device itself, plus four guided Smart Path settings if you'd rather not fiddle. The zirconia and glass vapour path keeps flavour clean and runs cool, and the 0.7g oven handles a full session or a small dosage pod for lighter doses. The 21700 battery is removable, so you can carry a spare instead of waiting on a charge, and it's backed by a 10-year warranty. For a UK medical patient who medicates several times a day and wants repeatable dosing, the depth of control here earns its keep — though it's a more involved device than a simple push-button vape."
+  },
+  "davinci-iqc": {
+    "summary": "A conduction dry-herb portable with a zirconia flavour chamber and replaceable battery, for patients who want flavour and control without the IQ3's price.",
+    "description": "The DaVinci IQC takes the well-liked IQ2 formula and refines it. A zirconia flavour chamber keeps the vapour smooth and clean, and you get a broad temperature range, multiple heating modes, and a new precision mode for fine dosing. The 18650 battery is replaceable, so a worn cell is a cheap fix rather than a new device, and it carries a 5-year warranty. For a UK patient who wants honest flavour and proper control at a sensible price, the IQC sits in a sensible middle ground — conduction rather than convection, so a slower, steadier draw."
+  },
+  "davinci-miqro-c-vaporizer": {
+    "summary": "A pocket-sized conduction vaporiser for dry herb and concentrate pods, for patients who want a discreet device for smaller doses on the go.",
+    "description": "The DaVinci MIQRO-C is one of the smallest proper vaporisers you can carry, at 87g and barely longer than a thumb. It runs the same ceramic and zirconia vapour path as DaVinci's larger devices, with a 50-221C range, four Smart Paths or single-degree control, and a Boost mode. The 0.3g oven suits lighter dosing, and USB-C gives up to around three hours of use per charge. For a UK patient who wants something genuinely discreet for microdosing or out-of-home use, this is a capable little device — just don't expect the runtime or session size of a full-size unit. Five-year warranty."
+  },
+  "dr-dabber-ghost-2-vaporizer": {
+    "summary": "A compact concentrate pen with a ceramic vapour path and fixed low temperature, for patients prescribed wax or extracts who want simple, flavour-led dosing.",
+    "description": "The Dr. Dabber Ghost 2 is a concentrates-only pen built for flavour rather than big clouds. A glazed ceramic vapour path and titanium heating element run at a single optimised low temperature, which protects terpenes and keeps draws smooth instead of harsh. Operation is one button: load a small amount, activate, inhale. USB-C fast charging with pass-through means you can keep using it while it tops up. For a UK patient prescribed concentrates who wants something pocket-sized and fuss-free, this is an easy choice — though the fixed temperature means no dosing control, and it does nothing for dry herb."
+  },
+  "eyce-pv1-vaporizer": {
+    "summary": "A rugged conduction dry-herb portable with guided heat settings and a replaceable battery, for patients who want durable, no-thinking operation.",
+    "description": "The Eyce PV1 is built to be knocked about: an anodised aluminium body with a silicone grip and a glass-coated ceramic oven. Its AutoFlow system steps through four heat presets over a five-minute cycle, so you get a balanced extraction without setting anything yourself — an LED ring shows the stage and haptics tell you when it's ready. The 0.5g chamber and removable 3000mAh battery give roughly 12-14 sessions per charge, with USB-C charging and a Stealth Mode for discretion. For a UK patient who wants a tough, guided device rather than fine manual control, the PV1 keeps things simple. One-year warranty."
+  },
+  "fenix-2-0-vaporizer": {
+    "summary": "A full-convection dry-herb portable with a big battery and adjustable temperature, for patients who want clean flavour and all-day runtime.",
+    "description": "The Fenix 2.0 uses full convection — its AIR HEATING system passes hot air through the herb rather than baking it against a hot wall — which gives cleaner flavour and a more even extraction. A cooling path takes the edge off the vapour, and the 4400mAh battery is large enough to last a full day of medicating. Temperature is adjustable from 160 to 220C with a roughly 30-second heat-up. For a UK patient who values convection flavour and long runtime, the Fenix 2.0 is a solid, dependable choice — the main compromise is older Micro USB charging rather than USB-C."
+  },
+  "fenix-2-max-vaporizer": {
+    "summary": "The convection Fenix with a larger battery, USB-C and a dual OLED display, for patients who want all-day runtime and clean flavour.",
+    "description": "The Fenix 2 MAX is the upgraded version of the Fenix 2.0, keeping the AIR HEATING convection system but adding the things daily users actually ask for. The battery grows to 4800mAh — about 20% more runtime — charging moves to USB-C, and a dual OLED screen shows live temperature and a session timer. A fully insulated stainless steel air path with integrated cooling keeps draws smooth, and the magnetic mouthpiece makes cleaning easy. Temperature runs 160 to 220C with an adjustable 3-7 minute timer. For a UK patient who wants combustion-free convection flavour with modern charging and clear feedback, this is the one to pick over the 2.0."
+  },
+  "fenix-neo": {
+    "summary": "A convection dry-herb portable with a ceramic mouthpiece and wide temperature range, for patients who want cool, clean vapour and long battery life.",
+    "description": "The Fenix NEO is a convection vaporiser that focuses on smooth, cool draws. A ceramic mouthpiece and the brand's convection heating produce clean vapour, and the temperature range starts low at 120C and runs up to 210C — useful if you want gentle, flavour-led dosing as well as denser sessions. The 4400mAh battery lasts well, with USB-C charging and a roughly 30-second heat-up. For a UK patient who wants convection flavour and a low starting temperature for lighter dosing, the NEO is a comfortable, dependable device."
+  },
+  "flowermate-aura-vaporizer": {
+    "summary": "A lightweight, affordable portable for dry herb, oil and concentrate, for patients who want a versatile starter device that won't cost much.",
+    "description": "The Flowermate Aura is a compact, plastic-bodied vaporiser that handles dry herb, oils and concentrates with a swappable capsule, which makes it unusually versatile for the money. A ceramic chamber and wide 40-230C range give you room to dial in your dose, with a fast 10-30 second heat-up and a battery that lasts well for the size. At well under the price of a full-size portable, it's an honest entry point. For a UK patient testing the water or wanting a cheap second device, the Aura does a lot — just accept the plastic build is a trade-off for the price. Two-year warranty."
+  },
+  "flowermate-cap-pro": {
+    "summary": "A compact conduction dry-herb vaporiser with full temperature control and an LED screen, for patients who want a discreet, simple everyday device.",
+    "description": "The Flowermate Cap Pro is a small, pocketable dry-herb vaporiser with a stainless steel chamber and a 20-30 second heat-up. Despite the size it gives you full temperature control from 148 to 230C on an LED screen, with a five-minute session timer and 18-20 sessions per charge. USB-C charging tops it up in about an hour. The 0.3g oven suits lighter, single-person dosing. For a UK patient who wants a discreet, easy-to-load device with proper temperature control rather than fixed presets, the Cap Pro is a sensible, affordable pick."
+  },
+  "flowermate-cap": {
+    "summary": "A small, affordable conduction dry-herb vaporiser with three temperature presets, for patients who want a simple discreet device on a budget.",
+    "description": "The Flowermate Cap keeps things deliberately simple: three preset temperatures (196, 204 and 216C) selected with a single button, plus haptic feedback so you know when it's ready. The stainless steel chamber holds 0.3g for single-person dosing, and the aluminium body is genuinely pocket-sized at 90g. Expect 8-10 sessions per charge. For a UK patient who wants a no-fuss, low-cost device and doesn't need fine temperature control, the Cap covers the basics well — just note the smaller battery and conduction heating mean shorter runtime and a slower draw. One-year warranty."
+  },
+  "flowermate-slick": {
+    "summary": "A conduction pen-style vaporiser for dry herb and concentrate with a glass mouthpiece and swappable battery, for patients who want one device for both.",
+    "description": "The Flowermate Slick is a slim pen-format vaporiser that takes both dry herb and concentrate via separate pods, so it covers two prescription formats in one device. A borosilicate glass vapour path keeps flavour clean, and three presets (196, 204 and 215C) are selected with a single button. The 18650 battery is removable, so you can swap in a charged cell instead of waiting. The 0.3g oven suits single-person dosing. For a UK patient who wants flexibility between herb and concentrate in a discreet pen, the Slick is a practical all-rounder. One-year warranty."
+  },
+  "flowermate-v5-0s-pro-mini": {
+    "summary": "A compact conduction vaporiser for dry herb and concentrate with a digital display, for patients who want a versatile, controllable everyday device.",
+    "description": "The Flowermate V5.0S Pro Mini is a small aluminium-bodied vaporiser that takes both dry herb and concentrate, with a digital display and a wide 40-230C range for proper dose control. A ceramic chamber gives clean, even heating, and it ships with a glass mouthpiece and water-pipe adapter if you want to filter the vapour further. Heat-up is around 30 seconds. For a UK patient who wants a controllable, dual-material device at a fair price, the Pro Mini is capable — the trade-offs are a roughly 75-minute battery and a longer three-hour charge. One year on the device, three months on the battery."
+  },
+  "flowermate-wix": {
+    "summary": "A small, low-cost concentrate pen with three heat settings and a ceramic coil, for patients prescribed wax or extracts who want a basic on-the-go option.",
+    "description": "The Flowermate WIX is a concentrates-only pen built for simplicity and price. A pure ceramic heating coil offers three temperature settings, the atomiser is replaceable, and a 10-second pre-heat means it's ready almost immediately. The 510 thread and USB-C charging keep it flexible and easy to top up, and a zirconia mouthpiece keeps the draw cool. For a UK patient prescribed concentrates who wants a cheap, pocketable device for dosing on the move, the WIX does the job — the small 350mAh battery means it's best as a portable extra rather than a primary device."
+  },
+  "focus-vape-pro-vaporizer": {
+    "summary": "A durable, versatile portable for dry herb, concentrate and oil with a replaceable battery, for patients who want one adjustable device for everything.",
+    "description": "The Focus Vape Pro S is a compact, hard-wearing vaporiser that takes dry herb, concentrates and oils, with a titanium-wrapped ceramic coil and a glass mouthpiece. Digital temperature presets and adjustable draw control let you tune the dose, and haptic feedback signals when it's ready. The 18650 battery is replaceable, so you can carry a spare for long days, and it works with a range of accessories. For a UK patient who wants a single adjustable device that covers multiple prescription formats without much fuss, the Pro S is a practical, dependable choice."
+  },
+  "g-pen-dash-2": {
+    "summary": "A compact, affordable conduction dry-herb vaporiser with temperature control and a built-in tool, for patients who want a simple pocket device.",
+    "description": "The G Pen Dash 2 from Grenco Science is a small, pocketable dry-herb vaporiser that keeps things straightforward. A ceramic chamber and precise temperature control on a clear LED display give you more dosing flexibility than its size suggests, with an integrated cooling airflow path for smoother draws and a generous 0.4g oven. A built-in pick tool handles loading and cleaning, and the 1,100mAh battery charges over USB-C with pass-through. For a UK patient who wants a low-cost, easy everyday vaporiser that fits in a pocket, the Dash 2 is a sensible starter — note the USB-C cable isn't included."
+  },
+  "g-pen-hyer-vaporizer": {
+    "summary": "A dual-use desktop-style portable for concentrate and dry herb with a quartz heater and water-piece compatibility, for patients who want big vapour at home.",
+    "description": "The G Pen Hyer is a larger portable that pairs a full quartz heating element with any glass-on-glass water piece, so it sits between a portable and a desktop rig. Swappable quartz and dry-herb tanks let you switch between concentrate and flower, and the 6,000mAh battery with USB-C pass-through charging keeps it running through long sessions. Three-button operation and a five-LED interface keep setup simple, and it comes with a 14mm glass adapter and travel bag. For a UK patient who wants serious, water-filtered vapour at home but still values some portability, the Hyer is a capable dual-format device."
+  },
+  "g-pen-roam": {
+    "summary": "A portable concentrate vaporiser with built-in water filtration and a swappable battery, for patients prescribed wax who want cool, filtered draws on the go.",
+    "description": "The G Pen Roam is a concentrates device built around water filtration: a borosilicate glass Hydro-Tube sits inside the body, giving genuinely cool, smooth vapour without needing a separate rig. A quartz tank and long vapour path handle the heat, with temperature adjustable from 600 to 800F in 25-degree steps for dosing control. The 1300mAh battery gives up to around 20 sessions, heats up in about 30 seconds, and is swappable for longer days. For a UK patient prescribed concentrates who wants the smoothness of water filtration in a portable, the Roam is a clever, self-contained option. One-year warranty."
+  }
+}

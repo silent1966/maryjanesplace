@@ -1,0 +1,42 @@
+{
+  "slug": "infinity-jar-concentrates",
+  "name": "Infinity Jar - Concentrates",
+  "brand": "Inhale Vaporizers",
+  "category": "accessories",
+  "price": 22.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Infinity-jar-concentrates-2.jpg?v=1758652543",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Infinity-jar-concentrates-open.jpg?v=1758652543",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Infinity-jar-concentrates.jpg?v=1758652543",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Infinity-jar-concentrates-open_1.jpg?v=1758652544"
+  ],
+  "summary": "The Infinity Jar, Concentrates (Vapman Edition) is a premium storage solution designed for herbal extracts and resins.",
+  "description": "The Infinity Jar, Concentrates (Vapman Edition) is a premium storage solution designed for herbal extracts and resins. Crafted from UV-blocking violet glass with a natural walnut wood lid, it combines artisan aesthetics with functional precision. Built with violet UV-protective glass, the jar blocks harmful visible light while allowing beneficial UV-A rays to pass through, helping preserve potency, colour, and flavour naturally. The airtight walnut lid ensures odour-proof storage, keeping concentrates fresh, contained, and discreet. A practical part to keep your device working as it should.",
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Premium Concentrate Storage Jar"
+    },
+    {
+      "label": "Chamber",
+      "value": "~5 g"
+    },
+    {
+      "label": "Dimensions",
+      "value": "~3.5 × 3 cm"
+    },
+    {
+      "label": "Material",
+      "value": "UV-protective violet glass, walnut wood lid"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "accessory",
+    "inhale-vaporizers"
+  ],
+  "stripeLink": "",
+  "rnSku": "15354838778230",
+  "order": 249
+}

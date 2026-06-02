@@ -147,6 +147,95 @@ nav.links a.active {
 }
 
 .nav-cta { display: flex; align-items: center; gap: 10px; }
+.nav-search-btn {
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  background: var(--panel);
+  border: 1px solid var(--sage-soft);
+  border-radius: 9px;
+  cursor: pointer;
+  transition: 0.2s;
+  color: var(--olive-d);
+}
+.nav-search-btn:hover { border-color: var(--sage); background: var(--tint); }
+.nav-search-btn svg { width: 19px; height: 19px; }
+
+/* search overlay */
+.search-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1100;
+  background: rgba(16, 59, 20, 0.5);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 14vh 20px 0;
+}
+.search-overlay.open { opacity: 1; pointer-events: auto; }
+.search-box { width: min(640px, 100%); }
+.search-form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--panel);
+  border: 1px solid var(--sage);
+  border-radius: 12px;
+  padding: 6px 10px 6px 16px;
+  box-shadow: 0 24px 60px -28px rgba(16, 59, 20, 0.6);
+}
+.search-form > svg { width: 20px; height: 20px; color: var(--olive); flex: none; }
+.search-form input {
+  flex: 1;
+  border: 0;
+  background: transparent;
+  font-family: var(--font);
+  font-size: 18px;
+  color: var(--ink);
+  padding: 14px 4px;
+}
+.search-form input:focus { outline: none; }
+.search-close {
+  background: var(--tint);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  color: var(--ink-soft);
+  font-size: 15px;
+}
+.search-close:hover { color: var(--olive-d); border-color: var(--sage); }
+.search-hint { margin-top: 12px; text-align: center; font-size: 13px; color: rgba(255, 255, 255, 0.85); }
+
+/* drawer search */
+.drawer-search {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  background: var(--panel);
+  border: 1px solid var(--sage-soft);
+  border-radius: 10px;
+  padding: 4px 12px;
+  margin-bottom: 12px;
+}
+.drawer-search svg { width: 17px; height: 17px; color: var(--olive); flex: none; }
+.drawer-search input {
+  flex: 1;
+  border: 0;
+  background: transparent;
+  font-family: var(--font);
+  font-size: 15px;
+  color: var(--ink);
+  padding: 11px 2px;
+}
+.drawer-search input:focus { outline: none; }
 .hamb {
   display: none;
   flex-direction: column;
@@ -594,7 +683,7 @@ footer {
 }
 @media (max-width: 680px) {
   body { font-size: 16px; }
-  nav.links, .nav-cta .btn { display: none; }
+  nav.links, .nav-cta .btn, .nav-search-btn { display: none; }
   .hamb { display: flex; }
   .pad { padding: 56px 0; }
   .pad-sm { padding: 36px 0; }
@@ -619,6 +708,16 @@ footer {
 @media (prefers-reduced-motion: reduce) {
   * { animation: none !important; transition: none !important; }
   .rv { opacity: 1; transform: none; }
+}
+
+/* product photos blend into the cream card background.
+   Manufacturer photos have white backgrounds; multiply makes pure-white pixels
+   blend transparently into the paper behind them. Product colours stay intact. */
+.prod-image img,
+.pd-image img,
+.pd-thumb img,
+.rel-image img {
+  mix-blend-mode: multiply;
 }
 
 /* footer legal row */

@@ -1,0 +1,52 @@
+{
+  "slug": "auxo-celsius-vaporizer",
+  "name": "Auxo Celsius Vaporizer",
+  "brand": "Auxo",
+  "category": "portable-vapes",
+  "price": 125.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Auxo-Celsius-Vaporizer.jpg?v=1737477899",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Auxo-Celsius-Vaporizer-size-in-hand.jpg?v=1737477899",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Auxo-Celsius-Vaporizer-3.jpg?v=1737477899",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Auxo-Celsius-Vaporizer-4.jpg?v=1737477899",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Auxo-Celsius-Mouthpiece.jpg?v=1737477899"
+  ],
+  "summary": "A dual-heating portable vaporiser for dry herb and concentrates with app control, for patients who want one device for both materials.",
+  "description": "The Auxo Celsius handles both dry herb and concentrates, with a separate concentrate chamber included. Conduction and infrared heating cover a wide 140-260C range across four preset levels, with finer adjustment through the companion app, and the stainless steel heater is easy to clean. USB-C fast charging gives around 90 minutes of use per charge, and it can be used while charging above 20%. Note the app is Android and web only, not iOS. Backed by a 10-year warranty, it suits patients who want a single versatile device for both flower and extracts.",
+  "specs": [
+    {
+      "label": "Heating",
+      "value": "Dual (conduction and infrared)"
+    },
+    {
+      "label": "Battery life",
+      "value": "90min of use"
+    },
+    {
+      "label": "Dimensions",
+      "value": "4.49H × 1.78W × 1.31D (in) / 114.1H × 45.1W × 33.3D (mm)"
+    },
+    {
+      "label": "Weight",
+      "value": "157.8 grams"
+    },
+    {
+      "label": "Warranty",
+      "value": "10 Years"
+    },
+    {
+      "label": "Temperature range",
+      "value": "284-500°F"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "portable",
+    "dry-herb",
+    "auxo"
+  ],
+  "stripeLink": "",
+  "rnSku": "15040599916918",
+  "order": 54
+}

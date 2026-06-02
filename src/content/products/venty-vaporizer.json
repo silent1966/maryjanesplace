@@ -1,0 +1,48 @@
+{
+  "slug": "venty-vaporizer",
+  "name": "Venty Vaporizer",
+  "brand": "Storz & Bickel",
+  "category": "portable-vapes",
+  "price": 367.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Storz-and-bickel-Venty-vaporizer.jpg?v=1705330994",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Storz-and-bickel-Venty-vaporizer-1.jpg?v=1705330994",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Storz-and-bickel-Venty-vaporizer-button.jpg?v=1705330994",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Storz-and-bickel-Venty-vaporizer-2.jpg?v=1705330994",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Storz-and-bickel-Venty-vaporizer-3.jpg?v=1705330994"
+  ],
+  "summary": "A fast-heating, high-airflow portable from Storz & Bickel for patients who want strong draws on the move.",
+  "description": "The Venty is Storz & Bickel's German-made portable vaporiser with hybrid convection and conduction heating, a ceramic chamber and degree-by-degree control from 40°C to 210°C. It heats in around 20 seconds and adds adjustable airflow, so you can set a gentle or a powerful draw to suit how you medicate. USB-C charging and a glass-cooled vapour path round it out. It suits patients who want fast, high-output sessions and S&B build quality in a portable form. At 252g it is on the heavier side for a pocket device, the trade for its airflow and power.",
+  "specs": [
+    {
+      "label": "Weight",
+      "value": "252 g | 0.56 lb"
+    },
+    {
+      "label": "Temperature range",
+      "value": "40°C-210°C ( 104°F - 410°F )"
+    },
+    {
+      "label": "Material",
+      "value": "Plastic"
+    },
+    {
+      "label": "Made in",
+      "value": "Germany"
+    },
+    {
+      "label": "Warranty",
+      "value": "2-year warranty + 1 year upon registration"
+    }
+  ],
+  "inStock": true,
+  "featured": true,
+  "tags": [
+    "portable",
+    "dry-herb",
+    "storz-bickel"
+  ],
+  "stripeLink": "",
+  "rnSku": "7885233193129",
+  "order": 5
+}

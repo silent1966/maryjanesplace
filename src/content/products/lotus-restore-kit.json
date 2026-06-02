@@ -1,0 +1,38 @@
+{
+  "slug": "lotus-restore-kit",
+  "name": "Lotus Restore Kit",
+  "brand": "Inhale Vaporizers",
+  "category": "accessories",
+  "price": 29.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Lotus-restore-kit.jpg?v=1758652548",
+  "gallery": [],
+  "summary": "The Lotus Restore Kit provides everything needed to bring a Lotus vaporiser back to peak condition.",
+  "description": "The Lotus Restore Kit provides everything needed to bring a Lotus vaporiser back to peak condition. Perfect for replacing worn or aged parts, this complete set ensures your customers’ devices continue performing as smoothly and efficiently as the day they were new. Made from authentic, high-quality Lotus components, the Restore Kit is designed for durability, reliability, and consistent performance. Regular replacement of key parts not only extends device longevity but also preserves flavour quality and vapour efficiency over time. A practical part to keep your device working as it should.",
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Vaporiser replacement parts kit"
+    },
+    {
+      "label": "Compatibility",
+      "value": "Lotus Vaporiser (all models using the Lotus cap)"
+    },
+    {
+      "label": "In the box",
+      "value": "Hot plate, O-rings, clips, screens, assorted small parts"
+    },
+    {
+      "label": "Made in",
+      "value": "Authentic Lotus-manufactured components"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "accessory",
+    "inhale-vaporizers"
+  ],
+  "stripeLink": "",
+  "rnSku": "15354840056182",
+  "order": 358
+}

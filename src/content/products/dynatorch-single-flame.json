@@ -1,0 +1,33 @@
+{
+  "slug": "dynatorch-single-flame",
+  "name": "DynaTorch (Single Flame)",
+  "brand": "DynaVap",
+  "category": "accessories",
+  "price": 22.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/DynaTorch-Single-Flame.jpg?v=1755533822",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/DynaTorch-Single-Flame-1.jpg?v=1755533822",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/DynaTorch-Single-Flame-3.jpg?v=1755533822"
+  ],
+  "summary": "The DynaTorch Single Flame is an official DynaVap accessory designed for consistent, precise heating of all Dynavap models.",
+  "description": "The DynaTorch Single Flame is an official DynaVap accessory designed for consistent, precise heating of all Dynavap models. Built with a sturdy fuel tank, ergonomic ignition, and a travel-safe cap, this refillable butane lighter is one of the most popular torch options among DynaVap users. Stock up today and offer your customers a high-demand accessory that pairs perfectly with their DynaVap devices. Stock it today and give your customers the perfect heating solution for their DynaVap devices. A practical part to keep your device working as it should.",
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Refillable single-flame butane torch"
+    },
+    {
+      "label": "Compatibility",
+      "value": "Works with all DynaVap VapCaps"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "accessory",
+    "dynavap"
+  ],
+  "stripeLink": "",
+  "rnSku": "15300723474806",
+  "order": 250
+}

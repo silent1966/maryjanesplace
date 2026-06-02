@@ -1,0 +1,40 @@
+{
+  "slug": "vapman-hard-case",
+  "name": "Vapman Hard Case",
+  "brand": "Inhale Vaporizers",
+  "category": "cases",
+  "price": 35.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vapman-hard-case-closed.jpg?v=1758652567",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vapman-hard-case-open.jpg?v=1758652567"
+  ],
+  "summary": "Keep your Vapman vaporiser and accessories protected wherever you go with the Vapman Hard Case.",
+  "description": "Keep your Vapman vaporiser and accessories protected wherever you go with the Vapman Hard Case. Built with a rugged exterior and precision-moulded interior, this case ensures your setup stays secure, organised, and ready for any journey. The reinforced hard-shell exterior provides excellent impact resistance, while the custom foam interior keeps every Vapman component snug and protected. Designed to handle both short trips and long travels, it’s a dependable way to safeguard your vaporiser against knocks, scratches, and spills. Keeps your kit protected and discreet in transit.",
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Protective carrying case"
+    },
+    {
+      "label": "Material",
+      "value": "Durable hard-shell exterior with custom foam interior"
+    },
+    {
+      "label": "Compatibility",
+      "value": "Vapman vaporiser and accessories"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Approx. 23 × 15 × 7.5 cm (9 × 6 × 3 inches)"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "case",
+    "inhale-vaporizers"
+  ],
+  "stripeLink": "",
+  "rnSku": "15354845397366",
+  "order": 517
+}

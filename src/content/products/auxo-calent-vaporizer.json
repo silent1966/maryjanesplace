@@ -1,0 +1,52 @@
+{
+  "slug": "auxo-calent-vaporizer",
+  "name": "Auxo Calent Vaporizer",
+  "brand": "Auxo",
+  "category": "portable-vapes",
+  "price": 85.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Auxo-Calent-Vaporizer-1.jpg?v=1692741359",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Auxo-Calent-Vaporizer-app-smartphone.jpg?v=1692741359",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Auxo-Calent-Vaporizer-in-the-box.jpg?v=1692741359",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Auxo-Calent-Vaporizer-2.jpg?v=1692741359",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Auxo-Calent-Vaporizer.jpg?v=1692741359"
+  ],
+  "summary": "A dual-heating portable vaporiser for dry herb with app control and a long-life battery, for patients who want a durable everyday device.",
+  "description": "The Auxo Calent pairs conduction with infrared heating in a compact aluminium body, heating in 20-30 seconds with four preset temperatures across a 180-220C range. A 360-degree zirconia ceramic mouthpiece and magnetic lid make loading and use easy, and the 2900mAh battery supports around 90 minutes of use per charge over USB-C. Optional Bluetooth app connectivity unlocks finer control for those who want it. Backed by a 10-year warranty, it suits patients who want a robust, well-built everyday vaporiser at a sensible price.",
+  "specs": [
+    {
+      "label": "Heating",
+      "value": "Dual (conduction and infrared)"
+    },
+    {
+      "label": "Battery life",
+      "value": "90min of use"
+    },
+    {
+      "label": "Dimensions",
+      "value": "11.0 cm x 5.7 cm x 3.3 cm"
+    },
+    {
+      "label": "Weight",
+      "value": "134 grams"
+    },
+    {
+      "label": "Warranty",
+      "value": "10 Years"
+    },
+    {
+      "label": "Temperature range",
+      "value": "356-428°F"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "portable",
+    "dry-herb",
+    "auxo"
+  ],
+  "stripeLink": "",
+  "rnSku": "7779320430761",
+  "order": 29
+}

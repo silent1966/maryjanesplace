@@ -1,0 +1,40 @@
+{
+  "slug": "smono-baloo",
+  "name": "Smono Baloo",
+  "brand": "Smono",
+  "category": "portable-vapes",
+  "price": 95.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Smono-Baloo-Vaporizer.jpg?v=1707861062",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Smono-Baloo-Vaporizer-Replaceable-Battery.jpg?v=1707861062",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Smono-Baloo-Vaporizer-18650.jpg?v=1707861062",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Smono-Baloo-Vaporizer-USB-C.jpg?v=1707861062",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Smono-Baloo-Vaporizer-Chamber.jpg?v=1707861062"
+  ],
+  "summary": "A budget dry-herb vaporiser with a swappable 18650 battery and adjustable airflow.",
+  "description": "The Smono Baloo is a simple, low-maintenance dry-herb device with accurate temperature control from 100–240°C and adjustable airflow to tune each draw. Its standout feature is the replaceable 18650 battery (3400mAh), so you can carry a spare and keep going rather than wait for a charge. Expect 4–6 sessions per cell, with a silicone mouthpiece and a generous accessory kit in the box. It suits a budget-conscious patient who wants decent vapour and the practicality of swappable cells. The plastic build keeps the price down, so it's a value option rather than a long-haul premium device.",
+  "specs": [
+    {
+      "label": "Temperature range",
+      "value": "100°-240° C"
+    },
+    {
+      "label": "Battery",
+      "value": "18650 Akku 3400 mAh 3,7V"
+    },
+    {
+      "label": "Battery life",
+      "value": "2 Hours"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "portable",
+    "dry-herb",
+    "smono"
+  ],
+  "stripeLink": "",
+  "rnSku": "7909793661097",
+  "order": 38
+}

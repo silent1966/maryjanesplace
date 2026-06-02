@@ -1,0 +1,43 @@
+{
+  "slug": "aromed-4-0-vaporizer",
+  "name": "Aromed 4.0 Vaporizer",
+  "brand": "Aromed HQ Vaporizer",
+  "category": "desktop-vapes",
+  "price": 647.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Aromed-vaporizer-black.jpg?v=1620661896",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Aromed-vaporizer-white.jpg?v=1620661896",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Aromed-vaporizer-glass.jpg?v=1620661896",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Aromed-vaporizer-bong-attachment.jpg?v=1620661896"
+  ],
+  "summary": "A German-built halogen desktop vaporiser with full temperature control and water filtration, for serious home use.",
+  "description": "The AroMed 4.0 is a German-made desktop vaporiser that heats with a halogen bulb and draws through an all-glass vapour path with a built-in water filter for a notably smooth, cool draw. Temperature is fully adjustable across a wide range, and it handles dried herb, oils and extracts. It comes with a five-year warranty and a travel case, and suits committed patients who want a clean glass-and-water vapour path at home. It is a considered purchase at this price, and the glass-heavy design rewards careful handling — but for flavour-focused medicating it is a device people keep for years.",
+  "specs": [
+    {
+      "label": "Temperature range",
+      "value": "Fully Adjustable Temperature Settings"
+    },
+    {
+      "label": "Material",
+      "value": "Metal"
+    },
+    {
+      "label": "Made in",
+      "value": "Germany"
+    },
+    {
+      "label": "Warranty",
+      "value": "5 Year Warranty"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "desktop",
+    "dry-herb",
+    "aromed-hq-vaporizer"
+  ],
+  "stripeLink": "",
+  "rnSku": "6980029120681",
+  "order": 91
+}

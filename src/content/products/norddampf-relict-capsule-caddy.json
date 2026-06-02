@@ -1,0 +1,36 @@
+{
+  "slug": "norddampf-relict-capsule-caddy",
+  "name": "Norddampf Relict Capsule Caddy",
+  "brand": "Norddampf",
+  "category": "accessories",
+  "price": 21.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Norddampf-Relict-Capsule-Caddy.jpg?v=1754087080",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Norddampf-Relict-Capsule-Caddy-1.jpg?v=1754087080"
+  ],
+  "summary": "The Norddampf Relict Capsule Caddy is a professional-grade accessory built for efficient session prep and streamlined inventory handling.",
+  "description": "The Norddampf Relict Capsule Caddy is a professional-grade accessory built for efficient session prep and streamlined inventory handling. Optimised for both storefront and customer utility, the Capsule Caddy ensures capsules are stored safely, presented cleanly, and transported securely. Ideal for customers on the go or for daily routines at home or work. The matte black finish and low-profile design make it easy to carry or display, while the magnetic snap lid keeps contents protected and odours contained—suitable for modern lifestyle or retail environments. A practical part to keep your device working as it should.",
+  "specs": [
+    {
+      "label": "Chamber",
+      "value": "Holds 6× dosing capsules"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Approx. 70 × 35 × 15 mm"
+    },
+    {
+      "label": "Weight",
+      "value": "Approx. 55 g (with capsules)"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "accessory",
+    "norddampf"
+  ],
+  "stripeLink": "",
+  "rnSku": "15280018522486",
+  "order": 238
+}
