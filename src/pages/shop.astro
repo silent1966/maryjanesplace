@@ -257,7 +257,7 @@ const totalCount = products.length;
 </script>
 
 <style>
-  .shop-hero { padding-top: 128px; padding-bottom: 24px; }
+  .shop-hero { padding-top: 138px; padding-bottom: 24px; }
 
   .shop-controls {
     display: flex;
@@ -269,7 +269,7 @@ const totalCount = products.length;
     border-top: 1px solid var(--line);
     background: var(--paper);
     position: sticky;
-    top: 116px;
+    top: 124px;
     z-index: 50;
   }
   .shop-search {
@@ -467,7 +467,12 @@ const totalCount = products.length;
     .price-main { font-size: 16px; }
   }
   @media (max-width: 420px) {
-    .prod-grid { grid-template-columns: 1fr; }
+    .prod-grid { gap: 12px; }
+    .prod-meta { padding: 11px 12px 14px; }
     .trust-band { grid-template-columns: 1fr; }
+  }
+  /* keep two columns on phones — single column only on very small screens */
+  @media (max-width: 340px) {
+    .prod-grid { grid-template-columns: 1fr; }
   }
 </style>
