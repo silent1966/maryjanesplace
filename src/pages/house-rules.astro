@@ -1,0 +1,130 @@
+---
+import Base from "../layouts/Base.astro";
+import RelatedLinks from "../components/RelatedLinks.astro";
+import PageJump from "../components/PageJump.astro";
+---
+
+<Base
+  title="House rules & terms — Mary Jane's Place"
+  description="The full house rules and membership terms for Mary Jane's Place: verification, vapour-only use, conduct, discretion, guests, and how we keep the space lawful and welcoming."
+>
+  <section class="ph-top pad">
+    <div class="wrap narrow">
+      <div class="eyebrow kick rv">House rules &amp; terms</div>
+      <h1 class="rv">The full house rules.</h1>
+      <p class="rv lede" style="margin-top:16px">
+        The short version lives on the <a class="tlink" href="/vaping-lounge">lounge page</a>.
+        This is the full set — plain, fair, and the same for everyone. They keep the space
+        lawful, safe and welcoming.
+      </p>
+    </div>
+  </section>
+
+  <PageJump items={[
+    { href: "#membership", label: "Membership" },
+    { href: "#using", label: "Using your medicine" },
+    { href: "#conduct", label: "Conduct" },
+    { href: "#guests", label: "Guests" },
+    { href: "#getting-home", label: "Getting home" },
+    { href: "#removal", label: "If rules are broken" },
+    { href: "#privacy", label: "Privacy" },
+  ]} />
+
+  <section class="pad-sm" style="padding-top:0">
+    <div class="wrap narrow">
+
+      <div class="rules">
+        <div class="rule rv" id="membership" style="scroll-margin-top:120px">
+          <span class="rn">1</span>
+          <div>
+            <b>Membership &amp; verification.</b>
+            <p>To use your medicine here we check photo ID and proof of a valid UK
+            prescription (a dispensing label or prescriber letter) once, in person. After
+            that you're verified — show your member ID on future visits. You don't need to be
+            a member to visit, shop or have a drink.</p>
+          </div>
+        </div>
+        <div class="rule rv" id="using" style="scroll-margin-top:120px">
+          <span class="rn">2</span>
+          <div>
+            <b>Vapour only, your own medicine.</b>
+            <p>Dry-herb vaporisers only — no smoking, flames, lighters or combustion of any
+            kind. Use only what you've been lawfully prescribed, brought in its original
+            packaging. We are not a dispensary: we don't sell, supply, share or store
+            cannabis, and nor do members between themselves.</p>
+          </div>
+        </div>
+        <div class="rule rv" id="conduct" style="scroll-margin-top:120px">
+          <span class="rn">3</span>
+          <div>
+            <b>Respect, discretion and the space.</b>
+            <p>A judgement-free room. No phone cameras and no photos of other patients. Don't
+            ask anyone about their condition, prescription or dose — what's shared in the
+            lounge stays in the lounge. Keep noise and conversation considerate of people
+            medicating for chronic pain or anxiety, and leave the space as you found it.</p>
+          </div>
+        </div>
+        <div class="rule rv" style="scroll-margin-top:120px">
+          <span class="rn">4</span>
+          <div>
+            <b>Hygiene.</b>
+            <p>Don't share mouthpieces or devices. Every hire device is fully serviced and
+            cleaned between members; ask any time and we'll clean yours on the spot.</p>
+          </div>
+        </div>
+        <div class="rule rv" id="guests" style="scroll-margin-top:120px">
+          <span class="rn">5</span>
+          <div>
+            <b>Guests.</b>
+            <p>Anyone is welcome to come in, sit down and buy a drink, the same as any café.
+            Only the act of using your medicine here needs verification — a non-patient guest
+            simply can't do that part. You're responsible for guests you bring.</p>
+          </div>
+        </div>
+        <div class="rule rv" id="getting-home" style="scroll-margin-top:120px">
+          <span class="rn">6</span>
+          <div>
+            <b>Getting home.</b>
+            <p>Driving on a medical cannabis prescription is lawful — there's a statutory
+            medical defence — but never drive while impaired. If you've medicated and aren't
+            sure, ask us and we'll help sort a taxi or lift. See
+            <a class="tlink" href="/your-rights">Your Rights</a> for the full legal position.</p>
+          </div>
+        </div>
+        <div class="rule rv" id="removal" style="scroll-margin-top:120px">
+          <span class="rn">7</span>
+          <div>
+            <b>If the rules are broken.</b>
+            <p>Selling, sharing or supplying on site, smoking/combustion, or behaviour that
+            puts the space or other patients at risk ends your membership immediately. Lesser
+            issues get a quiet word first. We'd always rather have the conversation.</p>
+          </div>
+        </div>
+        <div class="rule rv" id="privacy" style="scroll-margin-top:120px">
+          <span class="rn">8</span>
+          <div>
+            <b>Privacy.</b>
+            <p>We verify once and don't keep your medical records. We don't share your details
+            with clinics, employers or police, and we never ask what you're being treated for.
+            See our <a class="tlink" href="/privacy">privacy policy</a>.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="disc rv" style="margin-top:24px">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16h.01"/></svg>
+        <div>These house rules form part of your membership terms and may be updated from time
+          to time. They're here to keep the space lawful and welcoming for everyone.</div>
+      </div>
+
+      <div class="rv" style="margin-top:24px">
+        <RelatedLinks items={[
+          { href: "/vaping-lounge", label: "The lounge" },
+          { href: "/your-rights", label: "Your rights" },
+          { href: "/membership", label: "Become a member" },
+          { href: "/visit", label: "Visit us" },
+        ]} />
+      </div>
+    </div>
+  </section>
+</Base>

@@ -397,35 +397,25 @@ nav.links a.active {
 .hero-cta { display: flex; gap: 12px; flex-wrap: wrap; }
 
 .reassure {
-  margin-top: 30px;
+  margin-top: 28px;
   display: flex;
-  gap: 10px;
+  gap: 8px;
   flex-wrap: wrap;
-  font-size: 13.5px;
+  font-size: 13px;
   font-weight: 700;
-  color: var(--olive-d);
+  color: var(--ink);
 }
 .reassure span {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
+  gap: 7px;
   background: var(--panel);
-  border: 1px solid var(--line);
-  padding: 9px 15px 9px 9px;
-  border-radius: 12px;
-  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--sage-soft);
+  padding: 7px 13px;
+  border-radius: 9px;
 }
-.reassure .rb-ic {
-  flex: none;
-  width: 30px;
-  height: 30px;
-  border-radius: 8px;
-  background: var(--tint);
-  display: grid;
-  place-items: center;
-  color: var(--olive);
-}
-.reassure .rb-ic svg { width: 17px; height: 17px; }
+.reassure .rb-ic { display: inline-flex; align-items: center; flex: none; }
+.reassure svg, .reassure .rb-ic svg { width: 16px; height: 16px; color: var(--olive); flex: none; }
 
 /* section header badge (matches the navcard/badge style) */
 .sec-badge {
@@ -514,16 +504,10 @@ nav.links a.active {
   box-shadow: var(--shadow-sm);
 }
 .step .n {
-  display: inline-block;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 800;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.12em;
   color: var(--olive);
-  background: var(--tint);
-  border: 1px solid var(--line);
-  padding: 4px 11px;
-  border-radius: 999px;
-  margin-bottom: 10px;
 }
 .step h3 { margin: 8px 0 7px; font-size: 19px; }
 .step p { font-size: 15.5px; }
@@ -775,7 +759,7 @@ footer {
   .hamb { display: flex; }
   .pad { padding: 48px 0; }
   .pad-sm { padding: 36px 0; }
-  .ph-top { padding-top: 92px; }
+  .ph-top { padding-top: 104px; }
   .three, .steps, .rules, .prods, .band .facts { grid-template-columns: 1fr; gap: 14px; }
   .two, .visit-grid, .info { gap: 26px; }
   .two-law { grid-template-columns: 1fr !important; }
@@ -784,7 +768,7 @@ footer {
   section + section { margin-top: 0; }
   .foot-grid { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 24px; }
   .callout { flex-direction: column; align-items: flex-start; }
-  .brand-logo { height: 56px; }
+  .brand-logo { height: 68px; }
   .nav { padding: 8px 16px; }
   /* calmer, smaller mobile type scale */
   h1 { font-size: clamp(23px, 6vw, 28px); line-height: 1.16; letter-spacing: -0.01em; }
@@ -793,17 +777,16 @@ footer {
   .lede { font-size: 16px; line-height: 1.55; }
   .step h3, .info-block h3, .navcard h3, .law h3 { font-size: 17px; }
   .eyebrow { font-size: 11.5px; }
-  .hero { padding: 84px 0 34px; }
+  .hero { padding: 98px 0 34px; }
   .hero p.sub { font-size: 15.5px; line-height: 1.5; margin: 13px 0 20px; }
   .hero .eyebrow { font-size: 11.5px; }
   .hero-cta { flex-direction: column; align-items: stretch; gap: 9px; }
   .hero-cta .btn { width: 100%; justify-content: center; min-height: 48px; padding: 13px 18px; font-size: 15px; }
   .btn { min-height: 44px; }
   /* reassurance badges: tidy 2x2, compact */
-  .reassure { margin-top: 18px; display: grid; grid-template-columns: 1fr 1fr; gap: 8px; font-size: 11.8px; }
-  .reassure span { padding: 8px 10px 8px 8px; gap: 8px; box-shadow: none; border-radius: 10px; }
-  .reassure .rb-ic { width: 26px; height: 26px; border-radius: 7px; }
-  .reassure .rb-ic svg { width: 15px; height: 15px; }
+  .reassure { margin-top: 18px; display: grid; grid-template-columns: 1fr 1fr; gap: 8px; font-size: 12px; }
+  .reassure span { padding: 8px 10px; gap: 7px; border-radius: 9px; }
+  .reassure svg, .reassure .rb-ic svg { width: 15px; height: 15px; }
   .scroll-cue { display: none; }
   .acc-item summary { font-size: 16px; padding: 15px 2px; }
   .perks { grid-template-columns: 1fr !important; }
