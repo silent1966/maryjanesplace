@@ -261,6 +261,16 @@ function isWaterPipe(name, brand) {
   return false;
 }
 
+// Obsolete / superseded devices to drop from the shop (kept out, won't regenerate).
+// Genuinely legacy tech where a current successor exists in the catalogue, or dead designs.
+// Only genuinely dead/junk tech — NOT models that simply have a newer version.
+// (Arizer V Tower / Extreme Q are old designs but still sold new and viable, so kept.)
+const OBSOLETE = new Set([
+  "flowermate-v5-0s-pro-mini",              // old budget conduction portable, effectively dead tech
+  "focus-vape-pro-vaporizer",               // dated conduction portable, discontinued-era
+  "xvape-mambo-cheech-and-chong-vaporizer", // old novelty conduction pen
+]);
+
 // ---------- pricing ----------
 // MAP (Minimum Advertised Price) brands — UK retailers all priced identically by
 // manufacturer mandate, so no per-product scan needed.
@@ -481,6 +491,8 @@ for (const p of catalog) {
   const category = resolveCategory(p);
   const brand = brandOf(p);
   const handle = clean(p.handle) || name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+
+  if (OBSOLETE.has(handle)) { excluded.push([name, "obsolete/legacy tech"]); continue; }
 
   const compareAt = parseFloat(p.compare_at_price_gbp);
   const pr = computePrice(T, handle, brand, compareAt > 0 ? compareAt : 0);
