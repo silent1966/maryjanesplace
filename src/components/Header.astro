@@ -10,7 +10,7 @@ function group(paths: string[]) {
 }
 const loungeActive = group(["/vaping-lounge", "/hire", "/book", "/visit"]);
 const membersActive = group(["/membership", "/join", "/member"]);
-const aboutActive = group(["/about", "/medical-cannabis", "/your-rights", "/blog", "/partnerships", "/for-police-and-venues"]);
+const aboutActive = group(["/about", "/your-rights", "/blog", "/partnerships", "/for-police-and-venues"]);
 const caret = `<svg class="caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 9l6 6 6-6"/></svg>`;
 ---
 
@@ -22,6 +22,7 @@ const caret = `<svg class="caret" viewBox="0 0 24 24" fill="none" stroke="curren
 
     <nav class="links" id="navlinks" aria-label="Primary">
       <a href="/shop" class={active("/shop")}>Shop</a>
+      <a href="/medical-cannabis" class={active("/medical-cannabis")}>Medical Cannabis</a>
 
       <div class="has-drop">
         <button type="button" class={`drop-toggle ${loungeActive}`} aria-haspopup="true" aria-expanded="false">Lounge &amp; Hire <Fragment set:html={caret} /></button>
@@ -45,9 +46,10 @@ const caret = `<svg class="caret" viewBox="0 0 24 24" fill="none" stroke="curren
       <div class="has-drop">
         <button type="button" class={`drop-toggle ${aboutActive}`} aria-haspopup="true" aria-expanded="false">About <Fragment set:html={caret} /></button>
         <div class="drop" role="menu">
-          <a href="/about" role="menuitem">Our story</a>
-          <a href="/medical-cannabis" role="menuitem">Medical cannabis</a>
           <a href="/your-rights" role="menuitem">Your rights</a>
+          <a href="/for-police-and-venues" role="menuitem">For police &amp; venues</a>
+          <a href="/about" role="menuitem">Our story</a>
+          <a href="/partnerships" role="menuitem">Partnerships</a>
           <a href="/blog" role="menuitem">Blog</a>
         </div>
       </div>
@@ -86,6 +88,8 @@ const caret = `<svg class="caret" viewBox="0 0 24 24" fill="none" stroke="curren
   </form>
 
   <a class="drawer-top" href="/shop">Shop</a>
+  <a class="drawer-top" href="/medical-cannabis">Medical Cannabis</a>
+  <a class="drawer-top" href="/contact">Contact</a>
 
   <div class="drawer-group">
     <div class="drawer-group-h">Lounge &amp; Hire</div>
@@ -103,18 +107,12 @@ const caret = `<svg class="caret" viewBox="0 0 24 24" fill="none" stroke="curren
   </div>
 
   <div class="drawer-group">
-    <div class="drawer-group-h">About</div>
-    <a href="/about">Our story</a>
-    <a href="/medical-cannabis">Medical cannabis</a>
+    <div class="drawer-group-h">About &amp; the law</div>
     <a href="/your-rights">Your rights</a>
-    <a href="/blog">Blog</a>
-  </div>
-
-  <div class="drawer-group">
-    <div class="drawer-group-h">More</div>
-    <a href="/contact">Contact</a>
+    <a href="/for-police-and-venues">For police &amp; venues</a>
+    <a href="/about">Our story</a>
     <a href="/partnerships">Partnerships</a>
-    <a href="/for-police-and-venues">For Police &amp; Venues</a>
+    <a href="/blog">Blog</a>
   </div>
 </div>
 

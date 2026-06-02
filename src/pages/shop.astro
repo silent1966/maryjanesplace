@@ -81,15 +81,6 @@ const totalCount = products.length;
         </div>
 
         <div class="filter-group">
-          <h4 class="filter-h">Price</h4>
-          <div class="price-pills" role="group" aria-label="Price range filter">
-            {priceRanges.map((r, i) => (
-              <button class:list={["price-pill", { active: i === 0 }]} data-min={r.min} data-max={r.max} type="button">{r.label}</button>
-            ))}
-          </div>
-        </div>
-
-        <div class="filter-group">
           <h4 class="filter-h">Brand</h4>
           <label for="brand-by" class="sr-only">Filter by brand</label>
           <select id="brand-by" class="sort-select">
@@ -98,15 +89,31 @@ const totalCount = products.length;
           </select>
         </div>
 
-        <div class="filter-group">
-          <h4 class="filter-h">Sort by</h4>
-          <label for="sort-by" class="sr-only">Sort by</label>
-          <select id="sort-by" class="sort-select">
-            <option value="featured">Featured first</option>
-            <option value="price-asc">Price: low to high</option>
-            <option value="price-desc">Price: high to low</option>
-            <option value="name-asc">Name: A–Z</option>
-          </select>
+        <button type="button" class="filters-btn" id="filters-toggle" aria-expanded="false" aria-controls="secondary-filters">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:16px;height:16px"><path d="M4 6h16M7 12h10M10 18h4"/></svg>
+          Price &amp; sort
+        </button>
+
+        <div class="secondary-filters" id="secondary-filters">
+          <div class="filter-group">
+            <h4 class="filter-h">Price</h4>
+            <div class="price-pills" role="group" aria-label="Price range filter">
+              {priceRanges.map((r, i) => (
+                <button class:list={["price-pill", { active: i === 0 }]} data-min={r.min} data-max={r.max} type="button">{r.label}</button>
+              ))}
+            </div>
+          </div>
+
+          <div class="filter-group">
+            <h4 class="filter-h">Sort by</h4>
+            <label for="sort-by" class="sr-only">Sort by</label>
+            <select id="sort-by" class="sort-select">
+              <option value="featured">Featured first</option>
+              <option value="price-asc">Price: low to high</option>
+              <option value="price-desc">Price: high to low</option>
+              <option value="name-asc">Name: A–Z</option>
+            </select>
+          </div>
         </div>
       </aside>
 
@@ -316,6 +323,14 @@ const totalCount = products.length;
   brandSel?.addEventListener('change', apply);
   searchInput?.addEventListener('input', apply);
 
+  // mobile: reveal price + sort behind the Filters button (cuts strip height)
+  const filtersToggle = document.getElementById('filters-toggle');
+  const secondary = document.getElementById('secondary-filters');
+  filtersToggle?.addEventListener('click', () => {
+    const open = secondary?.classList.toggle('open');
+    filtersToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+
   // deep-link support: /shop?q=foo (from header search / site search action)
   const params = new URLSearchParams(location.search);
   const initialQ = params.get('q');
@@ -511,6 +526,14 @@ const totalCount = products.length;
     .prod-meta { padding: 12px 14px 16px; }
     .prod-name { font-size: 14.5px; }
     .price-main { font-size: 16px; }
+  }
+  /* Price & sort tuck behind a Filters button on mobile — keeps the strip light */
+  .filters-btn { display: none; }
+  .secondary-filters { display: contents; }
+  @media (max-width: 900px) {
+    .filters-btn { display: inline-flex; align-self: flex-start; }
+    .secondary-filters { display: none; flex: 1 1 100%; flex-wrap: wrap; gap: 10px 14px; }
+    .secondary-filters.open { display: flex; }
   }
   /* two columns on phones */
   @media (max-width: 620px) {
