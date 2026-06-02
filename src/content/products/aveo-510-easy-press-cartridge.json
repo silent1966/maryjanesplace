@@ -3,7 +3,7 @@
   "name": "AVEO - 510 Easy-Press Cartridge",
   "brand": "AVEO",
   "category": "cartridge-batteries",
-  "price": 18.95,
+  "price": 13.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/AVEO-Easy-Press-510-Metal-Cartridges-1mL-with-mouthpiece.jpg?v=1698877291",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/AVEO-Easy-Press-510-Metal-Cartridges-1mL-with-mouthpiece_0cfbd08f-25e0-4541-9509-6912a9e84807.jpg?v=1698877291",
@@ -21,5 +21,5 @@
   ],
   "stripeLink": "",
   "rnSku": "7821803815081",
-  "order": 112
+  "order": 111
 }

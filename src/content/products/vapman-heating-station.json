@@ -3,7 +3,7 @@
   "name": "Vapman Heating Station",
   "brand": "Inhale Vaporizers",
   "category": "desktop-vapes",
-  "price": 312.95,
+  "price": 327.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vapman-heating-station.jpg?v=1758652544",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vapman-heating-station-with-device.jpg?v=1758652545",
@@ -43,5 +43,5 @@
   ],
   "stripeLink": "",
   "rnSku": "15354839073142",
-  "order": 88
+  "order": 89
 }

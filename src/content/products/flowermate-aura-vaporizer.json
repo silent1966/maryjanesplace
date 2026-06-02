@@ -3,7 +3,7 @@
   "name": "Flowermate Aura Vaporizer",
   "brand": "Flowermate",
   "category": "portable-vapes",
-  "price": 77.95,
+  "price": 72.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/flowermate-aura-vaporizer-1_54be37f2-bb5f-4177-8ad9-14bbfbf671d4.jpg?v=1692736677",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/flowermate-aura-vaporizer-2_97b81e53-4c15-4dcc-a4a7-7f26d320f244.jpg?v=1692736677",
@@ -56,5 +56,5 @@
   ],
   "stripeLink": "",
   "rnSku": "6980036198569",
-  "order": 27
+  "order": 31
 }

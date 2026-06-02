@@ -3,7 +3,7 @@
   "name": "Boundless DV8 From BMIC",
   "brand": "Boundless",
   "category": "portable-vapes",
-  "price": 249.95,
+  "price": 175.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Boundless-Dv8-vaporizer-by-BMIC.jpg?v=1700594568",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Boundless-Dv8-vaporizer-by-BMIC-side.jpg?v=1700594569",
@@ -48,5 +48,5 @@
   ],
   "stripeLink": "",
   "rnSku": "7846042075305",
-  "order": 75
+  "order": 68
 }

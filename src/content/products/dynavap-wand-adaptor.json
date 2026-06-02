@@ -3,7 +3,7 @@
   "name": "DynaVap - Wand Adaptor",
   "brand": "Dynavap",
   "category": "accessories",
-  "price": 19.95,
+  "price": 14.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/DynaVap-Wand-Adaptor.jpg?v=1708358457",
   "gallery": [],
   "summary": "Optimise your DynaVap experience with the DynaVap Wand Adaptor.",
@@ -17,5 +17,5 @@
   ],
   "stripeLink": "",
   "rnSku": "7915304616105",
-  "order": 216
+  "order": 215
 }

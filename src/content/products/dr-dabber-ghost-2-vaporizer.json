@@ -3,7 +3,7 @@
   "name": "Dr. Dabber Ghost 2",
   "brand": "Dr. Dabber",
   "category": "portable-vapes",
-  "price": 136.95,
+  "price": 127.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Dr-Dabber-Ghost2-vaporizer-1.jpg?v=1774976854",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Dr-Dabber-Ghost2-vaporizer-side-led.jpg?v=1774976854",
@@ -47,5 +47,5 @@
   ],
   "stripeLink": "",
   "rnSku": "15679810830710",
-  "order": 58
+  "order": 60
 }

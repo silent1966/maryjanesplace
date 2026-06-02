@@ -3,7 +3,7 @@
   "name": "Norddampf Relict Bubbler",
   "brand": "Norddampf",
   "category": "accessories",
-  "price": 27.95,
+  "price": 20.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Relict-Bubbler-Wasserfilter.jpg?v=1754087069",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Relict-Bubbler-Wasserfilter-1.jpg?v=1754087069"
@@ -36,5 +36,5 @@
   ],
   "stripeLink": "",
   "rnSku": "15280018096502",
-  "order": 338
+  "order": 331
 }

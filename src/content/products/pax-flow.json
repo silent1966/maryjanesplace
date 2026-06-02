@@ -3,7 +3,7 @@
   "name": "PAX Flow",
   "brand": "PAX",
   "category": "portable-vapes",
-  "price": 222.95,
+  "price": 258.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/pax-flow-vaporizer-greenstone.jpg?v=1757369617",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/pax-flow-vaporizer-greenstone-1.jpg?v=1757369617",
@@ -48,5 +48,5 @@
   ],
   "stripeLink": "",
   "rnSku": "15285482881398",
-  "order": 72
+  "order": 78
 }

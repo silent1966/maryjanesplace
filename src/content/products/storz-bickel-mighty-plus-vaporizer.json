@@ -3,7 +3,7 @@
   "name": "Mighty Plus",
   "brand": "Storz & Bickel",
   "category": "portable-vapes",
-  "price": 335.95,
+  "price": 253.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/new-mighty-plus-2021.jpg?v=1692737029",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Mighty-plus-vaporizer-lifestyle.jpg?v=1692737029",
@@ -28,5 +28,5 @@
   ],
   "stripeLink": "",
   "rnSku": "7779298967721",
-  "order": 78
+  "order": 77
 }

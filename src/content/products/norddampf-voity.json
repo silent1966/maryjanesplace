@@ -3,7 +3,7 @@
   "name": "Norddampf Voity",
   "brand": "Norddampf",
   "category": "portable-vapes",
-  "price": 89.95,
+  "price": 67.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Norddampf-Voity-Vaporizer.jpg?v=1754512020",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Norddampf-Voity-Vaporizer-screen.jpg?v=1754512020",
@@ -52,5 +52,5 @@
   ],
   "stripeLink": "",
   "rnSku": "15286475456886",
-  "order": 34
+  "order": 28
 }

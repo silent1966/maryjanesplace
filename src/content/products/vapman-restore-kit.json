@@ -3,7 +3,7 @@
   "name": "Vapman Restore Kit",
   "brand": "Inhale Vaporizers",
   "category": "accessories",
-  "price": 28.95,
+  "price": 21.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vapman-restore-kit.jpg?v=1758652562",
   "gallery": [],
   "summary": "Keep your Vapman vaporiser performing like new with the Vapman Restore Kit.",
@@ -26,5 +26,5 @@
   ],
   "stripeLink": "",
   "rnSku": "15354844184950",
-  "order": 350
+  "order": 347
 }

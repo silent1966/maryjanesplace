@@ -3,7 +3,7 @@
   "name": "Puffco Hot Knife V2",
   "brand": "Puffco",
   "category": "accessories",
-  "price": 84.95,
+  "price": 80.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Puffco-Heated-Loading-Tool-V2-onyx-2.png?v=1773775875",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Puffco-Heated-Loading-Tool-V2-onyx.png?v=1773775876",
@@ -22,5 +22,5 @@
   ],
   "stripeLink": "",
   "rnSku": "15656034533750",
-  "order": 456
+  "order": 460
 }

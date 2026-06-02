@@ -3,7 +3,7 @@
   "name": "Norddampf Relict",
   "brand": "Norddampf",
   "category": "portable-vapes",
-  "price": 139.95,
+  "price": 105.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Norddampf-Relict-Vaporizer.jpg?v=1754512021",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Norddampf-Relict-Vaporizer-Nordic-Blue.jpg?v=1754512019",
@@ -56,5 +56,5 @@
   ],
   "stripeLink": "",
   "rnSku": "15286475424118",
-  "order": 59
+  "order": 51
 }

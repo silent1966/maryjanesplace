@@ -3,7 +3,7 @@
   "name": "Dr Dabber Ghost 2 E-Chamber",
   "brand": "Dr. Dabber",
   "category": "accessories",
-  "price": 39.95,
+  "price": 28.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/ghost2-echamber.jpg?v=1769201790",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/ghost2-echamber-side-view.jpg?v=1769201789",
@@ -20,5 +20,5 @@
   ],
   "stripeLink": "",
   "rnSku": "15563944788342",
-  "order": 403
+  "order": 396
 }

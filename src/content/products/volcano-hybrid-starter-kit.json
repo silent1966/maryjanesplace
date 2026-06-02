@@ -3,7 +3,7 @@
   "name": "Volcano Hybrid Starter Kit",
   "brand": "Storz & Bickel",
   "category": "accessories",
-  "price": 140.95,
+  "price": 109.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Volcano-Hybrid-Starter-set-1.jpg?v=1726170027",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Volcano-Hybrid-Starter-set-2.jpg?v=1726170027",
@@ -20,5 +20,5 @@
   ],
   "stripeLink": "",
   "rnSku": "6980028203177",
-  "order": 476
+  "order": 475
 }

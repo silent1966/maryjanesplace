@@ -3,7 +3,7 @@
   "name": "Vacuumbox Minivac 0,57L",
   "brand": "TightVac",
   "category": "accessories",
-  "price": 22.95,
+  "price": 17.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/vacuumbox-minivac-0.57l-grinder-black.jpg?v=1692737226",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/vacuumbox-minivac-0.57l-uk.jpg?v=1692737226"
@@ -24,5 +24,5 @@
   ],
   "stripeLink": "",
   "rnSku": "7779300802729",
-  "order": 254
+  "order": 260
 }

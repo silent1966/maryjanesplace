@@ -3,7 +3,7 @@
   "name": "Arizer ArGo Battery",
   "brand": "Arizer",
   "category": "accessories",
-  "price": 30.95,
+  "price": 23.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/arizer-air2-battery_large_47affa36-d9c9-4ed6-b972-1e1553a1dfd7.jpg?v=1692736811",
   "gallery": [],
   "summary": "Utilize Arizer ArGo 's powerful and durable lithium-ion batteries for exceptional performance.",
@@ -17,5 +17,5 @@
   ],
   "stripeLink": "",
   "rnSku": "6980032266409",
-  "order": 366
+  "order": 368
 }

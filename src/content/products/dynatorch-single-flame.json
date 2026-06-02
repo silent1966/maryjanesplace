@@ -3,7 +3,7 @@
   "name": "DynaTorch (Single Flame)",
   "brand": "DynaVap",
   "category": "accessories",
-  "price": 22.95,
+  "price": 16.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/DynaTorch-Single-Flame.jpg?v=1755533822",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/DynaTorch-Single-Flame-1.jpg?v=1755533822",
@@ -29,5 +29,5 @@
   ],
   "stripeLink": "",
   "rnSku": "15300723474806",
-  "order": 250
+  "order": 241
 }

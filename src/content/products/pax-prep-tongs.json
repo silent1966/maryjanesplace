@@ -3,7 +3,7 @@
   "name": "PAX Prep Tongs",
   "brand": "PAX",
   "category": "accessories",
-  "price": 24.95,
+  "price": 18.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Pax-Prep-Tongs_db795087-127b-4f64-8d29-d5c7342712a1.jpg?v=1706731984",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Pax-Prep-Tongs-USA_bce8406f-5e5c-4d6e-ae6d-dc297935c7bc.jpg?v=1706731984",
@@ -27,5 +27,5 @@
   ],
   "stripeLink": "",
   "rnSku": "7898853802153",
-  "order": 298
+  "order": 292
 }

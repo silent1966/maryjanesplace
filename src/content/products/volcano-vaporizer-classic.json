@@ -3,7 +3,7 @@
   "name": "Volcano Classic Vaporizer",
   "brand": "Storz & Bickel",
   "category": "desktop-vapes",
-  "price": 318.95,
+  "price": 265.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/volcano-classic_front_easy-valve_grande_5a4aa27b-2440-4abd-bbed-f414bb391597.jpg?v=1693248423",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/volcano-classic_front_80fee76b-cc40-4aed-b5ce-96bfe0a47f2c.jpg?v=1693248423",
@@ -40,5 +40,5 @@
   ],
   "stripeLink": "",
   "rnSku": "6980037181609",
-  "order": 89
+  "order": 88
 }

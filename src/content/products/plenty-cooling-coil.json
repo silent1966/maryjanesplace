@@ -3,7 +3,7 @@
   "name": "Plenty Cooling Coil",
   "brand": "Storz & Bickel",
   "category": "accessories",
-  "price": 27.95,
+  "price": 20.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/PLENTY_Cooling_Coil_04fd800b-5a75-4c87-8067-b458f63c78d1.jpg?v=1692736514",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/PLENTY_Cooling_Coil_2_aae9c7fe-a58e-4312-82ed-ccfaea46508a.jpg?v=1692736514"
@@ -19,5 +19,5 @@
   ],
   "stripeLink": "",
   "rnSku": "6980035510441",
-  "order": 342
+  "order": 335
 }

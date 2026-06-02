@@ -3,7 +3,7 @@
   "name": "DaVinci Artiq Vaporizer",
   "brand": "DaVinci",
   "category": "portable-vapes",
-  "price": 87.95,
+  "price": 66.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Davinci-Artiq-vaporizer-battery-grey-blue-black.jpg?v=1692979656",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Davinci-Artiq-vaporizer-black.jpg?v=1692979656",
@@ -51,5 +51,5 @@
   ],
   "stripeLink": "",
   "rnSku": "7779993125033",
-  "order": 33
+  "order": 27
 }

@@ -3,7 +3,7 @@
   "name": "Puffco Proxy Core Accessory",
   "brand": "Puffco",
   "category": "accessories",
-  "price": 108.95,
+  "price": 82.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Puffco-Proxy-Core-Accessory-m.jpg?v=1773775876",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Puffco-Proxy-Core-Accessory-1.jpg?v=1773775876",
@@ -21,5 +21,5 @@
   ],
   "stripeLink": "",
   "rnSku": "15656034566518",
-  "order": 468
+  "order": 461
 }

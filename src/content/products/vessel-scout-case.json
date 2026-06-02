@@ -3,7 +3,7 @@
   "name": "Vessel Scout Case",
   "brand": "Vessel",
   "category": "accessories",
-  "price": 28.95,
+  "price": 21.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vessel-Scout-Case-Black.jpg?v=1763755983",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vessel-Scout-Case-Black-open.jpg?v=1763755983",
@@ -39,5 +39,5 @@
   ],
   "stripeLink": "",
   "rnSku": "15456077840758",
-  "order": 349
+  "order": 346
 }

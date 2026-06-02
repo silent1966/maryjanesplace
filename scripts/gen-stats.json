@@ -24,15 +24,16 @@
     "wholesale/display bulk unit": 15,
     "no valid trade price": 1
   },
-  "meanMarkup": 3.467,
+  "meanMarkup": 2.719,
   "pricingSource": {
-    "map-nocompare": 61,
-    "sub40": 400,
-    "competitor": 56,
-    "fallback": 6
+    "fallback": 413,
+    "competitor": 109,
+    "map-compare": 1
   },
-  "atFloor": 506,
-  "atCeiling": 17,
+  "atFloor": 327,
+  "atTarget": 196,
+  "competitorPriced": 109,
+  "noCompetitor": 414,
   "featured": [
     "Storz & Bickel MIGHTY+ MEDIC",
     "Storz & Bickel Volcano Hybrid Vaporizer",

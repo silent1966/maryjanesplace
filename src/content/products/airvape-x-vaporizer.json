@@ -3,7 +3,7 @@
   "name": "AirVape X",
   "brand": "AirVape",
   "category": "portable-vapes",
-  "price": 134.95,
+  "price": 101.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Airvape-X-Vaporizer-black.jpg?v=1620661882",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Airvape-X-Vaporizer-black-mouthpiece.jpg?v=1620661882",
@@ -56,5 +56,5 @@
   ],
   "stripeLink": "",
   "rnSku": "6980024041641",
-  "order": 57
+  "order": 50
 }

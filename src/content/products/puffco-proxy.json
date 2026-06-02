@@ -3,7 +3,7 @@
   "name": "Puffco Proxy",
   "brand": "Puffco",
   "category": "portable-vapes",
-  "price": 270.95,
+  "price": 204.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Puffco-Proxy-Pipe-led-light.jpg?v=1692742254",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Puffco-Proxy-Pipe-included-glass-pipe_047ea6ef-61ad-4888-9b8d-dba6f43e354d.jpg?v=1692742254",
@@ -22,5 +22,5 @@
   ],
   "stripeLink": "",
   "rnSku": "7779324166313",
-  "order": 77
+  "order": 74
 }

@@ -3,7 +3,7 @@
   "name": "DynaVap - Low Temp Captive Cap",
   "brand": "DynaVap",
   "category": "accessories",
-  "price": 30.95,
+  "price": 23.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/DynaVap-Low-Temp-Captive-Cap-Down.jpg?v=1698262631",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/DynaVap-Low-Temp-Captive-Cap-Up.jpg?v=1698262631"
@@ -19,5 +19,5 @@
   ],
   "stripeLink": "",
   "rnSku": "7811727524009",
-  "order": 364
+  "order": 366
 }

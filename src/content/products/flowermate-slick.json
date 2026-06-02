@@ -3,7 +3,7 @@
   "name": "Flowermate Slick",
   "brand": "Flowermate",
   "category": "portable-vapes",
-  "price": 77.95,
+  "price": 72.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Flowermate-slick-vaporizer.jpg?v=1620661889",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Flowermate-slick-vaporizer-top-on.jpg?v=1620661889",
@@ -51,5 +51,5 @@
   ],
   "stripeLink": "",
   "rnSku": "6980026564777",
-  "order": 28
+  "order": 32
 }

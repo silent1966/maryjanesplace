@@ -3,7 +3,7 @@
   "name": "DynaVap - The Captive Cap",
   "brand": "DynaVap",
   "category": "accessories",
-  "price": 30.95,
+  "price": 23.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/DynaVap-The-Captive-Cap-Front.jpg?v=1698262586",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/DynaVap-The-Captive-Cap-Side.jpg?v=1698262586"
@@ -19,5 +19,5 @@
   ],
   "stripeLink": "",
   "rnSku": "7811727294633",
-  "order": 365
+  "order": 367
 }

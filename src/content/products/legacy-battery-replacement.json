@@ -3,7 +3,7 @@
   "name": "Legacy Battery Replacement",
   "brand": "AirVape",
   "category": "accessories",
-  "price": 28.95,
+  "price": 21.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Legacy-Battery-Replacement_dfedcf27-1081-4875-bb37-dc0541783af6.jpg?v=1692736923",
   "gallery": [],
   "summary": "Upgrade your battery with our official 18650 replacement, which is fully compatible.",
@@ -18,5 +18,5 @@
   ],
   "stripeLink": "",
   "rnSku": "6980037968041",
-  "order": 353
+  "order": 352
 }

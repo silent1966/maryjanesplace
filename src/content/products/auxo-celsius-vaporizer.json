@@ -3,7 +3,7 @@
   "name": "Auxo Celsius Vaporizer",
   "brand": "Auxo",
   "category": "portable-vapes",
-  "price": 125.95,
+  "price": 96.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Auxo-Celsius-Vaporizer.jpg?v=1737477899",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Auxo-Celsius-Vaporizer-size-in-hand.jpg?v=1737477899",
@@ -48,5 +48,5 @@
   ],
   "stripeLink": "",
   "rnSku": "15040599916918",
-  "order": 54
+  "order": 45
 }

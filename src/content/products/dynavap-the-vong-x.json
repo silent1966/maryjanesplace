@@ -3,7 +3,7 @@
   "name": "DynaVap - The Vong X",
   "brand": "DynaVap",
   "category": "pen-vapes",
-  "price": 116.95,
+  "price": 113.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/DynaVap-Vong-X-Dry-Herb-Vaporizer-1000x1000.jpg?v=1762803847",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/DynaVap-Vong-X-vape-pen.jpg?v=1762803848",
@@ -40,5 +40,5 @@
   ],
   "stripeLink": "",
   "rnSku": "15439866954102",
-  "order": 97
+  "order": 99
 }

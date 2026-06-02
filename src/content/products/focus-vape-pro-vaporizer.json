@@ -3,7 +3,7 @@
   "name": "Focus Vape Pro S Vaporizer",
   "brand": "Focus Vape",
   "category": "portable-vapes",
-  "price": 115.95,
+  "price": 87.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/1822_0_1.jpg?v=1707935799",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Focus-Vape-Pro-S-Vaporizer-Black.jpg?v=1620661920",
@@ -28,5 +28,5 @@
   ],
   "stripeLink": "",
   "rnSku": "6980033740969",
-  "order": 50
+  "order": 44
 }

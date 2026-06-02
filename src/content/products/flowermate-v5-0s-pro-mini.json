@@ -3,7 +3,7 @@
   "name": "Flowermate V5.0S Pro Mini",
   "brand": "Flowermate",
   "category": "portable-vapes",
-  "price": 104.95,
+  "price": 79.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/flowermate_vaporizer_1_8ddb3222-b673-4eaf-9793-97c3df04ba0b.jpg?v=1620661888",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Flowermate-V5.0-pro-mini-in-hand.jpg?v=1620661888",
@@ -35,5 +35,5 @@
   ],
   "stripeLink": "",
   "rnSku": "6980026204329",
-  "order": 43
+  "order": 41
 }
