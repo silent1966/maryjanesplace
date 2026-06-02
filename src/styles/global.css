@@ -101,7 +101,7 @@ header {
   position: fixed;
   inset: 0 0 auto;
   z-index: 1000;
-  background: rgb(246, 243, 234);
+  background: var(--cream);
   border-bottom: 1px solid transparent;
   transition: 0.3s;
 }
@@ -426,6 +426,33 @@ nav.links a.active {
   color: var(--olive);
 }
 .reassure .rb-ic svg { width: 17px; height: 17px; }
+
+/* section header badge (matches the navcard/badge style) */
+.sec-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  background: var(--tint);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 6px 16px 6px 7px;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--olive);
+}
+.sec-badge .sb-ic {
+  flex: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 7px;
+  background: var(--panel);
+  display: grid;
+  place-items: center;
+  color: var(--olive);
+}
+.sec-badge .sb-ic svg { width: 14px; height: 14px; }
 
 .two { display: grid; grid-template-columns: 1fr 1fr; gap: 46px; align-items: start; }
 .two.vc { align-items: center; }
