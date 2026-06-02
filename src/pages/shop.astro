@@ -47,11 +47,10 @@ const totalCount = products.length;
   <section class="shop-hero pad-sm">
     <div class="wrap">
       <div class="eyebrow kick rv">Shop</div>
-      <h1 class="rv" style="margin-bottom:14px">Equipment for prescribed UK patients.</h1>
-      <p class="rv lede" style="max-width:64ch">
-        Vaporisers, grinders, storage and accessories — hand-picked for medical use,
-        priced to match or beat any UK retailer. Free UK delivery over £{FREE_DELIVERY_OVER},
-        30-day returns, 18+ verification at checkout.
+      <h1 class="rv shop-h1" style="margin-bottom:10px">Vaporisers, grinders &amp; accessories</h1>
+      <p class="rv lede" style="max-width:58ch">
+        Match-or-beat UK pricing on every device. Free UK delivery over £{FREE_DELIVERY_OVER},
+        30-day returns, secure checkout.
       </p>
       <div class="rv reassure" style="margin-top:18px">
         <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12l5 5L20 6"/></svg> Authorised UK retailer</span>
@@ -271,13 +270,16 @@ const totalCount = products.length;
 </script>
 
 <style>
-  .shop-hero { padding-top: 138px; padding-bottom: 24px; }
+  .shop-hero { padding-top: 132px; padding-bottom: 18px; }
+  .shop-hero .shop-h1 { font-size: clamp(24px, 2.6vw, 32px); font-weight: 700; letter-spacing: -0.01em; }
+  .shop-hero .lede { font-size: 16px; }
+  .shop-hero .eyebrow { font-size: 11.5px; }
 
   /* sidebar filter layout — filters sit beside the products, not as a fat top bar */
   .shop-layout {
     display: grid;
-    grid-template-columns: 232px minmax(0, 1fr);
-    gap: 32px;
+    grid-template-columns: 196px minmax(0, 1fr);
+    gap: 24px;
     align-items: start;
     margin: 22px 0 30px;
   }
@@ -286,10 +288,7 @@ const totalCount = products.length;
     top: 132px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    max-height: calc(100vh - 150px);
-    overflow-y: auto;
-    padding-right: 4px;
+    gap: 18px;
   }
   .filter-group { display: flex; flex-direction: column; gap: 9px; }
   .filter-h {
