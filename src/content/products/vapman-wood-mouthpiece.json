@@ -1,0 +1,39 @@
+{
+  "slug": "vapman-wood-mouthpiece",
+  "name": "Vapman Wood Mouthpiece",
+  "brand": "Inhale Vaporizers",
+  "category": "accessories",
+  "price": 29.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vapman-Wood-Mouthpiece-olive.jpg?v=1758652557",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vapman-Wood-Mouthpiece-2.jpg?v=1758652558",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vapman-Wood-Mouthpiece-Padauk.jpg?v=1758652558",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vapman-Wood-Mouthpiece-walnut.jpg?v=1758652558",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vapman-Wood-Mouthpiece-stainless-steel.jpg?v=1758652558"
+  ],
+  "summary": "The Vapman Wooden Mouthpiece is an authentic replacement and upgrade accessory crafted for all Vapman vaporisers.",
+  "description": "The Vapman Wooden Mouthpiece is an authentic replacement and upgrade accessory crafted for all Vapman vaporisers. Made from premium natural wood, it brings a warm, organic touch to every session while enhancing the artisan character of the Vapman brand. A popular add-on for customers who value aesthetics as much as performance. Each mouthpiece features its own unique grain patterns, ensuring no two pieces are alike. A practical part to keep your device working as it should.",
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Replacement / upgrade mouthpiece"
+    },
+    {
+      "label": "Material",
+      "value": "Natural wood (optionally stainless steel)"
+    },
+    {
+      "label": "Compatibility",
+      "value": "All Vapman vaporisers"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "accessory",
+    "inhale-vaporizers"
+  ],
+  "stripeLink": "",
+  "rnSku": "15354842906998",
+  "order": 357
+}

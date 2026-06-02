@@ -1,0 +1,39 @@
+{
+  "slug": "vessel-vista-edge",
+  "name": "Vessel Vista Edge",
+  "brand": "Vessel",
+  "category": "cartridge-batteries",
+  "price": 41.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vessel-Vista-Edge-Slate.jpg?v=1763755986",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vessel-Vista-Edge-Slate-2.jpg?v=1763755986",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vessel-Vista-Edge-Slate-in-hand.jpg?v=1763755986",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vessel-Vista-Edge-Cobalt.jpg?v=1763755986",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vessel-Vista-Edge-Cobalt-2.jpg?v=1763755986"
+  ],
+  "summary": "Vessel Vista Edge — a 510 cartridge battery for patients using 510 cartridges.",
+  "description": "Its streamlined form factor and protective viewing collar deliver both durability and visibility, making it a standout option for premium cartridge-compatible devices. The Vista Edge uses a secure drop-in cartridge system paired with a sweeping, semi-open collar. This design shields the cartridge while still allowing users to monitor oil levels easily — a functional and stylish upgrade for any product lineup. Fully charge the Vista Edge using the included magnetic USB cable. Pairs with standard 510 cartridges.",
+  "specs": [
+    {
+      "label": "Dimensions",
+      "value": "Approx. 4.6″ (L) × 0.53″ (D)"
+    },
+    {
+      "label": "Weight",
+      "value": "Approx. 30 g"
+    },
+    {
+      "label": "Warranty",
+      "value": "6-month limited manufacturer warranty"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "510",
+    "vessel"
+  ],
+  "stripeLink": "",
+  "rnSku": "15456077971830",
+  "order": 123
+}

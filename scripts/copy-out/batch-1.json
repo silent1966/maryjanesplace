@@ -1,0 +1,74 @@
+{
+  "puffco-peak-pro": {
+    "summary": "A desktop-style electric dab rig for concentrate patients who medicate at home and want no torch.",
+    "description": "The Peak Pro is a battery-powered dab rig with a ceramic 3D chamber and built-in water filtration, so concentrate patients get a smooth, cooled draw without a butane torch or exposed nail. Heat-up takes around 30 seconds, with four temperature presets from 232°C to 316°C and fine control through the Puffco app. The glass mouthpiece and laser-cut perc keep flavour clean. It suits patients prescribed cannabis extracts, wax or shatter who want consistent, repeatable dosing at home. It is bulkier and pricier than a pen, so it is a home device, not a pocket one."
+  },
+  "arizer-xq2": {
+    "summary": "A whip-and-balloon desktop vaporiser for home patients who want long, relaxed sessions.",
+    "description": "The XQ2 is Arizer's desktop dry-herb vaporiser with full digital temperature control set on an onboard LED screen. It offers two delivery methods — a whip for direct draws and balloon filling for hands-free sessions — with an improved airflow system over the older Extreme Q. The glass vapour path keeps flavour clean across a wide temperature range. It suits patients who medicate at home and want a mains-powered device with no battery to manage. It is mains-only and not portable, so think of it as your home base rather than a travel device."
+  },
+  "volcano-hybrid": {
+    "summary": "The home-base desktop vaporiser for patients who want both balloon and whip delivery in one unit.",
+    "description": "The Volcano Hybrid is Storz & Bickel's mains-powered desktop vaporiser, German-engineered with hybrid heating and digital temperature control from 40°C to 230°C. It offers two ways to medicate — fill a balloon for hands-free dosing, or draw directly through the tube whip — with faster heating and app control over older Volcano models. The stainless steel chamber and precise temperature steps give consistent, repeatable sessions at home. It suits patients who medicate regularly indoors and want the reliability the Volcano line is built on. It is a desktop unit with no battery, so it stays plugged in at home."
+  },
+  "volcano-medic-2": {
+    "summary": "The medically certified Volcano desktop for patients who need documented, prescription-grade hardware.",
+    "description": "The Volcano Medic 2 is the Class IIa medical device version of Storz & Bickel's Volcano Hybrid, manufactured in Germany. The hardware mirrors the Hybrid closely — digital control from 40°C to 230°C, both balloon and whip delivery, app connectivity — but it carries medical device certification assessed beyond the standard for a consumer product. That certification is the reason to choose it: for patients who need certified hardware for prescription use, insurance reimbursement or clinical documentation, the Medic 2 is the appropriate choice. If you do not need the regulatory paperwork, the standard Hybrid offers the same vapour for less."
+  },
+  "dynavap-m-plus": {
+    "summary": "Butane-heated, no electronics, extraordinary flavour. The most repairable pocket vaporiser made.",
+    "description": "The DynaVap M Plus is a different category. A titanium-tipped stainless steel capsule, heated with a butane torch or induction heater (sold separately), produces clean, flavourful vapour with zero battery anxiety. A click from the cap tells you when it is ready, and you can run anything from a microdose to full extraction from the tiny 0.1g chamber. Modular and repairable, it will still work in fifteen years. It suits patients who want absolute flavour and self-titration over convenience — the learning curve and separate heat source are the trade-off."
+  },
+  "dynavap-m7-xl": {
+    "summary": "A butane-heated, battery-free pocket vaporiser with a longer vapour path for cooler, even draws.",
+    "description": "The DynaVap M7 XL is a manual stainless steel vaporiser heated with an external torch — no battery, no electronics. The elongated vapour path and XL mouthpiece cool the draw, while the finless tip gives more even extraction and reduced heat at the stem for comfort. Adjustable airflow and the click-cap let you control each session and microdose from the 0.1g chamber. It suits patients who want DynaVap's flavour and repairability with a cooler, smoother draw than the standard M. You will need a butane torch or induction heater, which is sold separately."
+  },
+  "dynavap-the-vong-starter-kit": {
+    "summary": "A complete battery-free DynaVap kit with torch and stash for patients starting out with manual vaping.",
+    "description": "The VonG Starter Kit is everything a patient needs to begin battery-free vaping in one box — the VonG vaporiser, a single torch, a walnut DynaStash, wax, pipe cleaners and spare O-rings. The manual stainless steel tip heats in 5 to 10 seconds with the torch, clicks when ready, and runs a 0.1g chamber for microdosing or full extraction. The all-in-one kit removes the usual hurdle of buying a torch separately. It suits patients who want DynaVap's flavour and durability without sourcing the extras themselves. The torch needs refilling with butane, and there is a short learning curve to the click-cap technique."
+  },
+  "arizer-air-max": {
+    "summary": "A pocketable dry-herb vaporiser with a swappable battery for patients who medicate away from home.",
+    "description": "The Air Max is Arizer's portable ceramic convection vaporiser with a glass vapour path for clean flavour and full temperature control from 50°C to 220°C, by single degrees or in 10-degree steps. The removable, rechargeable 26650 battery means you can carry a spare and keep going all day, with fast USB-C charging and use-while-charging. The pre-loadable glass pod system and 14mm glass connection make it flexible at home or out. It suits patients who want true all-day portability without being tied to a charger. Heat-up takes 60 to 90 seconds, slower than some rivals, but the swappable battery is the trade for it."
+  },
+  "arizer-go-srt": {
+    "summary": "A compact convection portable with adjustable session intensity for patients who want strong, flavourful vapour on the go.",
+    "description": "The Arizer Go SRT is a portable convection vaporiser with rapid heat-up and Arizer's V-Scale system, which lets you dial session intensity from light, flavour-led draws up to dense vapour. The glass vapour path keeps flavour pure, and a simple three-button interface with a vertical display makes one-handed use easy. A 14mm water pipe adapter is included for cooler draws through glass. It suits patients who want adjustable strength and convection performance in a pocketable, durable aluminium body. The heating element carries a lifetime warranty."
+  },
+  "arizer-solo-2-max": {
+    "summary": "A robust all-glass-path portable vaporiser for patients who want reliable all-day sessions at home or out.",
+    "description": "The Solo 2 Max is Arizer's hybrid portable vaporiser with an all-glass vapour path, an OLED screen and degree-by-degree control from 50°C to 220°C. Heat-up is around 30 seconds, and a large battery delivers consistent vapour through a full day of medicating. The long glass aroma tube cools the draw and keeps flavour clean, with a full range of attachments available. It suits patients who value durability and flavour over a slim profile. It is larger and heavier than some pocket vapes at 210g, so it favours flavour and battery life over discreet portability."
+  },
+  "arizer-solo-3": {
+    "summary": "A fast-heating hybrid portable with on-demand or session modes for patients who want flexible dosing.",
+    "description": "The Arizer Solo 3 is a hybrid portable vaporiser with an all-glass vapour path, colour LED screen and degree-by-degree control from 50°C to 220°C. It heats in 5 to 15 seconds and offers both on-demand and session modes, so you can take a single measured draw or run a full session. The glass aroma tubes keep flavour clean, and the generous accessory set covers most setups out of the box. It suits patients who want quick, flexible dosing and Arizer's flavour in a durable body. At 210g it is built for performance over pocket discretion."
+  },
+  "crafty-plus-storz-bickel": {
+    "summary": "A compact German-engineered hybrid portable, medically certified, for patients who want a simple pocket device.",
+    "description": "The Crafty+ V2 is Storz & Bickel's most pocketable vaporiser, with hybrid conduction and convection heating and a ceramic-coated chamber for clean, even extraction. It is certified under the Medical Device Directive, charges over USB-C, and uses a stripped-back one-button design with app control for fine temperature steps between 40°C and 210°C. A dosing capsule is included for tidy, pre-measured loads. It suits patients who want certified German hardware in the smallest, simplest form. Battery life is around 90 minutes per charge, so heavy all-day users may want to medicate near a charger."
+  },
+  "mighty-medic": {
+    "summary": "The medically certified Mighty+ for patients who need documented, prescription-grade portable hardware.",
+    "description": "The Mighty+ Medic is the Class IIa medical device version of Storz & Bickel's Mighty+, made in Germany to the same standard. The hardware is identical to the standard Mighty+ — hybrid convection and conduction heating, a ceramic-coated oven, SuperCharge USB-C charging and control from 40°C to 210°C — but it carries additional medical device certification. That certification is the reason to choose it: for patients who need documented hardware for insurance, prescription or clinical assurance, the Medic is the correct variant. If you do not need the paperwork, the standard Mighty+ delivers the same session for less."
+  },
+  "pax-four": {
+    "summary": "A discreet, pocket-sized dry-herb vaporiser for patients who want flavour and portability in one slim device.",
+    "description": "The PAX Four is a compact hybrid portable vaporiser with real-time temperature control and four preset heat modes from 190°C to 220°C, tuned for consistent vapour from a 0.3g oven. Haptic feedback, a single-button interface and motion controls keep operation simple, and the slim 125g chassis slips into a pocket discreetly. It suits patients who prioritise discretion and ease of use over long battery runtime. Battery life is around 50 minutes per charge, so frequent all-day medicators may need to top up; preset-only temperatures also mean less fine control than some rivals."
+  },
+  "puffco-new-proxy": {
+    "summary": "A modular concentrate vaporiser for patients who want flavourful dabs in a pocketable form.",
+    "description": "The Puffco New Proxy is a battery-powered concentrate vaporiser built around a removable core that drops into a range of glass pieces, so you can shape it to home or travel use. The deeper 3D ceramic chamber heats evenly from all sides to preserve terpenes, while the Puffco app controls temperature, vapour output and session length. Up to 15 sessions per charge and roughly 90-minute USB-C charging keep it ready, and it works with all existing Proxy glass. It suits patients prescribed extracts who want clean flavour without a torch. It is a concentrate-only device, so it is not for dry herb."
+  },
+  "puffco-proxy-core-kit": {
+    "summary": "The electronic core of the Proxy platform for concentrate patients building a torch-free setup.",
+    "description": "The Puffco Proxy Core Kit is the powered engine of the modular Proxy system — a compact base with a multi-directional ceramic 3D chamber that heats concentrates evenly for clean flavour. It is ready in about 25 seconds, offers four heat profiles plus custom settings via the Puffco app, and works with all Proxy glass pieces and accessories. Up to 15 sessions per charge and USB-C charging keep it portable, and three terp pearls are included to help distribute concentrate. It suits patients prescribed extracts who want a flexible, torch-free base to build around. It vaporises concentrates only, not dry herb."
+  },
+  "venty-vaporizer": {
+    "summary": "A fast-heating, high-airflow portable from Storz & Bickel for patients who want strong draws on the move.",
+    "description": "The Venty is Storz & Bickel's German-made portable vaporiser with hybrid convection and conduction heating, a ceramic chamber and degree-by-degree control from 40°C to 210°C. It heats in around 20 seconds and adds adjustable airflow, so you can set a gentle or a powerful draw to suit how you medicate. USB-C charging and a glass-cooled vapour path round it out. It suits patients who want fast, high-output sessions and S&B build quality in a portable form. At 252g it is on the heavier side for a pocket device, the trade for its airflow and power."
+  },
+  "g-pen-connect": {
+    "summary": "A torch-free concentrate attachment that turns your own glass or bong into a dab vaporiser.",
+    "description": "The G Pen Connect is a battery-powered concentrate vaporiser that connects to your existing glass through a 14mm adapter, giving water-cooled dabs with no torch or exposed nail. It activates in about five seconds, uses a ceramic chamber and offers three voltage-based heat settings for light to heavier draws. Pass-through charging means you can use it while it powers up. It suits patients prescribed extracts who already own glass and want an affordable way to vaporise it cleanly. It is concentrate-only and charges over the older Micro USB rather than USB-C."
+  }
+}

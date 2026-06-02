@@ -1,0 +1,26 @@
+{
+  "slug": "dynavap-the-g3",
+  "name": "DynaVap The G3",
+  "brand": "DynaVap",
+  "category": "pen-vapes",
+  "price": 42.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/DynaVap-The-G3.jpg?v=1752778083",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/DynaVap-The-G3-body.jpg?v=1752778083",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/DynaVap-The-G3-box.jpg?v=1752778083",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Dynavap-G3-in-the-box.jpg?v=1752778083",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/DynaVap-The-G3-case.jpg?v=1752778083"
+  ],
+  "summary": "A low-cost glass-bodied butane-heated vaporiser for microdosing, ideal as a first DynaVap.",
+  "description": "The DynaVap G3 is an affordable, torch-powered vaporiser with a one-piece borosilicate glass body joining the tip and midsection. The small 0.05g chamber is built for microdosing — efficient and discreet — and the kit arrives with a metal case and a jet lighter, so you can start straight away. It needs no battery and delivers the clean, flavour-led vapour DynaVap is known for. Note it is not compatible with induction heaters, so it is for patients happy with manual torch heating and a little practice on the technique.",
+  "specs": [],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "pen",
+    "dynavap"
+  ],
+  "stripeLink": "",
+  "rnSku": "15259706982774",
+  "order": 92
+}

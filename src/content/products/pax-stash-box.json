@@ -1,0 +1,30 @@
+{
+  "slug": "pax-stash-box",
+  "name": "PAX Stash Box",
+  "brand": "PAX",
+  "category": "storage",
+  "price": 69.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/PAX-Stash-box.jpg?v=1725388869",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/PAX-Stash-box-open-parts.jpg?v=1725388869",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/PAX-Stash-box-tap.jpg?v=1725388869",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/PAX-Stash-box-1.jpg?v=1725388869"
+  ],
+  "summary": "PAX Stash Box — a storage accessory for patients keeping prescribed flower fresh.",
+  "description": "The Stash Box is a necessary addition to your collection, boasting an airtight and smell proof design, along with long-lasting materials for optimal organisation. Utilize the aluminium lid as a prep tray and take advantage of the dual inner compartments and pedestal tray to store devices, stash, and accessories. It also conveniently works with the Stash Jars and PAX Grinder. Dimensions: 10.3”L x 6.3”W x 3.5”H / 26.1 x 16 x 8.8 cm Keeps prescribed flower at its best for longer.",
+  "specs": [
+    {
+      "label": "Dimensions",
+      "value": "10.3”L x 6.3”W x 3.5”H / 26.1 x 16 x 8.8 cm"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "storage",
+    "pax"
+  ],
+  "stripeLink": "",
+  "rnSku": "8257783103657",
+  "order": 156
+}

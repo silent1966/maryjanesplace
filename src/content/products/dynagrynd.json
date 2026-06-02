@@ -1,0 +1,39 @@
+{
+  "slug": "dynagrynd",
+  "name": "DynaGrynd",
+  "brand": "DynaVap",
+  "category": "grinders",
+  "price": 44.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/DynaGrynd-1.jpg?v=1777318479",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/DynaGrynd-2.jpg?v=1777318479",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/DynaGrynd-5.jpg?v=1777318478",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/DynaGrynd-4.jpg?v=1777318479",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/DynaGrynd-3.jpg?v=1777318479"
+  ],
+  "summary": "The DynaGrynd is DynaVap's purpose-built herb preparation accessory, engineered with vaporiser performance in mind.",
+  "description": "The DynaGrynd is DynaVap's purpose-built herb preparation accessory, engineered with vaporiser performance in mind. The two-piece aluminium body pairs with a fixed stainless steel cutting plate to deliver a repeatable, medium-fine grind that suits the airflow requirements of both convection and conduction devices. Rather than chopping through material with interlocking teeth, the stainless steel plate shears it cleanly, producing a more consistent particle size with noticeably less drag. Its attachment rate is strongest in stores and online catalogues where DynaVap's M series, VonG, or Hyper Tip variants are prominently displayed, as customers actively seek compatible accessories to…",
+  "specs": [
+    {
+      "label": "Material",
+      "value": "Machined aluminium"
+    },
+    {
+      "label": "Compatibility",
+      "value": "All DynaVap devices; universal vaporiser use"
+    },
+    {
+      "label": "Warranty",
+      "value": "Official DynaVap manufacturer warranty"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "grinder",
+    "dynavap"
+  ],
+  "stripeLink": "",
+  "rnSku": "15717075255670",
+  "order": 137
+}

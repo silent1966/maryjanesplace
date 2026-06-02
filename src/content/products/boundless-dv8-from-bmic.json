@@ -1,0 +1,52 @@
+{
+  "slug": "boundless-dv8-from-bmic",
+  "name": "Boundless DV8 From BMIC",
+  "brand": "Boundless",
+  "category": "portable-vapes",
+  "price": 249.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Boundless-Dv8-vaporizer-by-BMIC.jpg?v=1700594568",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Boundless-Dv8-vaporizer-by-BMIC-side.jpg?v=1700594569",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Boundless-Dv8-vaporizer-by-BMIC-top.jpg?v=1700594569",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Boundless-Dv8-vaporizer-slide-in-hand.jpg?v=1700594569",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Boundless-Dv8-vaporizer-chamber.jpg?v=1700594569"
+  ],
+  "summary": "A stainless steel hybrid vaporiser for dry herb with a wide temperature range and zirconia mouthpiece, for patients who want a robust, serviceable device.",
+  "description": "The Boundless DV8 is a metal-bodied hybrid vaporiser with a wide 31C to 240C temperature range and a 0.6g ceramic chamber for fuller sessions. Heat-up takes 20-25 seconds, the zirconia drip-tip keeps vapour cool, and the LiPo battery and USB-C charging keep it serviceable. It comes well-equipped with spare screens, storage pods and a stir tool. An OLED screen and vibration alerts make it easy to use. The stainless steel build is durable but adds weight. Suits patients who want a tough, well-stocked dry-herb device, though the warranty on the unit is shorter at 1 year.",
+  "specs": [
+    {
+      "label": "Dimensions",
+      "value": "TBD"
+    },
+    {
+      "label": "Temperature range",
+      "value": "31 - 240°C / 88 – 464°F"
+    },
+    {
+      "label": "Material",
+      "value": "Stainless Steel"
+    },
+    {
+      "label": "Made in",
+      "value": "China"
+    },
+    {
+      "label": "Warranty",
+      "value": "1 years on the unit; 90 days on battery"
+    },
+    {
+      "label": "Charging",
+      "value": "USB Type C"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "portable",
+    "dry-herb",
+    "boundless"
+  ],
+  "stripeLink": "",
+  "rnSku": "7846042075305",
+  "order": 75
+}

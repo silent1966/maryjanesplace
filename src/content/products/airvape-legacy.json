@@ -1,0 +1,56 @@
+{
+  "slug": "airvape-legacy",
+  "name": "AirVape Legacy Pro",
+  "brand": "AirVape",
+  "category": "portable-vapes",
+  "price": 251.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Airvape-Legacy-vaporizer-led-displey_37c2ce8d-b90b-41cc-b0e1-a8117c7b6087.jpg?v=1692736832",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Airvape-legacy-pro-vaporizer.jpg?v=1692736832",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Airvape-Legacy-vaporizer-on-table_35d98192-7f0d-496f-98e3-1f6f62f3d9fe.jpg?v=1692736832",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Airvape-Legacy-vaporizer-size-in-hand_753e5b4b-29c3-4380-b772-a872d6d2a973.jpg?v=1692736832",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Airvape-Legacy-vaporizer_64d06fec-40e4-43ac-adea-b3ed87165f3a.jpg?v=1692736832"
+  ],
+  "summary": "A pure-convection portable vaporiser with a removable 18650 battery, for patients who prioritise flavour and serviceability.",
+  "description": "The AirVape Legacy Pro uses pure convection heating for clean, flavourful vapour, with full temperature control from 93C to 227C and a 15-second heat-up. It handles dry herb and concentrates, and includes a gold-plated basket for microdosing. The removable 18650 battery means you can swap in a fresh cell rather than wait to recharge, and it supports wireless charging. The body is made from hemp-based materials and non-animal leather, and it's backed by a limited lifetime warranty. Suits patients who want convection flavour and the long-term value of a serviceable, replaceable-battery device.",
+  "specs": [
+    {
+      "label": "Dimensions",
+      "value": "119 mm x 52 mm x 21 mm"
+    },
+    {
+      "label": "Weight",
+      "value": "91 g"
+    },
+    {
+      "label": "Compatibility",
+      "value": "Dry Herb and Concentrates"
+    },
+    {
+      "label": "Temperature range",
+      "value": "93° C - 227° C"
+    },
+    {
+      "label": "Heat-up time",
+      "value": "15 Seconds"
+    },
+    {
+      "label": "Battery life",
+      "value": "1.5 Hours"
+    },
+    {
+      "label": "Warranty",
+      "value": "Limited Lifetime Warranty"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "portable",
+    "dry-herb",
+    "airvape"
+  ],
+  "stripeLink": "",
+  "rnSku": "6980037705897",
+  "order": 76
+}

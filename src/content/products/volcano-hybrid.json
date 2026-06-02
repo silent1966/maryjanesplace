@@ -1,0 +1,40 @@
+{
+  "slug": "volcano-hybrid",
+  "name": "Volcano Hybrid Vaporizer",
+  "brand": "Storz & Bickel",
+  "category": "desktop-vapes",
+  "price": 480.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/volcano-hybrid-vaporizer-5_76b14ec9-84eb-4c4a-9e61-b7492f2a4263.jpg?v=1620661921",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Volcano-Hybrid-Balloon-and-whip-use.jpg?v=1620661921",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/volcano-hybrid-vaporizer_2c4961cb-6b01-4ef4-8c0c-daea6f0b38e3.jpg?v=1620661921",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/volcano-hybrid-vaporizer-box-contents_576x_2x_c2c20b50-cd45-4587-a00f-be91c9d39147.jpg?v=1620661921",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/volcano-hybrid-vaporizer-6.jpg?v=1620661921"
+  ],
+  "summary": "The home-base desktop vaporiser for patients who want both balloon and whip delivery in one unit.",
+  "description": "The Volcano Hybrid is Storz & Bickel's mains-powered desktop vaporiser, German-engineered with hybrid heating and digital temperature control from 40°C to 230°C. It offers two ways to medicate — fill a balloon for hands-free dosing, or draw directly through the tube whip — with faster heating and app control over older Volcano models. The stainless steel chamber and precise temperature steps give consistent, repeatable sessions at home. It suits patients who medicate regularly indoors and want the reliability the Volcano line is built on. It is a desktop unit with no battery, so it stays plugged in at home.",
+  "specs": [
+    {
+      "label": "Heating",
+      "value": "Hybrid"
+    },
+    {
+      "label": "Charging",
+      "value": "No battery"
+    },
+    {
+      "label": "Warranty",
+      "value": "3 year"
+    }
+  ],
+  "inStock": true,
+  "featured": true,
+  "tags": [
+    "desktop",
+    "dry-herb",
+    "storz-bickel"
+  ],
+  "stripeLink": "",
+  "rnSku": "6980034232489",
+  "order": 2
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "wolkenkraft-aris",
+  "name": "Wolkenkraft Äris",
+  "brand": "Wolkenkraft",
+  "category": "portable-vapes",
+  "price": 148.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Wolkenkraft-Aris-Vaporizer-blue.jpg?v=1742389541",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Wolkenkraft-Aris-Vaporizer-display.webp?v=1742389541",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Wolkenkraft-Aris-Vaporizer-parts.webp?v=1742389541",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Wolkenkraft-Aris-Vaporizer-box.webp?v=1742389541",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Wolkenkraft-Aris-Vaporizer.webp?v=1742389541"
+  ],
+  "summary": "A full-convection portable vaporiser with OLED control, for patients who want clean flavour in a compact body.",
+  "description": "The Wolkenkraft Aris is a compact convection device that heats only the air drawn through your herb, giving pure flavour and even extraction. Temperature runs from 160 to 221C on a high-resolution OLED screen, with a memory function and a stealth mode that dims the display for discretion. It heats up in around 30 seconds and runs on a 2300mAh USB-C battery, with a zirconium ceramic mouthpiece and cooling path to smooth each draw. Backed by a five-year warranty, it suits patients who want convection quality without stepping up to the larger Ultra.",
+  "specs": [
+    {
+      "label": "Temperature range",
+      "value": "160-221°C"
+    },
+    {
+      "label": "Battery",
+      "value": "2300mAh USB-C rechargeable"
+    },
+    {
+      "label": "Display",
+      "value": "OLED Screen"
+    },
+    {
+      "label": "Material",
+      "value": "Anodized Aluminium Body, Zirconium Ceramic Mouthpiece"
+    },
+    {
+      "label": "Warranty",
+      "value": "5 Years"
+    },
+    {
+      "label": "Heat-up time",
+      "value": "30 seconds"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "portable",
+    "convection",
+    "wolkenkraft"
+  ],
+  "stripeLink": "",
+  "rnSku": "15123266503030",
+  "order": 61
+}

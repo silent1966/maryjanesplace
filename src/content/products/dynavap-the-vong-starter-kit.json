@@ -1,0 +1,59 @@
+{
+  "slug": "dynavap-the-vong-starter-kit",
+  "name": "DynaVap The VonG Starter Kit",
+  "brand": "DynaVap",
+  "category": "pen-vapes",
+  "price": 173.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Dynavap-The-Vong-2021-Starter-Kit-Without-Coil.jpg?v=1692742025",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/The-Vong-attached-to-bong.jpg?v=1692742025",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Dynavap-The-Vong-2021-Starter-Kit-With-Coil.jpg?v=1692742025",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Dynavap-The-Vong-2021-Starter-Kit-uncapped.jpg?v=1692742025",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Dynavap-The-Vong-2021-Starter-Kit-size.jpg?v=1692742025"
+  ],
+  "summary": "A complete battery-free DynaVap kit with torch and stash for patients starting out with manual vaping.",
+  "description": "The VonG Starter Kit is everything a patient needs to begin battery-free vaping in one box — the VonG vaporiser, a single torch, a walnut DynaStash, wax, pipe cleaners and spare O-rings. The manual stainless steel tip heats in 5 to 10 seconds with the torch, clicks when ready, and runs a 0.1g chamber for microdosing or full extraction. The all-in-one kit removes the usual hurdle of buying a torch separately. It suits patients who want DynaVap's flavour and durability without sourcing the extras themselves. The torch needs refilling with butane, and there is a short learning curve to the click-cap technique.",
+  "specs": [
+    {
+      "label": "Dimensions",
+      "value": "9.2 cm Height"
+    },
+    {
+      "label": "Weight",
+      "value": ".7 oz / 20 g"
+    },
+    {
+      "label": "Heating",
+      "value": "Manual"
+    },
+    {
+      "label": "Temperature range",
+      "value": "300° F to 450° F (Manual)"
+    },
+    {
+      "label": "Heat-up time",
+      "value": "5 - 10 Seconds"
+    },
+    {
+      "label": "Chamber",
+      "value": "Stainless Steel"
+    },
+    {
+      "label": "Display",
+      "value": "None"
+    },
+    {
+      "label": "Made in",
+      "value": "USA"
+    }
+  ],
+  "inStock": true,
+  "featured": true,
+  "tags": [
+    "pen",
+    "dynavap"
+  ],
+  "stripeLink": "",
+  "rnSku": "7779323478185",
+  "order": 13
+}

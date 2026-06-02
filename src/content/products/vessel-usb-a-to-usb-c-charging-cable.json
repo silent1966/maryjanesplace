@@ -1,0 +1,28 @@
+{
+  "slug": "vessel-usb-a-to-usb-c-charging-cable",
+  "name": "Vessel USB-A to USB-C Charging Cable",
+  "brand": "Vessel",
+  "category": "batteries",
+  "price": 23.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vessel-Magnetic-Charging-Cable-2.0_26354e42-9e7c-4e99-b8c7-3787f33d2199.jpg?v=1770216098",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vessel-USB-A-to-USB-C-Charging-Cable-Box.jpg?v=1763755988"
+  ],
+  "summary": "The Vessel USB-A to USB-C Charging Cable is a robust, long-lasting charging solution engineered for reliable daily use.",
+  "description": "The Vessel USB-A to USB-C Charging Cable is a robust, long-lasting charging solution engineered for reliable daily use. Designed to deliver steady power to compatible Vessel devices, this cable is ideal for customers who rely on traditional USB-A charging ports or legacy power setups. This cable is fully compatible with all Vessel devices equipped with a USB-C charging port. It works smoothly with USB-A wall adapters, standard computer ports, travel chargers, and most USB-A power sources. Keeps your device charged and ready.",
+  "specs": [
+    {
+      "label": "Material",
+      "value": "Flexible PVC and thermoplastic blend for added durability"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "battery",
+    "vessel"
+  ],
+  "stripeLink": "",
+  "rnSku": "15456078102902",
+  "order": 484
+}

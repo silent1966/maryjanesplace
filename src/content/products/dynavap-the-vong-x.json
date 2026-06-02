@@ -1,0 +1,44 @@
+{
+  "slug": "dynavap-the-vong-x",
+  "name": "DynaVap - The Vong X",
+  "brand": "DynaVap",
+  "category": "pen-vapes",
+  "price": 116.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/DynaVap-Vong-X-Dry-Herb-Vaporizer-1000x1000.jpg?v=1762803847",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/DynaVap-Vong-X-vape-pen.jpg?v=1762803848",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/DynaVap-Vong-X-size-in-hand.jpg?v=1762803849",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/DynaVap-Vong-X-Dry-Herb-Vaporizer-3-1000x1000.jpg?v=1762803848",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/DynaVap-Vong-X-Dry-Herb-Vaporizer-2-1000x1000.jpg?v=1762803848"
+  ],
+  "summary": "A flame-heated titanium and stainless steel vaporiser built for water-tool use, for patients who want battery-free dosing with glass filtration.",
+  "description": "The VonG X is DynaVap's water-piece specialist. A tapered 10mm/14mm mouthpiece drops straight into standard female joints, so you can run it dry or through a bong or bubbler for cooler, smoother vapour. Heated with a butane torch or induction heater (sold separately), the high-mass tip holds heat for strong, consistent extractions, and the rotating mouthpiece lets you dial in airflow and draw resistance. No battery, no charging, just clean flavourful vapour from a device that will keep working for years. Suits patients who already use water tools and want to add a repairable, flame-powered option.",
+  "specs": [
+    {
+      "label": "Weight",
+      "value": "Approx. 20 g"
+    },
+    {
+      "label": "Heating",
+      "value": "Manual (Torch or Induction Heater)"
+    },
+    {
+      "label": "Material",
+      "value": "Titanium & Stainless Steel"
+    },
+    {
+      "label": "Made in",
+      "value": "USA"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "pen",
+    "dry-herb",
+    "dynavap"
+  ],
+  "stripeLink": "",
+  "rnSku": "15439866954102",
+  "order": 97
+}

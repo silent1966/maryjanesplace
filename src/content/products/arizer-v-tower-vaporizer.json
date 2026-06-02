@@ -1,0 +1,35 @@
+{
+  "slug": "arizer-v-tower-vaporizer",
+  "name": "Arizer - V Tower",
+  "brand": "Arizer",
+  "category": "desktop-vapes",
+  "price": 101.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Arizer_V_tower_3_db30bbac-15f5-4300-9a6a-48f2e760f4e0.jpg?v=1620661913",
+  "gallery": [],
+  "summary": "An affordable whip-style desktop dry-herb vaporiser for patients medicating at home.",
+  "description": "The Arizer V-Tower is a no-frills mains-powered desktop vaporiser that delivers vapour through a glass whip you draw on directly. Temperature is fully adjustable, the glass vapour path keeps flavour clean, and the heating element carries a lifetime warranty with three years on the electronics. It is one of the most affordable ways into proper convection desktop vaping, which makes it a sensible first home device. There is no balloon-bag option and it stays plugged in on the side, so it is for stationary home use rather than carrying around.",
+  "specs": [
+    {
+      "label": "Dimensions",
+      "value": "8.75 x 7.75 x 10 in."
+    },
+    {
+      "label": "Weight",
+      "value": "3.00 lbs."
+    },
+    {
+      "label": "Warranty",
+      "value": "3 years"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "desktop",
+    "dry-herb",
+    "arizer"
+  ],
+  "stripeLink": "",
+  "rnSku": "6980030562473",
+  "order": 83
+}

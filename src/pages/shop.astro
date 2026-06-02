@@ -19,10 +19,25 @@ const categories = [
   { id: "grinders", label: "Grinders" },
   { id: "storage", label: "Storage" },
   { id: "cleaning", label: "Cleaning" },
+  { id: "batteries", label: "Batteries" },
+  { id: "cases", label: "Cases" },
   { id: "accessories", label: "Accessories" },
+].filter((c) => c.id === "all" || products.some((p) => p.category === c.id));
+
+// brands present in the catalogue, for the brand filter dropdown
+const brands = [...new Set(products.map((p) => p.brand))].sort((a, b) => a.localeCompare(b));
+
+// price range buckets
+const priceRanges = [
+  { id: "all", label: "Any price", min: 0, max: Infinity },
+  { id: "0-50", label: "£0–50", min: 0, max: 50 },
+  { id: "50-150", label: "£50–150", min: 50, max: 150 },
+  { id: "150-300", label: "£150–300", min: 150, max: 300 },
+  { id: "300+", label: "£300+", min: 300, max: Infinity },
 ];
 
 const FREE_DELIVERY_OVER = 60;
+const totalCount = products.length;
 ---
 
 <Base
@@ -50,6 +65,11 @@ const FREE_DELIVERY_OVER = 60;
   <section class="pad-sm" style="padding-top:8px">
     <div class="wrap">
       <div class="shop-controls rv" role="region" aria-label="Filter products">
+        <div class="shop-search">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+          <input type="search" id="shop-search" placeholder="Search by name, brand or type…" autocomplete="off" aria-label="Search products" />
+        </div>
+
         <div class="cat-scroll" role="tablist" aria-label="Category filter">
           {categories.map((c, i) => (
             <button class:list={["cat-pill", { active: i === 0 }]} data-cat={c.id} type="button" role="tab" aria-selected={i === 0}>
@@ -57,15 +77,30 @@ const FREE_DELIVERY_OVER = 60;
             </button>
           ))}
         </div>
-        <div class="shop-sort">
-          <label for="sort-by" class="sr-only">Sort by</label>
-          <select id="sort-by" class="sort-select">
-            <option value="featured">Featured first</option>
-            <option value="price-asc">Price: low to high</option>
-            <option value="price-desc">Price: high to low</option>
-            <option value="name-asc">Name: A–Z</option>
-          </select>
+
+        <div class="shop-controls-row">
+          <div class="price-pills" role="group" aria-label="Price range filter">
+            {priceRanges.map((r, i) => (
+              <button class:list={["price-pill", { active: i === 0 }]} data-min={r.min} data-max={r.max} type="button">{r.label}</button>
+            ))}
+          </div>
+          <div class="shop-selects">
+            <label for="brand-by" class="sr-only">Filter by brand</label>
+            <select id="brand-by" class="sort-select">
+              <option value="all">All brands</option>
+              {brands.map((b) => <option value={b}>{b}</option>)}
+            </select>
+            <label for="sort-by" class="sr-only">Sort by</label>
+            <select id="sort-by" class="sort-select">
+              <option value="featured">Featured first</option>
+              <option value="price-asc">Price: low to high</option>
+              <option value="price-desc">Price: high to low</option>
+              <option value="name-asc">Name: A–Z</option>
+            </select>
+          </div>
         </div>
+
+        <div class="shop-count" id="shop-count" aria-live="polite">Showing {totalCount} of {totalCount} products</div>
       </div>
 
       <div class="prod-grid" id="prod-grid">
@@ -76,6 +111,8 @@ const FREE_DELIVERY_OVER = 60;
             data-cat={p.category}
             data-price={p.price}
             data-name={p.name}
+            data-brand={p.brand}
+            data-search={`${p.name} ${p.brand} ${(p.tags ?? []).join(" ")}`.toLowerCase()}
             data-featured={p.featured ? "1" : "0"}
             data-order={p.order ?? 999}
           >
@@ -139,23 +176,37 @@ const FREE_DELIVERY_OVER = 60;
 
 <script>
   const grid = document.getElementById('prod-grid');
-  const pills = document.querySelectorAll('.cat-pill');
+  const pills = Array.from(document.querySelectorAll('.cat-pill'));
+  const pricePills = Array.from(document.querySelectorAll('.price-pill'));
   const sortSel = document.getElementById('sort-by') as HTMLSelectElement;
+  const brandSel = document.getElementById('brand-by') as HTMLSelectElement;
+  const searchInput = document.getElementById('shop-search') as HTMLInputElement;
   const empty = document.getElementById('empty-state');
+  const countEl = document.getElementById('shop-count');
 
   let currentCat = 'all';
+  let priceMin = 0;
+  let priceMax = Infinity;
+  const total = grid ? grid.querySelectorAll('.prod-card').length : 0;
 
   function apply() {
     if (!grid) return;
     const cards = Array.from(grid.querySelectorAll('.prod-card')) as HTMLAnchorElement[];
+    const q = (searchInput?.value || '').trim().toLowerCase();
+    const brand = brandSel?.value || 'all';
     let visible = 0;
     cards.forEach((c) => {
-      const cat = c.dataset.cat;
-      const show = currentCat === 'all' || cat === currentCat;
+      const price = parseFloat(c.dataset.price || '0');
+      const matchCat = currentCat === 'all' || c.dataset.cat === currentCat;
+      const matchBrand = brand === 'all' || c.dataset.brand === brand;
+      const matchPrice = price >= priceMin && price < priceMax;
+      const matchSearch = !q || (c.dataset.search || '').includes(q);
+      const show = matchCat && matchBrand && matchPrice && matchSearch;
       c.style.display = show ? '' : 'none';
       if (show) visible++;
     });
     if (empty) empty.style.display = visible === 0 ? 'block' : 'none';
+    if (countEl) countEl.textContent = `Showing ${visible} of ${total} products`;
 
     const sortKey = sortSel?.value || 'featured';
     const visibleCards = cards.filter((c) => c.style.display !== 'none');
@@ -180,7 +231,25 @@ const FREE_DELIVERY_OVER = 60;
       apply();
     });
   });
+  pricePills.forEach((p) => {
+    p.addEventListener('click', () => {
+      pricePills.forEach((x) => x.classList.remove('active'));
+      p.classList.add('active');
+      priceMin = parseFloat((p as HTMLElement).dataset.min || '0');
+      priceMax = parseFloat((p as HTMLElement).dataset.max || 'Infinity');
+      if (Number.isNaN(priceMax)) priceMax = Infinity;
+      apply();
+    });
+  });
   sortSel?.addEventListener('change', apply);
+  brandSel?.addEventListener('change', apply);
+  searchInput?.addEventListener('input', apply);
+
+  // deep-link support: /shop?q=foo (from header search / site search action)
+  const params = new URLSearchParams(location.search);
+  const initialQ = params.get('q');
+  if (initialQ && searchInput) searchInput.value = initialQ;
+
   apply();
 </script>
 
@@ -189,18 +258,65 @@ const FREE_DELIVERY_OVER = 60;
 
   .shop-controls {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 18px;
+    flex-direction: column;
+    gap: 14px;
     margin: 22px 0 24px;
-    padding: 14px 0;
+    padding: 16px 0;
     border-bottom: 1px solid var(--line);
     border-top: 1px solid var(--line);
     background: var(--paper);
     position: sticky;
-    top: 76px;
+    top: 72px;
     z-index: 50;
   }
+  .shop-search {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  .shop-search svg {
+    position: absolute;
+    left: 14px;
+    width: 18px;
+    height: 18px;
+    color: var(--olive);
+    pointer-events: none;
+  }
+  .shop-search input {
+    width: 100%;
+    font-family: var(--font);
+    font-size: 15px;
+    padding: 12px 16px 12px 42px;
+    border: 1px solid var(--sage-soft);
+    border-radius: 10px;
+    background: var(--panel);
+    color: var(--ink);
+  }
+  .shop-search input:focus { outline: none; border-color: var(--olive); box-shadow: 0 0 0 3px rgba(85, 107, 47, 0.12); }
+  .shop-controls-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 14px;
+    flex-wrap: wrap;
+  }
+  .price-pills { display: flex; gap: 8px; flex-wrap: wrap; }
+  .price-pill {
+    background: var(--panel);
+    border: 1px solid var(--sage-soft);
+    border-radius: 999px;
+    padding: 7px 14px;
+    font-family: var(--font);
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--ink-soft);
+    cursor: pointer;
+    transition: 0.18s;
+  }
+  .price-pill:hover { color: var(--olive-d); border-color: var(--sage); }
+  .price-pill.active { background: var(--olive); color: #fff; border-color: var(--olive); }
+  .shop-selects { display: flex; gap: 10px; flex-wrap: wrap; }
+  .shop-count { font-size: 13px; font-weight: 600; color: var(--ink-soft); }
   .cat-scroll {
     display: flex;
     gap: 8px;

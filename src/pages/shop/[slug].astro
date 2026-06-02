@@ -21,10 +21,23 @@ const related = all
   .slice(0, 4)
   .map((x) => ({ ...x.data, slug: x.id }));
 
+// "More from <brand>" — up to 4 same-brand products
+const brandRelated = all
+  .filter((x) => x.id !== slug && x.data.brand === p.brand)
+  .slice(0, 4)
+  .map((x) => ({ ...x.data, slug: x.id }));
+
+// gallery: primary first, then gallery images (dedup, drop empties)
+const gallery = [...new Set([p.image, ...(p.gallery ?? [])].filter(Boolean))];
+
 const FREE_DELIVERY_OVER = 60;
+const freeDeliveryRemaining = Math.max(0, +(FREE_DELIVERY_OVER - p.price).toFixed(2));
 const enquiryHref = `/visit#contact?product=${encodeURIComponent(p.name)}`;
 const checkoutHref = p.stripeLink && p.stripeLink.length > 0 ? p.stripeLink : enquiryHref;
 const checkoutLabel = p.stripeLink && p.stripeLink.length > 0 ? "Buy now" : "Enquire to buy";
+
+// absolute image URL for OG/JSON-LD (images are now full CDN URLs)
+const absImage = p.image && p.image.startsWith("http") ? p.image : `https://maryjanesplace.co.uk${p.image}`;
 
 const catLabel = {
   "portable-vapes": "Portable vapes",
@@ -44,7 +57,8 @@ const catLabel = {
 
 <Base
   title={`${p.name} — ${p.brand} · Mary Jane's Place`}
-  description={`${p.summary} Buy from Mary Jane's Place — UK delivery, 30-day returns, secure payment.`}
+  description={p.summary}
+  ogImage={absImage}
 >
   <section class="pad-sm" style="padding-top:120px">
     <div class="wrap">
@@ -57,9 +71,20 @@ const catLabel = {
       </nav>
 
       <article class="product-detail">
-        <div class="pd-image rv">
-          {p.featured && <span class="prod-badge">Featured</span>}
-          <img src={p.image} alt={p.name} width="800" height="800" />
+        <div class="pd-gallery rv">
+          <div class="pd-image" id="pd-image">
+            {p.featured && <span class="prod-badge">Featured</span>}
+            <img id="pd-main-img" src={gallery[0]} alt={p.name} width="800" height="800" />
+          </div>
+          {gallery.length > 1 && (
+            <div class="pd-thumbs" role="group" aria-label="Product images">
+              {gallery.map((g, i) => (
+                <button class:list={["pd-thumb", { active: i === 0 }]} data-src={g} type="button" aria-label={`View image ${i + 1}`}>
+                  <img src={g} alt={`${p.name} view ${i + 1}`} loading="lazy" />
+                </button>
+              ))}
+            </div>
+          )}
         </div>
 
         <div class="pd-info rv">
@@ -72,6 +97,16 @@ const catLabel = {
           </div>
 
           <p class="pd-summary">{p.summary}</p>
+
+          <div class="pd-delivery">
+            {freeDeliveryRemaining > 0 ? (
+              <><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M3 7h13l4 4v6h-2a2 2 0 11-4 0H9a2 2 0 11-4 0H3z"/><circle cx="7" cy="17" r="2"/><circle cx="15" cy="17" r="2"/></svg>
+              <span>You're <b>£{freeDeliveryRemaining.toFixed(2)}</b> away from free UK delivery (over £{FREE_DELIVERY_OVER}).</span></>
+            ) : (
+              <><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12l5 5L20 6"/></svg>
+              <span>This order qualifies for <b>free UK delivery</b>.</span></>
+            )}
+          </div>
 
           <div class="pd-stock">
             {p.inStock
@@ -114,6 +149,24 @@ const catLabel = {
         )}
       </div>
 
+      {brandRelated.length > 0 && (
+        <div class="pd-related rv">
+          <h2 class="pd-section-h">More from {p.brand}</h2>
+          <div class="related-grid">
+            {brandRelated.map((r) => (
+              <a class="rel-card" href={`/shop/${r.slug}/`}>
+                <div class="rel-image"><img src={r.image} alt={r.name} loading="lazy"/></div>
+                <div class="rel-meta">
+                  <div class="prod-brand">{r.brand}</div>
+                  <div class="rel-name">{r.name}</div>
+                  <div class="price-main">£{r.price.toFixed(2)}</div>
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
+
       {related.length > 0 && (
         <div class="pd-related rv">
           <h2 class="pd-section-h">More in {catLabel}</h2>
@@ -131,8 +184,56 @@ const catLabel = {
           </div>
         </div>
       )}
+
+      <div class="pd-related rv" id="recently-viewed" style="display:none">
+        <h2 class="pd-section-h">Recently viewed</h2>
+        <div class="related-grid" id="recently-grid"></div>
+      </div>
     </div>
   </section>
+
+  <script
+    is:inline
+    define:vars={{ cur: { slug, name: p.name, brand: p.brand, price: p.price, image: gallery[0] } }}
+  >
+    // image gallery: thumbnail click swaps the main image
+    (function () {
+      const main = document.getElementById('pd-main-img');
+      document.querySelectorAll('.pd-thumb').forEach((t) => {
+        t.addEventListener('click', () => {
+          const src = t.getAttribute('data-src');
+          if (src && main) main.setAttribute('src', src);
+          document.querySelectorAll('.pd-thumb').forEach((x) => x.classList.remove('active'));
+          t.classList.add('active');
+        });
+      });
+
+      // recently viewed (localStorage, last 6 excluding current)
+      const KEY = 'mjp_recent';
+      let list = [];
+      try { list = JSON.parse(localStorage.getItem(KEY) || '[]'); } catch (e) { list = []; }
+      const others = list.filter((x) => x && x.slug !== cur.slug);
+      if (others.length) {
+        const grid = document.getElementById('recently-grid');
+        const sec = document.getElementById('recently-viewed');
+        others.slice(0, 6).forEach((r) => {
+          const a = document.createElement('a');
+          a.className = 'rel-card';
+          a.href = `/shop/${r.slug}/`;
+          a.innerHTML =
+            `<div class="rel-image"><img src="${r.image}" alt="${(r.name || '').replace(/"/g, '&quot;')}" loading="lazy"></div>` +
+            `<div class="rel-meta"><div class="prod-brand">${r.brand || ''}</div>` +
+            `<div class="rel-name">${r.name || ''}</div>` +
+            `<div class="price-main">£${Number(r.price || 0).toFixed(2)}</div></div>`;
+          grid.appendChild(a);
+        });
+        if (sec) sec.style.display = '';
+      }
+      // record current product at the front
+      const next = [cur, ...list.filter((x) => x && x.slug !== cur.slug)].slice(0, 12);
+      try { localStorage.setItem(KEY, JSON.stringify(next)); } catch (e) {}
+    })();
+  </script>
 
   <script type="application/ld+json" set:html={JSON.stringify({
     "@context": "https://schema.org",
@@ -140,7 +241,7 @@ const catLabel = {
     "name": p.name,
     "brand": { "@type": "Brand", "name": p.brand },
     "description": p.summary,
-    "image": [`https://maryjanesplace.co.uk${p.image}`],
+    "image": [absImage],
     "sku": p.rnSku || slug,
     "offers": {
       "@type": "Offer",
@@ -181,6 +282,7 @@ const catLabel = {
     gap: 44px;
     margin-bottom: 56px;
   }
+  .pd-gallery { display: flex; flex-direction: column; gap: 12px; }
   .pd-image {
     background: var(--paper);
     border: 1px solid var(--line);
@@ -190,8 +292,54 @@ const catLabel = {
     place-items: center;
     overflow: hidden;
     position: relative;
+    cursor: zoom-in;
   }
-  .pd-image img { width: 100%; height: 100%; object-fit: contain; padding: 36px; }
+  .pd-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 36px;
+    transition: transform 0.35s ease;
+    transform-origin: center center;
+  }
+  /* pure-CSS hover zoom — no library */
+  .pd-image:hover img { transform: scale(1.7); }
+  @media (hover: none) { .pd-image { cursor: default; } .pd-image:hover img { transform: none; } }
+
+  .pd-thumbs {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .pd-thumb {
+    width: 72px;
+    height: 72px;
+    border: 1px solid var(--line);
+    border-radius: 9px;
+    background: var(--paper);
+    padding: 6px;
+    cursor: pointer;
+    transition: 0.18s;
+    overflow: hidden;
+  }
+  .pd-thumb img { width: 100%; height: 100%; object-fit: contain; }
+  .pd-thumb:hover { border-color: var(--sage); }
+  .pd-thumb.active { border-color: var(--olive); box-shadow: 0 0 0 2px rgba(85, 107, 47, 0.18); }
+
+  .pd-delivery {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    color: var(--olive-d);
+    background: var(--tint);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin-bottom: 18px;
+  }
+  .pd-delivery svg { width: 18px; height: 18px; color: var(--olive); flex: none; }
+  .pd-delivery b { font-weight: 800; }
   .pd-image .prod-badge {
     position: absolute;
     top: 18px;

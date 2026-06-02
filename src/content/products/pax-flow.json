@@ -1,0 +1,52 @@
+{
+  "slug": "pax-flow",
+  "name": "PAX Flow",
+  "brand": "PAX",
+  "category": "portable-vapes",
+  "price": 222.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/pax-flow-vaporizer-greenstone.jpg?v=1757369617",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/pax-flow-vaporizer-greenstone-1.jpg?v=1757369617",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/pax-flow-vaporizer-greenstone-back.jpg?v=1757369617",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/pax-flow-vaporizer-greenstone-chamber.jpg?v=1757369617",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/pax-flow-vaporizer-greenstone-usb-c.jpg?v=1757369617"
+  ],
+  "summary": "A discreet hybrid pocket vaporiser from PAX with five heat settings and a four-year warranty.",
+  "description": "The PAX Flow uses hybrid convection and conduction heating in the slim, recognisable PAX form, ready to use in around 30 seconds. Five heat settings let you tune flavour against vapour density, and two mouthpieces (flat and raised) plus a maintenance kit come in the box. USB-C charging and a 98mm body make it easy to carry and top up. It suits a patient who values discretion and a clean, simple device over deep customisation, backed by a four-year warranty. Session battery life is on the shorter side, so it's better for portable top-ups than long sessions away from power.",
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Portable Dry Herb Vaporiser"
+    },
+    {
+      "label": "Heating",
+      "value": "Hybrid"
+    },
+    {
+      "label": "Heat-up time",
+      "value": "Approx. 30 seconds"
+    },
+    {
+      "label": "Battery life",
+      "value": "Up to 30 min"
+    },
+    {
+      "label": "Dimensions",
+      "value": "98 mm x 31 mm x 22 mm"
+    },
+    {
+      "label": "Warranty",
+      "value": "4 Years"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "portable",
+    "dry-herb",
+    "pax"
+  ],
+  "stripeLink": "",
+  "rnSku": "15285482881398",
+  "order": 72
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "storz-bickel-mighty-plus-vaporizer",
+  "name": "Mighty Plus",
+  "brand": "Storz & Bickel",
+  "category": "portable-vapes",
+  "price": 335.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/new-mighty-plus-2021.jpg?v=1692737029",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Mighty-plus-vaporizer-lifestyle.jpg?v=1692737029",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Mighty-plus-size-in-hand.jpg?v=1692737029",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/storz-bickel-mighty-2-2021.jpg?v=1692737030",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/vaporizer-mighty-plus-storz-bickel.jpg?v=1692737030"
+  ],
+  "summary": "The Storz & Bickel Mighty+, a hybrid portable dry-herb vaporiser for patients who medicate daily.",
+  "description": "The Mighty+ builds on the original Mighty with hybrid convection and conduction heating, delivering consistent, clean vapour from a ceramic-coated chamber. It heats in around 60 seconds, charges over USB-C with SuperCharge and pass-through use, and runs from 40–210°C for both dry herbs and concentrates. German-engineered with the reliability that made Storz & Bickel a fixture for medical patients, it's backed by a 3-year warranty after registration. It suits a patient who medicates several times a day and wants a device that pays back over years. It's larger and pricier than pocket vapes, so it's a daily-driver rather than a discreet carry.",
+  "specs": [
+    {
+      "label": "Warranty",
+      "value": "2 years"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "portable",
+    "dry-herb",
+    "storz-bickel"
+  ],
+  "stripeLink": "",
+  "rnSku": "7779298967721",
+  "order": 78
+}

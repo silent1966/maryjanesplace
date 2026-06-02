@@ -1,0 +1,47 @@
+{
+  "slug": "vapman-heating-station",
+  "name": "Vapman Heating Station",
+  "brand": "Inhale Vaporizers",
+  "category": "desktop-vapes",
+  "price": 312.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vapman-heating-station.jpg?v=1758652544",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vapman-heating-station-with-device.jpg?v=1758652545",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vapman-heating-station-top.jpg?v=1758652544",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vapman-heating-station-power-button.jpg?v=1758652544",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vapman-heating-station-temp.jpg?v=1758652545"
+  ],
+  "summary": "A mains-powered heating dock for the Vapman vaporiser, replacing the butane torch with controlled electric heat.",
+  "description": "The Vapman Heating Station is a desktop dock built for the Vapman vaporiser, swapping the usual butane flame for controlled electric heat. It reaches vaporising temperature in 3 to 5 seconds across an adjustable 160 to 230°C range, with automatic shut-off, and is hand-assembled from olive wood, stainless steel, aluminium and glass. It suits Vapman owners who want repeatable temperatures and no torch on the side. It only heats the Vapman, so it is an accessory for existing owners rather than a vaporiser in itself, and the materials make it a considered purchase.",
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Temperature-Controlled Heating Station"
+    },
+    {
+      "label": "Heat-up time",
+      "value": "3–5 seconds"
+    },
+    {
+      "label": "Temperature range",
+      "value": "160 °C – 230 °C (320 °F – 450 °F)"
+    },
+    {
+      "label": "Dimensions",
+      "value": "60 × 120 mm"
+    },
+    {
+      "label": "Weight",
+      "value": "400 g"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "desktop",
+    "inhale-vaporizers"
+  ],
+  "stripeLink": "",
+  "rnSku": "15354839073142",
+  "order": 88
+}

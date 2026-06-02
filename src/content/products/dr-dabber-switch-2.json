@@ -1,0 +1,52 @@
+{
+  "slug": "dr-dabber-switch-2",
+  "name": "Dr Dabber Switch 2",
+  "brand": "Dr. Dabber",
+  "category": "desktop-vapes",
+  "price": 481.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Dr-Dabber-Switch-2-vaporizer.jpg?v=1767800668",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Dr-Dabber-Switch-2-vaporizer-1.jpg?v=1767800668",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Dr-Dabber-Switch-2-vaporizer-4.jpg?v=1767800668",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Dr-Dabber-Switch-2-vaporizer-3.jpg?v=1767800668",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Dr-Dabber-Switch-2-vaporizer-5.jpg?v=1767800668"
+  ],
+  "summary": "A high-end electronic dab rig using induction heating, for patients prescribed cannabis concentrates.",
+  "description": "The Dr. Dabber Switch 2 is an electronic dab rig that uses induction heating to bring a quartz insert up to temperature in 5 to 15 seconds, no torch required. Three dynamic heating profiles, app control and precise temperature settings give close control over each draw, and the battery handles up to 50 cycles per charge. It is aimed at patients prescribed concentrates who want flagship dab performance with repeatable dosing. This is a substantial, expensive home device rather than something portable, and it only earns its price if extracts are central to how you medicate.",
+  "specs": [
+    {
+      "label": "Heating",
+      "value": "Induction heating"
+    },
+    {
+      "label": "Battery life",
+      "value": "Up to 50 heating cycles on a single charge"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Height 9\", Width 4\", Weight"
+    },
+    {
+      "label": "Weight",
+      "value": "25.6 oz / 725 grams"
+    },
+    {
+      "label": "Warranty",
+      "value": "2 years"
+    },
+    {
+      "label": "Temperature range",
+      "value": "250-650° F"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "desktop",
+    "dry-herb",
+    "dr-dabber"
+  ],
+  "stripeLink": "",
+  "rnSku": "14809749193078",
+  "order": 90
+}

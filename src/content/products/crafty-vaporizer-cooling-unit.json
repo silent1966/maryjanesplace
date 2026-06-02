@@ -1,0 +1,34 @@
+{
+  "slug": "crafty-vaporizer-cooling-unit",
+  "name": "Crafty Vaporizer Cooling Unit",
+  "brand": "Storz & Bickel",
+  "category": "accessories",
+  "price": 32.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Crafty-Cooling-Unit-6.jpg?v=1620661894",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Crafty-Cooling-Unit-5.jpg?v=1620661894",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Crafty-Cooling-Unit-4.jpg?v=1620661894",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Crafty-Cooling-Unit-2.jpg?v=1620661894"
+  ],
+  "summary": "This is a certified replacement cooling unit for the Crafty+ Vaporiser, manufactured by Storz & Bickel.",
+  "description": "This is a certified replacement cooling unit for the Crafty+ Vaporiser, manufactured by Storz & Bickel. The unit is equipped with a swiveling mouthpiece for added convenience. This trusted information is sourced from the manufacturer. A practical part to keep your device working as it should.",
+  "specs": [
+    {
+      "label": "Dimensions",
+      "value": "1.25 x 1.25 x 3.25 in."
+    },
+    {
+      "label": "Weight",
+      "value": "0.10 lbs."
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "accessory",
+    "storz-bickel"
+  ],
+  "stripeLink": "",
+  "rnSku": "6980028137641",
+  "order": 379
+}

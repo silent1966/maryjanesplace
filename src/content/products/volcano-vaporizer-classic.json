@@ -1,0 +1,44 @@
+{
+  "slug": "volcano-vaporizer-classic",
+  "name": "Volcano Classic Vaporizer",
+  "brand": "Storz & Bickel",
+  "category": "desktop-vapes",
+  "price": 318.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/volcano-classic_front_easy-valve_grande_5a4aa27b-2440-4abd-bbed-f414bb391597.jpg?v=1693248423",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/volcano-classic_front_80fee76b-cc40-4aed-b5ce-96bfe0a47f2c.jpg?v=1693248423",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/vaporizer-volcano-vaporizer-classic--best-price-best-price.jpg?v=1693248423",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/volcano-classic-desktop-vaporizer.jpg?v=1693248423",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/volcano-c.jpg?v=1693248423"
+  ],
+  "summary": "The original German-built balloon-bag desktop vaporiser from Storz & Bickel, for hands-free home dosing.",
+  "description": "The Volcano Classic is Storz & Bickel's long-running desktop vaporiser, filling a detachable balloon bag with vapour you then medicate from hands-free. Convection heating through a food-grade aluminium block and an all-metal body give it a reputation for reliability that runs into years, with temperature set on a simple dial. It suits patients who want consistent, hands-free dosing at home and value a device that lasts. Heat-up is slower at around three minutes and it is a heavy mains-only unit, but it is one of the most durable home vaporisers made and carries a three-year warranty.",
+  "specs": [
+    {
+      "label": "Temperature range",
+      "value": "Dial"
+    },
+    {
+      "label": "Material",
+      "value": "Stainless steel"
+    },
+    {
+      "label": "Made in",
+      "value": "Germany"
+    },
+    {
+      "label": "Battery",
+      "value": "220-240 V"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "desktop",
+    "dry-herb",
+    "storz-bickel"
+  ],
+  "stripeLink": "",
+  "rnSku": "6980037181609",
+  "order": 89
+}

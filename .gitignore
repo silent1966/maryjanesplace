@@ -1,0 +1,16 @@
+# build output
+dist/
+
+# dependencies
+node_modules/
+
+# os / editor
+.DS_Store
+Thumbs.db
+*.log
+
+# astro
+.astro/
+
+# product-generation intermediate (derived, regenerable)
+scripts/copy-in/

@@ -1,0 +1,55 @@
+{
+  "slug": "auxo-cenote",
+  "name": "Auxo Cenote",
+  "brand": "Auxo",
+  "category": "portable-vapes",
+  "price": 170.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Auxo-Cenote-dab-rig-vaporizer.jpg?v=1692741368",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Auxo-Cenote-dab-rig-vaporizer-font.jpg?v=1692741368",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Auxo-Cenote-dab-rig-vaporizer-side.jpg?v=1692741368",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Auxo-Cenote-dab-rig-vaporizer-usb-c-input.jpg?v=1692741368",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Auxo-Cenote-dab-rig-included-parts.jpg?v=1692741368"
+  ],
+  "summary": "A portable electronic dab rig for concentrates with app control and replaceable ceramic nails, for patients who medicate with extracts.",
+  "description": "The Auxo Cenote is a battery-powered dab rig built for concentrates on the go. Disposable ceramic nails make loading and cleaning simple, and temperature runs across three presets plus a Pro Mode in the AUXO app for finer control over a 200-340C range. A glass recycler mouthpiece cools the vapour, and you get around 12 sessions per charge with both wireless and USB-C charging. At 320g with a travel case included, it's portable rather than pocketable. Suits patients who prefer concentrates and want a self-contained rig without a torch, backed by a 10-year warranty.",
+  "specs": [
+    {
+      "label": "Heating",
+      "value": "Conduction"
+    },
+    {
+      "label": "Battery life",
+      "value": "12 Session per charge"
+    },
+    {
+      "label": "Battery",
+      "value": "Lithium"
+    },
+    {
+      "label": "Dimensions",
+      "value": "5.63H × 3.74W × 2.2D (in) / 143H × 95W × 56D (mm)"
+    },
+    {
+      "label": "Weight",
+      "value": "320 grams"
+    },
+    {
+      "label": "Warranty",
+      "value": "10 Years"
+    },
+    {
+      "label": "Temperature range",
+      "value": "392-644°F"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "portable",
+    "auxo"
+  ],
+  "stripeLink": "",
+  "rnSku": "7779320463529",
+  "order": 67
+}

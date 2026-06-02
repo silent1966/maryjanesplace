@@ -1,0 +1,35 @@
+{
+  "slug": "veazy-wear-tear-set",
+  "name": "Veazy Wear & Tear Set",
+  "brand": "Storz & Bickel",
+  "category": "cleaning",
+  "price": 90.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Veazy-Wear_TearSet-Black-01.jpg?v=1758652554",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Wear_TearSet-Black-02_e611caa6-a358-4580-bf0e-06047b8b173f.jpg?v=1758652554",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Veazy-Wear_TearSet-Pink.jpg?v=1758652554",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Wear_TearSet-Orange_5.jpg?v=1758652554",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Veazy-Wear_TearSet-Blue.jpg?v=1758652554"
+  ],
+  "summary": "Veazy Wear & Tear Set — a cleaning accessory for keeping your device clean for purer vapour.",
+  "description": "The Veazy Wear & Tear Set provides all the essential replacement parts to keep the Veazy performing at its best. Designed by Storz & Bickel specifically for the Veazy Vaporiser, this kit ensures long-lasting reliability, fresh airflow, and consistently smooth vapour. A clean device gives cleaner vapour and a more reliable dose.",
+  "specs": [
+    {
+      "label": "Dimensions",
+      "value": "1 × 3 × 4 in."
+    },
+    {
+      "label": "Weight",
+      "value": "0.10 lbs."
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "cleaning",
+    "storz-bickel"
+  ],
+  "stripeLink": "",
+  "rnSku": "15354841792886",
+  "order": 166
+}

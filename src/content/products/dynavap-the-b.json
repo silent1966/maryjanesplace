@@ -1,0 +1,60 @@
+{
+  "slug": "dynavap-the-b",
+  "name": "DynaVap - The B",
+  "brand": "DynaVap",
+  "category": "pen-vapes",
+  "price": 52.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Dynavap-the-B-vape-pen_87226853-a6c7-4ae7-b7c2-0042e2e012f3.jpg?v=1692742032",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Dynavap-B-size-in-hand.jpg?v=1692742032",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Dynavap-the-B-parts.jpg?v=1692742032",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Dynavap-the-B-vape-pen-standing.jpg?v=1692742032",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Dynavap-the-B-vape-pen-upright.jpg?v=1692742032"
+  ],
+  "summary": "An affordable butane-heated dry-herb vaporiser with a silicone stem, for patients new to the DynaVap method.",
+  "description": "The DynaVap B is the most affordable way into the DynaVap range, pairing a single-finned stainless-steel tip with a food-grade silicone stem. It heats with a butane torch, needs no battery, and the signature cap clicks to tell you when it is at temperature. The small 0.1g chamber suits microdosing and conserves material, which makes it a low-cost, low-commitment first vaporiser. You will need a torch (sold separately) and a little practice with the technique, but the flavour and simplicity are the same DynaVap appeal at a lower price.",
+  "specs": [
+    {
+      "label": "Dimensions",
+      "value": "8.89 cm Height"
+    },
+    {
+      "label": "Weight",
+      "value": ".45 oz / 13 grams"
+    },
+    {
+      "label": "Heating",
+      "value": "Manual"
+    },
+    {
+      "label": "Temperature range",
+      "value": "300° F to 450° F (Manual)"
+    },
+    {
+      "label": "Heat-up time",
+      "value": "5 - 10 Seconds"
+    },
+    {
+      "label": "Chamber",
+      "value": "Stainless Steel"
+    },
+    {
+      "label": "Display",
+      "value": "None"
+    },
+    {
+      "label": "Made in",
+      "value": "USA"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "pen",
+    "dry-herb",
+    "dynavap"
+  ],
+  "stripeLink": "",
+  "rnSku": "7779323510953",
+  "order": 93
+}

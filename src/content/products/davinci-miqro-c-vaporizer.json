@@ -1,0 +1,56 @@
+{
+  "slug": "davinci-miqro-c-vaporizer",
+  "name": "DaVinci MIQRO-C Vaporizer",
+  "brand": "DaVinci",
+  "category": "portable-vapes",
+  "price": 111.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/DaVinci-Miqro-C-Compact-Dry-Herb-Vaporizer.jpg?v=1767717914",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Davinci-MIQRO-C-Vaporizer-Pink-size-in-hand.jpg?v=1767717914",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Davinci-MIQRO-C-Vaporizer-Black-in-use.jpg?v=1767717914",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Davinci-MIQRO-C-Vaporizer-Black.webp?v=1767717914",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Davinci-MIQRO-C-Vaporizer-Black-side.webp?v=1767717914"
+  ],
+  "summary": "A pocket-sized conduction vaporiser for dry herb and concentrate pods, for patients who want a discreet device for smaller doses on the go.",
+  "description": "The DaVinci MIQRO-C is one of the smallest proper vaporisers you can carry, at 87g and barely longer than a thumb. It runs the same ceramic and zirconia vapour path as DaVinci's larger devices, with a 50-221C range, four Smart Paths or single-degree control, and a Boost mode. The 0.3g oven suits lighter dosing, and USB-C gives up to around three hours of use per charge. For a UK patient who wants something genuinely discreet for microdosing or out-of-home use, this is a capable little device — just don't expect the runtime or session size of a full-size unit. Five-year warranty.",
+  "specs": [
+    {
+      "label": "Dimensions",
+      "value": "23 x 34 x 80mm"
+    },
+    {
+      "label": "Weight",
+      "value": "87g"
+    },
+    {
+      "label": "Vapour path",
+      "value": "Ceramic Zirconia Air Path"
+    },
+    {
+      "label": "Temperature range",
+      "value": "50-221°C"
+    },
+    {
+      "label": "Material",
+      "value": "Anodized aluminium"
+    },
+    {
+      "label": "Made in",
+      "value": "China"
+    },
+    {
+      "label": "Warranty",
+      "value": "5 years"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "portable",
+    "dry-herb",
+    "davinci"
+  ],
+  "stripeLink": "",
+  "rnSku": "7779993092265",
+  "order": 47
+}

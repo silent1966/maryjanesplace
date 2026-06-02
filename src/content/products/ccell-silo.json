@@ -1,0 +1,31 @@
+{
+  "slug": "ccell-silo",
+  "name": "CCELL - Silo Battery",
+  "brand": "CCELL",
+  "category": "cartridge-batteries",
+  "price": 31.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/CCELL-Silo-Cartridge-Battery-black-2.jpg?v=1692741598",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Ccell-silo-vape-battery.jpg?v=1692741598",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/CCELL-Silo-Cartridge-Battery-black.jpg?v=1692741598",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/CCELL-Silo-Cartridge-Battery-SIZE.jpg?v=1692741598",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/CCELL-Silo-Cartridge-Battery-all-colors.jpg?v=1692741598"
+  ],
+  "summary": "The CCELL Silo is a compact and potent battery built specifically for vape cartridges.",
+  "description": "The CCELL Silo is a compact and potent battery built specifically for vape cartridges. Its simple, inhale-activated feature allows for easy portability, while the magnetic connection maintains a secure and stable attachment to the cartridge. Compatible with most 510 concentrate cartridges This trusted information is sourced from the manufacturer. Pairs with standard 510 cartridges.",
+  "specs": [
+    {
+      "label": "Dimensions",
+      "value": "63.0H × 28.8W × 18.0D (mm)"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "510",
+    "ccell"
+  ],
+  "stripeLink": "",
+  "rnSku": "7779321512105",
+  "order": 119
+}

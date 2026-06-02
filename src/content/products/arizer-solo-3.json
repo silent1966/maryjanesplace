@@ -3,37 +3,50 @@
   "name": "Arizer Solo 3",
   "brand": "Arizer",
   "category": "portable-vapes",
-  "price": 199.99,
-  "image": "/products/placeholder.svg",
-  "summary": "The understated workhorse. Hybrid heating, glass stems, all-day battery, exceptional flavour.",
-  "description": "The Solo 3 is the device most patients should consider before spending more. Hybrid convection-conduction with all-glass stems means cool, smooth, flavourful vapour. Battery lasts a full medicating day. Cheaper than the Mighty, comfortable in the hand, easy to clean. The patient's quiet choice.",
+  "price": 260.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Arizer-Solo-3-Vaporizer.jpg?v=1712166382",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Arizer-Solo-3-Vaporizer-water-pipe-adapter.jpg?v=1712166382",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Arizer-Solo-3-Vaporizer-USB-C.jpg?v=1712166382",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Arizer-Solo-3-Vaporizer-menu.jpg?v=1712166382",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Arizer-Solo-3-Vaporizer_1.jpg?v=1712166382"
+  ],
+  "summary": "A fast-heating hybrid portable with on-demand or session modes for patients who want flexible dosing.",
+  "description": "The Arizer Solo 3 is a hybrid portable vaporiser with an all-glass vapour path, colour LED screen and degree-by-degree control from 50°C to 220°C. It heats in 5 to 15 seconds and offers both on-demand and session modes, so you can take a single measured draw or run a full session. The glass aroma tubes keep flavour clean, and the generous accessory set covers most setups out of the box. It suits patients who want quick, flexible dosing and Arizer's flavour in a durable body. At 210g it is built for performance over pocket discretion.",
   "specs": [
     {
-      "label": "Heating",
-      "value": "Hybrid convection-conduction"
+      "label": "Dimensions",
+      "value": "4.6cm by 3.5cm by 11.5cm"
     },
     {
-      "label": "Heat-up time",
-      "value": "~20 seconds"
+      "label": "Weight",
+      "value": "210g"
     },
     {
-      "label": "Battery life",
-      "value": "Approx 2 hours continuous"
+      "label": "Temperature range",
+      "value": "50-220°C"
     },
     {
-      "label": "Stems",
-      "value": "Glass (included)"
+      "label": "Material",
+      "value": "Stainless steel"
     },
     {
       "label": "Made in",
       "value": "Canada"
+    },
+    {
+      "label": "Warranty",
+      "value": "2 years"
     }
   ],
+  "inStock": true,
   "featured": true,
   "tags": [
-    "hybrid",
-    "all-day",
-    "value"
+    "portable",
+    "dry-herb",
+    "arizer"
   ],
-  "order": 3
+  "stripeLink": "",
+  "rnSku": "7971648635049",
+  "order": 6
 }

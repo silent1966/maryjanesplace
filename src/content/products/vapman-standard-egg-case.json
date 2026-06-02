@@ -1,0 +1,38 @@
+{
+  "slug": "vapman-standard-egg-case",
+  "name": "Vapman Standard Egg Case",
+  "brand": "Inhale Vaporizers",
+  "category": "accessories",
+  "price": 27.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vapman-standard-egg-case-hemp.jpg?v=1758652561",
+  "gallery": [],
+  "summary": "Protect your Vapman vaporiser with confidence using the Vapman Standard Case.",
+  "description": "Protect your Vapman vaporiser with confidence using the Vapman Standard Case. This lightweight, hemp fibre case combines everyday protection with a transparent, stylish finish—keeping your device safe while showcasing its iconic design. Its clear hemp fibre construction offers a unique blend of strength and visibility—perfect for users who appreciate both practicality and design. Crafted from eco-conscious, impact-resistant materials, this case is built to withstand travel and daily wear. A practical part to keep your device working as it should.",
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Protective carrying case"
+    },
+    {
+      "label": "Material",
+      "value": "Durable hemp fibre shell"
+    },
+    {
+      "label": "Compatibility",
+      "value": "Compatible with all Vapman vaporisers"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Compact and pocket-friendly"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "accessory",
+    "inhale-vaporizers"
+  ],
+  "stripeLink": "",
+  "rnSku": "15354843857270",
+  "order": 335
+}

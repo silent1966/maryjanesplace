@@ -1,0 +1,37 @@
+{
+  "slug": "herb-ripper-xl-4-piece-grinder",
+  "name": "Herb Ripper XL 4 Piece Grinder",
+  "brand": "Herb Ripper",
+  "category": "grinders",
+  "price": 149.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Herb-Ripper-XL-4-Piece.jpg?v=1763069539",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Herb-Ripper-XL-4-Piece-2.jpg?v=1763069539",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Herb-Ripper-XL-4-Piece-grinder.jpg?v=1763069539"
+  ],
+  "summary": "The Herb Ripper XL 4-Piece is built for customers who need extra capacity, unbeatable strength, and consistently reliable performance.",
+  "description": "The Herb Ripper XL 4-Piece is built for customers who need extra capacity, unbeatable strength, and consistently reliable performance. Featuring a spacious 2.5\" diameter and upgraded engineering throughout, this heavy-duty stainless steel grinder handles large quantities with ease while delivering smooth, hybrid-style grinds without clogs or jams. Manufactured in the USA from 100% medical-grade stainless steel, it’s designed to offer a lifetime of dependable use. If your customers are still using aluminium or plastic grinders, this is the ideal upgrade. A small upgrade that makes every session more even.",
+  "specs": [
+    {
+      "label": "Dimensions",
+      "value": "2.5 inch (XL)"
+    },
+    {
+      "label": "Weight",
+      "value": "0.56 kg"
+    },
+    {
+      "label": "Material",
+      "value": "100% medical-grade stainless steel"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "grinder",
+    "herb-ripper"
+  ],
+  "stripeLink": "",
+  "rnSku": "15445365719414",
+  "order": 147
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "fenix-neo",
+  "name": "Fenix NEO",
+  "brand": "Weecke",
+  "category": "portable-vapes",
+  "price": 166.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Fenix-NEO-Vaporizer.jpg?v=1727979097",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Fenix-NEO-Vaporizer-parts.jpg?v=1727979097",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Fenix-NEO-Vaporizer-Display-buttons.jpg?v=1727979097",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Fenix-NEO-Vaporizer-black.jpg?v=1727979097",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Fenix-NEO-Vaporizer-Mouthpiece.jpg?v=1727979097"
+  ],
+  "summary": "A convection dry-herb portable with a ceramic mouthpiece and wide temperature range, for patients who want cool, clean vapour and long battery life.",
+  "description": "The Fenix NEO is a convection vaporiser that focuses on smooth, cool draws. A ceramic mouthpiece and the brand's convection heating produce clean vapour, and the temperature range starts low at 120C and runs up to 210C — useful if you want gentle, flavour-led dosing as well as denser sessions. The 4400mAh battery lasts well, with USB-C charging and a roughly 30-second heat-up. For a UK patient who wants convection flavour and a low starting temperature for lighter dosing, the NEO is a comfortable, dependable device.",
+  "specs": [
+    {
+      "label": "Dimensions",
+      "value": "10.4 cm x 5.8 cm x 2.8 cm"
+    },
+    {
+      "label": "Weight",
+      "value": "216 g"
+    },
+    {
+      "label": "Heat-up time",
+      "value": "~30 seconds"
+    },
+    {
+      "label": "Battery",
+      "value": "4400mAh lithium battery"
+    },
+    {
+      "label": "Charging",
+      "value": "USB-C"
+    },
+    {
+      "label": "Made in",
+      "value": "China"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "portable",
+    "dry-herb",
+    "weecke"
+  ],
+  "stripeLink": "",
+  "rnSku": "14634993222006",
+  "order": 66
+}

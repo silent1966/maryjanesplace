@@ -1,0 +1,32 @@
+{
+  "slug": "pax-small-stash-jar",
+  "name": "PAX Small Stash Jar",
+  "brand": "PAX",
+  "category": "storage",
+  "price": 41.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/PAX-Small-Stash-Jar.jpg?v=1725388880",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/PAX-Small-Stash-Jar-size-in-hands.jpg?v=1725388880"
+  ],
+  "summary": "PAX Small Stash Jar — a storage accessory for patients keeping prescribed flower fresh.",
+  "description": "Enhance your storage system with our recently added airtight and sturdy aluminium stash jar that effectively preserves and shields your goods from sunlight, thanks to its odour-proof design. Capacity : Holds up to ¼ oz of dry herb Dimensions : 2.5”L x 2.5”W x 1.9”H / 6.4 x 6.4 x 4.9 cm Keeps prescribed flower at its best for longer.",
+  "specs": [
+    {
+      "label": "Chamber",
+      "value": "Holds up to ¼ oz of dry herb"
+    },
+    {
+      "label": "Dimensions",
+      "value": "2.5”L x 2.5”W x 1.9”H / 6.4 x 6.4 x 4.9 cm"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "storage",
+    "pax"
+  ],
+  "stripeLink": "",
+  "rnSku": "8257783234729",
+  "order": 149
+}

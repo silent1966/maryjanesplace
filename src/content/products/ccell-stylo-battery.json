@@ -1,0 +1,31 @@
+{
+  "slug": "ccell-stylo-battery",
+  "name": "CCELL - Stylo Battery",
+  "brand": "CCELL",
+  "category": "cartridge-batteries",
+  "price": 22.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Ccell-Stylo-battery-black.jpg?v=1753133699",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Ccell-Stylo-battery-black-2.jpg?v=1753133699",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Ccell-Stylo-battery-black-3.jpg?v=1753133699",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Ccell-Stylo-battery-orange.jpg?v=1753133699",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Ccell-Stylo-battery-orange_1.jpg?v=1753133699"
+  ],
+  "summary": "CCELL - Stylo Battery — a 510 cartridge battery for patients using 510 cartridges.",
+  "description": "The Stylo delivers consistent heating at controlled temperatures, ensuring smooth vapour sessions with zero burnt flavour and generous, crisp clouds every time. Designed with simplicity in mind, The Stylo includes a handy preheat button, an easy-access voltage slider, and a user-friendly digital screen — ideal for both new and experienced users. Experience flawless sessions with 15-second temp stabilisation that eliminates harsh hits. The digital interface ensures you’re always in control of your perfect draw. Pairs with standard 510 cartridges.",
+  "specs": [
+    {
+      "label": "Dimensions",
+      "value": "57mm (H) x 42.4mm (W) x 20mm (D) | 2.24\" (H) x 1.67\" (W) x 0.79\" (D)"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "510",
+    "ccell"
+  ],
+  "stripeLink": "",
+  "rnSku": "15264596001142",
+  "order": 114
+}

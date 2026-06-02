@@ -1,0 +1,40 @@
+{
+  "slug": "vessel-craftsman",
+  "name": "Vessel Craftsman",
+  "brand": "Vessel",
+  "category": "cartridge-batteries",
+  "price": 56.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vessel-Craftsman-Slate-Walnut.jpg?v=1763755987",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vessel-Craftsman-Slate-Blackwood.jpg?v=1763755987"
+  ],
+  "summary": "Vessel Craftsman — a 510 cartridge battery for patients using 510 cartridges.",
+  "description": "The Craftsman incorporates Vessel’s signature protected drop-in cartridge chamber, securing the cartridge while maintaining a sleek, ergonomic silhouette. The combination of warm natural wood and durable metal gives the device both lifestyle appeal and long-lasting reliability. Fully charge the device using the magnetic USB cable. Insert a 510-thread cartridge into the protected drop-in chamber. Pairs with standard 510 cartridges.",
+  "specs": [
+    {
+      "label": "Charging",
+      "value": "Magnetic USB interface (cable included)"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Approx. 4.3″ (L) × 0.5″ (D)"
+    },
+    {
+      "label": "Weight",
+      "value": "Approx. 29 g"
+    },
+    {
+      "label": "Warranty",
+      "value": "6-month limited manufacturer warranty"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "510",
+    "vessel"
+  ],
+  "stripeLink": "",
+  "rnSku": "15456078004598",
+  "order": 126
+}

@@ -3,29 +3,54 @@
   "name": "PAX Four",
   "brand": "PAX",
   "category": "portable-vapes",
-  "price": 219.0,
-  "image": "/products/placeholder.svg",
-  "summary": "PAX's flagship redesigned. Hybrid heating, redesigned oven, dense clouds, the cleanest discreet portable on the market.",
-  "description": "The PAX FOUR is PAX's most refined portable yet. Hybrid heating system with a redesigned oven for improved airflow and easier loading. Produces dense, flavourful vapour while staying discreet enough to use without drawing eyes. The patient device for those who value form alongside function.",
+  "price": 174.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/PAX-Four-Vaporizer.jpg?v=1771621641",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/PAXFOURFrontOrthoGreenstone.jpg?v=1772741393",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/PAXFOURFrontLeftOrthoGreenstone.jpg?v=1772741393",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/PAXFOURBackOrthoGreenstone.jpg?v=1772741393",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/PAXFOURBackHeroGreenstone.jpg?v=1772741393"
+  ],
+  "summary": "A discreet, pocket-sized dry-herb vaporiser for patients who want flavour and portability in one slim device.",
+  "description": "The PAX Four is a compact hybrid portable vaporiser with real-time temperature control and four preset heat modes from 190°C to 220°C, tuned for consistent vapour from a 0.3g oven. Haptic feedback, a single-button interface and motion controls keep operation simple, and the slim 125g chassis slips into a pocket discreetly. It suits patients who prioritise discretion and ease of use over long battery runtime. Battery life is around 50 minutes per charge, so frequent all-day medicators may need to top up; preset-only temperatures also mean less fine control than some rivals.",
   "specs": [
     {
-      "label": "Heating",
-      "value": "Hybrid"
+      "label": "Type",
+      "value": "Portable Dry Herb Vaporiser"
     },
     {
-      "label": "Form factor",
-      "value": "Pocket-friendly, magnetic lid"
+      "label": "Heating",
+      "value": "Custom Hybrid Heating System"
+    },
+    {
+      "label": "Battery life",
+      "value": "Approx. 50 Minutes"
     },
     {
       "label": "Charging",
-      "value": "USB-C"
+      "value": "Approx. 100 Minutes"
+    },
+    {
+      "label": "Weight",
+      "value": "125g"
+    },
+    {
+      "label": "Dimensions",
+      "value": "10.7 cm × 3.6 cm × 2.6 cm"
+    },
+    {
+      "label": "Warranty",
+      "value": "2 + 1 Year Limited Warranty"
     }
   ],
+  "inStock": true,
   "featured": true,
   "tags": [
-    "discreet",
-    "premium",
-    "new"
+    "portable",
+    "dry-herb",
+    "pax"
   ],
-  "order": 8
+  "stripeLink": "",
+  "rnSku": "15622169362806",
+  "order": 14
 }

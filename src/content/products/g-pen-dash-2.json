@@ -1,29 +1,27 @@
 {
   "slug": "g-pen-dash-2",
   "name": "G Pen Dash 2",
-  "brand": "G Pen",
+  "brand": "Grenco Science",
   "category": "portable-vapes",
-  "price": 89.95,
-  "image": "/products/placeholder.svg",
-  "summary": "G Pen's most popular pocket portable, refreshed for 2026.",
-  "description": "The Dash 2 is G Pen's all-rounder. Compact, fast heat-up, easy operation. Lower price point than the premium brands but reliable enough for daily medicating. A solid first portable for new patients.",
-  "specs": [
-    {
-      "label": "Heating",
-      "value": "Conduction"
-    },
-    {
-      "label": "Heat-up",
-      "value": "~30 seconds"
-    },
-    {
-      "label": "Charging",
-      "value": "USB-C"
-    }
+  "price": 65.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/GPEN-Dash2-vaproizer11.jpg?v=1772825941",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Gpen-dash2-in-use.jpg?v=1772825941",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/GPEN-Dash2-vaproizer3.jpg?v=1772825941",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/GPEN-Dash2-vaproizer12.jpg?v=1772825941",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/GPEN-Dash2-vaproizer10.jpg?v=1772825941"
   ],
+  "summary": "A compact, affordable conduction dry-herb vaporiser with temperature control and a built-in tool, for patients who want a simple pocket device.",
+  "description": "The G Pen Dash 2 from Grenco Science is a small, pocketable dry-herb vaporiser that keeps things straightforward. A ceramic chamber and precise temperature control on a clear LED display give you more dosing flexibility than its size suggests, with an integrated cooling airflow path for smoother draws and a generous 0.4g oven. A built-in pick tool handles loading and cleaning, and the 1,100mAh battery charges over USB-C with pass-through. For a UK patient who wants a low-cost, easy everyday vaporiser that fits in a pocket, the Dash 2 is a sensible starter — note the USB-C cable isn't included.",
+  "specs": [],
+  "inStock": true,
+  "featured": false,
   "tags": [
-    "entry",
-    "compact"
+    "portable",
+    "dry-herb",
+    "grenco-science"
   ],
-  "order": 19
+  "stripeLink": "",
+  "rnSku": "15640974950774",
+  "order": 23
 }

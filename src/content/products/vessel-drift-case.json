@@ -1,0 +1,41 @@
+{
+  "slug": "vessel-drift-case",
+  "name": "Vessel Drift Case",
+  "brand": "Vessel",
+  "category": "accessories",
+  "price": 28.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vessel-Scout-Case-Black_28cd0fd1-66bd-4e0c-8f32-f89e0f7e7990.jpg?v=1770216088",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vessel-Drift-Case-Olive-inside-sample.jpg?v=1763755981",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vessel-Drift-Case-Olive-inside.jpg?v=1763755981"
+  ],
+  "summary": "The Vessel Drift Case is a rugged, purpose-built carry case designed to keep your customers’ Vessel flower accessories organised and protected.",
+  "description": "The Vessel Drift Case is a rugged, purpose-built carry case designed to keep your customers’ Vessel flower accessories organised and protected. Featuring a durable, water-resistant exterior and smart internal storage, this case delivers reliable everyday portability for Vessel Air, Helix chillums, Basin jars, Carbon lighters, and more. The Drift Case is built with a tough, water-resistant ultra-touch exterior and a concealed zipper to help minimise odour escape. Inside, elastic retention bands securely hold each accessory in place, while an integrated pouch keeps smaller tools neatly stored. A practical part to keep your device working as it should.",
+  "specs": [
+    {
+      "label": "Dimensions",
+      "value": "7.75″ (L) × 4.6″ (W) × 1.4″ (D)"
+    },
+    {
+      "label": "Weight",
+      "value": "approx. 139 g / 4.9 oz"
+    },
+    {
+      "label": "Material",
+      "value": "Water-resistant ultra-touch textile"
+    },
+    {
+      "label": "Warranty",
+      "value": "6-month limited"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "accessory",
+    "vessel"
+  ],
+  "stripeLink": "",
+  "rnSku": "15456077742454",
+  "order": 347
+}

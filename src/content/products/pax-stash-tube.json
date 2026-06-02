@@ -1,0 +1,35 @@
+{
+  "slug": "pax-stash-tube",
+  "name": "PAX Stash Tube",
+  "brand": "PAX",
+  "category": "grinders",
+  "price": 27.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/PAX-Stash-Tube_dc1b10a9-572f-44fc-a727-a4a7a2909367.jpg?v=1706731975",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/PAX-Stash-Tube-2_08108e6d-15ac-4dd0-ba62-b57f404e54a8.jpg?v=1706731975",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/PAX-Stash-Tube-With-Vaporizer_0cab11ce-cff8-4b9e-8c99-7d2a5ce4fbf2.jpg?v=1706731975",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/PAX-Stash-Tube-in-Hand_50ef1792-4213-4ba8-84ea-4613965206f6.jpg?v=1706731975",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/PAX-Stash-Tube-With-Grinder_3bcb53a7-0854-4a82-87c6-348bd7f70bf6.jpg?v=1706731975"
+  ],
+  "summary": "PAX introduces the latest storage solution: the PAX Stash Tube.",
+  "description": "PAX introduces the latest storage solution: the PAX Stash Tube. Featuring an airtight and odorless design, this container can hold 1.5g of herbs and maintain their freshness and flavour throughout your sessions. Made with sturdy aluminium and a well-designed structure, this accessory is perfectly tailored to preserve dry herbs and ensure long-lasting quality. Trust the PAX Stash Tube to protect your herbs from external factors and provide reliable performance. A small upgrade that makes every session more even.",
+  "specs": [
+    {
+      "label": "Dimensions",
+      "value": "3.8\"L x 0.9\"W x 0.5\"H"
+    },
+    {
+      "label": "Chamber",
+      "value": "1.5 Grams"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "grinder",
+    "pax"
+  ],
+  "stripeLink": "",
+  "rnSku": "7898853605545",
+  "order": 133
+}

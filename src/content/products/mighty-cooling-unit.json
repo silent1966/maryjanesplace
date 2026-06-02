@@ -1,0 +1,34 @@
+{
+  "slug": "mighty-cooling-unit",
+  "name": "Mighty Cooling Unit",
+  "brand": "Storz & Bickel",
+  "category": "accessories",
+  "price": 32.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/MIGHTY_Cooling_Unit_c8963943-90ec-42c8-ba13-0d62a1cdbea1.jpg?v=1692736597",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/MIGHTY_Cooling_Unit_5_25d6cf77-ea91-4cfb-a181-ad862087d74e.jpg?v=1692736597",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/MIGHTY_Cooling_Unit_7_b995ef44-3fcb-4a16-bd30-babac8ccd4b9.jpg?v=1692736597",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/MIGHTY_Cooling_Unit_3_a9981e9f-27f5-45c8-ba07-a9ba69307282.jpg?v=1692736597"
+  ],
+  "summary": "This advanced Mighty Cooling Unit can replace the Mighty or the Mighty Plus Vaporiser from Storz & Bickel.",
+  "description": "This advanced Mighty Cooling Unit can replace the Mighty or the Mighty Plus Vaporiser from Storz & Bickel. It offers a swivel mouthpiece for added convenience. This trusted information is sourced from the manufacturer. A practical part to keep your device working as it should.",
+  "specs": [
+    {
+      "label": "Dimensions",
+      "value": "1.25 x 1.25 x 3.25 in."
+    },
+    {
+      "label": "Weight",
+      "value": "0.10 lbs."
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "accessory",
+    "storz-bickel"
+  ],
+  "stripeLink": "",
+  "rnSku": "6980037214377",
+  "order": 376
+}

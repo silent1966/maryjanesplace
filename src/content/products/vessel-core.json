@@ -1,0 +1,43 @@
+{
+  "slug": "vessel-core",
+  "name": "Vessel Core",
+  "brand": "Vessel",
+  "category": "cartridge-batteries",
+  "price": 35.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vessel-Core-Black.jpg?v=1763755985",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vessel-Core-Black-in-hand.jpg?v=1763755985",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vessel-Core-Dusk.jpg?v=1763755985",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vessel-Core-Blush.jpg?v=1763755985",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vessel-Core-Emerald.jpg?v=1763755985"
+  ],
+  "summary": "The Vessel Core is a sleek, compact 510-thread battery designed to deliver premium performance in an everyday form factor.",
+  "description": "The Vessel Core is a sleek, compact 510-thread battery designed to deliver premium performance in an everyday form factor. The Vessel Core uses a three-LED indicator system to show remaining battery life. When all three LEDs illuminate, the device is fully charged. As power decreases, fewer LEDs remain lit, giving users a clear and intuitive way to monitor charge levels throughout the day. Pairs with standard 510 cartridges.",
+  "specs": [
+    {
+      "label": "Charging",
+      "value": "USB-C port (cable included)"
+    },
+    {
+      "label": "Dimensions",
+      "value": "3.3″ length × 0.55″ diameter"
+    },
+    {
+      "label": "Weight",
+      "value": "23 g"
+    },
+    {
+      "label": "Warranty",
+      "value": "6-month limited"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "510",
+    "vessel"
+  ],
+  "stripeLink": "",
+  "rnSku": "15456077939062",
+  "order": 120
+}

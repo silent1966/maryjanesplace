@@ -1,0 +1,43 @@
+{
+  "slug": "puffco-new-proxy",
+  "name": "Puffco New Proxy",
+  "brand": "Puffco",
+  "category": "portable-vapes",
+  "price": 283.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Puffco-New-Proxy-Onyx.jpg?v=1758652556",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Puffco-New-Proxy-Haze-joystick.jpg?v=1758652555",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Puffco-New-Proxy-Haze-3D-Chamber.jpg?v=1758652556",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Puffco-New-Proxy-App.jpg?v=1758652556",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Puffco-New-Proxy-size-in-hand.jpg?v=1758652556"
+  ],
+  "summary": "A modular concentrate vaporiser for patients who want flavourful dabs in a pocketable form.",
+  "description": "The Puffco New Proxy is a battery-powered concentrate vaporiser built around a removable core that drops into a range of glass pieces, so you can shape it to home or travel use. The deeper 3D ceramic chamber heats evenly from all sides to preserve terpenes, while the Puffco app controls temperature, vapour output and session length. Up to 15 sessions per charge and roughly 90-minute USB-C charging keep it ready, and it works with all existing Proxy glass. It suits patients prescribed extracts who want clean flavour without a torch. It is a concentrate-only device, so it is not for dry herb.",
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Modular concentrate vaporiser kit"
+    },
+    {
+      "label": "Chamber",
+      "value": "Upgraded 3D Chamber (taller, splash-resistant)"
+    },
+    {
+      "label": "Compatibility",
+      "value": "Works with all Proxy glass and accessories"
+    },
+    {
+      "label": "Warranty",
+      "value": "2-year warranty on Proxy base"
+    }
+  ],
+  "inStock": true,
+  "featured": true,
+  "tags": [
+    "portable",
+    "puffco"
+  ],
+  "stripeLink": "",
+  "rnSku": "15354842284406",
+  "order": 17
+}

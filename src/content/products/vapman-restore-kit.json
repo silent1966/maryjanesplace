@@ -1,0 +1,30 @@
+{
+  "slug": "vapman-restore-kit",
+  "name": "Vapman Restore Kit",
+  "brand": "Inhale Vaporizers",
+  "category": "accessories",
+  "price": 28.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vapman-restore-kit.jpg?v=1758652562",
+  "gallery": [],
+  "summary": "Keep your Vapman vaporiser performing like new with the Vapman Restore Kit.",
+  "description": "Keep your Vapman vaporiser performing like new with the Vapman Restore Kit. Designed for long-term maintenance, this complete replacement set includes everything you need to refresh your device and bring it back to peak condition. Over time, seals, filters, and screens naturally wear down. The Vapman Restore Kit includes factory-grade replacements for every essential component—ensuring consistent airflow, flavour purity, and overall vapour quality. A practical part to keep your device working as it should.",
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Comprehensive maintenance and replacement kit"
+    },
+    {
+      "label": "Compatibility",
+      "value": "All Vapman vaporiser models"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "accessory",
+    "inhale-vaporizers"
+  ],
+  "stripeLink": "",
+  "rnSku": "15354844184950",
+  "order": 350
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "dynavap-m7-xl",
+  "name": "DynaVap M7 XL",
+  "brand": "DynaVap",
+  "category": "pen-vapes",
+  "price": 92.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Dynavap-M7-XL-Wholesale1.jpg?v=1769724279",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Dynavap-M7-XL-Wholesale15.jpg?v=1769724279",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Dynavap-M7-XL-Wholesale14.jpg?v=1769724279",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Dynavap-M7-XL-Wholesale13.jpg?v=1769724279",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Dynavap-M7-XL-Wholesale2.jpg?v=1769724279"
+  ],
+  "summary": "A butane-heated, battery-free pocket vaporiser with a longer vapour path for cooler, even draws.",
+  "description": "The DynaVap M7 XL is a manual stainless steel vaporiser heated with an external torch — no battery, no electronics. The elongated vapour path and XL mouthpiece cool the draw, while the finless tip gives more even extraction and reduced heat at the stem for comfort. Adjustable airflow and the click-cap let you control each session and microdose from the 0.1g chamber. It suits patients who want DynaVap's flavour and repairability with a cooler, smoother draw than the standard M. You will need a butane torch or induction heater, which is sold separately.",
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Portable Vaporiser Pen"
+    },
+    {
+      "label": "Material",
+      "value": "Stainless Steel Construction"
+    },
+    {
+      "label": "Made in",
+      "value": "USA"
+    }
+  ],
+  "inStock": true,
+  "featured": true,
+  "tags": [
+    "pen",
+    "dry-herb",
+    "dynavap"
+  ],
+  "stripeLink": "",
+  "rnSku": "7952767385769",
+  "order": 12
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "smono-4-pro",
+  "name": "Smono 4 Pro",
+  "brand": "Smono",
+  "category": "portable-vapes",
+  "price": 95.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Smono-4-pro-vaporizer_a324126f-2f01-4ffb-9754-1448d25cf6ef.jpg?v=1692736693",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Smono-4-pro-vaporizer-chamber_914360b9-40fb-4d2a-b131-7e94e99677b1.jpg?v=1692736693"
+  ],
+  "summary": "An affordable conduction dry-herb vaporiser with a glass mouthpiece and large battery.",
+  "description": "The Smono 4 Pro is a straightforward conduction dry-herb device with adjustable temperature from 160–221°C and a fast heat-up of around 20 seconds. A 3000mAh battery gives plenty of runtime, and the glass mouthpiece keeps draws smooth and flavour clean — handle it with care, as glass can break. The discreet aluminium body slips into a pocket easily. It suits a patient who wants a dependable, no-frills vaporiser at a low price. As a conduction device it's best loaded and used in one go rather than left half-finished.",
+  "specs": [
+    {
+      "label": "Compatibility",
+      "value": "Dry Herb"
+    },
+    {
+      "label": "Dimensions",
+      "value": "10.1 cm x 5.2 cm x 2.6 cm"
+    },
+    {
+      "label": "Weight",
+      "value": "125 g"
+    },
+    {
+      "label": "Temperature range",
+      "value": "160°-221° C"
+    },
+    {
+      "label": "Heating",
+      "value": "Conduction"
+    },
+    {
+      "label": "Heat-up time",
+      "value": "~20 Seconds"
+    },
+    {
+      "label": "Battery",
+      "value": "3000mAh Lithium Battery"
+    },
+    {
+      "label": "Made in",
+      "value": "China"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "portable",
+    "dry-herb",
+    "smono"
+  ],
+  "stripeLink": "",
+  "rnSku": "6980034625705",
+  "order": 39
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "plenty-vaporizer",
+  "name": "Plenty Vaporizer",
+  "brand": "Storz & Bickel",
+  "category": "desktop-vapes",
+  "price": 231.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Plenty_vaporizer_2_6ada8f82-55bd-4647-859e-2afd4eadec5d.jpg?v=1620661928",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Plent_vaporizer_1_43d1c6ef-2482-469e-bcac-4723ba7ec886.jpg?v=1620661928",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Plenty_vaporizer_4_10356ef4-7fb9-4aba-bef7-47c9407c53a1.jpg?v=1620661929",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Plenty_vaporizer_5_bd5949f9-12f8-4a8f-b872-0ae6717dfd63.jpg?v=1620661929"
+  ],
+  "summary": "A handheld mains-powered hybrid vaporiser from Storz & Bickel, for powerful home sessions.",
+  "description": "The Plenty is Storz & Bickel's corded handheld vaporiser, sitting between the portable Mighty and the desktop Volcano. Hybrid convection-and-conduction heating through a large filling chamber and a stainless-steel cooling coil produces dense, cool vapour, with temperature set on an analogue dial. It suits patients who medicate at home and want serious vapour output without managing a battery. It is tethered to the mains and on the bulky side, so it is a home device — but the cooling coil makes for some of the smoothest draws in the range.",
+  "specs": [
+    {
+      "label": "Heating",
+      "value": "Hybrid (convection and conduction)"
+    },
+    {
+      "label": "Charging",
+      "value": "No battery"
+    },
+    {
+      "label": "Warranty",
+      "value": "3 years"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "desktop",
+    "dry-herb",
+    "storz-bickel"
+  ],
+  "stripeLink": "",
+  "rnSku": "6980037378217",
+  "order": 86
+}

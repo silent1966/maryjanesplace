@@ -3,27 +3,30 @@
   "name": "Arizer XQ2",
   "brand": "Arizer",
   "category": "desktop-vapes",
-  "price": 219.95,
-  "image": "/products/placeholder.svg",
-  "summary": "Desktop convection without the Volcano price tag. Whip and balloon, perfectly clean vapour.",
-  "description": "The XQ2 is the desktop most patients should consider before the Volcano. Whip and balloon delivery, full convection, accurate temperature control. The plastic build is the visible cost-saving, but the vapour quality genuinely competes with units twice the price.",
+  "price": 165.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Arizer-xq2-vaporizer-2.jpg?v=1692737038",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Arizer-xq2-vaporizer-with-remote.jpg?v=1692737038",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Arizer-xq2-vaporizer-1.jpg?v=1692737038",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Arizer-xq2-vaporizer-parts-included.jpg?v=1692737038",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Arizer-XQ2-For-Sale.png?v=1692737038"
+  ],
+  "summary": "A whip-and-balloon desktop vaporiser for home patients who want long, relaxed sessions.",
+  "description": "The XQ2 is Arizer's desktop dry-herb vaporiser with full digital temperature control set on an onboard LED screen. It offers two delivery methods — a whip for direct draws and balloon filling for hands-free sessions — with an improved airflow system over the older Extreme Q. The glass vapour path keeps flavour clean across a wide temperature range. It suits patients who medicate at home and want a mains-powered device with no battery to manage. It is mains-only and not portable, so think of it as your home base rather than a travel device.",
   "specs": [
     {
-      "label": "Type",
-      "value": "Desktop whip/balloon"
-    },
-    {
-      "label": "Heating",
-      "value": "Convection"
-    },
-    {
-      "label": "Delivery",
-      "value": "Whip + balloon options"
+      "label": "Temperature range",
+      "value": "122-500°F"
     }
   ],
+  "inStock": true,
+  "featured": true,
   "tags": [
     "desktop",
-    "value"
+    "dry-herb",
+    "arizer"
   ],
-  "order": 11
+  "stripeLink": "",
+  "rnSku": "7779299000489",
+  "order": 10
 }

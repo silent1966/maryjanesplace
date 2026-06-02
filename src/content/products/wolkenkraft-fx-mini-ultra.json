@@ -1,0 +1,52 @@
+{
+  "slug": "wolkenkraft-fx-mini-ultra",
+  "name": "Wolkenkraft FX Mini Ultra",
+  "brand": "Wolkenkraft",
+  "category": "portable-vapes",
+  "price": 141.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Wolkenkraft-FX-Mini-Ultra-blue-3.webp?v=1742392506",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Wolkenkraft-FX-Mini-Ultra-blue-display.webp?v=1742392506",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Wolkenkraft-FX-Mini-Ultra-blue-4.webp?v=1742392506",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Wolkenkraft-FX-Mini-Ultra-blue.webp?v=1742392506",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Wolkenkraft-FX-Mini-Ultra-blue-2.webp?v=1742392506"
+  ],
+  "summary": "A pocket-sized convection vaporiser with full temperature control, for patients who want discreet, portable dosing.",
+  "description": "The Wolkenkraft FX Mini Ultra packs true convection heating into a small body, heating up in under 30 seconds. Temperature is adjustable from 160 to 221C on an OLED display, with a memory function, a session mode that steps the heat through a session, and a stealth mode for discreet use. The 1600mAh battery charges over USB-C and covers several sessions per charge. Trade-off is the smaller battery against the larger Aris, but for patients who prioritise pocketability with convection quality, it earns its place; five-year warranty included.",
+  "specs": [
+    {
+      "label": "Temperature range",
+      "value": "160-221°C"
+    },
+    {
+      "label": "Heating",
+      "value": "True Convection"
+    },
+    {
+      "label": "Battery",
+      "value": "1600mAh USB-C rechargeable"
+    },
+    {
+      "label": "Display",
+      "value": "OLED Screen"
+    },
+    {
+      "label": "Material",
+      "value": "Anodized Aluminium, Nachtblau Finish"
+    },
+    {
+      "label": "Warranty",
+      "value": "5 Years"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "portable",
+    "convection",
+    "wolkenkraft"
+  ],
+  "stripeLink": "",
+  "rnSku": "15123349111158",
+  "order": 60
+}

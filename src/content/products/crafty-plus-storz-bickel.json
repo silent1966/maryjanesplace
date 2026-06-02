@@ -1,0 +1,40 @@
+{
+  "slug": "crafty-plus-storz-bickel",
+  "name": "Crafty Plus V2 Vaporizer",
+  "brand": "Storz & Bickel",
+  "category": "portable-vapes",
+  "price": 242.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/new-crafty-plus-2021-full-view_3097a036-3c86-4caa-a446-ff3a19346384.jpg?v=1692736316",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Crafty-plus-v2-vaporizer-size-in-hand.jpg?v=1692736316",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/crafty-plus-usb-c-outdoor_77274155-2e5e-4b85-a83b-b2bb6dc3cea1.jpg?v=1692736316",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/new-crafty-plus-v2-accessories_7a9de093-6835-437e-bacb-61645df66386.jpg?v=1692736316",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/crafty-plus-v2-usbc_2fd1cb10-c128-4489-8021-29d5b5e5378c.jpg?v=1692736316"
+  ],
+  "summary": "A compact German-engineered hybrid portable, medically certified, for patients who want a simple pocket device.",
+  "description": "The Crafty+ V2 is Storz & Bickel's most pocketable vaporiser, with hybrid conduction and convection heating and a ceramic-coated chamber for clean, even extraction. It is certified under the Medical Device Directive, charges over USB-C, and uses a stripped-back one-button design with app control for fine temperature steps between 40°C and 210°C. A dosing capsule is included for tidy, pre-measured loads. It suits patients who want certified German hardware in the smallest, simplest form. Battery life is around 90 minutes per charge, so heavy all-day users may want to medicate near a charger.",
+  "specs": [
+    {
+      "label": "Heating",
+      "value": "Hybrid (conduction and convection)"
+    },
+    {
+      "label": "Warranty",
+      "value": "1 years"
+    },
+    {
+      "label": "Temperature range",
+      "value": "40-210°C"
+    }
+  ],
+  "inStock": true,
+  "featured": true,
+  "tags": [
+    "portable",
+    "dry-herb",
+    "storz-bickel"
+  ],
+  "stripeLink": "",
+  "rnSku": "6980022894761",
+  "order": 4
+}

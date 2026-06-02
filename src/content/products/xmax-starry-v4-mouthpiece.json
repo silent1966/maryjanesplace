@@ -1,0 +1,37 @@
+{
+  "slug": "xmax-starry-v4-mouthpiece",
+  "name": "XMAX Starry V4 Mouthpiece",
+  "brand": "Topgreen",
+  "category": "accessories",
+  "price": 27.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Top-Mouthpiece-4.jpg?v=1757607074",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Top-Mouthpiece-1.jpg?v=1757607074",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Top-Mouthpiece-3.jpg?v=1757607074"
+  ],
+  "summary": "The XMAX Starry Complete Mouthpiece is a fully assembled replacement top designed for seamless compatibility with the entire Starry series.",
+  "description": "The XMAX Starry Complete Mouthpiece is a fully assembled replacement top designed for seamless compatibility with the entire Starry series. Featuring a ceramic filter for clean vapour, a magnetic lid for effortless handling, and a cooling unit to regulate airflow, the Starry Complete Mouthpiece is built for durability and everyday use. Customers simply swap the old mouthpiece for the new one—no assembly or additional parts required. A practical part to keep your device working as it should.",
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Complete replacement mouthpiece"
+    },
+    {
+      "label": "Compatibility",
+      "value": "XMAX Starry vaporisers (all versions)"
+    },
+    {
+      "label": "Material",
+      "value": "Ceramic filter, heat-resistant plastics, metal components"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "accessory",
+    "topgreen"
+  ],
+  "stripeLink": "",
+  "rnSku": "15336640053622",
+  "order": 337
+}

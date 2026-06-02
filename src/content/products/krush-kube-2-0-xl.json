@@ -1,0 +1,39 @@
+{
+  "slug": "krush-kube-2-0-xl",
+  "name": "KRUSH KUBE 2.0 XL",
+  "brand": "Krush",
+  "category": "grinders",
+  "price": 60.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/krush-kube-20-xl-black.jpg?v=1760564302",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/krush-kube-20-xl-space-grey.jpg?v=1760564302",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/krush-kube-20-xl-rose-gold.jpg?v=1760564302",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/krush-kush-20-xl-emerald-green.jpg?v=1760564302",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/krush-kube-20-xl-future-dusk.jpg?v=1760564302"
+  ],
+  "summary": "KRUSH KUBE 2.0 XL — a grinder for any patient preparing dried flower.",
+  "description": "As the upgraded large-format version of Krush’s popular Kube 2.0, this grinder offers exceptional precision, effortless rotation, and the signature Krush fluffed-grind texture — now with a massive 4.20g capacity. Built from aircraft-grade anodized aluminium, the Kube 2.0 XL offers a premium feel with durable construction built to last. Its square ergonomic body with angled edges provides excellent grip and torque control, allowing smooth grinding even with dense material. The design minimises strain while maximising output — ideal for frequent or commercial use. A small upgrade that makes every session more even.",
+  "specs": [
+    {
+      "label": "Chamber",
+      "value": "Up to 4.20 grams"
+    },
+    {
+      "label": "Weight",
+      "value": "Approx. 200+ grams"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Extra-large format (bigger than standard 55mm Kube)"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "grinder",
+    "krush"
+  ],
+  "stripeLink": "",
+  "rnSku": "15390947934582",
+  "order": 142
+}

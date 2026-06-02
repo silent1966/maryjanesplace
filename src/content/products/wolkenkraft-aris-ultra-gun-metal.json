@@ -1,0 +1,52 @@
+{
+  "slug": "wolkenkraft-aris-ultra-gun-metal",
+  "name": "Wolkenkraft Äris Ultra",
+  "brand": "Wolkenkraft",
+  "category": "portable-vapes",
+  "price": 202.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Wolkenkraft-Aris-Ultra-Gun-Metal.webp?v=1742389809",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/WOLKENKRAFT-ARiS-ULTRA-Dry-Herb-Vaporizer-Night-Blue_430x_24a9f9bb-5e16-43d0-9a8a-00430fd4afdf.webp?v=1773355818",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Wolkenkraft-Aris-Ultra-Gun-Metal-parts.webp?v=1773355818",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Wolkenkraft-Aris-Ultra-Gun-Metal-parts-display.webp?v=1773355818",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Wolkenkraft-Aris-Ultra-Gun-Metal-parts-2.webp?v=1773355818"
+  ],
+  "summary": "A true-convection portable with an OLED screen and programmable sessions for patients who want precise control.",
+  "description": "The Wolkenkraft Aris Ultra uses full convection, so only the air passing through the chamber is heated, which keeps flavour clean and consistent dose to dose. Temperature is adjustable from 160 to 221C on an OLED display, with a memory function for three saved settings and a session mode that steps the heat up through a session. A 2300mAh battery charges fast over USB-C, and a stealth mode dims the screen for discreet use. It ships with a dosing capsule, brush, tweezers and a carry case, and carries a five-year warranty. A good fit for patients who want convection accuracy and want to dial in their own routine.",
+  "specs": [
+    {
+      "label": "Temperature range",
+      "value": "160-221°C"
+    },
+    {
+      "label": "Heating",
+      "value": "True Convection"
+    },
+    {
+      "label": "Battery",
+      "value": "2300mAh USB-C rechargeable"
+    },
+    {
+      "label": "Display",
+      "value": "OLED Screen"
+    },
+    {
+      "label": "Material",
+      "value": "Anodized Aluminium, Gun Metal Finish"
+    },
+    {
+      "label": "Warranty",
+      "value": "5 Years"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "portable",
+    "convection",
+    "wolkenkraft"
+  ],
+  "stripeLink": "",
+  "rnSku": "15123287867766",
+  "order": 68
+}

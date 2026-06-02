@@ -1,0 +1,51 @@
+{
+  "slug": "zenco-duo",
+  "name": "Zenco Duo",
+  "brand": "Zenco",
+  "category": "portable-vapes",
+  "price": 209.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Zenco-duo-onyx-vaporizer.jpg?v=1692741921",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Zenco-duo-wood-vaporizer.jpg?v=1692741921",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Zenco-duo-stone-vaporizer.jpg?v=1692741921",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Zenco-duo-onyx-vaporizer-glass.jpg?v=1692741921",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Zenco-duo-onyx-vaporizer-glass-size.jpg?v=1692741921"
+  ],
+  "summary": "A coil-based vaporiser with interchangeable glass for herb and concentrate, designed for sharing among patients.",
+  "description": "The Zenco Duo uses instant coil heating with four temperature presets and interchangeable glass for dry herb, concentrate and a 510 connection. The food-grade silicone diffuser and supplied glasses lift off easily, making it built around shared, group use rather than solo pocket carry. It gives around 12 sessions per charge over USB and weighs 320g, so it is more of a tabletop or social device than a discreet portable. Suits patients who medicate in company and want quick, no-wait heat-up; one-year warranty.",
+  "specs": [
+    {
+      "label": "Heating",
+      "value": "Coil"
+    },
+    {
+      "label": "Battery life",
+      "value": "12 Session per charge"
+    },
+    {
+      "label": "Battery",
+      "value": "Lithium"
+    },
+    {
+      "label": "Dimensions",
+      "value": "5.63H × 3.74W × 2.2D (in) / 143H × 95W × 56D (mm)"
+    },
+    {
+      "label": "Weight",
+      "value": "320 grams"
+    },
+    {
+      "label": "Warranty",
+      "value": "1 Year"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "portable",
+    "zenco"
+  ],
+  "stripeLink": "",
+  "rnSku": "7779323052201",
+  "order": 71
+}

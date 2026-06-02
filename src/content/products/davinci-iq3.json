@@ -1,0 +1,44 @@
+{
+  "slug": "davinci-iq3",
+  "name": "DaVinci IQ3",
+  "brand": "DaVinci",
+  "category": "portable-vapes",
+  "price": 246.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/DAVINCI-IQ3-Vaporizer-GunMetal.jpg?v=1726592558",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/DAVINCI-IQ3-Vaporizer-GunMetal-1.jpg?v=1726592558",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/DAVINCI-IQ3-Vaporizer-USB-C.jpg?v=1726592558",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/DAVINCI-IQ3-Vaporizer-buttons.jpg?v=1726592558",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/DAVINCI-IQ3-Vaporizer-open-mouthpiece.jpg?v=1726592558"
+  ],
+  "summary": "A precision conduction portable for dry herb and concentrate, suited to patients who want app-level dosage control and a long-cooled vapour path.",
+  "description": "The DaVinci IQ3 is built around control: single-degree temperature adjustment from a phone app or the device itself, plus four guided Smart Path settings if you'd rather not fiddle. The zirconia and glass vapour path keeps flavour clean and runs cool, and the 0.7g oven handles a full session or a small dosage pod for lighter doses. The 21700 battery is removable, so you can carry a spare instead of waiting on a charge, and it's backed by a 10-year warranty. For a UK medical patient who medicates several times a day and wants repeatable dosing, the depth of control here earns its keep — though it's a more involved device than a simple push-button vape.",
+  "specs": [
+    {
+      "label": "Temperature range",
+      "value": "Heat-Not-Burn, 32-430F/0-221C"
+    },
+    {
+      "label": "Chamber",
+      "value": "0.7g Dry Herb Oven 0.2g Dosage Pod"
+    },
+    {
+      "label": "Material",
+      "value": "Stainless steel"
+    },
+    {
+      "label": "Warranty",
+      "value": "10 Years"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "portable",
+    "dry-herb",
+    "davinci"
+  ],
+  "stripeLink": "",
+  "rnSku": "8273833558185",
+  "order": 74
+}

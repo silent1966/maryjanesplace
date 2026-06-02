@@ -1,0 +1,56 @@
+{
+  "slug": "norddampf-voity",
+  "name": "Norddampf Voity",
+  "brand": "Norddampf",
+  "category": "portable-vapes",
+  "price": 89.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Norddampf-Voity-Vaporizer.jpg?v=1754512020",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Norddampf-Voity-Vaporizer-screen.jpg?v=1754512020",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Norddampf-Voity-Vaporizer-2.jpg?v=1754512020",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Norddampf-Voity-Vaporizer-mouthpiece.jpg?v=1754512020",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Norddampf-Voity-Vaporizer-USB-C.jpg?v=1754512020"
+  ],
+  "summary": "An affordable hybrid vaporiser with a ceramic chamber, for first-time or mid-tier dry-herb patients.",
+  "description": "The Voity combines conduction, convection and infrared heating in a nano-glazed ceramic C-Core chamber that wipes clean and keeps herb from sticking. Three presets (180, 200, 220°C) keep operation simple, and a magnetic zirconia mouthpiece protects flavour. It heats in about 30 seconds and gets up to 12 sessions from the 1,800mAh battery, charged over USB-C in around an hour. At 85g and a low price it's a sensible entry point for a patient who wants real hybrid heating without spending much. Fixed presets mean less fine control than dialled devices, which is the trade-off for the simplicity.",
+  "specs": [
+    {
+      "label": "Heating",
+      "value": "Conduction + Convection + Infrared (Ceramic C-Core)"
+    },
+    {
+      "label": "Temperature range",
+      "value": "3 presets: 180 °C, 200 °C, 220 °C"
+    },
+    {
+      "label": "Heat-up time",
+      "value": "Approx. 30 seconds"
+    },
+    {
+      "label": "Battery",
+      "value": "1,800 mAh, USB-C Fast Charge (~60 mins)"
+    },
+    {
+      "label": "Chamber",
+      "value": "Nano-glazed Ceramic"
+    },
+    {
+      "label": "Weight",
+      "value": "~85g"
+    },
+    {
+      "label": "Dimensions",
+      "value": "~107 × 58 × 24.5 mm"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "portable",
+    "dry-herb",
+    "norddampf"
+  ],
+  "stripeLink": "",
+  "rnSku": "15286475456886",
+  "order": 34
+}

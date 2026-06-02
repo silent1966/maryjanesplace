@@ -1,0 +1,32 @@
+{
+  "slug": "crafty-wear-tear-set",
+  "name": "Crafty Wear & Tear Set",
+  "brand": "Storz & Bickel",
+  "category": "cleaning",
+  "price": 43.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/CRAFTY-PLUS-Wear-Tear-Set_aaa435b5-645d-42c7-90d0-79fd7a510c6d.jpg?v=1692736415",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/crafty-wear-tear-set_c8c116e3-30f7-4fbc-a689-17634adc3948.jpg?v=1692736415"
+  ],
+  "summary": "Extend the lifespan of your Crafty+ vaporiser with the official Wear & Tear Set from Storz & Bickel.",
+  "description": "Extend the lifespan of your Crafty+ vaporiser with the official Wear & Tear Set from Storz & Bickel. Containing essential components, it provides an easy and effective solution to restore your vaporiser to its original condition, free of hassle. This trusted information is sourced from the manufacturer. A clean device gives cleaner vapour and a more reliable dose.",
+  "specs": [
+    {
+      "label": "Dimensions",
+      "value": "1 x 3 x 4 in."
+    },
+    {
+      "label": "Weight",
+      "value": "0.10 lbs."
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "cleaning",
+    "storz-bickel"
+  ],
+  "stripeLink": "",
+  "rnSku": "6980028825769",
+  "order": 164
+}

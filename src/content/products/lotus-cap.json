@@ -1,0 +1,47 @@
+{
+  "slug": "lotus-cap",
+  "name": "Lotus Cap",
+  "brand": "Inhale Vaporizers",
+  "category": "accessories",
+  "price": 107.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Lotus-cap-Olive-top.jpg?v=1758652546",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Lotus-Cap-Olive-bottom.jpg?v=1758652547",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Lotus-cap-Amaranth-top.jpg?v=1758652547",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Lotus-cap-Amaranth-bottom.jpg?v=1758652547",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Lotus-cap-Walnut-top.jpg?v=1758652547"
+  ],
+  "summary": "The Lotus Cap is the centerpiece of the Lotus vaporising system, uniting flame-powered performance with artisan craftsmanship.",
+  "description": "The Lotus Cap is the centerpiece of the Lotus vaporising system, uniting flame-powered performance with artisan craftsmanship. Made from premium wood and durable metal, this essential component ensures smooth, flavorful vapour with every session—ideal as a replacement or spare part for existing Lotus users. Featuring the signature Lotus hot plate design, the cap delivers quick and even heat distribution without combustion. A simple torch flame activates efficient convection-style heating, unlocking full flavour while protecting herbal integrity. A practical part to keep your device working as it should.",
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Flame-powered vaporiser cap"
+    },
+    {
+      "label": "Material",
+      "value": "Olive wood or Amaranth handle, heat-resistant metal hot plate"
+    },
+    {
+      "label": "Compatibility",
+      "value": "Lotus Gentleman Pipe, Lotus Water Pipe Adapter, other Lotus bases"
+    },
+    {
+      "label": "Heating",
+      "value": "Manual flame (torch lighter recommended)"
+    },
+    {
+      "label": "Dimensions",
+      "value": "Approx. 6 × 6 cm"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "accessory",
+    "inhale-vaporizers"
+  ],
+  "stripeLink": "",
+  "rnSku": "15354839695734",
+  "order": 467
+}

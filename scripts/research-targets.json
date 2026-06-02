@@ -1,0 +1,436 @@
+[
+  {
+    "handle": "airvape-legacy-pro-2",
+    "brand": "AirVape",
+    "name": "AirVape Legacy Pro 2",
+    "trade": 118,
+    "currentFallback": 218.95
+  },
+  {
+    "handle": "airvape-legacy",
+    "brand": "AirVape",
+    "name": "AirVape Legacy Pro",
+    "trade": 147.39,
+    "currentFallback": 272.95
+  },
+  {
+    "handle": "airvape-x-vaporizer",
+    "brand": "AirVape",
+    "name": "AirVape X",
+    "trade": 75.17,
+    "currentFallback": 139.95
+  },
+  {
+    "handle": "aromed-4-0-vaporizer",
+    "brand": "Aromed HQ Vaporizer",
+    "name": "Aromed 4.0 Vaporizer",
+    "trade": 392.19,
+    "currentFallback": 725.95
+  },
+  {
+    "handle": "auxo-calent-vaporizer",
+    "brand": "Auxo",
+    "name": "Auxo Calent Vaporizer",
+    "trade": 44.45,
+    "currentFallback": 85.95
+  },
+  {
+    "handle": "auxo-celsius-vaporizer",
+    "brand": "Auxo",
+    "name": "Auxo Celsius Vaporizer",
+    "trade": 69.5,
+    "currentFallback": 128.95
+  },
+  {
+    "handle": "auxo-cenote",
+    "brand": "Auxo",
+    "name": "Auxo Cenote",
+    "trade": 97.45,
+    "currentFallback": 180.95
+  },
+  {
+    "handle": "aveo-filling-capping-jig",
+    "brand": "AVEO",
+    "name": "AVEO - Filling-Capping Jig",
+    "trade": 239,
+    "currentFallback": 442.95
+  },
+  {
+    "handle": "boundless-cfx",
+    "brand": "Boundless",
+    "name": "Boundless CFX",
+    "trade": 71.44,
+    "currentFallback": 132.95
+  },
+  {
+    "handle": "boundless-dv8-from-bmic",
+    "brand": "Boundless",
+    "name": "Boundless DV8 From BMIC",
+    "trade": 135.08,
+    "currentFallback": 249.95
+  },
+  {
+    "handle": "davinci-artiq-vaporizer",
+    "brand": "DaVinci",
+    "name": "DaVinci Artiq Vaporizer",
+    "trade": 46,
+    "currentFallback": 87.95
+  },
+  {
+    "handle": "davinci-iq3",
+    "brand": "DaVinci",
+    "name": "DaVinci IQ3",
+    "trade": 144.49,
+    "currentFallback": 267.95
+  },
+  {
+    "handle": "davinci-iqc",
+    "brand": "DaVinci",
+    "name": "DaVinci IQC",
+    "trade": 86.19,
+    "currentFallback": 159.95
+  },
+  {
+    "handle": "davinci-miqro-c-vaporizer",
+    "brand": "DaVinci",
+    "name": "DaVinci MIQRO-C Vaporizer",
+    "trade": 60.48,
+    "currentFallback": 111.95
+  },
+  {
+    "handle": "dr-dabber-ghost-2-vaporizer",
+    "brand": "Dr. Dabber",
+    "name": "Dr. Dabber Ghost 2",
+    "trade": 76.02,
+    "currentFallback": 140.95
+  },
+  {
+    "handle": "dr-dabber-switch-2",
+    "brand": "Dr. Dabber",
+    "name": "Dr Dabber Switch 2",
+    "trade": 289.45,
+    "currentFallback": 535.95
+  },
+  {
+    "handle": "dr-dabber-switch-aln-induction-cup",
+    "brand": "Dr. Dabber",
+    "name": "Dr. Dabber Switch ALN Induction Cup",
+    "trade": 69.05,
+    "currentFallback": 127.95
+  },
+  {
+    "handle": "dr-dabber-switch-sapphire-induction-cup",
+    "brand": "Dr. Dabber",
+    "name": "Dr. Dabber Switch Sapphire Induction Cup",
+    "trade": 54.36,
+    "currentFallback": 101.95
+  },
+  {
+    "handle": "dr-dabber-switch-sic-induction-cup",
+    "brand": "Dr. Dabber",
+    "name": "Dr. Dabber Switch SiC Induction Cup",
+    "trade": 54.36,
+    "currentFallback": 101.95
+  },
+  {
+    "handle": "eyce-pv1-vaporizer",
+    "brand": "Eyce",
+    "name": "Eyce PV1 Vaporizer",
+    "trade": 55,
+    "currentFallback": 102.95
+  },
+  {
+    "handle": "flowermate-v5-0s-pro-mini",
+    "brand": "Flowermate",
+    "name": "Flowermate V5.0S Pro Mini",
+    "trade": 56.45,
+    "currentFallback": 104.95
+  },
+  {
+    "handle": "focus-vape-pro-vaporizer",
+    "brand": "Focus Vape",
+    "name": "Focus Vape Pro S Vaporizer",
+    "trade": 63,
+    "currentFallback": 116.95
+  },
+  {
+    "handle": "g-pen-hyer-vaporizer",
+    "brand": "Grenco Science",
+    "name": "G Pen Hyer Vaporizer",
+    "trade": 69,
+    "currentFallback": 127.95
+  },
+  {
+    "handle": "herb-ripper-standard-stainless-steel-grinder-3-piece",
+    "brand": "Herb Ripper",
+    "name": "Herb Ripper Standard Stainless Steel Grinder (3-Piece)",
+    "trade": 42.8,
+    "currentFallback": 82.95
+  },
+  {
+    "handle": "herb-ripper-standard-stainless-steel-grinder-4-piece",
+    "brand": "Herb Ripper",
+    "name": "Herb Ripper Standard Stainless Steel Grinder (4-Piece)",
+    "trade": 55.7,
+    "currentFallback": 103.95
+  },
+  {
+    "handle": "herb-ripper-xl-4-piece-grinder",
+    "brand": "Herb Ripper",
+    "name": "Herb Ripper XL 4 Piece Grinder",
+    "trade": 68,
+    "currentFallback": 125.95
+  },
+  {
+    "handle": "lotus-cap",
+    "brand": "Inhale Vaporizers",
+    "name": "Lotus Cap",
+    "trade": 58,
+    "currentFallback": 107.95
+  },
+  {
+    "handle": "vapman-click",
+    "brand": "Inhale Vaporizers",
+    "name": "Vapman Click",
+    "trade": 69,
+    "currentFallback": 127.95
+  },
+  {
+    "handle": "vapman-heating-station",
+    "brand": "Inhale Vaporizers",
+    "name": "Vapman Heating Station",
+    "trade": 185,
+    "currentFallback": 342.95
+  },
+  {
+    "handle": "vapman-lotus",
+    "brand": "Inhale Vaporizers",
+    "name": "Lotus Vaporizer Kit",
+    "trade": 85,
+    "currentFallback": 157.95
+  },
+  {
+    "handle": "ispire-the-wand",
+    "brand": "Ispire",
+    "name": "Ispire The Wand",
+    "trade": 79.56,
+    "currentFallback": 147.95
+  },
+  {
+    "handle": "limelight-frolic-vaporizer",
+    "brand": "Limelight",
+    "name": "Limelight Frolic Vaporizer",
+    "trade": 228,
+    "currentFallback": 421.95
+  },
+  {
+    "handle": "norddampf-hammah",
+    "brand": "Norddampf",
+    "name": "Norddampf HAMMAH",
+    "trade": 56,
+    "currentFallback": 103.95
+  },
+  {
+    "handle": "norddampf-relict",
+    "brand": "Norddampf",
+    "name": "Norddampf Relict",
+    "trade": 78,
+    "currentFallback": 144.95
+  },
+  {
+    "handle": "norddampf-voity",
+    "brand": "Norddampf",
+    "name": "Norddampf Voity",
+    "trade": 47,
+    "currentFallback": 89.95
+  },
+  {
+    "handle": "smono-4-pro",
+    "brand": "Smono",
+    "name": "Smono 4 Pro",
+    "trade": 50.69,
+    "currentFallback": 95.95
+  },
+  {
+    "handle": "smono-4-vaporizer",
+    "brand": "Smono",
+    "name": "Smono 4 Vaporizer",
+    "trade": 44.57,
+    "currentFallback": 85.95
+  },
+  {
+    "handle": "smono-5-vaporizer",
+    "brand": "Smono",
+    "name": "Smono 5 Vaporizer",
+    "trade": 51.8,
+    "currentFallback": 97.95
+  },
+  {
+    "handle": "smono-70s-vaporizer",
+    "brand": "Smono",
+    "name": "Smono 70's Vaporizer",
+    "trade": 53.14,
+    "currentFallback": 99.95
+  },
+  {
+    "handle": "smono-baloo",
+    "brand": "Smono",
+    "name": "Smono Baloo",
+    "trade": 50.69,
+    "currentFallback": 95.95
+  },
+  {
+    "handle": "smono-lunari",
+    "brand": "Smono",
+    "name": "Smono Lunari",
+    "trade": 68,
+    "currentFallback": 125.95
+  },
+  {
+    "handle": "smono-no-3-vaporizer",
+    "brand": "Smono",
+    "name": "Smono 3 Vaporizer",
+    "trade": 49.47,
+    "currentFallback": 93.95
+  },
+  {
+    "handle": "smono-sunshine",
+    "brand": "Smono",
+    "name": "Smono Sunshine",
+    "trade": 56.81,
+    "currentFallback": 105.95
+  },
+  {
+    "handle": "stundenglass-modul-vaporizer-6000mah",
+    "brand": "Stündenglass",
+    "name": "Stundenglass Modul Vaporizer | 6000mAh",
+    "trade": 159,
+    "currentFallback": 294.95
+  },
+  {
+    "handle": "stundenglass-x-modul-dok-deluxe-travel-set",
+    "brand": "Stündenglass",
+    "name": "Stündenglass x Modül + Dok Deluxe Travel Set",
+    "trade": 244,
+    "currentFallback": 451.95
+  },
+  {
+    "handle": "x-max-starry-vaporizer",
+    "brand": "Topgreen",
+    "name": "XMAX Starry V4",
+    "trade": 44.5,
+    "currentFallback": 85.95
+  },
+  {
+    "handle": "xmax-v3-pro",
+    "brand": "Topgreen",
+    "name": "XMAX V3 Pro Vaporizer",
+    "trade": 43,
+    "currentFallback": 82.95
+  },
+  {
+    "handle": "xmax-v4-pro-vaporizer",
+    "brand": "Topgreen",
+    "name": "XMAX V4 Pro Vaporizer",
+    "trade": 68,
+    "currentFallback": 125.95
+  },
+  {
+    "handle": "xvape-aria",
+    "brand": "Topgreen",
+    "name": "Xvape Aria+",
+    "trade": 45.45,
+    "currentFallback": 86.95
+  },
+  {
+    "handle": "xvape-fog-pro",
+    "brand": "Topgreen",
+    "name": "XVape Fog Pro",
+    "trade": 62.45,
+    "currentFallback": 115.95
+  },
+  {
+    "handle": "vessel-ash",
+    "brand": "Vessel",
+    "name": "Vessel Ash",
+    "trade": 58,
+    "currentFallback": 107.95
+  },
+  {
+    "handle": "fenix-2-0-vaporizer",
+    "brand": "Weecke",
+    "name": "Fenix 2.0 Vaporizer",
+    "trade": 84.96,
+    "currentFallback": 157.95
+  },
+  {
+    "handle": "fenix-2-max-vaporizer",
+    "brand": "Weecke",
+    "name": "Fenix 2 MAX Vaporizer",
+    "trade": 95,
+    "currentFallback": 175.95
+  },
+  {
+    "handle": "fenix-neo",
+    "brand": "Weecke",
+    "name": "Fenix NEO",
+    "trade": 94.45,
+    "currentFallback": 174.95
+  },
+  {
+    "handle": "wolkenkraft-aris-ultra-copy",
+    "brand": "Wolkenkraft",
+    "name": "Wolkenkraft ViTA",
+    "trade": 48.3,
+    "currentFallback": 91.95
+  },
+  {
+    "handle": "wolkenkraft-aris-ultra-gun-metal",
+    "brand": "Wolkenkraft",
+    "name": "Wolkenkraft Äris Ultra",
+    "trade": 109.45,
+    "currentFallback": 202.95
+  },
+  {
+    "handle": "wolkenkraft-aris",
+    "brand": "Wolkenkraft",
+    "name": "Wolkenkraft Äris",
+    "trade": 83.45,
+    "currentFallback": 154.95
+  },
+  {
+    "handle": "wolkenkraft-fx-mini-ultra",
+    "brand": "Wolkenkraft",
+    "name": "Wolkenkraft FX Mini Ultra",
+    "trade": 79.45,
+    "currentFallback": 147.95
+  },
+  {
+    "handle": "wolkenkraft-fx-mini",
+    "brand": "Wolkenkraft",
+    "name": "Wolkenkraft FX Mini",
+    "trade": 69.45,
+    "currentFallback": 128.95
+  },
+  {
+    "handle": "wolkenkraft-live",
+    "brand": "Wolkenkraft",
+    "name": "Wolkenkraft LIVE",
+    "trade": 319,
+    "currentFallback": 590.95
+  },
+  {
+    "handle": "zenco-duo",
+    "brand": "Zenco",
+    "name": "Zenco Duo",
+    "trade": 110.14,
+    "currentFallback": 203.95
+  },
+  {
+    "handle": "zenco-flow",
+    "brand": "Zenco",
+    "name": "Zenco Flow",
+    "trade": 110.14,
+    "currentFallback": 203.95
+  }
+]

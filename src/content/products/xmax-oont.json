@@ -1,0 +1,36 @@
+{
+  "slug": "xmax-oont",
+  "name": "XMAX OONT Pro",
+  "brand": "Topgreen",
+  "category": "portable-vapes",
+  "price": 52.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/XMAX-Oont-Pro-Dry-Herb-Vaporizer-Black-Wholesale-2-1.jpg?v=1769717793",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/XMAX-Oont-Pro-Dry-Herb-Vaporizer-Black-Wholesale-1-1.jpg?v=1769717793",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/XMAX-Oont-Pro-Dry-Herb-Vaporizer-Black-Wholesale-4-1.jpg?v=1769717793",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/XMAX-Oont-Pro-Dry-Herb-Vaporizer-Black-Wholesale-3-1.jpg?v=1769717793",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/XMAX-Oont-Pro-Dry-Herb-Vaporizer-Black-Wholesale-5-1.jpg?v=1769717793"
+  ],
+  "summary": "A budget convection vaporiser for dry herb with haptic feedback, suited to patients wanting low-cost simplicity.",
+  "description": "The XMAX OONT Pro is a small, low-cost convection device with five temperature settings and a quick heat-up. It signals readiness through haptic feedback rather than a screen, keeping operation simple, and charges over USB-C. A ceramic chamber and zirconia mouthpiece keep flavour clean, with adjustable airflow to suit your draw. One of the most affordable convection options here, it suits patients who want convection extraction without much complexity or expense.",
+  "specs": [
+    {
+      "label": "Dimensions",
+      "value": "(51.14mm x 27.4mm x 74.5mm)"
+    },
+    {
+      "label": "Warranty",
+      "value": "2 years"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "portable",
+    "dry-herb",
+    "topgreen"
+  ],
+  "stripeLink": "",
+  "rnSku": "14634232578422",
+  "order": 19
+}

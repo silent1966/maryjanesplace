@@ -1,0 +1,59 @@
+{
+  "slug": "vapman-lotus",
+  "name": "Lotus Vaporizer Kit",
+  "brand": "Inhale Vaporizers",
+  "category": "pen-vapes",
+  "price": 157.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vapman-Lotus-Olive.jpg?v=1758652542",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vapman-Lotus-Walnut.jpg?v=1758652542",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vapman-Lotus-Zebrano.jpg?v=1758652542",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vapman-Lotus-Pipe-in-use.jpg?v=1758652542",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vapman-Lotus-Olive-size-in-hand.jpg?v=1758652542"
+  ],
+  "summary": "A handmade olive-wood butane vaporiser using pure convection, for patients who want clean draw-activated vapour with no electronics.",
+  "description": "The Lotus is a pure-convection flame vaporiser built around a patented cap with six air channels that pull heated air evenly through your herb or concentrate. You heat the cap with a jet lighter for 3-5 seconds, then a steady draw activates vaporisation, producing dense vapour while preserving flavour. Because the chamber only heats when you draw, material isn't wasted. The olive-wood body insulates the device, stays comfortable to hold and develops a unique patina over time. Handmade in Italy from olive wood, stainless steel and glass, it suits patients who want convection performance without any battery or charging.",
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Portable Convection Vaporiser (butane-powered)"
+    },
+    {
+      "label": "Compatibility",
+      "value": "Dry herbs & concentrates"
+    },
+    {
+      "label": "Heating",
+      "value": "Pure convection via patented Lotus cap"
+    },
+    {
+      "label": "Heat-up time",
+      "value": "~3–5 seconds"
+    },
+    {
+      "label": "Material",
+      "value": "Sustainably sourced olive wood, stainless steel, borosilicate glass"
+    },
+    {
+      "label": "Chamber",
+      "value": "Up to 0.3 g"
+    },
+    {
+      "label": "Vapour path",
+      "value": "Draw-activated, controlled by user inhalation"
+    },
+    {
+      "label": "Made in",
+      "value": "Swiss design, handmade in Italy"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "pen",
+    "inhale-vaporizers"
+  ],
+  "stripeLink": "",
+  "rnSku": "15354838188406",
+  "order": 102
+}

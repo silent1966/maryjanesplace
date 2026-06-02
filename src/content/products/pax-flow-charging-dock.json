@@ -1,0 +1,26 @@
+{
+  "slug": "pax-flow-charging-dock",
+  "name": "PAX FLOW Charging Dock",
+  "brand": "PAX",
+  "category": "batteries",
+  "price": 35.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/PAX-FLOW-Charging-Dock-Onyx.jpg?v=1754431460",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/PAX-FLOW-Charging-Dock-with-vape.jpg?v=1754431460",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/PAX-FLOW-Charging-Dock-logo.jpg?v=1754431460",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/PAX-FLOW-Charging-Dock-Greenstone.jpg?v=1754431460",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/PAX-FLOW-Charging-Dock-Greenstone-with-vape.jpg?v=1754431460"
+  ],
+  "summary": "PAX FLOW Charging Dock — a battery accessory for keeping your device powered.",
+  "description": "Offer your customers the perfect blend of style and function with the PAX Flow Charging Dock – the official desktop charger for the PAX Flow Vaporiser. Designed for fast, efficient USB-C charging, this premium dock keeps the device ready for use while doubling as an elegant display piece. Genuine PAX Labs accessory – sourced directly from the manufacturer for authenticity and compatibility. Keeps your device charged and ready.",
+  "specs": [],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "battery",
+    "pax"
+  ],
+  "stripeLink": "",
+  "rnSku": "15285483372918",
+  "order": 496
+}

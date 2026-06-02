@@ -1,0 +1,36 @@
+{
+  "slug": "davinci-iqc",
+  "name": "DaVinci IQC",
+  "brand": "DaVinci",
+  "category": "portable-vapes",
+  "price": 152.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Davinci-IQC-Vaporizer-Green_43f04355-82a6-4d94-8541-d9f7ab40262a.jpg?v=1692979633",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Davinci-IQC-Vaporizer-Black_85326d4d-08a7-4283-bfa1-cd43080d1409.jpg?v=1692979633",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Davinci-IQC-Vaporizer-RED_109353d7-cde5-48ff-8c12-deec3016b94d.jpg?v=1692979633",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Davinci-IQC-Vaporizer-BLUE_0667d5c3-9795-43ce-9bb2-6a70cc7f830d.jpg?v=1692979633",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/DaVinci-IQC-size-in-hand.jpg?v=1692979633"
+  ],
+  "summary": "A conduction dry-herb portable with a zirconia flavour chamber and replaceable battery, for patients who want flavour and control without the IQ3's price.",
+  "description": "The DaVinci IQC takes the well-liked IQ2 formula and refines it. A zirconia flavour chamber keeps the vapour smooth and clean, and you get a broad temperature range, multiple heating modes, and a new precision mode for fine dosing. The 18650 battery is replaceable, so a worn cell is a cheap fix rather than a new device, and it carries a 5-year warranty. For a UK patient who wants honest flavour and proper control at a sensible price, the IQC sits in a sensible middle ground — conduction rather than convection, so a slower, steadier draw.",
+  "specs": [
+    {
+      "label": "Heating",
+      "value": "Conduction"
+    },
+    {
+      "label": "Warranty",
+      "value": "5 years"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "portable",
+    "dry-herb",
+    "davinci"
+  ],
+  "stripeLink": "",
+  "rnSku": "7779993059497",
+  "order": 63
+}

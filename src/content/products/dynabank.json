@@ -1,0 +1,31 @@
+{
+  "slug": "dynabank",
+  "name": "DynaBank",
+  "brand": "DynaVap",
+  "category": "accessories",
+  "price": 58.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/DynaBank-Black.jpg?v=1777318482",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/DynaBank-Black-2.jpg?v=1777318480",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/DynaBank-Black-parts.jpg?v=1777318479",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/DynaBank-Black-top.jpg?v=1777318480",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/DynaBank-Green.jpg?v=1777318480"
+  ],
+  "summary": "The DynaBank is DynaVap's dedicated storage and display accessory, designed to keep multiple stems, tips, and caps organised and accessible.",
+  "description": "The DynaBank is DynaVap's dedicated storage and display accessory, designed to keep multiple stems, tips, and caps organised and accessible. Unlike generic storage solutions that require customers to improvise, the DynaBank is dimensioned specifically for DynaVap components. Stems sit upright without wobbling, caps are held securely in position, and the overall layout reflects the precision engineering ethos that DynaVap customers actively seek out. For trade buyers, this brand coherence translates directly into shelf appeal and a justifiable premium over unbranded alternatives. A practical part to keep your device working as it should.",
+  "specs": [
+    {
+      "label": "Warranty",
+      "value": "Official DynaVap manufacturer warranty"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "accessory",
+    "dynavap"
+  ],
+  "stripeLink": "",
+  "rnSku": "15717075452278",
+  "order": 435
+}

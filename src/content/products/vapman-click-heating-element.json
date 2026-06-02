@@ -1,0 +1,36 @@
+{
+  "slug": "vapman-click-heating-element",
+  "name": "Vapman Click Heating Element",
+  "brand": "Inhale Vaporizers",
+  "category": "accessories",
+  "price": 49.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vapman-Click-heating-element.jpg?v=1758652563",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vapman-Click-heating-element-2.jpg?v=1758652563"
+  ],
+  "summary": "Keep your Vapman vaporiser performing at its best with the official Vapman Click Heating Element.",
+  "description": "Keep your Vapman vaporiser performing at its best with the official Vapman Click Heating Element. Designed as a direct replacement part, this precision-engineered component restores the fast, even heating that makes Vapman sessions so smooth and flavorful. Constructed from high-grade, heat-resistant alloy, the Click Heating Element provides rapid warm-up and reliable temperature stability. Each draw remains clean, consistent, and full of rich vapour — ideal for both new and experienced Vapman users. A practical part to keep your device working as it should.",
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Replacement heating element"
+    },
+    {
+      "label": "Material",
+      "value": "High-temperature resistant alloy"
+    },
+    {
+      "label": "Compatibility",
+      "value": "All Vapman vaporiser models"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "accessory",
+    "inhale-vaporizers"
+  ],
+  "stripeLink": "",
+  "rnSku": "15354844381558",
+  "order": 420
+}

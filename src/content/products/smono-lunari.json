@@ -1,0 +1,26 @@
+{
+  "slug": "smono-lunari",
+  "name": "Smono Lunari",
+  "brand": "Smono",
+  "category": "portable-vapes",
+  "price": 123.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Smono-Lunari-Vaporizer1.jpg?v=1760564301",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Smono-Lunari-Vaporizer2.jpg?v=1760564300",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Smono-Lunari-Vaporizer4.jpg?v=1760564301",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Smono-Lunari-Vaporizer3.jpg?v=1760564300"
+  ],
+  "summary": "A true-convection hybrid vaporiser with a 360° ceramic mouthpiece and removable battery, for daily flavour-led use.",
+  "description": "The Smono Lunari uses true convection for clean, flavour-rich vapour and works with both dry herb and concentrates, giving flexibility in one device. A magnetic 360° ceramic mouthpiece, precise digital control from 100–220°C, and an OLED showing both target and real-time temperature make it easy to dial in. The removable 18650 battery (3200mAh) means quick swaps to keep sessions going. It suits a patient who wants convection performance and good materials without a high-end price. It's built around individual sessions, so anyone wanting a desktop or group-use device should look elsewhere.",
+  "specs": [],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "portable",
+    "dry-herb",
+    "smono"
+  ],
+  "stripeLink": "",
+  "rnSku": "15390947803510",
+  "order": 52
+}

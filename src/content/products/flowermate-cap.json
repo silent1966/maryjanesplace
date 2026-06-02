@@ -1,0 +1,64 @@
+{
+  "slug": "flowermate-cap",
+  "name": "Flowermate Cap",
+  "brand": "Flowermate",
+  "category": "portable-vapes",
+  "price": 69.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Flowermate-Cap-Black.jpg?v=1620661924",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Flowermate-Cap-Stainless-Steel-Heating-Chamber.jpg?v=1620661924",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Flowermate-Cap-silver-in-hand.jpg?v=1620661924",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Flowermate-Cap-all-colors.jpg?v=1620661924",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Flowermate-Cap-Black-chamber-oven.jpg?v=1620661924"
+  ],
+  "summary": "A small, affordable conduction dry-herb vaporiser with three temperature presets, for patients who want a simple discreet device on a budget.",
+  "description": "The Flowermate Cap keeps things deliberately simple: three preset temperatures (196, 204 and 216C) selected with a single button, plus haptic feedback so you know when it's ready. The stainless steel chamber holds 0.3g for single-person dosing, and the aluminium body is genuinely pocket-sized at 90g. Expect 8-10 sessions per charge. For a UK patient who wants a no-fuss, low-cost device and doesn't need fine temperature control, the Cap covers the basics well — just note the smaller battery and conduction heating mean shorter runtime and a slower draw. One-year warranty.",
+  "specs": [
+    {
+      "label": "Dimensions",
+      "value": "30mm x 93mm x 20mm"
+    },
+    {
+      "label": "Weight",
+      "value": "90g (3.17oz)"
+    },
+    {
+      "label": "Battery life",
+      "value": "8-10 Sessions"
+    },
+    {
+      "label": "Temperature range",
+      "value": "Button press"
+    },
+    {
+      "label": "Battery",
+      "value": "Internal 900mAh Lithium Battery"
+    },
+    {
+      "label": "Chamber",
+      "value": "0.3g"
+    },
+    {
+      "label": "Material",
+      "value": "Matted Finish Aluminium Alloy Body"
+    },
+    {
+      "label": "Made in",
+      "value": "China"
+    },
+    {
+      "label": "Warranty",
+      "value": "One Year Warranty"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "portable",
+    "dry-herb",
+    "flowermate"
+  ],
+  "stripeLink": "",
+  "rnSku": "6980035444905",
+  "order": 25
+}

@@ -3,28 +3,25 @@
   "name": "DynaVap M 7",
   "brand": "DynaVap",
   "category": "pen-vapes",
-  "price": 65.0,
-  "image": "/products/placeholder.svg",
-  "summary": "Entry-level DynaVap. Same titanium tip, simpler body, same magic.",
-  "description": "The M 7 is the DynaVap to start with. Identical titanium tip to the M Plus, simpler body. Same butane-heated, no-battery, repairable design. Best entry into the DynaVap world for under \u00a370.",
-  "specs": [
-    {
-      "label": "Heating",
-      "value": "Butane torch (separate)"
-    },
-    {
-      "label": "Material",
-      "value": "Titanium tip"
-    },
-    {
-      "label": "Battery",
-      "value": "None"
-    }
+  "price": 84.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Dynavap-M7-vape-pen1.jpg?v=1771633905",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Dynavap-M7-vape-pen2.jpg?v=1771633905",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Dynavap-M7-vape-pen12.jpg?v=1771633905",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Dynavap-M7-vape-pen11.jpg?v=1771633905",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Dynavap-M7-vape-pen10.jpg?v=1771633905"
   ],
+  "summary": "A butane-heated, battery-free dry-herb vaporiser with a stainless-steel build, for patients who want flavour and simplicity.",
+  "description": "The DynaVap M7 is a torch-heated dry-herb vaporiser with no electronics and no battery to worry about. The redesigned stainless-steel tip holds more heat for greater control and bigger draws, while the finless design reduces scorching and hot spots. It is forgiving enough for newcomers yet rewards practice, making it a sensible first step into the DynaVap world. You will need a butane torch (sold separately) and a moment to learn the click-to-temperature rhythm — but in return you get clean flavour, no charging, and a device that keeps working for years.",
+  "specs": [],
+  "inStock": true,
+  "featured": false,
   "tags": [
     "pen",
-    "entry",
-    "no-battery"
+    "dry-herb",
+    "dynavap"
   ],
-  "order": 14
+  "stripeLink": "",
+  "rnSku": "7952767090857",
+  "order": 95
 }

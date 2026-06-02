@@ -1,0 +1,31 @@
+{
+  "slug": "grindervac",
+  "name": "GrinderVac",
+  "brand": "GrinverVac",
+  "category": "grinders",
+  "price": 18.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Grindervac-Black-open-top.jpg?v=1620661944",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Grindervac-Black-1.jpg?v=1620661944",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Grindervac-Black-2.jpg?v=1620661944",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Grindervac-Blue-1.jpg?v=1620661944",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Grindervac-Green-1.jpg?v=1620661944"
+  ],
+  "summary": "GrinderVac features an airtight storage compartment and a convenient hook for effortless sanding.",
+  "description": "GrinderVac features an airtight storage compartment and a convenient hook for effortless sanding. This multifunctional tool grinds herbs to a fine powder and doubles as a vacuum-sealed container, keeping them fresh for an extended time. An expertly designed 3-chamber floor sander ensures a smooth and efficient process. A small upgrade that makes every session more even.",
+  "specs": [
+    {
+      "label": "Fitting",
+      "value": "7,5 cm"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "grinder",
+    "grinvervac"
+  ],
+  "stripeLink": "",
+  "rnSku": "6980038688937",
+  "order": 129
+}

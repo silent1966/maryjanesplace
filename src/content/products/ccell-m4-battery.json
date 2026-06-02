@@ -1,0 +1,35 @@
+{
+  "slug": "ccell-m4-battery",
+  "name": "CCELL - M4 Battery",
+  "brand": "CCELL",
+  "category": "cartridge-batteries",
+  "price": 19.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/CCELL-M4-Vape-Pen-Battery-Standard-510-Thread-all-colors.jpg?v=1764000523",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/CCELL-M4-Vape-Pen-Battery-Standard-510-Thread-Black.jpg?v=1764000523",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/CCELL-M4-Vape-Pen-Battery-Standard-510-Thread-size.jpg?v=1764000523",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/CCELL-M4-Vape-Pen-Battery-Standard-510-Thread.jpg?v=1764000523",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/CCELL-M4-Vape-Pen-Battery-Standard-510-Thread-2.jpg?v=1764000523"
+  ],
+  "summary": "Just attach a 510 cartridge and inhale.",
+  "description": "Just attach a 510 cartridge and inhale. The unit activates automatically with no buttons or settings required. Recharge the M4 via the USB-C port at the base. Use any standard USB-C cable and power source. Pairs with standard 510 cartridges.",
+  "specs": [
+    {
+      "label": "Dimensions",
+      "value": "76.35mm (H) x 10.5mm (D)"
+    },
+    {
+      "label": "Material",
+      "value": "Stainless Steel"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "510",
+    "ccell"
+  ],
+  "stripeLink": "",
+  "rnSku": "15459114025334",
+  "order": 113
+}

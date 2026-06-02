@@ -1,0 +1,42 @@
+{
+  "slug": "arizer-extreme-q-vaporizer",
+  "name": "Arizer Extreme Q",
+  "brand": "Arizer",
+  "category": "desktop-vapes",
+  "price": 126.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/45caabfe86c4f83ad5abeec3b3a49e60.jpg?v=1620661889",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Arizer_Extreme_Q_Vaporizer2.jpg?v=1693238047",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/arizer_extreme_q_vaporizer_with_bag.jpg?v=1693238046"
+  ],
+  "summary": "A versatile desktop dry-herb vaporiser with both balloon-bag and whip delivery, for home use.",
+  "description": "The Arizer Extreme Q is a mains-powered desktop vaporiser that gives you two ways to medicate: fill a balloon bag for hands-free dosing, or draw directly through the whip. Convection heating through a glass path keeps flavour clean, and a remote lets you set temperature by the degree from across the room. It suits patients who medicate at home and want flexibility without paying desktop flagship prices. Heat-up takes around two minutes and it is a fixed home device, but for the money the vapour quality is hard to fault.",
+  "specs": [
+    {
+      "label": "Temperature range",
+      "value": "Manual – by degrees, or preset only"
+    },
+    {
+      "label": "Material",
+      "value": "Stainless steel"
+    },
+    {
+      "label": "Made in",
+      "value": "Canada"
+    },
+    {
+      "label": "Battery",
+      "value": "100 – 240 V"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "desktop",
+    "dry-herb",
+    "arizer"
+  ],
+  "stripeLink": "",
+  "rnSku": "6980026302633",
+  "order": 84
+}

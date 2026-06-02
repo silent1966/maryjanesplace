@@ -1,0 +1,43 @@
+{
+  "slug": "dynavap-titanium-fall-colors",
+  "name": "Dynavap - Titaniu\"M\" Fall Colors",
+  "brand": "DynaVap",
+  "category": "pen-vapes",
+  "price": 104.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Dynavap-TitaniuM-new-Fall-Colors.jpg?v=1739979591",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Dynavap-TitaniuM-NebuluM-Fall-Colors.jpg?v=1739979591",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Dynavap-TitaniuM-NebuluM-no-cap-Fall-Colors.jpg?v=1739979591",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Dynavap-TitaniuM-QuantiuM-Fall-Colors.jpg?v=1739979591",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Dynavap-TitaniuM-QuantiuM-no-cap-Fall-Colors.jpg?v=1739979591"
+  ],
+  "summary": "A limited-edition all-titanium version of DynaVap's classic 'M', for patients who want the standard flame-powered vape in a more durable finish.",
+  "description": "The Titanium 'M' Fall Colours is the familiar DynaVap 'M' built entirely from lightweight titanium, with a surface treatment that improves scratch resistance and grip. Two finishes are offered: NebuluM, a smooth royal-purple with blue and violet accents, and QuantiuM, a textured radiant hue. Heated with a butane torch (sold separately), it covers a 150-230C range and produces clean, flavourful vapour with no battery. At around 20g it is pocketable, repairable and built to last for years. A good entry point for patients new to flame-powered vaping who want the durability of titanium.",
+  "specs": [
+    {
+      "label": "Dimensions",
+      "value": "3.5 in / 9 cm"
+    },
+    {
+      "label": "Weight",
+      "value": "0.7 oz / 20 g"
+    },
+    {
+      "label": "Fitting",
+      "value": "3/8 in / 1 cm"
+    },
+    {
+      "label": "Temperature range",
+      "value": "300°F - 450°F (150°C - 230°C)"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "pen",
+    "dynavap"
+  ],
+  "stripeLink": "",
+  "rnSku": "7905135427753",
+  "order": 96
+}

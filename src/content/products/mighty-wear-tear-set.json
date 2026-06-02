@@ -1,0 +1,32 @@
+{
+  "slug": "mighty-wear-tear-set",
+  "name": "Mighty Wear & Tear Set",
+  "brand": "Storz & Bickel",
+  "category": "cleaning",
+  "price": 45.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Mighty-Wear-and-Tear-Set.jpg?v=1692736590",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Mighty-Wear-and-Tear-Set-Storz-and-Bickel.jpg?v=1692736590"
+  ],
+  "summary": "Mighty Wear & Tear Set — a cleaning accessory for keeping your device clean for purer vapour.",
+  "description": "The Mighty Wear & Tear Set by Storz & Bickel provides all the necessary components for optimal maintenance and performance of your Mighty device. This trusted information is sourced from the manufacturer. A clean device gives cleaner vapour and a more reliable dose.",
+  "specs": [
+    {
+      "label": "Dimensions",
+      "value": "1.25 x 3.5 x 3.75 in."
+    },
+    {
+      "label": "Weight",
+      "value": "0.10 lbs."
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "cleaning",
+    "storz-bickel"
+  ],
+  "stripeLink": "",
+  "rnSku": "6980031545513",
+  "order": 165
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "norddampf-relict",
+  "name": "Norddampf Relict",
+  "brand": "Norddampf",
+  "category": "portable-vapes",
+  "price": 139.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Norddampf-Relict-Vaporizer.jpg?v=1754512021",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Norddampf-Relict-Vaporizer-Nordic-Blue.jpg?v=1754512019",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Norddampf-Relict-Vaporizer-Nordic-Blue-2.jpg?v=1754512019",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Norddampf-Relict-Vaporizer-Nordic-Blue-side.jpg?v=1754512019",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Norddampf-Relict-Vaporizer-Nordic-Blue-chamber.jpg?v=1754512019"
+  ],
+  "summary": "A dual-heating conduction vaporiser with airflow-sensing heat boost, for patients who want dense draws on demand.",
+  "description": "The Relict heats the chamber from both the floor and sides for even conduction, and its Intellisense airflow sensors detect your inhale and boost the heat for denser vapour. Temperature is precise from 160–240°C in 1°C steps, set on an OLED display that rotates for handheld or water-piece use, with three-button control and vibration feedback. The 0.3g stainless steel dosing capsules keep loading tidy on the go, and a 45mm glass aroma tube cools the vapour. A 2600mAh battery and sub-30-second heat-up make it ready quickly, suiting a patient who wants control and a bit of power in a compact 138g body.",
+  "specs": [
+    {
+      "label": "Heating",
+      "value": "Conduction — Dual‑Heating (chamber floor + sides)"
+    },
+    {
+      "label": "Temperature range",
+      "value": "160–240 °C (320–464 °F), adjustable in 1 °C steps"
+    },
+    {
+      "label": "Heat-up time",
+      "value": "Approx. 25–30 seconds"
+    },
+    {
+      "label": "Display",
+      "value": "OLED, rotatable for handheld or bong use"
+    },
+    {
+      "label": "Battery",
+      "value": "2600 mAh internal, USB‑C fast charging (~2 h)"
+    },
+    {
+      "label": "Dimensions",
+      "value": "124.1 × 30.5 × 30 mm"
+    },
+    {
+      "label": "Weight",
+      "value": "138 g"
+    },
+    {
+      "label": "Material",
+      "value": "Glass mouthpiece, stainless steel capsule, aluminium body"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "portable",
+    "dry-herb",
+    "norddampf"
+  ],
+  "stripeLink": "",
+  "rnSku": "15286475424118",
+  "order": 59
+}

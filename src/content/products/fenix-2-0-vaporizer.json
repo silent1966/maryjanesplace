@@ -1,0 +1,56 @@
+{
+  "slug": "fenix-2-0-vaporizer",
+  "name": "Fenix 2.0 Vaporizer",
+  "brand": "Weecke",
+  "category": "portable-vapes",
+  "price": 157.95,
+  "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Fenix-2.0-vaporizer_51a2783c-8a75-48b1-8b39-875caab72260.jpg?v=1692736664",
+  "gallery": [
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Fenix-2.0-Vaporizer-Chamber.jpg?v=1692736664",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Fenix-2.0-Vaporizer-2_03291196-2dfb-4c6f-9645-9061ab3da142.jpg?v=1692736664",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Fenix-2.0-Vaporizer-gunmetal_bfb6b7a9-4ac3-467b-8e63-9aeda9e4f0f1.jpg?v=1692736664",
+    "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Fenix-2.0-Vaporizer-Parts.jpg?v=1692736664"
+  ],
+  "summary": "A full-convection dry-herb portable with a big battery and adjustable temperature, for patients who want clean flavour and all-day runtime.",
+  "description": "The Fenix 2.0 uses full convection — its AIR HEATING system passes hot air through the herb rather than baking it against a hot wall — which gives cleaner flavour and a more even extraction. A cooling path takes the edge off the vapour, and the 4400mAh battery is large enough to last a full day of medicating. Temperature is adjustable from 160 to 220C with a roughly 30-second heat-up. For a UK patient who values convection flavour and long runtime, the Fenix 2.0 is a solid, dependable choice — the main compromise is older Micro USB charging rather than USB-C.",
+  "specs": [
+    {
+      "label": "Dimensions",
+      "value": "11 cm x 6 cm x 3 cm"
+    },
+    {
+      "label": "Weight",
+      "value": "232 g"
+    },
+    {
+      "label": "Material",
+      "value": "Metal"
+    },
+    {
+      "label": "Heat-up time",
+      "value": "~30 seconds"
+    },
+    {
+      "label": "Battery",
+      "value": "4400mAh lithium battery"
+    },
+    {
+      "label": "Charging",
+      "value": "Micro USB"
+    },
+    {
+      "label": "Made in",
+      "value": "China"
+    }
+  ],
+  "inStock": true,
+  "featured": false,
+  "tags": [
+    "portable",
+    "dry-herb",
+    "weecke"
+  ],
+  "stripeLink": "",
+  "rnSku": "6980032135337",
+  "order": 64
+}

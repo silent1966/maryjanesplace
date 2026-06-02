@@ -3,7 +3,7 @@
   "type": "module",
   "version": "1.0.0",
   "private": true,
-  "description": "Mary Jane's Place — a private sanctuary for prescribed medical cannabis patients in Bournemouth",
+  "description": "Mary Jane's Place — a safe space for prescribed medical cannabis patients in Bournemouth",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
