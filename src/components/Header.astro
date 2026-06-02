@@ -34,6 +34,8 @@ const caret = `<svg class="caret" viewBox="0 0 24 24" fill="none" stroke="curren
         </div>
       </div>
 
+      <a href="/shop" class={active("/shop")}>Shop</a>
+
       <div class="has-drop">
         <button type="button" class={`drop-toggle ${membersActive}`} aria-haspopup="true" aria-expanded="false">Members <Fragment set:html={caret} /></button>
         <div class="drop" role="menu">
@@ -57,7 +59,6 @@ const caret = `<svg class="caret" viewBox="0 0 24 24" fill="none" stroke="curren
       </div>
 
       <a href="/contact" class={active("/contact")}>Contact</a>
-      <a href="/shop" class={`nav-extra ${active("/shop")}`}>Shop</a>
     </nav>
 
     <div class="nav-cta">
@@ -91,6 +92,7 @@ const caret = `<svg class="caret" viewBox="0 0 24 24" fill="none" stroke="curren
   </form>
 
   <a class="drawer-top" href="/medical-cannabis">Medical Cannabis</a>
+  <a class="drawer-top" href="/shop">Shop</a>
 
   <div class="drawer-group">
     <div class="drawer-group-h">Lounge</div>
@@ -120,7 +122,6 @@ const caret = `<svg class="caret" viewBox="0 0 24 24" fill="none" stroke="curren
   </div>
 
   <a class="drawer-top" href="/contact">Contact</a>
-  <a class="drawer-top" href="/shop">Shop</a>
 </div>
 
 <script>
