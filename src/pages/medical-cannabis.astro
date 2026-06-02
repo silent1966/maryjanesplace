@@ -1,6 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import RelatedLinks from "../components/RelatedLinks.astro";
+import PageJump from "../components/PageJump.astro";
 ---
 
 <Base
@@ -12,67 +13,75 @@ import RelatedLinks from "../components/RelatedLinks.astro";
       <div class="eyebrow kick rv">Medical Cannabis</div>
       <h1 class="rv">Medical cannabis, explained.</h1>
       <p class="rv lede" style="margin-top:16px">
-        A clear, honest overview of what medical cannabis is in the UK, who can be
-        prescribed it, and how patients use it. This is general information, not medical advice.
+        What medical cannabis is in the UK, who can be prescribed it, and how patients
+        use it. General information, not medical advice.
       </p>
     </div>
   </section>
 
-  <section class="pad-sm" style="padding-top:0">
+  <PageJump items={[
+    { href: "#basics", label: "The basics" },
+    { href: "#prescription", label: "Prescription" },
+    { href: "#methods", label: "How it's taken" },
+    { href: "#strains", label: "Strains" },
+    { href: "#terpenes", label: "Terpenes" },
+    { href: "#faq", label: "FAQs" },
+  ]} />
+
+  <section id="basics" class="jt pad-sm" style="padding-top:0">
     <div class="wrap">
       <div class="info">
         <div class="info-block rv">
           <h3>What it is</h3>
           <p>
             Cannabis-based products for medicinal use (CBPMs) are pharmaceutical-grade
-            medicines — flower, oils or capsules — manufactured to a consistent, tested
-            standard. Since November 2018 they have been Schedule 2 controlled drugs that
-            specialist doctors can lawfully prescribe.
+            medicines — flower, oils or capsules — made to a tested, consistent standard.
+            Since November 2018 they have been Schedule 2 controlled drugs that specialist
+            doctors can lawfully prescribe.
             <span class="src">Misuse of Drugs (Amendments) Regulations 2018</span>
           </p>
         </div>
         <div class="info-block rv">
           <h3>Who can be prescribed it</h3>
           <p>
-            Typically adults with a diagnosed condition who have tried at least two
-            other treatments without adequate relief. Only a GMC-registered specialist can
-            initiate a prescription — GPs cannot — and most prescriptions are private. No GP
-            referral is needed to approach a clinic.
+            Usually adults with a diagnosed condition who have tried at least two other
+            treatments without enough relief. Only a GMC-registered specialist can start a
+            prescription — GPs cannot — and most are private. You can approach a clinic
+            without a GP referral.
           </p>
         </div>
         <div class="info-block rv">
           <h3>THC, CBD &amp; the endocannabinoid system</h3>
           <p>
-            THC is the psychoactive cannabinoid that helps with pain, nausea and muscle
-            relaxation; CBD is non-psychoactive, with calming and anti-inflammatory
-            properties. Both work via the body's endocannabinoid system. Most prescriptions
-            blend the two to suit the patient.
+            THC is the psychoactive cannabinoid; it helps with pain, nausea and muscle
+            relaxation. CBD is non-psychoactive, with calming and anti-inflammatory effects.
+            Both act through the body's endocannabinoid system, and most prescriptions blend
+            the two to suit the patient.
           </p>
         </div>
         <div class="info-block rv">
           <h3>How it's taken</h3>
           <p>
-            Patients use a dry-herb vaporiser, which gently heats the flower rather than
-            burning it, or take oils and capsules. <b style="color:var(--ink)">Smoking remains
-            prohibited even with a prescription</b> — which is exactly why a vaporiser-only
-            space like ours is appropriate and lawful.
+            Patients use a dry-herb vaporiser, which heats the flower rather than burning
+            it, or take oils and capsules. <b style="color:var(--ink)">Smoking stays
+            prohibited even with a prescription</b> — which is why our vaporiser-only space
+            is lawful.
           </p>
         </div>
         <div class="info-block rv">
           <h3>Dosing</h3>
           <p>
-            The guiding principle is "start low, go slow." Patients titrate to the lowest
-            effective dose under their prescriber's guidance. Our team can help you
-            understand a device, but dosing decisions always sit with you and your clinician.
+            The principle is "start low, go slow." Patients titrate to the lowest effective
+            dose under their prescriber's guidance. We can help you understand a device, but
+            dosing decisions always sit with you and your clinician.
           </p>
         </div>
         <div class="info-block rv">
           <h3>Conditions commonly treated</h3>
           <p>
-            There is no fixed list — a specialist may prescribe wherever the clinical
-            evidence supports it. Common areas include chronic pain, anxiety, PTSD,
-            MS-related spasticity, chemotherapy-induced nausea, and treatment-resistant
-            epilepsy.
+            There is no fixed list — a specialist may prescribe where the clinical evidence
+            supports it. Common areas include chronic pain, anxiety, PTSD, MS-related
+            spasticity, chemotherapy-induced nausea and treatment-resistant epilepsy.
           </p>
         </div>
       </div>
@@ -83,12 +92,12 @@ import RelatedLinks from "../components/RelatedLinks.astro";
   <section class="pad-sm" style="padding-top:0">
     <div class="wrap narrow">
       <div class="card rv" style="background:var(--paper);border-left:4px solid var(--olive)">
-        <div class="eyebrow">Getting a prescription</div>
+        <div class="eyebrow jt" id="prescription">Getting a prescription</div>
         <h2 style="margin-top:8px;margin-bottom:10px">Not sure where to start?</h2>
         <p>
-          We're not doctors and we don't prescribe — but if you think medical cannabis might
-          help and don't know where to begin, we'll point you to UK specialist clinics,
-          unbiased and with no commission. The same honest approach goes for devices.
+          We're not doctors and we don't prescribe. But if you think medical cannabis might
+          help and don't know where to begin, we'll point you to UK specialist clinics — no
+          bias, no commission. The same goes for devices.
         </p>
         <div style="margin-top:18px;display:flex;gap:10px;flex-wrap:wrap">
           <a class="btn" href="/prescriptions">How to get a prescription <span class="arr">→</span></a>
@@ -100,10 +109,10 @@ import RelatedLinks from "../components/RelatedLinks.astro";
 
   <section class="pad-sm" style="padding-top:0">
     <div class="wrap narrow">
-      <div class="eyebrow kick rv">Administration methods</div>
+      <div class="eyebrow kick rv jt" id="methods">Administration methods</div>
       <p class="rv lede" style="margin-top:14px">
-        Prescribed cannabis-based medicines come in several forms. Which one suits a
-        patient is a clinical decision, made with the prescriber.
+        Prescribed cannabis-based medicines come in several forms. Which one suits a patient
+        is a clinical decision, made with the prescriber.
       </p>
     </div>
     <div class="wrap" style="margin-top:22px">
@@ -111,52 +120,49 @@ import RelatedLinks from "../components/RelatedLinks.astro";
         <div class="info-block rv">
           <h3>Vapour (dried flower)</h3>
           <p>
-            Dried flower is used in a dry-herb vaporiser, which gently heats the flower to
-            release its cannabinoids as vapour rather than burning it. It is usually
-            prescribed as named flower cultivars in sealed, labelled containers, with the
-            THC and CBD content stated.
+            Dried flower goes into a dry-herb vaporiser, which heats it to release the
+            cannabinoids as vapour rather than burning it. It is prescribed as named
+            cultivars in sealed, labelled containers, with the THC and CBD content stated.
           </p>
         </div>
         <div class="info-block rv">
           <h3>Oils &amp; tinctures</h3>
           <p>
-            Cannabis oils and tinctures are liquid preparations taken under the tongue with
-            a dropper or oral syringe. In the UK they are dispensed in measured bottles with
-            a defined cannabinoid concentration, which makes consistent, gradual dosing
-            straightforward.
+            Oils and tinctures are liquid preparations taken under the tongue with a dropper
+            or oral syringe. They are dispensed in measured bottles with a defined
+            cannabinoid concentration, which makes gradual dosing straightforward.
           </p>
         </div>
         <div class="info-block rv">
           <h3>Capsules</h3>
           <p>
-            Capsules contain a fixed, pre-measured dose of cannabis extract and are
-            swallowed like any other oral medicine. They are dispensed as standard
-            pharmacy packs, offering a familiar, discreet format with predictable dosing.
+            Capsules hold a fixed, pre-measured dose of cannabis extract and are swallowed
+            like any oral medicine. They are dispensed as standard pharmacy packs — a
+            familiar, discreet format with predictable dosing.
           </p>
         </div>
         <div class="info-block rv">
           <h3>Edibles</h3>
           <p>
-            Edibles are cannabis medicines formulated to be eaten, such as pastilles. Like
-            oils and capsules, they are taken orally, so effects build more slowly and last
-            longer than inhaled vapour. They are dispensed as labelled, dose-controlled
-            products on prescription.
+            Edibles are cannabis medicines made to be eaten, such as pastilles. Taken
+            orally, their effects build more slowly and last longer than inhaled vapour.
+            They are dispensed as labelled, dose-controlled products on prescription.
           </p>
         </div>
       </div>
       <p class="rv" style="margin-top:18px;font-size:14.5px;color:var(--ink-soft)">
-        Of these, only vapour administration is available on the premises — a dry-herb
-        vaporiser is the mechanism our space is built around.
+        Of these, only vapour is available on the premises — the dry-herb vaporiser is what
+        our space is built around.
       </p>
     </div>
   </section>
 
   <section class="pad-sm">
     <div class="wrap narrow">
-      <div class="eyebrow kick rv">Strain types</div>
+      <div class="eyebrow kick rv jt" id="strains">Strain types</div>
       <p class="rv lede" style="margin-top:14px">
-        Flower is often described by strain type. These are broad characterisations rather
-        than precise rules, and a patient's response is individual.
+        Flower is often described by strain type. These are broad characterisations, not
+        precise rules, and each patient's response is individual.
       </p>
       <ul class="checks rv" style="margin-top:18px">
         <li><b style="color:var(--ink)">Indica</b> — traditionally associated with more relaxing, body-centred effects.</li>
@@ -164,48 +170,71 @@ import RelatedLinks from "../components/RelatedLinks.astro";
         <li><b style="color:var(--ink)">Hybrid</b> — a cross of the two, blending characteristics in varying proportions.</li>
       </ul>
       <p class="rv" style="margin-top:16px;color:var(--ink-soft)">
-        Whichever the format or strain type, these products are dispensed in the UK only
-        through prescriptions issued by a registered specialist clinician.
+        Whatever the format or strain type, these products are dispensed in the UK only on a
+        prescription from a registered specialist.
+      </p>
+    </div>
+  </section>
+
+  <!-- Terpenes -->
+  <section class="pad-sm" style="padding-top:0">
+    <div class="wrap narrow">
+      <div class="eyebrow kick rv jt" id="terpenes">Terpenes</div>
+      <h2 class="rv" style="margin-bottom:8px">Why two flowers at the same THC can feel different.</h2>
+      <p class="rv" style="max-width:68ch;margin-bottom:16px">
+        Terpenes are the aromatic compounds behind each cultivar's smell — and a big part of
+        why one suits you and another doesn't. They aren't the high, but the whole profile
+        matters more than the THC number alone.
+      </p>
+      <ul class="checks rv">
+        <li><b style="color:var(--ink)">Myrcene</b> — earthy, musky; often in heavier, relaxing flower.</li>
+        <li><b style="color:var(--ink)">Limonene</b> — citrus; brighter, more uplifting profiles.</li>
+        <li><b style="color:var(--ink)">Pinene</b> — sharp, fresh, pine.</li>
+        <li><b style="color:var(--ink)">Linalool</b> — floral, lavender-like; calming in reputation.</li>
+        <li><b style="color:var(--ink)">Caryophyllene</b> — peppery; also interacts with the body's cannabinoid system.</li>
+      </ul>
+      <p class="rv" style="margin-top:16px;color:var(--ink-soft)">
+        A dry-herb vaporiser helps bring these out — lighter terpenes release at lower
+        temperatures. <a class="tlink" href="/blog">More on terpenes in the blog</a>.
       </p>
     </div>
   </section>
 
   <section class="pad-sm">
     <div class="wrap narrow">
-      <div class="eyebrow kick rv">Common questions</div>
+      <div class="eyebrow kick rv jt" id="faq">Common questions</div>
       <div class="acc rv" style="margin-top:14px;border-top:1px solid var(--line)">
         <details class="acc-item">
           <summary>Is medical cannabis the same as street cannabis?</summary>
           <div>
-            No. Prescribed CBPMs are manufactured to Good Manufacturing Practice (GMP)
-            standards — tested for contaminants, with consistent labelled cannabinoid
-            content and full batch traceability. Unregulated cannabis has none of these
-            safeguards.
+            No. Prescribed CBPMs are made to Good Manufacturing Practice (GMP) standards —
+            tested for contaminants, with labelled cannabinoid content and full batch
+            traceability. Unregulated cannabis has none of these safeguards.
           </div>
         </details>
         <details class="acc-item">
           <summary>How do I become a patient?</summary>
           <div>
             You can approach a specialist medical cannabis clinic directly, without a GP
-            referral. They will assess your eligibility and, if appropriate, a specialist
-            will prescribe. Access schemes exist for some patients on low incomes, veterans
-            and students.
+            referral. They assess your eligibility and, if appropriate, a specialist
+            prescribes. Access schemes exist for some patients on low incomes, veterans and
+            students.
           </div>
         </details>
         <details class="acc-item">
           <summary>Why vaporising and not smoking?</summary>
           <div>
-            Smoking cannabis is prohibited by the legislation even with a prescription,
-            because the issue is combustion. A vaporiser heats the flower without burning
-            it, producing vapour rather than smoke — and falls outside the smoke-free law.
+            Smoking cannabis is prohibited even with a prescription — the issue is
+            combustion. A vaporiser heats the flower without burning it, producing vapour
+            rather than smoke, and falls outside the smoke-free law.
           </div>
         </details>
         <details class="acc-item">
           <summary>Do you sell or supply cannabis?</summary>
           <div>
-            No, and we never will. We are not a dispensary. Patients bring their own
-            prescribed medicine; we provide the space, the equipment to use it, and
-            the information.
+            No, and we never will. We are not a dispensary. Members bring their own
+            prescribed medicine; we provide the space, the equipment to use it and a
+            community to use it in.
           </div>
         </details>
       </div>

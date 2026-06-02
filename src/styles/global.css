@@ -454,6 +454,10 @@ nav.links a.active {
 }
 .sec-badge .sb-ic svg { width: 14px; height: 14px; }
 
+/* jump-target offset so sticky header + PageJump chips don't cover the heading */
+.jt { scroll-margin-top: 120px; }
+@media (min-width: 681px) { .jt { scroll-margin-top: 178px; } }
+
 .two { display: grid; grid-template-columns: 1fr 1fr; gap: 46px; align-items: start; }
 .two.vc { align-items: center; }
 .three { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
@@ -510,10 +514,16 @@ nav.links a.active {
   box-shadow: var(--shadow-sm);
 }
 .step .n {
-  font-size: 12px;
+  display: inline-block;
+  font-size: 11px;
   font-weight: 800;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.1em;
   color: var(--olive);
+  background: var(--tint);
+  border: 1px solid var(--line);
+  padding: 4px 11px;
+  border-radius: 999px;
+  margin-bottom: 10px;
 }
 .step h3 { margin: 8px 0 7px; font-size: 19px; }
 .step p { font-size: 15.5px; }
