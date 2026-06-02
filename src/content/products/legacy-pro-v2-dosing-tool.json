@@ -3,7 +3,7 @@
   "name": "Legacy Pro & V2 Dosing Tool",
   "brand": "AirVape",
   "category": "accessories",
-  "price": 29.95,
+  "price": 29.99,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/AirVape-Legacy-Pro-V2-Dosing-Tool-2.jpg?v=1774909225",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/AirVape-PRO-V2-Dosing-Tool.jpg?v=1774909225"
@@ -19,5 +19,5 @@
   ],
   "stripeLink": "",
   "rnSku": "15678535238006",
-  "order": 398
+  "order": 399
 }

@@ -26,13 +26,13 @@
     "googleMaps": "https://maps.app.goo.gl/523QHBCksUqdyxfa9"
   },
   "hours": [
-    { "day": "Mon", "sessions": "8:30am–2:30pm · 5:30–8:30pm" },
-    { "day": "Tue", "sessions": "Closed", "closed": true },
-    { "day": "Wed", "sessions": "8:30am–2:30pm · 5:30–8:30pm" },
-    { "day": "Thu", "sessions": "8:30am–2:30pm · 5:30–8:30pm" },
-    { "day": "Fri", "sessions": "8:30am–2:30pm · 5:30–8:30pm" },
-    { "day": "Sat", "sessions": "8:30am–2:30pm · 5:30–10:30pm" },
-    { "day": "Sun", "sessions": "8:30am–2:30pm · 5:30–8:30pm" }
+    { "day": "Mon", "sessions": "8:30am–10:30pm" },
+    { "day": "Tue", "sessions": "8:30am–10:30pm" },
+    { "day": "Wed", "sessions": "8:30am–10:30pm" },
+    { "day": "Thu", "sessions": "8:30am–10:30pm" },
+    { "day": "Fri", "sessions": "8:30am–10:30pm" },
+    { "day": "Sat", "sessions": "8:30am–10:30pm" },
+    { "day": "Sun", "sessions": "8:30am–10:30pm" }
   ],
   "facts": [
     { "value": "150k+", "label": "UK patients prescribed medical cannabis (CQC, 2025)" },

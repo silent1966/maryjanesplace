@@ -464,8 +464,21 @@ const totalCount = products.length;
     .trust-band { grid-template-columns: 1fr; }
     .filter-group { flex: 1 1 100%; }
     .sort-select { width: 100%; }
+    /* small cards need more breathing room around the product photo */
+    .prod-image { aspect-ratio: 1 / 1; }
+    .prod-image img { padding: 16px; }
+    .prod-badge { font-size: 9.5px; padding: 4px 7px; }
   }
   @media (max-width: 340px) {
     .prod-grid { grid-template-columns: 1fr; }
+  }
+  /* comfortable touch targets on mobile (≥40px) + flex shrink safety (no overflow) */
+  @media (max-width: 900px) {
+    .cat-pill, .price-pill { min-height: 40px; display: inline-flex; align-items: center; }
+    .price-pill { padding: 8px 14px; }
+    .sort-select { min-height: 44px; }
+    .shop-search input { padding-top: 13px; padding-bottom: 13px; }
+    .shop-sidebar, .shop-sidebar > *, .filter-group, .shop-search, .cat-scroll { min-width: 0; }
+    .shop-sidebar input, .shop-sidebar select { min-width: 0; max-width: 100%; }
   }
 </style>
