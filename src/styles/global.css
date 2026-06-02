@@ -12,9 +12,9 @@
   --tint: #E7ECD6;
   --ink: #2A2E20;
   --ink-soft: #535840;
-  --olive: #556B2F;
-  --olive-d: #103B14;
-  --olive-l: #6E8A3F;
+  --olive: #4C7A2D;
+  --olive-d: #16401A;
+  --olive-l: #6FA03C;
   --sage: #8C9E6A;
   --sage-soft: #CFD9B8;
   --line: rgba(16, 59, 20, 0.16);
@@ -544,7 +544,7 @@ nav.links a.active {
   display: block;
   margin-top: 10px;
   font-size: 12px;
-  color: var(--sage);
+  color: var(--olive);
   font-weight: 800;
   letter-spacing: 0.02em;
   text-transform: uppercase;
@@ -747,6 +747,11 @@ footer {
 .rv.in { opacity: 1; transform: none; }
 
 /* responsive */
+/* hand the nav to the hamburger drawer before the 7-item row can overflow (~1040px) */
+@media (max-width: 1040px) {
+  nav.links, .nav-cta .btn, .nav-search-btn { display: none; }
+  .hamb { display: flex; }
+}
 @media (max-width: 980px) {
   .two, .visit-grid, .info { grid-template-columns: 1fr; gap: 30px; }
   .three, .steps { grid-template-columns: 1fr 1fr; }
@@ -755,8 +760,6 @@ footer {
 }
 @media (max-width: 680px) {
   body { font-size: 15.5px; line-height: 1.62; }
-  nav.links, .nav-cta .btn, .nav-search-btn { display: none; }
-  .hamb { display: flex; }
   .pad { padding: 48px 0; }
   .pad-sm { padding: 36px 0; }
   .ph-top { padding-top: 104px; }
