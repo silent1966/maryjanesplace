@@ -8,9 +8,10 @@ function active(p: string) {
 function group(paths: string[]) {
   return paths.some((p) => pathname.startsWith(p)) ? "active" : "";
 }
+const medcanActive = group(["/medical-cannabis", "/prescriptions"]);
 const loungeActive = group(["/vaping-lounge", "/hire", "/book", "/visit"]);
 const membersActive = group(["/membership", "/join", "/member", "/portal"]);
-const aboutActive = group(["/about", "/your-rights", "/blog", "/partnerships", "/for-police-and-venues"]);
+const aboutActive = group(["/about", "/your-rights", "/blog", "/partnerships", "/for-police-and-venues", "/contact"]);
 const caret = `<svg class="caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 9l6 6 6-6"/></svg>`;
 ---
 
@@ -21,7 +22,13 @@ const caret = `<svg class="caret" viewBox="0 0 24 24" fill="none" stroke="curren
     </a>
 
     <nav class="links" id="navlinks" aria-label="Primary">
-      <a href="/medical-cannabis" class={active("/medical-cannabis")}>Medical Cannabis</a>
+      <div class="has-drop">
+        <button type="button" class={`drop-toggle ${medcanActive}`} aria-haspopup="true" aria-expanded="false">Medical Cannabis <Fragment set:html={caret} /></button>
+        <div class="drop" role="menu">
+          <a href="/medical-cannabis" role="menuitem">Medical cannabis, explained</a>
+          <a href="/prescriptions" role="menuitem">Getting a prescription</a>
+        </div>
+      </div>
 
       <div class="has-drop">
         <button type="button" class={`drop-toggle ${loungeActive}`} aria-haspopup="true" aria-expanded="false">Lounge <Fragment set:html={caret} /></button>
@@ -34,8 +41,6 @@ const caret = `<svg class="caret" viewBox="0 0 24 24" fill="none" stroke="curren
         </div>
       </div>
 
-      <a href="/shop" class={active("/shop")}>Shop</a>
-
       <div class="has-drop">
         <button type="button" class={`drop-toggle ${membersActive}`} aria-haspopup="true" aria-expanded="false">Members <Fragment set:html={caret} /></button>
         <div class="drop" role="menu">
@@ -47,18 +52,19 @@ const caret = `<svg class="caret" viewBox="0 0 24 24" fill="none" stroke="curren
         </div>
       </div>
 
+      <a href="/shop" class={active("/shop")}>Shop</a>
+
       <div class="has-drop">
         <button type="button" class={`drop-toggle ${aboutActive}`} aria-haspopup="true" aria-expanded="false">About <Fragment set:html={caret} /></button>
         <div class="drop" role="menu">
-          <a href="/your-rights" role="menuitem">Your rights</a>
+          <a href="/your-rights" role="menuitem">Your rights &amp; the law</a>
           <a href="/for-police-and-venues" role="menuitem">For police &amp; venues</a>
-          <a href="/about" role="menuitem">Our story</a>
           <a href="/partnerships" role="menuitem">Partnerships</a>
+          <a href="/about" role="menuitem">Our story</a>
           <a href="/blog" role="menuitem">Blog</a>
+          <a href="/contact" role="menuitem">Contact</a>
         </div>
       </div>
-
-      <a href="/contact" class={active("/contact")}>Contact</a>
     </nav>
 
     <div class="nav-cta">
@@ -91,8 +97,13 @@ const caret = `<svg class="caret" viewBox="0 0 24 24" fill="none" stroke="curren
     <input type="search" name="q" placeholder="Search the shop…" autocomplete="off" aria-label="Search products" />
   </form>
 
-  <a class="drawer-top" href="/medical-cannabis">Medical Cannabis</a>
-  <a class="drawer-top" href="/shop">Shop</a>
+  <details class="drawer-acc">
+    <summary>Medical Cannabis <Fragment set:html={caret} /></summary>
+    <div class="drawer-acc-body">
+      <a href="/medical-cannabis">Medical cannabis, explained</a>
+      <a href="/prescriptions">Getting a prescription</a>
+    </div>
+  </details>
 
   <details class="drawer-acc">
     <summary>Lounge <Fragment set:html={caret} /></summary>
@@ -116,18 +127,19 @@ const caret = `<svg class="caret" viewBox="0 0 24 24" fill="none" stroke="curren
     </div>
   </details>
 
+  <a class="drawer-top" href="/shop">Shop</a>
+
   <details class="drawer-acc">
     <summary>About &amp; the law <Fragment set:html={caret} /></summary>
     <div class="drawer-acc-body">
-      <a href="/your-rights">Your rights</a>
+      <a href="/your-rights">Your rights &amp; the law</a>
       <a href="/for-police-and-venues">For police &amp; venues</a>
-      <a href="/about">Our story</a>
       <a href="/partnerships">Partnerships</a>
+      <a href="/about">Our story</a>
       <a href="/blog">Blog</a>
+      <a href="/contact">Contact</a>
     </div>
   </details>
-
-  <a class="drawer-top" href="/contact">Contact</a>
 </div>
 
 <script>
