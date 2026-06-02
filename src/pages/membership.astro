@@ -58,11 +58,15 @@ import MemberCard from "../components/MemberCard.astro";
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12l5 5L20 6"/></svg><span>Loyalty points</span></li>
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12l5 5L20 6"/></svg><span>Members-only events</span></li>
         </ul>
-        <div class="tier-cta">
-          <a class="btn" href="/join">Join <span class="arr">→</span></a>
+        <div class="tier-cta" style="display:flex;gap:10px;flex-wrap:wrap">
+          <a class="btn" href="/portal">Join online <span class="arr">→</span></a>
+          <a class="btn ghost" href="/join">Offline card (no account)</a>
         </div>
         <p class="tier-note">
-          Other membership options available — <a href="/contact">enquire via Contact</a>.
+          <b>Two ways to join, your choice.</b> <b>Online</b> gives you a member portal —
+          sign in from any device to see your card, loyalty points and rewards.
+          <b>Offline</b> is name-only, saved on your device, with nothing stored on our
+          servers. Other options? <a href="/contact">Enquire via Contact</a>.
         </p>
       </div>
     </div>

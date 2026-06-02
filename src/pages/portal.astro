@@ -1,0 +1,195 @@
+---
+import Base from "../layouts/Base.astro";
+import MemberCard from "../components/MemberCard.astro";
+
+// Online member portal. Backed by Supabase (auth + member data), loaded from CDN so
+// there's no build dependency. Keys are public-safe (anon key + project URL) and are
+// injected at build time from Netlify environment variables:
+//   PUBLIC_SUPABASE_URL, PUBLIC_SUPABASE_ANON_KEY
+// If they're not set yet, the page shows a friendly "launching soon" state and still
+// points people to the offline, no-data membership.
+const supaUrl = import.meta.env.PUBLIC_SUPABASE_URL || "";
+const supaKey = import.meta.env.PUBLIC_SUPABASE_ANON_KEY || "";
+---
+
+<Base
+  title="Member portal — Mary Jane's Place"
+  description="Sign in to your Mary Jane's Place member portal to view your digital card, loyalty points and rewards. Cross-device, secure, optional. Prefer no account? Use the offline card instead."
+>
+  <section class="ph-top pad-sm">
+    <div class="wrap narrow">
+      <div class="eyebrow kick rv">Member portal</div>
+      <h1 class="rv" id="portal-title">Your member portal.</h1>
+
+      <!-- Loading -->
+      <p class="rv lede" id="portal-loading" style="margin-top:14px">Loading…</p>
+
+      <!-- Setup not finished (no Supabase keys yet) -->
+      <div class="rv" id="portal-setup" style="display:none;margin-top:14px">
+        <p class="lede">The online portal is being switched on. In the meantime you can get your
+          free <b>offline member card</b> — name only, nothing stored.</p>
+        <div style="margin-top:18px;display:flex;gap:10px;flex-wrap:wrap">
+          <a class="btn" href="/join">Get your offline card <span class="arr">→</span></a>
+          <a class="btn ghost" href="/membership">About membership</a>
+        </div>
+      </div>
+
+      <!-- Signed-out: magic-link login -->
+      <div class="rv" id="portal-login" style="display:none;margin-top:14px">
+        <p class="lede">
+          Sign in to see your card, loyalty points and rewards on any device. We email you a
+          one-tap link — no password to remember.
+        </p>
+        <form class="mjform" id="login-form" style="margin-top:22px;max-width:440px">
+          <div class="field">
+            <label for="login-email">Email</label>
+            <input id="login-email" name="email" type="email" autocomplete="email" required placeholder="you@email.com" />
+          </div>
+          <button class="btn" type="submit" id="login-btn">Email me a sign-in link <span class="arr">→</span></button>
+        </form>
+        <p class="form-note" id="login-sent" style="display:none;margin-top:16px;color:var(--olive-d)">
+          ✓ Check your inbox — tap the link in the email to sign in. You can close this tab.
+        </p>
+        <div class="callout rv" style="margin-top:26px">
+          <div>
+            <div class="eyebrow">Prefer no account?</div>
+            <h3 style="margin-top:6px">Use the offline card instead.</h3>
+            <p>Name only, stored on your device, nothing kept on our servers. The portal is
+              completely optional.</p>
+          </div>
+          <a class="btn ghost" href="/join">Get an offline card <span class="arr">→</span></a>
+        </div>
+      </div>
+
+      <!-- First-time: capture name -->
+      <div class="rv" id="portal-name" style="display:none;margin-top:14px">
+        <p class="lede">Welcome — one quick thing and you're set.</p>
+        <form class="mjform" id="name-form" style="margin-top:18px;max-width:440px">
+          <div class="field">
+            <label for="member-name">Your name (as you'd like it on your card)</label>
+            <input id="member-name" name="name" type="text" autocomplete="name" required />
+          </div>
+          <button class="btn" type="submit">Create my membership <span class="arr">→</span></button>
+        </form>
+      </div>
+
+      <!-- Signed-in: the member dashboard -->
+      <div class="rv" id="portal-member" style="display:none">
+        <p class="lede" id="member-hello" style="margin-top:12px"></p>
+
+        <div style="margin-top:22px"><MemberCard preview={false} /></div>
+
+        <div class="two" style="margin-top:26px">
+          <div class="card" style="background:var(--paper);border-left:4px solid var(--olive)">
+            <div class="eyebrow">Loyalty</div>
+            <div style="display:flex;align-items:baseline;gap:10px;margin-top:8px">
+              <b id="points-balance" style="font-size:44px;font-weight:800;color:var(--olive-d);line-height:1">0</b>
+              <span style="color:var(--ink-soft)">points</span>
+            </div>
+            <p style="margin-top:10px;color:var(--ink-soft);font-size:15px">
+              You earn 1 point per £1 spent in store and in the lounge. Points are added by
+              our team at the counter. Spend them on equipment, accessories, food and drink.
+            </p>
+          </div>
+          <div class="card" style="background:var(--paper);border-left:4px solid var(--olive)">
+            <div class="eyebrow">Member perks</div>
+            <ul class="checks" style="margin-top:10px">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12l5 5L20 6"/></svg><span>10% off equipment &amp; accessories, every visit</span></li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12l5 5L20 6"/></svg><span>Members-only events &amp; offers</span></li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12l5 5L20 6"/></svg><span>Refer a friend — you both get £10 credit</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <div style="margin-top:24px;display:flex;gap:10px;flex-wrap:wrap">
+          <button type="button" class="btn ghost" id="card-pdf">Download card (PDF)</button>
+          <a class="btn ghost" href="/book">Book a lounge slot</a>
+          <button type="button" class="btn ghost" id="signout-btn">Sign out</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<script is:inline define:vars={{ supaUrl, supaKey }}>
+  (async () => {
+    const $ = (id) => document.getElementById(id);
+    const show = (id) => { const el = $(id); if (el) el.style.display = 'block'; };
+    const hide = (id) => { const el = $(id); if (el) el.style.display = 'none'; };
+    const hideAll = () => ['portal-loading','portal-setup','portal-login','portal-name','portal-member'].forEach(hide);
+
+    // Not configured yet → friendly setup state, still offer offline card.
+    if (!supaUrl || !supaKey) { hideAll(); show('portal-setup'); return; }
+
+    let supabase;
+    try {
+      const mod = await import('https://esm.sh/@supabase/supabase-js@2');
+      supabase = mod.createClient(supaUrl, supaKey, { auth: { persistSession: true, detectSessionInUrl: true } });
+    } catch (e) {
+      hideAll(); show('portal-setup'); return;
+    }
+
+    function setQR(memberNo) {
+      const qr = document.querySelector('#portal-member .mcard-qr');
+      if (!qr) return;
+      const url = 'https://maryjanesplace.co.uk/member?id=' + encodeURIComponent(memberNo);
+      qr.innerHTML = '<img src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&margin=0&data='
+        + encodeURIComponent(url) + '" alt="" width="92" height="92" />';
+    }
+    function renderMember(m) {
+      hideAll();
+      const card = document.querySelector('#portal-member .mcard');
+      card?.querySelectorAll('[data-mc-name]').forEach((el) => (el.textContent = m.full_name || 'Member'));
+      card?.querySelectorAll('[data-mc-id]').forEach((el) => (el.textContent = m.member_no || '—'));
+      card?.querySelectorAll('[data-mc-join]').forEach((el) => (el.textContent = m.join_date || '—'));
+      setQR(m.member_no || '');
+      const pts = $('points-balance'); if (pts) pts.textContent = String(m.points ?? 0);
+      const hello = $('member-hello'); if (hello) hello.textContent = 'Signed in as ' + (m.full_name || m.email || 'member') + '.';
+      show('portal-member');
+    }
+
+    async function loadMember(user) {
+      const { data, error } = await supabase.from('members').select('*').eq('id', user.id).maybeSingle();
+      if (error) { hideAll(); show('portal-login'); return; }
+      if (!data) { hideAll(); show('portal-name'); return; } // first time → ask name
+      if (!data.email && user.email) { try { await supabase.from('members').update({ email: user.email }).eq('id', user.id); } catch (e) {} }
+      renderMember(data);
+    }
+
+    async function route() {
+      const { data: { session } } = await supabase.auth.getSession();
+      if (session?.user) { await loadMember(session.user); }
+      else { hideAll(); show('portal-login'); }
+    }
+
+    // Magic-link request
+    $('login-form')?.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const email = ($('login-email')).value.trim();
+      const btn = $('login-btn'); if (btn) btn.setAttribute('disabled', 'true');
+      const { error } = await supabase.auth.signInWithOtp({
+        email, options: { emailRedirectTo: location.origin + '/portal' }
+      });
+      if (btn) btn.removeAttribute('disabled');
+      if (!error) { hide('login-form'); show('login-sent'); }
+      else { alert('Sorry — could not send the link. ' + (error.message || '')); }
+    });
+
+    // First-time name capture → create member row
+    $('name-form')?.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const { data: { user } } = await supabase.auth.getUser();
+      if (!user) { hideAll(); show('portal-login'); return; }
+      const name = ($('member-name')).value.trim() || 'Member';
+      const { error } = await supabase.from('members').insert({ id: user.id, full_name: name, email: user.email });
+      if (error) { alert('Could not create your membership: ' + (error.message || '')); return; }
+      await loadMember(user);
+    });
+
+    $('signout-btn')?.addEventListener('click', async () => { await supabase.auth.signOut(); location.reload(); });
+    $('card-pdf')?.addEventListener('click', () => window.print());
+
+    supabase.auth.onAuthStateChange((_evt, session) => { if (session?.user) loadMember(session.user); });
+    await route();
+  })();
+</script>
