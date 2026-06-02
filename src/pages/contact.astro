@@ -1,0 +1,80 @@
+---
+import Base from "../layouts/Base.astro";
+import site from "../content/site/settings.json";
+---
+
+<Base
+  title="Contact — Mary Jane's Place"
+  description="Get in touch with Mary Jane's Place in Bournemouth. Message us about membership, visits, the shop or partnerships. Phone, WhatsApp and email."
+>
+  <section class="ph-top pad-sm">
+    <div class="wrap narrow">
+      <div class="eyebrow kick rv">Contact</div>
+      <h1 class="rv">Get in touch.</h1>
+      <p class="rv lede" style="margin-top:14px">
+        Questions about membership, a visit, the shop or partnerships — send a message and we'll reply.
+      </p>
+
+      <div class="rv" style="margin:20px 0 6px;display:flex;gap:10px;flex-wrap:wrap">
+        <a class="btn ghost" href={`tel:${site.contact.phoneIntl}`}>Call {site.contact.phone}</a>
+        <a class="btn ghost" href="https://wa.me/447922431038" target="_blank" rel="noopener">WhatsApp</a>
+        <a class="btn ghost" href={`mailto:${site.contact.email}`}>{site.contact.email}</a>
+      </div>
+
+      <form class="mjform rv" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" id="contact-form" style="margin-top:18px">
+        <input type="hidden" name="form-name" value="contact" />
+        <p hidden><label>Don't fill this in: <input name="bot-field" /></label></p>
+        <div class="field">
+          <label for="c-name">Full name</label>
+          <input id="c-name" name="name" type="text" autocomplete="name" required />
+        </div>
+        <div class="field-row">
+          <div class="field">
+            <label for="c-email">Email</label>
+            <input id="c-email" name="email" type="email" autocomplete="email" required />
+          </div>
+          <div class="field">
+            <label for="c-phone">Phone <span class="opt">(optional)</span></label>
+            <input id="c-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" />
+          </div>
+        </div>
+        <div class="field">
+          <label for="c-topic">Topic</label>
+          <select id="c-topic" name="topic">
+            <option>Membership</option>
+            <option>Visiting / the lounge</option>
+            <option>Shop order or enquiry</option>
+            <option>Booking</option>
+            <option>Partnerships / press</option>
+            <option>Something else</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="c-message">Message</label>
+          <textarea id="c-message" name="message" required></textarea>
+        </div>
+        <button class="btn" type="submit">Send message <span class="arr">→</span></button>
+      </form>
+
+      <div class="form-success rv" id="contact-success" style="display:none;margin-top:22px">
+        <div class="eyebrow">Sent</div>
+        <h2>Thanks — message received.</h2>
+        <p>We'll get back to you by email. For anything urgent, call or WhatsApp {site.contact.phone}.</p>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<script>
+  const form = document.getElementById('contact-form') as HTMLFormElement | null;
+  const success = document.getElementById('contact-success');
+  form?.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const fd = new FormData(form);
+    try {
+      await fetch('/', { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: new URLSearchParams(fd as any).toString() });
+    } catch (err) {}
+    form.style.display = 'none';
+    if (success) { success.style.display = 'block'; success.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+  });
+</script>

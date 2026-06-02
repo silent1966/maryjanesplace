@@ -1,0 +1,119 @@
+---
+import Base from "../layouts/Base.astro";
+import site from "../content/site/settings.json";
+// Booking v1 = form-to-email (Netlify Forms). Cal.com integration hook:
+//   v2 — replace the form below with a Cal.com embed (per booking type) and route
+//   confirmed bookings to info@. See https://cal.com/docs/embed
+---
+
+<Base
+  title="Book a slot — Mary Jane's Place"
+  description="Book a lounge slot, equipment hire or a facility at Mary Jane's Place, Bournemouth. From £5. Pay on arrival."
+>
+  <section class="ph-top pad-sm">
+    <div class="wrap narrow">
+      <div class="eyebrow kick rv">Book</div>
+      <h1 class="rv">Book a slot.</h1>
+      <p class="rv lede" style="margin-top:14px">
+        Lounge slots, equipment hire and facilities — from £5. Browse, book a slot, pay on arrival.
+        Tell us what you'd like and we'll confirm by email.
+      </p>
+
+      <form class="mjform rv" name="booking" method="POST" data-netlify="true" netlify-honeypot="bot-field" id="booking-form" style="margin-top:24px">
+        <input type="hidden" name="form-name" value="booking" />
+        <p hidden><label>Don't fill this in: <input name="bot-field" /></label></p>
+
+        <div class="field">
+          <label for="b-type">What would you like to book?</label>
+          <select id="b-type" name="booking-type">
+            <option value="Lounge slot (90 min)">Lounge slot — 90 minutes</option>
+            <option value="Equipment hire — vape/accessory">Equipment hire — vape / accessory</option>
+            <option value="Games table">Games table (pool / board games)</option>
+            <option value="Outdoor space">Small outdoor space</option>
+            <option value="Cafe seating">Cafe seating</option>
+          </select>
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="b-date">Preferred date</label>
+            <input id="b-date" name="date" type="date" required />
+          </div>
+          <div class="field">
+            <label for="b-time">Start time</label>
+            <input id="b-time" name="time" type="time" min="08:30" max="22:30" step="900" required />
+          </div>
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="b-duration">Duration <span class="opt">(lounge slots — choose your length)</span></label>
+            <select id="b-duration" name="duration">
+              <option>15 minutes</option>
+              <option>30 minutes</option>
+              <option>45 minutes</option>
+              <option selected>1 hour</option>
+              <option>1 hour 15</option>
+              <option>1 hour 30</option>
+              <option>1 hour 45</option>
+              <option>2 hours</option>
+              <option>2 hours 30</option>
+              <option>3 hours</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="b-group">Group size</label>
+            <select id="b-group" name="group-size">
+              <option>1</option><option>2</option><option>3</option><option>4</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="b-name">Full name</label>
+            <input id="b-name" name="name" type="text" autocomplete="name" required />
+          </div>
+          <div class="field">
+            <label for="b-email">Email</label>
+            <input id="b-email" name="email" type="email" autocomplete="email" required />
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="b-phone">Phone <span class="opt">(optional)</span></label>
+          <input id="b-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" />
+        </div>
+
+        <div class="field">
+          <label for="b-notes">Anything else? <span class="opt">(optional)</span></label>
+          <textarea id="b-notes" name="notes"></textarea>
+        </div>
+
+        <p class="form-note">Open 8:30am–10:30pm every day. Lounge slots from 15 minutes (in 15-minute steps, up to 3 hours), groups of 1–4. Facilities are expanding regularly — check back for updates.</p>
+        <button class="btn" type="submit">Request booking <span class="arr">→</span></button>
+      </form>
+
+      <div class="form-success rv" id="booking-success" style="display:none;margin-top:22px">
+        <div class="eyebrow">Received</div>
+        <h2>Booking received.</h2>
+        <p>We'll confirm within 4 hours by email. Pay on arrival. For anything urgent, call or WhatsApp {site.contact.phone}.</p>
+        <div style="margin-top:12px"><a class="btn ghost" href="/hire">Back to hire</a></div>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<script>
+  const form = document.getElementById('booking-form') as HTMLFormElement | null;
+  const success = document.getElementById('booking-success');
+  form?.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const fd = new FormData(form);
+    try {
+      await fetch('/', { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: new URLSearchParams(fd as any).toString() });
+    } catch (err) {}
+    form.style.display = 'none';
+    if (success) { success.style.display = 'block'; success.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+  });
+</script>

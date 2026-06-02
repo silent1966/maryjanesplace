@@ -1,0 +1,75 @@
+---
+// Reusable digital member card (Cancard/Releaf style, existing palette only).
+// QR encodes the public verify URL /member?id=<ID> (static-friendly; staff scan it).
+interface Props {
+  name?: string;
+  id?: string;
+  joinDate?: string;
+  tier?: string;
+  /** when true, render placeholder text instead of live values (membership preview) */
+  preview?: boolean;
+}
+const {
+  name = "Your Name",
+  id = "MJP-2026-XXXX",
+  joinDate = "",
+  tier = "Member",
+  preview = false,
+} = Astro.props as Props;
+const verifyUrl = `https://maryjanesplace.co.uk/member?id=${encodeURIComponent(id)}`;
+const qrSrc = `https://api.qrserver.com/v1/create-qr-code/?size=180x180&margin=0&data=${encodeURIComponent(verifyUrl)}`;
+---
+<div class="mcard" data-member-card>
+  <div class="mcard-top">
+    <img class="mcard-logo" src="/logo.png" alt="Mary Jane's Place" width="150" height="60" />
+    <span class="mcard-tier">{tier}</span>
+  </div>
+  <div class="mcard-body">
+    <div class="mcard-fields">
+      <div class="mcard-field"><span>Member</span><b data-mc-name>{name}</b></div>
+      <div class="mcard-field"><span>Member ID</span><b data-mc-id>{id}</b></div>
+      <div class="mcard-field"><span>Joined</span><b data-mc-join>{joinDate || (preview ? "—" : "")}</b></div>
+    </div>
+    <div class="mcard-qr">
+      {preview
+        ? <div class="mcard-qr-ph" aria-hidden="true">QR</div>
+        : <img src={qrSrc} alt={`Verify ${id}`} width="92" height="92" loading="lazy" />}
+    </div>
+  </div>
+  <div class="mcard-foot">A safe space for medical cannabis patients · Bournemouth</div>
+</div>
+
+<style>
+  .mcard {
+    background: var(--cream);
+    border: 1px solid var(--sage-soft);
+    border-radius: 16px;
+    padding: 20px 22px;
+    max-width: 380px;
+    box-shadow: var(--shadow-sm);
+    color: var(--ink);
+  }
+  .mcard-top { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 16px; }
+  .mcard-logo { height: 40px; width: auto; }
+  .mcard-tier {
+    font-size: 11px; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase;
+    color: #fff; background: var(--olive-d); padding: 5px 10px; border-radius: 999px;
+  }
+  .mcard-body { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+  .mcard-fields { display: grid; gap: 10px; min-width: 0; }
+  .mcard-field span {
+    display: block; font-size: 10.5px; font-weight: 700; letter-spacing: 0.08em;
+    text-transform: uppercase; color: var(--olive);
+  }
+  .mcard-field b { font-size: 16px; font-weight: 800; color: var(--olive-d); word-break: break-word; }
+  .mcard-qr { flex: none; }
+  .mcard-qr img { display: block; border-radius: 8px; background: #fff; padding: 4px; border: 1px solid var(--line); }
+  .mcard-qr-ph {
+    width: 92px; height: 92px; border: 1.5px dashed var(--sage); border-radius: 8px;
+    display: grid; place-items: center; color: var(--sage); font-weight: 800; font-size: 13px;
+  }
+  .mcard-foot {
+    margin-top: 16px; padding-top: 12px; border-top: 1px solid var(--line);
+    font-size: 11.5px; color: var(--ink-soft);
+  }
+</style>

@@ -3,123 +3,43 @@ import Base from "../layouts/Base.astro";
 ---
 
 <Base
-  title="Vape Hire — £5 per session · Mary Jane's Place"
-  description="Hire a clean, serviced dry-herb vaporiser at Mary Jane's Place for £5 per session. Walk in, ask at the counter, use a real medical-grade device — no subscription, no commitment."
+  title="Hire — Mary Jane's Place"
+  description="Hire a clean, serviced dry-herb vaporiser by the session from £5, or book lounge facilities at Mary Jane's Place. Browse, book a slot, pay on arrival."
 >
   <section class="ph-top pad">
     <div class="wrap narrow">
-      <div class="eyebrow kick rv">Vape hire</div>
-      <h1 class="rv">A clean vaporiser. £5. While you're here.</h1>
+      <div class="eyebrow kick rv">Hire</div>
+      <h1 class="rv">Hire by the session.</h1>
       <p class="rv lede" style="margin-top:16px">
-        Don't own a vaporiser yet? Forgot yours at home? Want to try a different model
-        before you spend £200+? Use one of ours during your visit — no booking, no
-        subscription, no commitment.
+        Two things to hire here: clean, serviced vaporisers and our lounge facilities.
+        Browse, book a slot, pay on arrival.
       </p>
     </div>
   </section>
 
   <section class="pad-sm" style="padding-top:0">
     <div class="wrap">
-      <div class="rent-single rv">
-        <div class="rent-headline">
-          <div class="rent-tier">Session hire</div>
-          <div class="rent-price"><b>£5</b><span>per session</span></div>
-          <p style="margin-top:6px">Walk in, ask at the counter, and we'll set you up with a fully cleaned device.</p>
-        </div>
-        <ul class="checks rent-feats">
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12l5 5L20 6"/></svg><span><b>A range of patient-tested devices</b> — Mighty+, Crafty+, Tinymight, Arizer and more</span></li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12l5 5L20 6"/></svg><span><b>Fully sanitised between users</b> — fresh screens, mouthpiece and chamber</span></li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12l5 5L20 6"/></svg><span><b>Help on hand</b> — staff can walk you through temperature, packing and technique</span></li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12l5 5L20 6"/></svg><span><b>Try before you buy</b> — session fee credited if you go on to purchase the same device</span></li>
-        </ul>
-        <a class="btn" href="/visit#contact" style="margin-top:8px">Plan a visit <span class="arr">→</span></a>
+      <div class="cat-cards">
+        <a class="cat-card rv" href="/book">
+          <h3>Vapes &amp; Accessories</h3>
+          <p>
+            Clean, serviced dry-herb vaporisers and accessories to hire by the session.
+            Each device is sanitised between users, with help on hand if you'd like it.
+          </p>
+          <div class="from">from £5</div>
+        </a>
+        <a class="cat-card rv" href="/book">
+          <h3>Lounge Facilities</h3>
+          <p>
+            Games tables, outdoor space and cafe seating. More added regularly.
+          </p>
+          <div class="from">from £5</div>
+        </a>
       </div>
-    </div>
-  </section>
-
-  <section class="pad-sm">
-    <div class="wrap two vc">
-      <div class="rv">
-        <div class="eyebrow kick">How it works</div>
-        <h2 style="font-size:24px;margin-bottom:11px">No app. No booking. Just ask.</h2>
-        <p>
-          Vape hire is a counter service. You arrive, get verified as a patient (once),
-          ask for the device you'd like to try, and we set you up. Each device is cleaned
-          and re-sanitised between users, so what you get is always fresh.
-        </p>
-        <p style="margin-top:12px">
-          If you're not sure which one to try, tell us about your prescription and how you
-          medicate — we'll suggest a couple to start with.
-        </p>
-      </div>
-      <div class="rv card">
-        <h3 style="margin-bottom:10px">Want to own one?</h3>
-        <p style="font-size:15.5px">
-          Every device you can hire here is also for sale in our
-          <a class="tlink" href="/shop">shop</a>. Spend a few sessions trying different models,
-          then buy the one that works for you — and we'll credit what you've already spent on
-          hire toward the purchase price of the same device.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <section class="pad-sm" style="padding-top:0">
-    <div class="wrap">
-      <div class="disc rv">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16h.01"/></svg>
-        <div>
-          Hire is available to verified medical cannabis patients with a valid prescription. We do not supply
-          cannabis — patients bring their own lawfully prescribed medicine.
-        </div>
-      </div>
+      <p class="rv" style="margin-top:16px;font-size:14.5px;color:var(--ink-soft)">
+        Facilities expanding regularly — check back for updates.
+      </p>
+      <a class="btn rv" href="/book" style="margin-top:18px">Book a slot <span class="arr">→</span></a>
     </div>
   </section>
 </Base>
-
-<style>
-  .rent-single {
-    background: var(--olive-d);
-    color: #fff;
-    border-radius: var(--r);
-    padding: 38px 42px;
-    box-shadow: 0 18px 50px -28px rgba(16, 59, 20, 0.6);
-    display: grid;
-    grid-template-columns: 1fr 1.4fr;
-    gap: 38px;
-    align-items: start;
-  }
-  .rent-headline { display: flex; flex-direction: column; }
-  .rent-single .rent-tier {
-    font-size: 12px;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-    font-weight: 800;
-    color: var(--sage-soft);
-    margin-bottom: 10px;
-  }
-  .rent-single .rent-price { display: flex; align-items: baseline; gap: 8px; }
-  .rent-single .rent-price b {
-    font-size: 64px;
-    font-weight: 800;
-    color: #fff;
-    letter-spacing: -0.03em;
-    line-height: 1;
-  }
-  .rent-single .rent-price span { font-size: 16px; color: rgba(255, 255, 255, 0.78); }
-  .rent-single p { color: rgba(255, 255, 255, 0.85); font-size: 15.5px; }
-  .rent-feats li { font-size: 15px; color: rgba(255, 255, 255, 0.94); margin-bottom: 10px; }
-  .rent-feats li b { color: #fff; }
-  .rent-feats li svg { color: var(--sage-soft); }
-  .rent-single .btn {
-    align-self: start;
-    background: #fff;
-    color: var(--olive-d);
-    border-color: #fff;
-  }
-  .rent-single .btn:hover { background: var(--cream); border-color: var(--cream); }
-  @media (max-width: 980px) {
-    .rent-single { grid-template-columns: 1fr; padding: 28px 24px; gap: 22px; }
-    .rent-single .rent-price b { font-size: 52px; }
-  }
-</style>

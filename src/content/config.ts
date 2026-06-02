@@ -33,6 +33,7 @@ const products = defineCollection({
     stripeLink: z.string().default(''),
     rnSku: z.string().optional(),
     order: z.number().default(0),
+    hireAvailable: z.boolean().optional(),
   }),
 });
 

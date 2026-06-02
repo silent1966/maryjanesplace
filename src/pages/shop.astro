@@ -31,9 +31,8 @@ const brands = [...new Set(products.map((p) => p.brand))].sort((a, b) => a.local
 const priceRanges = [
   { id: "all", label: "Any price", min: 0, max: Infinity },
   { id: "0-50", label: "£0–50", min: 0, max: 50 },
-  { id: "50-150", label: "£50–150", min: 50, max: 150 },
-  { id: "150-300", label: "£150–300", min: 150, max: 300 },
-  { id: "300+", label: "£300+", min: 300, max: Infinity },
+  { id: "50-200", label: "£50–200", min: 50, max: 200 },
+  { id: "200+", label: "£200+", min: 200, max: Infinity },
 ];
 
 const FREE_DELIVERY_OVER = 60;
@@ -113,6 +112,7 @@ const totalCount = products.length;
 
       <div class="shop-main">
       <div class="shop-count" id="shop-count" aria-live="polite">Showing {totalCount} of {totalCount} products</div>
+      <div class="active-chips" id="active-chips" style="margin-bottom:14px"></div>
 
       <div class="prod-grid" id="prod-grid">
         {products.map((p) => (
@@ -236,6 +236,61 @@ const totalCount = products.length;
       return parseInt(a.dataset.order || '999') - parseInt(b.dataset.order || '999');
     });
     visibleCards.forEach((c) => grid.appendChild(c));
+    renderChips();
+  }
+
+  const chipsEl = document.getElementById('active-chips');
+  function setCat(id: string) {
+    pills.forEach((x) => { const on = (x as HTMLElement).dataset.cat === id; x.classList.toggle('active', on); x.setAttribute('aria-selected', on ? 'true' : 'false'); });
+    currentCat = id;
+  }
+  function resetPrice() {
+    pricePills.forEach((x) => x.classList.remove('active'));
+    pricePills[0]?.classList.add('active');
+    priceMin = 0; priceMax = Infinity;
+  }
+  function renderChips() {
+    if (!chipsEl) return;
+    const chips: { k: string; t: string }[] = [];
+    if (currentCat !== 'all') {
+      const lbl = (pills.find((p) => (p as HTMLElement).dataset.cat === currentCat)?.textContent || currentCat).trim();
+      chips.push({ k: 'cat', t: lbl });
+    }
+    const brand = brandSel?.value || 'all';
+    if (brand !== 'all') chips.push({ k: 'brand', t: brand });
+    if (!(priceMin === 0 && priceMax === Infinity)) {
+      const pp = pricePills.find((x) => parseFloat((x as HTMLElement).dataset.min || '0') === priceMin);
+      chips.push({ k: 'price', t: (pp?.textContent || 'Price').trim() });
+    }
+    const q = (searchInput?.value || '').trim();
+    if (q) chips.push({ k: 'q', t: '“' + q + '”' });
+    chipsEl.innerHTML = '';
+    if (!chips.length) return;
+    chips.forEach((c) => {
+      const b = document.createElement('button');
+      b.className = 'chip'; b.type = 'button';
+      b.innerHTML = c.t + ' <span class="x" aria-hidden="true">✕</span>';
+      b.setAttribute('aria-label', 'Remove filter ' + c.t);
+      b.addEventListener('click', () => clearOne(c.k));
+      chipsEl.appendChild(b);
+    });
+    const clr = document.createElement('button');
+    clr.className = 'chip-clear'; clr.type = 'button'; clr.textContent = 'Clear all';
+    clr.addEventListener('click', clearAll);
+    chipsEl.appendChild(clr);
+  }
+  function clearOne(k: string) {
+    if (k === 'cat') setCat('all');
+    else if (k === 'brand') { if (brandSel) brandSel.value = 'all'; }
+    else if (k === 'price') resetPrice();
+    else if (k === 'q') { if (searchInput) searchInput.value = ''; }
+    apply();
+  }
+  function clearAll() {
+    setCat('all'); resetPrice();
+    if (brandSel) brandSel.value = 'all';
+    if (searchInput) searchInput.value = '';
+    apply();
   }
 
   pills.forEach((p) => {

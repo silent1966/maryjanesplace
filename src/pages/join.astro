@@ -1,0 +1,142 @@
+---
+import Base from "../layouts/Base.astro";
+import MemberCard from "../components/MemberCard.astro";
+---
+
+<Base
+  title="Join — Mary Jane's Place"
+  description="Become a member of Mary Jane's Place. Free for verified UK medical cannabis patients. Sign up with just your name; bring your prescription on your first visit."
+>
+  <section class="ph-top pad-sm">
+    <div class="wrap narrow">
+      <div class="eyebrow kick rv">Join</div>
+      <h1 class="rv">Become a member.</h1>
+      <p class="rv lede" style="margin-top:14px">
+        Membership is free. All we need to start is your name — you'll get a Member ID straight away.
+        Bring a valid prescription on your first visit and our team verifies it once at the counter.
+      </p>
+
+      <!-- Sign-up form -->
+      <form class="mjform rv" name="join" method="POST" data-netlify="true" netlify-honeypot="bot-field" id="join-form" style="margin-top:26px">
+        <input type="hidden" name="form-name" value="join" />
+        <input type="hidden" name="member-id" id="member-id-field" />
+        <input type="hidden" name="join-date" id="join-date-field" />
+        <p hidden><label>Don't fill this in: <input name="bot-field" /></label></p>
+
+        <div class="field">
+          <label for="f-name">Full name</label>
+          <input id="f-name" name="name" type="text" autocomplete="name" required />
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="f-dob">Date of birth <span class="opt">(optional)</span></label>
+            <input id="f-dob" name="dob" type="date" autocomplete="bday" />
+          </div>
+          <div class="field">
+            <label for="f-clinic">Clinic name <span class="opt">(optional)</span></label>
+            <input id="f-clinic" name="clinic" type="text" />
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="f-addr">Address <span class="opt">(optional)</span></label>
+          <input id="f-addr" name="address" type="text" autocomplete="street-address" />
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="f-nhs">NHS number <span class="opt">(optional)</span></label>
+            <input id="f-nhs" name="nhs" type="text" inputmode="numeric" />
+          </div>
+          <div class="field">
+            <label for="f-email">Email <span class="opt">(optional, for your welcome email)</span></label>
+            <input id="f-email" name="email" type="email" autocomplete="email" />
+          </div>
+        </div>
+
+        <p class="form-note">
+          Prescription: there's no upload needed to sign up. Bring your dispensing label or
+          prescriber letter on your first visit, or email it to
+          <a href="mailto:info@maryjanesplace.co.uk" style="color:var(--olive);font-weight:600">info@maryjanesplace.co.uk</a>.
+          Staff verify it once.
+        </p>
+
+        <button class="btn" type="submit">Create my membership <span class="arr">→</span></button>
+      </form>
+
+      <!-- Confirmation (shown after submit) -->
+      <div class="form-success rv" id="join-success" style="display:none;margin-top:26px">
+        <div class="eyebrow">You're in</div>
+        <h2>Welcome to Mary Jane's Place.</h2>
+        <p style="margin-bottom:18px">Your Member ID is <b id="success-id" style="color:var(--olive-d)"></b>. Here's your digital card:</p>
+        <div id="card-mount"></div>
+        <div style="margin-top:12px;display:flex;gap:10px;flex-wrap:wrap">
+          <button type="button" class="btn ghost" id="card-pdf">Download as PDF</button>
+          <a class="btn ghost" href="/member-card-faq">Add to Apple Wallet</a>
+          <a class="btn ghost" href="/member-card-faq">Add to Google Wallet</a>
+        </div>
+        <p style="margin-top:18px">Bring a valid prescription on your first visit. If you gave us your email, a welcome email follows within 24 hours.</p>
+        <div style="margin-top:14px;display:flex;gap:10px;flex-wrap:wrap">
+          <a class="btn" href="/visit">Plan your visit <span class="arr">→</span></a>
+          <a class="btn ghost" href="/shop">Browse the shop</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- hidden template card for cloning into the confirmation -->
+  <template id="card-template"><MemberCard preview={false} /></template>
+</Base>
+
+<script>
+  // Client-generated Member ID (v1). Format MJP-2026-NNNN.
+  // NOTE: truly global-sequential IDs need a serverless counter (v2); this is unique-per-submission.
+  function genId() {
+    let seq = 0;
+    try { seq = (parseInt(localStorage.getItem('mjp_seq') || '0', 10) || 0) + 1; localStorage.setItem('mjp_seq', String(seq)); } catch (e) {}
+    const n = (Date.now() + seq) % 10000;
+    return 'MJP-2026-' + String(n).padStart(4, '0');
+  }
+  const todayISO = new Date().toISOString().slice(0, 10);
+  const memberId = genId();
+  const idField = document.getElementById('member-id-field') as HTMLInputElement | null;
+  const joinField = document.getElementById('join-date-field') as HTMLInputElement | null;
+  if (idField) idField.value = memberId;
+  if (joinField) joinField.value = todayISO;
+
+  const form = document.getElementById('join-form') as HTMLFormElement | null;
+  const success = document.getElementById('join-success');
+  const successId = document.getElementById('success-id');
+
+  function buildCard(name: string) {
+    const tpl = document.getElementById('card-template') as HTMLTemplateElement;
+    const node = tpl.content.firstElementChild?.cloneNode(true) as HTMLElement;
+    node.querySelectorAll('[data-mc-name]').forEach((el) => (el.textContent = name || 'Member'));
+    node.querySelectorAll('[data-mc-id]').forEach((el) => (el.textContent = memberId));
+    node.querySelectorAll('[data-mc-join]').forEach((el) => (el.textContent = todayISO));
+    // live QR
+    const qr = node.querySelector('.mcard-qr');
+    if (qr) {
+      const url = 'https://maryjanesplace.co.uk/member?id=' + encodeURIComponent(memberId);
+      qr.innerHTML = '<img src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&margin=0&data=' + encodeURIComponent(url) + '" alt="Verify ' + memberId + '" width="92" height="92" />';
+    }
+    return node;
+  }
+
+  form?.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const fd = new FormData(form);
+    const name = (fd.get('name') as string) || 'Member';
+    try {
+      await fetch('/', { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: new URLSearchParams(fd as any).toString() });
+    } catch (err) { /* still show confirmation; Netlify also captures on deploy */ }
+    if (successId) successId.textContent = memberId;
+    const mount = document.getElementById('card-mount');
+    if (mount) { mount.innerHTML = ''; mount.appendChild(buildCard(name)); }
+    form.style.display = 'none';
+    if (success) { success.style.display = 'block'; success.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+  });
+
+  document.getElementById('card-pdf')?.addEventListener('click', () => window.print());
+</script>

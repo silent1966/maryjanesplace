@@ -132,6 +132,7 @@ collections:
       - { label: "Stripe Payment Link URL (leave empty to use enquiry form)", name: "stripeLink", widget: "string", required: false, default: "" }
       - { label: "Retail North SKU (internal)", name: "rnSku", widget: "string", required: false }
       - { label: "Display order (lower = first)", name: "order", widget: "number", value_type: "int", default: 999 }
+      - { label: "Available to hire in the lounge?", name: "hireAvailable", widget: "boolean", required: false, default: false }
 
   # BLOG POSTS — content editing without GitHub
   - name: "posts"

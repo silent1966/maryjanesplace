@@ -1,0 +1,54 @@
+---
+import Base from "../../layouts/Base.astro";
+import MemberCard from "../../components/MemberCard.astro";
+// Public verify page. Static hosting: the Member ID is read from the URL query
+// (?id=MJP-2026-NNNN) — that's what the QR on the member card encodes. Staff open it
+// to see the card details and check them against the member's ID on arrival.
+// v2: a serverless lookup can confirm the ID against a member store and show status.
+---
+
+<Base
+  title="Member verification — Mary Jane's Place"
+  description="Member card verification for Mary Jane's Place staff."
+>
+  <section class="ph-top pad-sm">
+    <div class="wrap narrow">
+      <div class="eyebrow kick rv">Member</div>
+      <h1 class="rv" id="verify-title">Member card</h1>
+      <p class="rv lede" style="margin-top:12px" id="verify-sub">Scanned from a member card QR code.</p>
+
+      <div class="rv" id="verify-card" style="margin-top:22px">
+        <MemberCard preview={false} />
+      </div>
+
+      <p class="rv form-note" style="margin-top:18px">
+        Staff: check this Member ID against the member's card. Prescription is verified once, in person.
+      </p>
+      <div class="rv" style="margin-top:10px"><a class="btn ghost" href="/membership">About membership</a></div>
+    </div>
+  </section>
+</Base>
+
+<script>
+  const params = new URLSearchParams(location.search);
+  const id = (params.get('id') || '').trim();
+  const valid = /^MJP-2026-\d{4}$/i.test(id);
+  const card = document.getElementById('verify-card');
+  const title = document.getElementById('verify-title');
+  const sub = document.getElementById('verify-sub');
+  if (!id) {
+    if (title) title.textContent = 'No member ID';
+    if (sub) sub.textContent = 'Open this page by scanning a member card QR code.';
+    if (card) card.style.display = 'none';
+  } else {
+    card?.querySelectorAll('[data-mc-id]').forEach((el) => (el.textContent = id.toUpperCase()));
+    card?.querySelectorAll('[data-mc-name]').forEach((el) => (el.textContent = 'Member'));
+    card?.querySelectorAll('[data-mc-join]').forEach((el) => (el.textContent = '—'));
+    if (sub) sub.textContent = valid ? ('Verifying member ' + id.toUpperCase()) : ('Unrecognised ID format: ' + id);
+    const qr = card?.querySelector('.mcard-qr');
+    if (qr) {
+      const url = 'https://maryjanesplace.co.uk/member?id=' + encodeURIComponent(id);
+      qr.innerHTML = '<img src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&margin=0&data=' + encodeURIComponent(url) + '" alt="" width="92" height="92" />';
+    }
+  }
+</script>
