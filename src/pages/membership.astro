@@ -1,6 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import MemberCard from "../components/MemberCard.astro";
+import RelatedLinks from "../components/RelatedLinks.astro";
 ---
 
 <Base
@@ -141,6 +142,18 @@ import MemberCard from "../components/MemberCard.astro";
       <div class="rv" style="margin-top:32px;text-align:center">
         <a class="btn" href="/join">Join <span class="arr">→</span></a>
       </div>
+    </div>
+  </section>
+
+  <section class="pad-sm" style="padding-top:0">
+    <div class="wrap narrow">
+      <RelatedLinks items={[
+        { href: "/join", label: "Join now" },
+        { href: "/portal", label: "Member portal" },
+        { href: "/vaping-lounge", label: "The lounge" },
+        { href: "/visit", label: "Visit us" },
+        { href: "/member-card-faq", label: "Member card help" },
+      ]} />
     </div>
   </section>
 </Base>

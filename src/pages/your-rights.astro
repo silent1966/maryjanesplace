@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import RelatedLinks from "../components/RelatedLinks.astro";
 ---
 
 <Base
@@ -102,6 +103,14 @@ import Base from "../layouts/Base.astro";
           For advice on your situation, consult a qualified solicitor. Laws can change —
           check the current position before relying on it.
         </div>
+      </div>
+      <div class="rv" style="margin-top:24px">
+        <RelatedLinks items={[
+          { href: "/medical-cannabis", label: "Medical cannabis" },
+          { href: "/for-police-and-venues", label: "For police & venues" },
+          { href: "/vaping-lounge", label: "The lounge" },
+          { href: "/membership", label: "Become a member" },
+        ]} />
       </div>
     </div>
   </section>
