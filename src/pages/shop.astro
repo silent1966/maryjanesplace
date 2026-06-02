@@ -64,44 +64,56 @@ const totalCount = products.length;
 
   <section class="pad-sm" style="padding-top:8px">
     <div class="wrap">
-      <div class="shop-controls rv" role="region" aria-label="Filter products">
+      <div class="shop-layout">
+      <aside class="shop-sidebar rv" aria-label="Filter products">
         <div class="shop-search">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
-          <input type="search" id="shop-search" placeholder="Search by name, brand or type…" autocomplete="off" aria-label="Search products" />
+          <input type="search" id="shop-search" placeholder="Search…" autocomplete="off" aria-label="Search products" />
         </div>
 
-        <div class="cat-scroll" role="tablist" aria-label="Category filter">
-          {categories.map((c, i) => (
-            <button class:list={["cat-pill", { active: i === 0 }]} data-cat={c.id} type="button" role="tab" aria-selected={i === 0}>
-              {c.label}
-            </button>
-          ))}
+        <div class="filter-group">
+          <h4 class="filter-h">Category</h4>
+          <div class="cat-scroll" role="tablist" aria-label="Category filter">
+            {categories.map((c, i) => (
+              <button class:list={["cat-pill", { active: i === 0 }]} data-cat={c.id} type="button" role="tab" aria-selected={i === 0}>
+                {c.label}
+              </button>
+            ))}
+          </div>
         </div>
 
-        <div class="shop-controls-row">
+        <div class="filter-group">
+          <h4 class="filter-h">Price</h4>
           <div class="price-pills" role="group" aria-label="Price range filter">
             {priceRanges.map((r, i) => (
               <button class:list={["price-pill", { active: i === 0 }]} data-min={r.min} data-max={r.max} type="button">{r.label}</button>
             ))}
           </div>
-          <div class="shop-selects">
-            <label for="brand-by" class="sr-only">Filter by brand</label>
-            <select id="brand-by" class="sort-select">
-              <option value="all">All brands</option>
-              {brands.map((b) => <option value={b}>{b}</option>)}
-            </select>
-            <label for="sort-by" class="sr-only">Sort by</label>
-            <select id="sort-by" class="sort-select">
-              <option value="featured">Featured first</option>
-              <option value="price-asc">Price: low to high</option>
-              <option value="price-desc">Price: high to low</option>
-              <option value="name-asc">Name: A–Z</option>
-            </select>
-          </div>
         </div>
 
-        <div class="shop-count" id="shop-count" aria-live="polite">Showing {totalCount} of {totalCount} products</div>
-      </div>
+        <div class="filter-group">
+          <h4 class="filter-h">Brand</h4>
+          <label for="brand-by" class="sr-only">Filter by brand</label>
+          <select id="brand-by" class="sort-select">
+            <option value="all">All brands</option>
+            {brands.map((b) => <option value={b}>{b}</option>)}
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <h4 class="filter-h">Sort by</h4>
+          <label for="sort-by" class="sr-only">Sort by</label>
+          <select id="sort-by" class="sort-select">
+            <option value="featured">Featured first</option>
+            <option value="price-asc">Price: low to high</option>
+            <option value="price-desc">Price: high to low</option>
+            <option value="name-asc">Name: A–Z</option>
+          </select>
+        </div>
+      </aside>
+
+      <div class="shop-main">
+      <div class="shop-count" id="shop-count" aria-live="polite">Showing {totalCount} of {totalCount} products</div>
 
       <div class="prod-grid" id="prod-grid">
         {products.map((p) => (
@@ -136,8 +148,10 @@ const totalCount = products.length;
       </div>
 
       <div class="empty-state" id="empty-state" style="display:none">
-        <p>No products in this category yet — more coming soon.</p>
+        <p>No products match your filters — try clearing the search or price range.</p>
       </div>
+      </div><!-- /.shop-main -->
+      </div><!-- /.shop-layout -->
     </div>
   </section>
 
@@ -259,107 +273,69 @@ const totalCount = products.length;
 <style>
   .shop-hero { padding-top: 138px; padding-bottom: 24px; }
 
-  .shop-controls {
+  /* sidebar filter layout — filters sit beside the products, not as a fat top bar */
+  .shop-layout {
+    display: grid;
+    grid-template-columns: 232px minmax(0, 1fr);
+    gap: 32px;
+    align-items: start;
+    margin: 22px 0 30px;
+  }
+  .shop-sidebar {
+    position: sticky;
+    top: 132px;
     display: flex;
     flex-direction: column;
-    gap: 14px;
-    margin: 22px 0 24px;
-    padding: 16px 0;
-    border-bottom: 1px solid var(--line);
-    border-top: 1px solid var(--line);
-    background: var(--paper);
-    position: sticky;
-    top: 124px;
-    z-index: 50;
+    gap: 20px;
+    max-height: calc(100vh - 150px);
+    overflow-y: auto;
+    padding-right: 4px;
   }
-  .shop-search {
-    position: relative;
-    display: flex;
-    align-items: center;
+  .filter-group { display: flex; flex-direction: column; gap: 9px; }
+  .filter-h {
+    font-size: 11px; font-weight: 800; letter-spacing: 0.12em;
+    text-transform: uppercase; color: var(--olive); margin: 0;
   }
-  .shop-search svg {
-    position: absolute;
-    left: 14px;
-    width: 18px;
-    height: 18px;
-    color: var(--olive);
-    pointer-events: none;
-  }
+  .shop-search { position: relative; display: flex; align-items: center; }
+  .shop-search svg { position: absolute; left: 13px; width: 17px; height: 17px; color: var(--olive); pointer-events: none; }
   .shop-search input {
-    width: 100%;
-    font-family: var(--font);
-    font-size: 15px;
-    padding: 12px 16px 12px 42px;
-    border: 1px solid var(--sage-soft);
-    border-radius: 10px;
-    background: var(--panel);
-    color: var(--ink);
+    width: 100%; font-family: var(--font); font-size: 14.5px;
+    padding: 11px 14px 11px 38px; border: 1px solid var(--sage-soft);
+    border-radius: 10px; background: var(--panel); color: var(--ink);
   }
   .shop-search input:focus { outline: none; border-color: var(--olive); box-shadow: 0 0 0 3px rgba(85, 107, 47, 0.12); }
-  .shop-controls-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 14px;
-    flex-wrap: wrap;
+
+  .cat-scroll { display: flex; flex-direction: column; gap: 4px; }
+  .cat-pill {
+    width: 100%; text-align: left; background: transparent;
+    border: 1px solid transparent; border-radius: 8px; padding: 8px 12px;
+    font-family: var(--font); font-size: 14px; font-weight: 600;
+    color: var(--ink-soft); cursor: pointer; transition: 0.15s; white-space: nowrap;
   }
-  .price-pills { display: flex; gap: 8px; flex-wrap: wrap; }
+  .cat-pill:hover { color: var(--olive-d); background: var(--tint); }
+  .cat-pill.active { background: var(--olive-d); color: #fff; }
+
+  .price-pills { display: flex; gap: 7px; flex-wrap: wrap; }
   .price-pill {
-    background: var(--panel);
-    border: 1px solid var(--sage-soft);
-    border-radius: 999px;
-    padding: 7px 14px;
-    font-family: var(--font);
-    font-size: 13px;
-    font-weight: 600;
-    color: var(--ink-soft);
-    cursor: pointer;
-    transition: 0.18s;
+    background: var(--panel); border: 1px solid var(--sage-soft); border-radius: 999px;
+    padding: 6px 12px; font-family: var(--font); font-size: 12.5px; font-weight: 600;
+    color: var(--ink-soft); cursor: pointer; transition: 0.18s;
   }
   .price-pill:hover { color: var(--olive-d); border-color: var(--sage); }
   .price-pill.active { background: var(--olive); color: #fff; border-color: var(--olive); }
-  .shop-selects { display: flex; gap: 10px; flex-wrap: wrap; }
-  .shop-count { font-size: 13px; font-weight: 600; color: var(--ink-soft); }
-  .cat-scroll {
-    display: flex;
-    flex-wrap: wrap;       /* wrap onto tidy rows on desktop — no scrollbar */
-    gap: 8px;
-    flex: 1;
-    padding: 2px 0;
-  }
-  .cat-pill {
-    flex: none;
-    background: var(--panel);
-    border: 1px solid var(--sage-soft);
-    border-radius: 999px;
-    padding: 8px 16px;
-    font-family: var(--font);
-    font-size: 13.5px;
-    font-weight: 600;
-    color: var(--ink-soft);
-    cursor: pointer;
-    transition: 0.18s;
-    white-space: nowrap;
-  }
-  .cat-pill:hover { color: var(--olive-d); border-color: var(--sage); }
-  .cat-pill.active { background: var(--olive-d); color: #fff; border-color: var(--olive-d); }
+
   .sort-select {
-    background: var(--panel);
-    border: 1px solid var(--sage-soft);
-    border-radius: 8px;
-    padding: 8px 14px;
-    font-family: var(--font);
-    font-size: 13.5px;
-    font-weight: 600;
-    color: var(--ink);
-    cursor: pointer;
+    width: 100%; background: var(--panel); border: 1px solid var(--sage-soft);
+    border-radius: 8px; padding: 9px 12px; font-family: var(--font);
+    font-size: 14px; font-weight: 600; color: var(--ink); cursor: pointer;
   }
+  .shop-count { font-size: 13px; font-weight: 600; color: var(--ink-soft); margin-bottom: 14px; }
 
   .prod-grid {
     display: grid;
-    /* denser, self-adjusting grid — ~5 across on desktop so cards aren't big empty squares */
-    grid-template-columns: repeat(auto-fill, minmax(188px, 1fr));
-    gap: 16px;
+    /* denser grid — fits ~4 across in the space left of the sidebar */
+    grid-template-columns: repeat(auto-fill, minmax(166px, 1fr));
+    gap: 14px;
   }
   .prod-card {
     display: block;
@@ -454,13 +430,28 @@ const totalCount = products.length;
   @media (max-width: 1100px) {
     .trust-band { grid-template-columns: repeat(2, 1fr); }
   }
+  /* below this width the sidebar collapses to a compact top filter bar */
+  @media (max-width: 900px) {
+    .shop-layout { grid-template-columns: 1fr; gap: 16px; }
+    .shop-sidebar {
+      position: static; max-height: none; overflow: visible;
+      flex-direction: row; flex-wrap: wrap; align-items: center; gap: 10px 14px;
+    }
+    .shop-search { flex: 1 1 100%; }
+    .filter-group { flex-direction: row; align-items: center; gap: 8px; }
+    .filter-h { display: none; }
+    /* categories become a horizontal swipe row with hidden scrollbar */
+    .cat-scroll { flex-direction: row; flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; gap: 8px; max-width: 100%; }
+    .cat-scroll::-webkit-scrollbar { display: none; }
+    .cat-pill {
+      width: auto; border: 1px solid var(--sage-soft); border-radius: 999px;
+      background: var(--panel); padding: 8px 14px; font-size: 13.5px;
+    }
+    .cat-pill.active { background: var(--olive-d); color: #fff; border-color: var(--olive-d); }
+    .sort-select { width: auto; }
+  }
   @media (max-width: 760px) {
     .shop-hero { padding-top: 108px; }
-    .shop-controls { flex-direction: column; align-items: stretch; gap: 12px; position: relative; top: 0; }
-    /* on phones, swipe-scroll the pills in one row, but hide the scrollbar chrome */
-    .cat-scroll { flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
-    .cat-scroll::-webkit-scrollbar { display: none; }
-    .sort-select { width: 100%; }
     .prod-meta { padding: 12px 14px 16px; }
     .prod-name { font-size: 14.5px; }
     .price-main { font-size: 16px; }
@@ -470,6 +461,8 @@ const totalCount = products.length;
     .prod-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
     .prod-meta { padding: 11px 12px 14px; }
     .trust-band { grid-template-columns: 1fr; }
+    .filter-group { flex: 1 1 100%; }
+    .sort-select { width: 100%; }
   }
   @media (max-width: 340px) {
     .prod-grid { grid-template-columns: 1fr; }
