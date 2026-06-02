@@ -5,7 +5,7 @@
   publish = "dist"
 
 [build.environment]
-  NODE_VERSION = "20"
+  NODE_VERSION = "22"
 
 # Force the canonical domain: .co.uk is primary; the .uk variant 301-redirects to it.
 [[redirects]]
