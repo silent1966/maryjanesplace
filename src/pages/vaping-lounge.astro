@@ -1,6 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import site from "../content/site/settings.json";
+import RelatedLinks from "../components/RelatedLinks.astro";
 ---
 
 <Base
@@ -25,7 +26,7 @@ import site from "../content/site/settings.json";
     <div class="wrap">
       <div class="band rv">
         <div class="facts">
-          <div class="fact"><div class="big">Rx</div><div class="lbl">Valid prescription required</div></div>
+          <div class="fact"><div class="big">✓</div><div class="lbl">Valid prescription required</div></div>
           <div class="fact"><div class="big">Vapour</div><div class="lbl">No combustion, no smoke, no flame</div></div>
           <div class="fact"><div class="big">£5</div><div class="lbl">Vaporiser hire per session</div></div>
         </div>
@@ -187,6 +188,18 @@ import site from "../content/site/settings.json";
         <a class="btn" href="/membership">Join <span class="arr">→</span></a>
         <a class="btn ghost" href="/visit">Plan your visit</a>
       </div>
+    </div>
+  </section>
+
+  <section class="pad-sm" style="padding-top:0">
+    <div class="wrap">
+      <RelatedLinks items={[
+        { href: "/book", label: "Book a slot" },
+        { href: "/hire", label: "Equipment hire" },
+        { href: "/membership", label: "Become a member" },
+        { href: "/visit", label: "Visit us" },
+        { href: "/medical-cannabis", label: "Medical cannabis" },
+      ]} />
     </div>
   </section>
 </Base>

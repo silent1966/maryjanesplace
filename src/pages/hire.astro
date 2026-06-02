@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import RelatedLinks from "../components/RelatedLinks.astro";
 ---
 
 <Base
@@ -40,6 +41,14 @@ import Base from "../layouts/Base.astro";
         Facilities expanding regularly — check back for updates.
       </p>
       <a class="btn rv" href="/book" style="margin-top:18px">Book a slot <span class="arr">→</span></a>
+      <div class="rv" style="margin-top:26px">
+        <RelatedLinks items={[
+          { href: "/vaping-lounge", label: "The lounge" },
+          { href: "/book", label: "Book a slot" },
+          { href: "/shop", label: "Shop devices" },
+          { href: "/membership", label: "Become a member" },
+        ]} />
+      </div>
     </div>
   </section>
 </Base>

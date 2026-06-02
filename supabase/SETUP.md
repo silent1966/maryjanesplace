@@ -47,5 +47,10 @@ service role, which is allowed; members can't change their own points.)
   is the optional online upgrade.
 - The anon key is *designed* to be public; security is enforced by Row Level Security in
   `schema.sql`, so members can only ever see their own row.
-- Email sending uses Supabase's built-in mailer for now. For high volume or custom
-  branding, connect your own SMTP under **Authentication → Emails** later.
+- **Sender email:** so sign-in links come from your own address, go to
+  **Authentication → Emails → SMTP Settings**, enable custom SMTP, and set the
+  **sender email** to `info@maryjanesplace.co.uk` (sender name: `Mary Jane's Place`).
+  Use your email provider's SMTP host/credentials for that mailbox. Until you do this,
+  Supabase's built-in mailer sends the links (fine for testing, lower deliverability).
+- The same `info@maryjanesplace.co.uk` mailbox already receives the contact, booking
+  and join form submissions (see the Netlify Forms note in the main project).
