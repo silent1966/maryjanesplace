@@ -15,13 +15,13 @@ There is no NHS referral. There is no tribunal. There is a form.
 
 You contact a specialist clinic directly. They reply by email — usually within a day. If you have a diagnosed condition that two conventional treatments haven't adequately controlled, and a specialist consultant agrees, you'll be prescribed. The CQC regulates the clinics. The General Medical Council registers the consultants. Almost all of this happens privately, because the NHS prescribes cannabis-based medicines in only a handful of edge cases.
 
-Expect a first month of around £150–£300 (consultation included) and £100–£250 a month thereafter, depending on whether you're prescribed flower or oil and where your specialist arrives at on dose.
+Costs vary between clinics and depend on whether you're prescribed flower or oil and where your specialist arrives at on dose. The first month, which includes the consultation, costs more than the months that follow.
 
 That is the entire system in three sentences.
 
 ## What it actually feels like
 
-You email a clinic — Releaf, Mamedica, Curaleaf, Alternaleaf, any of the ten or so reputable ones — and tell them what you're being treated for. They send you a form. You upload your medical summary (your GP records, which you have a legal right to). A specialist consultant reviews it; if it looks viable, they offer you a consultation, usually £100–£150. At the consultation they discuss your condition, your previous treatments, your goals. If they prescribe, the medicine ships from a UK pharmacy in a sealed bag with a dispensing label, like any other Schedule 2 controlled medicine.
+You email a clinic — Releaf, Mamedica, Curaleaf, Alternaleaf, any of the ten or so reputable ones — and tell them what you're being treated for. They send you a form. You upload your medical summary (your GP records, which you have a legal right to). A specialist consultant reviews it; if it looks viable, they offer you a consultation. At the consultation they discuss your condition, your previous treatments, your goals. If they prescribe, the medicine ships from a UK pharmacy in a sealed bag with a dispensing label, like any other Schedule 2 controlled medicine.
 
 Most patients describe the consultation as the first time a doctor has properly listened to them about pain or anxiety. That part doesn't surprise us.
 

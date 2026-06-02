@@ -1,0 +1,59 @@
+---
+import Base from "../layouts/Base.astro";
+---
+
+<Base
+  title="Member card — Mary Jane's Place"
+  description="About the Mary Jane's Place digital member card: QR verification, PDF download, and wallet support."
+>
+  <section class="ph-top pad-sm">
+    <div class="wrap narrow">
+      <div class="eyebrow kick rv">Member card</div>
+      <h1 class="rv">Your digital member card.</h1>
+      <p class="rv lede" style="margin-top:14px">
+        Every member gets a digital card with a QR code. Show it at the counter — staff scan the QR to confirm your Member ID.
+      </p>
+
+      <div class="rv" style="margin-top:18px;border-top:1px solid var(--line)">
+        <details class="acc-item" open>
+          <summary>How do I use it?</summary>
+          <div>Open your card on your phone (or print the PDF) and show the QR at the counter. Staff scan it to pull up your Member ID and tier.</div>
+        </details>
+        <details class="acc-item">
+          <summary>Can I download it?</summary>
+          <div>Yes — use "Download as PDF" on your card. The PDF carries the same QR and details, so a printed copy works just as well.</div>
+        </details>
+        <details class="acc-item">
+          <summary>Apple Wallet / Google Wallet?</summary>
+          <div>Wallet passes are coming in a later update. For now, save your card to your phone or keep the PDF handy. The "Add to Wallet" buttons link here until that's live.</div>
+        </details>
+        <details class="acc-item">
+          <summary>Do I need a physical card?</summary>
+          <div>No. The digital card and QR are all you need. There are no plastic cards in this version.</div>
+        </details>
+      </div>
+
+      <div class="rv" style="margin-top:26px;display:flex;gap:10px;flex-wrap:wrap">
+        <a class="btn" href="/join">Join <span class="arr">→</span></a>
+        <a class="btn ghost" href="/membership">About membership</a>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .acc-item { border-bottom: 1px solid var(--line); }
+  .acc-item summary {
+    list-style: none; cursor: pointer; padding: 18px 2px;
+    display: flex; justify-content: space-between; gap: 16px; align-items: center;
+    font-family: var(--font); font-size: 17px; font-weight: 700; color: var(--olive-d);
+  }
+  .acc-item summary::-webkit-details-marker { display: none; }
+  .acc-item summary::after {
+    content: "+"; flex: none; width: 24px; height: 24px; border-radius: 6px;
+    border: 1.5px solid var(--line); display: grid; place-items: center;
+    transition: 0.25s; font-size: 17px; color: var(--olive); line-height: 1;
+  }
+  .acc-item[open] summary::after { background: var(--olive); border-color: var(--olive); color: #fff; transform: rotate(45deg); }
+  .acc-item > div { padding: 0 2px 18px; color: var(--ink-soft); font-size: 16px; max-width: 74ch; }
+</style>

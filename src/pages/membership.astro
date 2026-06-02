@@ -1,11 +1,11 @@
 ---
 import Base from "../layouts/Base.astro";
-import site from "../content/site/settings.json";
+import MemberCard from "../components/MemberCard.astro";
 ---
 
 <Base
   title="Membership — Mary Jane's Place"
-  description="Free membership for UK medical cannabis patients. Verified once with your prescription. £5 vape hire, 10% off equipment, loyalty points, refer-a-friend rewards, members-only events."
+  description="Free membership for verified UK medical cannabis patients. Access to the lounge, hot food and drinks, equipment hire, loyalty points and members-only events."
 >
   <script type="application/ld+json" set:html={JSON.stringify({
     "@context": "https://schema.org",
@@ -14,7 +14,7 @@ import site from "../content/site/settings.json";
       {
         "@type": "Question",
         "name": "What counts as proof of prescription?",
-        "acceptedAnswer": { "@type": "Answer", "text": "The dispensing label on your original pharmacy packaging is best. A prescriber letter or a copy of your current prescription, dated within the last six months, also works. We don't need to see your medical history, just enough to confirm you're a prescribed UK patient." }
+        "acceptedAnswer": { "@type": "Answer", "text": "The dispensing label on your original pharmacy packaging is best. A prescriber letter or a copy of your current prescription also works. We don't need to see your medical history, just enough to confirm you're a prescribed UK patient." }
       },
       {
         "@type": "Question",
@@ -30,93 +30,51 @@ import site from "../content/site/settings.json";
         "@type": "Question",
         "name": "What if I lose my prescription paperwork?",
         "acceptedAnswer": { "@type": "Answer", "text": "We can re-verify with any new prescription or dispensing label. Your membership and points roll over. You don't lose anything because life happened." }
-      },
-      {
-        "@type": "Question",
-        "name": "Is membership going to cost me eventually?",
-        "acceptedAnswer": { "@type": "Answer", "text": "The Patient Member tier stays free, always. We'll add optional paid tiers later for people who want to support our expansion across the UK. Nobody who joined free will ever be moved to a paid plan against their will." }
       }
     ]
   })} />
+
   <section class="ph-top pad">
     <div class="wrap narrow">
       <div class="eyebrow kick rv">Membership</div>
-      <h1 class="rv">Free membership for patients.</h1>
+      <h1 class="rv">Membership.</h1>
       <p class="rv lede" style="margin-top:16px">
-        Verify once with a UK medical cannabis prescription and you're a member.
-        After that, every visit and every purchase earns you something — and the cost
-        of using your medicine here only ever goes down.
+        Membership is free for verified prescription patients and gives you access to the
+        lounge, hot food and drinks, equipment hire, loyalty points and members-only events.
       </p>
     </div>
   </section>
 
-  <!-- The one-tier card -->
+  <!-- The one public tier -->
   <section class="pad-sm" style="padding-top:0">
-    <div class="wrap">
-      <div class="member-hero rv">
-        <div>
-          <div class="eyebrow" style="color:var(--sage-soft)">Patient Member</div>
-          <div class="member-price"><b>Free</b><span>verified once with a prescription</span></div>
-          <p style="margin-top:8px">
-            One tier. All the perks. No catch, no monthly fee, nothing hidden.
-            We'll add paid tiers later for people who want to support the wider mission —
-            for now, this is everything.
-          </p>
-          <a class="btn" href="/visit#contact" style="background:#fff;color:var(--olive-d);border-color:#fff;margin-top:18px">Apply for membership <span class="arr">→</span></a>
+    <div class="wrap narrow">
+      <div class="rv card tier">
+        <div class="eyebrow">Member</div>
+        <div class="tier-price"><b>£X</b><span>/ month</span></div>
+        <ul class="checks" style="margin-top:18px">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12l5 5L20 6"/></svg><span>Lounge access</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12l5 5L20 6"/></svg><span>Hot food &amp; drinks</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12l5 5L20 6"/></svg><span>Equipment hire</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12l5 5L20 6"/></svg><span>Loyalty points</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12l5 5L20 6"/></svg><span>Members-only events</span></li>
+        </ul>
+        <div class="tier-cta">
+          <a class="btn" href="/join">Join <span class="arr">→</span></a>
         </div>
-        <div class="member-stack">
-          <div class="member-stat"><b>£5</b><span>vape hire per session</span></div>
-          <div class="member-stat"><b>10%</b><span>off all equipment</span></div>
-          <div class="member-stat"><b>£10</b><span>refer-a-friend reward</span></div>
-        </div>
+        <p class="tier-note">
+          Other membership options available — <a href="/contact">enquire via Contact</a>.
+        </p>
       </div>
     </div>
   </section>
 
-  <!-- Detailed perks -->
-  <section class="pad-sm">
-    <div class="wrap">
-      <div class="eyebrow kick rv">What you get</div>
-      <h2 class="rv" style="margin-bottom:22px">What members get.</h2>
-      <div class="perks">
-        {site.memberPerks.map((p) => (
-          <div class="perk rv">
-            <div class="perk-ic">
-              {p.icon === "vape" && <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="9" y="3" width="6" height="18" rx="3"/><path d="M12 7v3"/></svg>}
-              {p.icon === "tag" && <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 7l4-4h11v11l-9 9-10-10z"/><circle cx="9" cy="9" r="1.5"/></svg>}
-              {p.icon === "star" && <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2l3 7 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1z"/></svg>}
-              {p.icon === "people" && <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="8" cy="8" r="3"/><path d="M2 21a6 6 0 0112 0"/><circle cx="17" cy="9" r="2.5"/><path d="M14 21a5 5 0 018-4"/></svg>}
-              {p.icon === "calendar" && <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>}
-              {p.icon === "mail" && <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>}
-            </div>
-            <h3>{p.title}</h3>
-            <p>{p.body}</p>
-          </div>
-        ))}
-      </div>
-    </div>
-  </section>
-
-  <!-- How loyalty + referrals actually work -->
-  <section class="pad-sm">
-    <div class="wrap two">
-      <div class="rv card" style="background:var(--paper);border-left:4px solid var(--olive)">
-        <div class="eyebrow">Loyalty points</div>
-        <h3 style="margin-top:8px;margin-bottom:12px">Earn as you go. Redeem as you like.</h3>
-        <ul class="checks">
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12l5 5L20 6"/></svg><span><b>1 point per £1</b> spent on equipment, hire and services.</span></li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12l5 5L20 6"/></svg><span><b>100 points = £5 off</b> your next purchase. No minimum spend to redeem.</span></li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12l5 5L20 6"/></svg><span><b>Double points</b> on a member's birthday and at special events.</span></li>
-        </ul>
-      </div>
-      <div class="rv card" style="background:var(--paper);border-left:4px solid var(--olive)">
-        <div class="eyebrow">Refer a friend</div>
-        <h3 style="margin-top:8px;margin-bottom:12px">You both win, twice.</h3>
-        <ul class="checks">
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12l5 5L20 6"/></svg><span>Refer a patient you know. When they verify and visit, <b>you both get £10</b> store credit.</span></li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12l5 5L20 6"/></svg><span>No limit. Refer five, ten — keep going. The community grows; you save.</span></li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12l5 5L20 6"/></svg><span>Credit valid on equipment, accessories and vape hire.</span></li>
-        </ul>
+  <!-- Member card preview -->
+  <section class="pad-sm" style="padding-top:0">
+    <div class="wrap narrow">
+      <div class="eyebrow kick rv">Your card</div>
+      <h2 class="rv" style="margin-bottom:18px">A preview of your member card.</h2>
+      <div class="rv">
+        <MemberCard preview={true} tier="Member" />
       </div>
     </div>
   </section>
@@ -129,9 +87,9 @@ import site from "../content/site/settings.json";
           <div class="eyebrow">Privacy</div>
           <h3 style="margin-top:6px">Verified once. Never asked again.</h3>
           <p>
-            We check your photo ID and proof of prescription (dispensing label or letter,
-            within six months) one time. We don't keep your records, we don't share with clinics
-            or police, we don't ask what you're being treated for. Done.
+            We check your photo ID and proof of prescription one time. We don't keep your
+            records, we don't share with clinics or police, and we don't ask what you're
+            being treated for.
           </p>
         </div>
         <a class="btn" href="/your-rights">Your rights, in full <span class="arr">→</span></a>
@@ -148,9 +106,8 @@ import site from "../content/site/settings.json";
           <summary>What counts as proof of prescription?</summary>
           <div>
             The dispensing label on your original pharmacy packaging is best. A prescriber
-            letter or a copy of your current prescription, dated within the last six months, also
-            works. We don't need to see your medical history, just enough to confirm you're a
-            prescribed UK patient.
+            letter or a copy of your current prescription also works. We don't need to see
+            your medical history, just enough to confirm you're a prescribed UK patient.
           </div>
         </details>
         <details class="acc-item">
@@ -176,78 +133,24 @@ import site from "../content/site/settings.json";
             points roll over — you don't lose anything because life happened.
           </div>
         </details>
-        <details class="acc-item">
-          <summary>Is this going to cost me eventually?</summary>
-          <div>
-            Patient Member tier stays free, always. We'll add optional paid tiers later for
-            people who want to support our expansion across the UK (early access to new
-            locations, private events, that sort of thing). Nobody who joined free will ever
-            be moved to a paid plan against their will.
-          </div>
-        </details>
       </div>
       <div class="rv" style="margin-top:32px;text-align:center">
-        <a class="btn" href="/visit#contact">Apply for membership <span class="arr">→</span></a>
+        <a class="btn" href="/join">Join <span class="arr">→</span></a>
       </div>
     </div>
   </section>
 </Base>
 
 <style>
-  .member-hero {
-    background: var(--olive-d);
-    color: #fff;
-    border-radius: var(--r);
-    padding: 42px 44px;
-    box-shadow: 0 18px 50px -28px rgba(16, 59, 20, 0.6);
-    display: grid;
-    grid-template-columns: 1.5fr 1fr;
-    gap: 38px;
-    align-items: center;
+  .tier { background: var(--paper); border-left: 4px solid var(--olive); }
+  .tier-price { display: flex; align-items: baseline; gap: 8px; margin-top: 10px; }
+  .tier-price b {
+    font-size: 48px; font-weight: 800; color: var(--olive-d); line-height: 1; letter-spacing: -0.03em;
   }
-  .member-hero p { color: rgba(255, 255, 255, 0.86); font-size: 16px; max-width: 56ch; }
-  .member-price { display: flex; align-items: baseline; gap: 10px; margin-top: 10px; }
-  .member-price b {
-    font-size: 56px; font-weight: 800; color: #fff; line-height: 1; letter-spacing: -0.03em;
-  }
-  .member-price span { font-size: 14px; color: rgba(255, 255, 255, 0.74); }
-  .member-stack { display: grid; gap: 14px; }
-  .member-stat {
-    background: rgba(255, 255, 255, 0.08);
-    border: 1px solid rgba(255, 255, 255, 0.16);
-    border-radius: 10px;
-    padding: 16px 20px;
-    display: flex;
-    align-items: baseline;
-    gap: 12px;
-  }
-  .member-stat b {
-    font-size: 28px; font-weight: 800; color: #fff; line-height: 1; letter-spacing: -0.02em;
-    min-width: 64px;
-  }
-  .member-stat span { font-size: 13.5px; color: rgba(255, 255, 255, 0.82); }
-  .perks {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 18px;
-  }
-  .perk {
-    background: var(--panel);
-    border: 1px solid var(--line);
-    border-radius: var(--r);
-    padding: 26px;
-    box-shadow: var(--shadow-sm);
-    transition: 0.25s;
-  }
-  .perk:hover { border-color: var(--sage); box-shadow: var(--shadow); transform: translateY(-3px); }
-  .perk-ic {
-    width: 48px; height: 48px; border-radius: 12px;
-    background: var(--tint); color: var(--olive);
-    display: grid; place-items: center; margin-bottom: 14px;
-  }
-  .perk-ic svg { width: 24px; height: 24px; }
-  .perk h3 { font-size: 18px; margin-bottom: 6px; }
-  .perk p { font-size: 14.5px; line-height: 1.55; }
+  .tier-price span { font-size: 15px; color: var(--ink-soft); }
+  .tier-cta { margin-top: 22px; }
+  .tier-note { margin-top: 16px; font-size: 14.5px; color: var(--ink-soft); }
+  .tier-note a { color: var(--olive); font-weight: 600; text-decoration: underline; }
 
   .acc-item { border-bottom: 1px solid var(--line); }
   .acc-item summary {
@@ -265,13 +168,4 @@ import site from "../content/site/settings.json";
     background: var(--olive); border-color: var(--olive); color: #fff; transform: rotate(45deg);
   }
   .acc-item > div { padding: 0 2px 20px; color: var(--ink-soft); font-size: 16px; max-width: 74ch; }
-
-  @media (max-width: 980px) {
-    .member-hero { grid-template-columns: 1fr; padding: 28px 24px; gap: 22px; }
-    .member-price b { font-size: 44px; }
-    .perks { grid-template-columns: 1fr 1fr; }
-  }
-  @media (max-width: 680px) {
-    .perks { grid-template-columns: 1fr; }
-  }
 </style>

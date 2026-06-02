@@ -35,4 +35,4 @@ This is one of those rare cases where the legal answer, the health answer and th
 
 If you have a UK prescription for cannabis-based medicine and you are vaporising it, you are lawfully using a lawful medicine. If you are smoking it — even the same flower, the same dose, the same paper bag from the same pharmacy — you have shifted yourself onto the wrong side of the legislation that protects you.
 
-A £200 vaporiser, used correctly, is the most legally important piece of equipment a UK patient owns.
+A vaporiser, used correctly, is one of the most legally important pieces of equipment a UK patient owns. You can browse our range in the [shop](/shop).

@@ -5,6 +5,13 @@ function active(p: string) {
   if (p !== "/" && pathname.startsWith(p)) return "active";
   return "";
 }
+function group(paths: string[]) {
+  return paths.some((p) => pathname.startsWith(p)) ? "active" : "";
+}
+const loungeActive = group(["/vaping-lounge", "/hire", "/book", "/visit"]);
+const membersActive = group(["/membership", "/join", "/member"]);
+const aboutActive = group(["/about", "/medical-cannabis", "/your-rights", "/blog", "/partnerships", "/for-police-and-venues"]);
+const caret = `<svg class="caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 9l6 6 6-6"/></svg>`;
 ---
 
 <header id="hdr">
@@ -12,22 +19,48 @@ function active(p: string) {
     <a class="brand" href="/" aria-label="Mary Jane's Place — home">
       <img class="brand-logo" src="/logo.png" alt="Mary Jane's Place" width="260" height="105" />
     </a>
-    <nav class="links" id="navlinks">
-      <a href="/" class={active("/")}>Home</a>
-      <a href="/medical-cannabis" class={active("/medical-cannabis")}>Medical Cannabis</a>
-      <a href="/your-rights" class={active("/your-rights")}>Your Rights</a>
-      <a href="/membership" class={active("/membership")}>Membership</a>
-      <a href="/vaping-lounge" class={active("/vaping-lounge")}>Lounge</a>
+
+    <nav class="links" id="navlinks" aria-label="Primary">
       <a href="/shop" class={active("/shop")}>Shop</a>
-      <a href="/blog" class={active("/blog")}>Blog</a>
-      <a href="/visit" class={active("/visit")}>Visit</a>
+
+      <div class="has-drop">
+        <button type="button" class={`drop-toggle ${loungeActive}`} aria-haspopup="true" aria-expanded="false">Lounge &amp; Hire <Fragment set:html={caret} /></button>
+        <div class="drop" role="menu">
+          <a href="/vaping-lounge" role="menuitem">Vaping lounge</a>
+          <a href="/hire" role="menuitem">Hire</a>
+          <a href="/book" role="menuitem">Book a slot</a>
+          <a href="/visit" role="menuitem">Visit us</a>
+        </div>
+      </div>
+
+      <div class="has-drop">
+        <button type="button" class={`drop-toggle ${membersActive}`} aria-haspopup="true" aria-expanded="false">Members <Fragment set:html={caret} /></button>
+        <div class="drop" role="menu">
+          <a href="/membership" role="menuitem">Membership</a>
+          <a href="/join" role="menuitem">Join</a>
+          <a href="/member-card-faq" role="menuitem">Member card</a>
+        </div>
+      </div>
+
+      <div class="has-drop">
+        <button type="button" class={`drop-toggle ${aboutActive}`} aria-haspopup="true" aria-expanded="false">About <Fragment set:html={caret} /></button>
+        <div class="drop" role="menu">
+          <a href="/about" role="menuitem">Our story</a>
+          <a href="/medical-cannabis" role="menuitem">Medical cannabis</a>
+          <a href="/your-rights" role="menuitem">Your rights</a>
+          <a href="/blog" role="menuitem">Blog</a>
+        </div>
+      </div>
+
+      <a href="/contact" class={active("/contact")}>Contact</a>
     </nav>
+
     <div class="nav-cta">
       <button class="nav-search-btn" id="nav-search-btn" aria-label="Search the shop" type="button">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
       </button>
-      <a class="btn" href="/membership">Join <span class="arr">→</span></a>
-      <button class="hamb" id="hamb" aria-label="Menu">
+      <a class="btn" href="/join">Join <span class="arr">→</span></a>
+      <button class="hamb" id="hamb" aria-label="Menu" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
     </div>
@@ -51,18 +84,38 @@ function active(p: string) {
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
     <input type="search" name="q" placeholder="Search the shop…" autocomplete="off" aria-label="Search products" />
   </form>
-  <a href="/">Home</a>
-  <a href="/medical-cannabis">Medical Cannabis</a>
-  <a href="/your-rights">Your Rights</a>
-  <a href="/membership">Membership</a>
-  <a href="/vaping-lounge">Vaping Lounge</a>
-  <a href="/shop">Shop</a>
-  <a href="/hire">Hire (£5/session)</a>
-  <a href="/blog">Blog</a>
-  <a href="/about">About</a>
-  <a href="/partnerships">Partnerships</a>
-  <a href="/for-police-and-venues">For Police &amp; Venues</a>
-  <a href="/visit">Visit</a>
+
+  <a class="drawer-top" href="/shop">Shop</a>
+
+  <div class="drawer-group">
+    <div class="drawer-group-h">Lounge &amp; Hire</div>
+    <a href="/vaping-lounge">Vaping lounge</a>
+    <a href="/hire">Hire</a>
+    <a href="/book">Book a slot</a>
+    <a href="/visit">Visit us</a>
+  </div>
+
+  <div class="drawer-group">
+    <div class="drawer-group-h">Members</div>
+    <a href="/membership">Membership</a>
+    <a href="/join">Join</a>
+    <a href="/member-card-faq">Member card</a>
+  </div>
+
+  <div class="drawer-group">
+    <div class="drawer-group-h">About</div>
+    <a href="/about">Our story</a>
+    <a href="/medical-cannabis">Medical cannabis</a>
+    <a href="/your-rights">Your rights</a>
+    <a href="/blog">Blog</a>
+  </div>
+
+  <div class="drawer-group">
+    <div class="drawer-group-h">More</div>
+    <a href="/contact">Contact</a>
+    <a href="/partnerships">Partnerships</a>
+    <a href="/for-police-and-venues">For Police &amp; Venues</a>
+  </div>
 </div>
 
 <script>
@@ -78,62 +131,58 @@ function active(p: string) {
     drawer?.classList.remove('open');
     backdrop?.classList.remove('open');
     hamb?.classList.remove('open');
+    hamb?.setAttribute('aria-expanded', 'false');
     document.body.style.overflow = '';
   };
   hamb?.addEventListener('click', () => {
     const open = drawer?.classList.toggle('open');
     backdrop?.classList.toggle('open', !!open);
     hamb.classList.toggle('open', !!open);
+    hamb.setAttribute('aria-expanded', open ? 'true' : 'false');
     document.body.style.overflow = open ? 'hidden' : '';
   });
   backdrop?.addEventListener('click', closeDrawer);
   drawer?.querySelectorAll('a').forEach((a) => a.addEventListener('click', closeDrawer));
+
+  // desktop dropdowns: click + keyboard (hover/focus handled by CSS)
+  const drops = Array.from(document.querySelectorAll('.has-drop')) as HTMLElement[];
+  const closeDrops = () => drops.forEach((d) => { d.removeAttribute('data-open'); d.querySelector('.drop-toggle')?.setAttribute('aria-expanded', 'false'); });
+  drops.forEach((d) => {
+    const btn = d.querySelector('.drop-toggle') as HTMLButtonElement;
+    btn?.addEventListener('click', (e) => {
+      e.preventDefault();
+      const isOpen = d.hasAttribute('data-open');
+      closeDrops();
+      if (!isOpen) { d.setAttribute('data-open', ''); btn.setAttribute('aria-expanded', 'true'); }
+    });
+  });
+  document.addEventListener('click', (e) => { if (!(e.target as HTMLElement).closest('.has-drop')) closeDrops(); });
 
   // search overlay
   const searchBtn = document.getElementById('nav-search-btn');
   const overlay = document.getElementById('search-overlay');
   const overlayInput = document.getElementById('search-overlay-input') as HTMLInputElement;
   const searchClose = document.getElementById('search-close');
-  const openSearch = () => {
-    overlay?.classList.add('open');
-    document.body.style.overflow = 'hidden';
-    setTimeout(() => overlayInput?.focus(), 60);
-  };
-  const closeSearch = () => {
-    overlay?.classList.remove('open');
-    document.body.style.overflow = '';
-  };
+  const openSearch = () => { overlay?.classList.add('open'); document.body.style.overflow = 'hidden'; setTimeout(() => overlayInput?.focus(), 60); };
+  const closeSearch = () => { overlay?.classList.remove('open'); document.body.style.overflow = ''; };
   searchBtn?.addEventListener('click', openSearch);
   searchClose?.addEventListener('click', closeSearch);
   overlay?.addEventListener('click', (e) => { if (e.target === overlay) closeSearch(); });
 
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape') { closeDrawer(); closeSearch(); }
-  });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') { closeDrawer(); closeSearch(); closeDrops(); } });
 
   // Scroll-reveal — fades content in, but must NEVER permanently hide content.
   const reveals = Array.from(document.querySelectorAll('.rv')) as HTMLElement[];
   const revealAll = () => reveals.forEach((el) => el.classList.add('in'));
-
   if (!('IntersectionObserver' in window) || window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
     revealAll();
   } else {
     const io = new IntersectionObserver(
       (es) => es.forEach((e) => { if (e.isIntersecting) { (e.target as HTMLElement).classList.add('in'); io.unobserve(e.target); } }),
-      // trigger as soon as any part enters, with a little lead-in so nothing pops in late
       { threshold: 0, rootMargin: '0px 0px 8% 0px' }
     );
-    reveals.forEach((el, i) => {
-      // gentle stagger, but only within the first screenful so lower content never lags
-      el.style.transitionDelay = Math.min(i * 30, 150) + 'ms';
-      io.observe(el);
-    });
-    // failsafe: whatever the observer misses (fast scroll, tall elements, async content),
-    // force-reveal after a short delay so content is never lost.
+    reveals.forEach((el, i) => { el.style.transitionDelay = Math.min(i * 30, 150) + 'ms'; io.observe(el); });
     setTimeout(revealAll, 1400);
-    // also reveal everything once the user reaches the bottom, just in case
-    window.addEventListener('scroll', () => {
-      if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 4) revealAll();
-    }, { passive: true });
+    window.addEventListener('scroll', () => { if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 4) revealAll(); }, { passive: true });
   }
 </script>
