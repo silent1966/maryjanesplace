@@ -1,0 +1,50 @@
+---
+// In-page "jump to section" chip nav for long info pages. Keeps all content on the
+// page; just makes it easy to filter/navigate. Pass items as { href: '#id', label }.
+interface Item { href: string; label: string; }
+interface Props { items?: Item[]; label?: string; }
+const { items = [], label = "On this page" } = Astro.props as Props;
+---
+{items.length > 0 && (
+  <nav class="pagejump" aria-label={label}>
+    <div class="wrap">
+      <div class="pagejump-row">
+        {items.map((i) => <a href={i.href}>{i.label}</a>)}
+      </div>
+    </div>
+  </nav>
+)}
+
+<style>
+  .pagejump {
+    position: sticky;
+    top: 64px;
+    z-index: 60;
+    background: var(--cream);
+    border-bottom: 1px solid var(--line);
+  }
+  .pagejump-row {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    padding: 11px 0;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+  .pagejump-row::-webkit-scrollbar { display: none; }
+  .pagejump a {
+    flex: none;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--olive-d);
+    background: var(--tint);
+    border: 1px solid var(--line);
+    padding: 7px 13px;
+    border-radius: 999px;
+    white-space: nowrap;
+    transition: 0.18s;
+  }
+  .pagejump a:hover { border-color: var(--olive); background: var(--panel); }
+  @media (min-width: 681px) { .pagejump { top: 118px; } }
+  @media (max-width: 680px) { .pagejump a { font-size: 12.5px; padding: 6px 11px; } }
+</style>
