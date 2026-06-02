@@ -3,7 +3,7 @@
   "name": "PAX Smell Proof Case",
   "brand": "PAX",
   "category": "storage",
-  "price": 45.95,
+  "price": 35.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Pax-Smell-Proof-Case_918fcfb0-8ff2-4d13-8c2a-99226f172d21.jpg?v=1706732000",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Pax-Smell-Proof-Case-Open_1efa7fcc-4ed1-4718-91b9-39a79371a249.jpg?v=1706732000",
@@ -21,5 +21,5 @@
   ],
   "stripeLink": "",
   "rnSku": "7898854129833",
-  "order": 150
+  "order": 147
 }

@@ -3,7 +3,7 @@
   "name": "Crafty Car Adapter",
   "brand": "Storz & Bickel",
   "category": "batteries",
-  "price": 31.95,
+  "price": 23.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Crafty-plus-car-adapter-USB_ce321176-946d-45c9-bd50-0377edbef179.jpg?v=1692736858",
   "gallery": [],
   "summary": "The Crafty Car Adapter allows you to charge your Crafty vaporiser while on the go, making it convenient and easy.",
@@ -17,5 +17,5 @@
   ],
   "stripeLink": "",
   "rnSku": "6980030431401",
-  "order": 488
+  "order": 484
 }

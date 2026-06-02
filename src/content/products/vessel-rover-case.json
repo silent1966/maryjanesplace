@@ -3,7 +3,7 @@
   "name": "Vessel Rover Case",
   "brand": "Vessel",
   "category": "accessories",
-  "price": 28.95,
+  "price": 21.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vessel-Scout-Case-Black_ea7f08ea-28f7-4c08-babe-4774c177e100.jpg?v=1770216089",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vessel-Rover-Case-navy.jpg?v=1763755982",
@@ -38,5 +38,5 @@
   ],
   "stripeLink": "",
   "rnSku": "15456077775222",
-  "order": 348
+  "order": 342
 }

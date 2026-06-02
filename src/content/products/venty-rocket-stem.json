@@ -3,7 +3,7 @@
   "name": "Venty Rocket Stem",
   "brand": "Storz & Bickel",
   "category": "accessories",
-  "price": 23.95,
+  "price": 17.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Venty-Vaporizer-Cooling-Rocket-Stem.jpg?v=1741280103",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Venty-Vaporizer-Rocket-Stem.jpg?v=1741280103"
@@ -19,5 +19,5 @@
   ],
   "stripeLink": "",
   "rnSku": "15108797858166",
-  "order": 263
+  "order": 250
 }

@@ -3,7 +3,7 @@
   "name": "Vessel Carbon Lighter",
   "brand": "Vessel",
   "category": "accessories",
-  "price": 44.95,
+  "price": 34.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vessel-Carbon-lighter.jpg?v=1765828718",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vessel-Carbon-lighter-2.jpg?v=1765828718"
@@ -28,5 +28,5 @@
   ],
   "stripeLink": "",
   "rnSku": "15502455832950",
-  "order": 415
+  "order": 412
 }

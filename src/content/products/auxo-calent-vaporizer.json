@@ -3,7 +3,7 @@
   "name": "Auxo Calent Vaporizer",
   "brand": "Auxo",
   "category": "portable-vapes",
-  "price": 85.95,
+  "price": 76.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Auxo-Calent-Vaporizer-1.jpg?v=1692741359",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Auxo-Calent-Vaporizer-app-smartphone.jpg?v=1692741359",
@@ -48,5 +48,5 @@
   ],
   "stripeLink": "",
   "rnSku": "7779320430761",
-  "order": 29
+  "order": 30
 }

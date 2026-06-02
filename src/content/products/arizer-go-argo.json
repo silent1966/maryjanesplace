@@ -3,7 +3,7 @@
   "name": "Arizer ArGo",
   "brand": "Arizer",
   "category": "portable-vapes",
-  "price": 112.95,
+  "price": 117.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/arizer-argo-uk_a263b6ef-fcdc-49a1-a892-e87c8afdb4be.jpg?v=1620661923",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/arizer-argo-full-kit-uk.jpg?v=1620661923",
@@ -42,5 +42,5 @@
   ],
   "stripeLink": "",
   "rnSku": "6980035313833",
-  "order": 48
+  "order": 51
 }

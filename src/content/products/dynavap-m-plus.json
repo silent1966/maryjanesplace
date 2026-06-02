@@ -3,7 +3,7 @@
   "name": "DynaVap M Plus",
   "brand": "DynaVap",
   "category": "pen-vapes",
-  "price": 86.95,
+  "price": 83.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Dynavap-m-plus.jpg?v=1692742044",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Dynavap-M-plus-size-in-hand.jpg?v=1692742044",
@@ -39,5 +39,5 @@
   ],
   "stripeLink": "",
   "rnSku": "7779323576489",
-  "order": 11
+  "order": 10
 }

@@ -3,7 +3,7 @@
   "name": "XMAX Starry 4 Wax Cup",
   "brand": "Topgreen",
   "category": "accessories",
-  "price": 19.95,
+  "price": 14.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/XMax-Starry-4-Wax-Cup.jpg?v=1775244461",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/XMax-Starry-4-Wax-Cup-1.jpg?v=1775244461"
@@ -19,5 +19,5 @@
   ],
   "stripeLink": "",
   "rnSku": "15686172049782",
-  "order": 211
+  "order": 204
 }

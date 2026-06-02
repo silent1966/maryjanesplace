@@ -261,6 +261,16 @@ function isWaterPipe(name, brand) {
   return false;
 }
 
+// Obsolete / superseded devices to drop from the shop (kept out, won't regenerate).
+// Genuinely legacy tech where a current successor exists in the catalogue, or dead designs.
+// Only genuinely dead/junk tech — NOT models that simply have a newer version.
+// (Arizer V Tower / Extreme Q are old designs but still sold new and viable, so kept.)
+const OBSOLETE = new Set([
+  "flowermate-v5-0s-pro-mini",              // old budget conduction portable, effectively dead tech
+  "focus-vape-pro-vaporizer",               // dated conduction portable, discontinued-era
+  "xvape-mambo-cheech-and-chong-vaporizer", // old novelty conduction pen
+]);
+
 // ---------- pricing ----------
 // MAP (Minimum Advertised Price) brands — UK retailers all priced identically by
 // manufacturer mandate, so no per-product scan needed.
@@ -269,29 +279,35 @@ function isMapBrand(brand) {
   const b = brand.toLowerCase();
   return MAP_BRANDS.some((m) => b.includes(m));
 }
-function priceTo95(raw) {
-  const base = Math.floor(raw);
-  const frac = raw - base;
-  return frac <= 0.95 + 1e-9 ? +(base + 0.95).toFixed(2) : +(base + 1.95).toFixed(2);
-}
+// round DOWN to the nearest .95 ending (used when TARGET wins)
+function roundDown95(x) { return +(Math.floor(x - 0.95 + 1e-9) + 0.95).toFixed(2); }
+// round UP to the nearest .95 ending (used when FLOOR wins)
+function roundUp95(x) { return +(Math.ceil(x - 0.95 - 1e-9) + 0.95).toFixed(2); }
+
+// TWO RULES, nothing else.
+//  RULE 1 — never lose money: FLOOR = (T + 8.19) / 0.8183
+//    8.19 = RN ship £7.99 + Stripe fixed £0.20 ; 0.8183 = 1 - VAT 16.67% - Stripe 1.5%
+//  RULE 2 — beat every UK competitor by £1: TARGET = competitor_min - 1.00
+//  FINAL = max(FLOOR, TARGET).  No T×2.2 cap, no margin buffer.
+//  Fallback (no competitor data): MAP -> compare_at - 1 ; non-MAP -> T × 1.85.
 function computePrice(T, handle, brand, compareAt) {
-  const floor = (T + 8.19) / 0.6183;
-  let ceiling, ceilingSource;
+  const floor = (T + 8.19) / 0.8183;
   const comp = competitor[handle];
-  if (T < 40) {
-    // sub-£40 trade: margin too small to justify a scan — formula only
-    ceiling = T * 1.85; ceilingSource = "sub40";
-  } else if (isMapBrand(brand)) {
-    if (compareAt > 0) { ceiling = compareAt * 0.95; ceilingSource = "map-compare"; }
-    else { ceiling = T * 1.75 * 0.95; ceilingSource = "map-nocompare"; }
-  } else if (comp && comp.min > 0) {
-    ceiling = comp.min * 0.95; ceilingSource = "competitor";
-  } else {
-    ceiling = T * 1.85; ceilingSource = "fallback";
-  }
-  const raw = Math.max(floor, Math.min(ceiling, T * 2.2));
-  const price = priceTo95(raw);
-  return { price, floor: +floor.toFixed(2), ceiling: +ceiling.toFixed(2), ceilingSource, atFloor: Math.abs(raw - floor) < 0.01, belowFloor: price < floor - 0.01 };
+  let target, source;
+  if (comp && comp.min > 0) { target = comp.min - 1.0; source = "competitor"; }
+  else if (isMapBrand(brand) && compareAt > 0) { target = compareAt - 1.0; source = "map-compare"; }
+  else { target = T * 1.85; source = "fallback"; }
+
+  const targetWins = target >= floor;
+  const price = targetWins ? roundDown95(target) : roundUp95(floor);
+  return {
+    price,
+    floor: +floor.toFixed(2),
+    target: +target.toFixed(2),
+    source,
+    basis: targetWins ? "target" : "floor",
+    atFloor: !targetWins,
+  };
 }
 
 // ---------- featured best-sellers ----------
@@ -476,21 +492,30 @@ for (const p of catalog) {
   const brand = brandOf(p);
   const handle = clean(p.handle) || name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 
+  if (OBSOLETE.has(handle)) { excluded.push([name, "obsolete/legacy tech"]); continue; }
+
   const compareAt = parseFloat(p.compare_at_price_gbp);
   const pr = computePrice(T, handle, brand, compareAt > 0 ? compareAt : 0);
-  if (pr.belowFloor) { skippedUnprofitable.push([name, T, pr.price, pr.floor]); continue; }
+  // FINAL = max(FLOOR, TARGET) is always >= floor, so we never sell at a loss.
+
+  // "price-review": RN trade is at/above the cheapest UK price, so the floor forces a
+  // price ABOVE the market. We do NOT list these at a silly price — mark them
+  // out-of-stock / enquire and tag them so they're easy to find and fix in /admin.
+  const compEntry = competitor[handle];
+  const priceReview = !!(compEntry && compEntry.min > 0 && pr.price > compEntry.min + 0.001);
 
   const { summary, description } = buildCopy(p, category, brand);
   const specs = extractSpecs(p.description_html, p, category).slice(0, 10);
   const tagsOut = buildTags(p, category, brand);
+  if (priceReview && !tagsOut.includes("price-review")) tagsOut.push("price-review");
 
   // images: reference RN's Shopify CDN directly (real photos, no download)
   const primaryUrl = clean(p.image_url) || (p.gallery || [])[0] || "";
   const galleryUrls = [...new Set((p.gallery || []).map((g) => clean(g)).filter(Boolean))].filter((g) => g !== primaryUrl).slice(0, 4);
 
   kept.push({
-    p, handle, name, brand, category, T,
-    price: pr.price, floor: pr.floor, ceiling: pr.ceiling, ceilingSource: pr.ceilingSource, atFloor: pr.atFloor,
+    p, handle, name, brand, category, T, priceReview,
+    price: pr.price, floor: pr.floor, target: pr.target, ceilingSource: pr.source, basis: pr.basis, atFloor: pr.atFloor,
     summary, description, specs, tags: tagsOut,
     rnSku: String(p.rn_product_id),
     primaryUrl, galleryUrls,
@@ -512,6 +537,7 @@ for (const k of kept) {
 const featuredPick = new Map();
 for (const k of kept) {
   if (k.frank < 0) continue;
+  if (k.priceReview) continue; // don't feature a product we can't sell at a competitive price
   const cur = featuredPick.get(k.frank);
   if (!cur || k.T > cur.T) featuredPick.set(k.frank, k); // prefer the real device (higher trade cost) over an accessory match
 }
@@ -552,7 +578,7 @@ for (const k of kept) {
     summary,
     description,
     specs: k.specs,
-    inStock: true,
+    inStock: !k.priceReview,
     featured: !!k.featured,
     tags: k.tags,
     stripeLink: "",
@@ -573,8 +599,10 @@ const markups = kept.map((k) => k.price / k.T);
 const meanMarkup = markups.reduce((a, b) => a + b, 0) / markups.length;
 const srcCounts = {};
 for (const k of kept) srcCounts[k.ceilingSource] = (srcCounts[k.ceilingSource] || 0) + 1;
-const atFloor = kept.filter((k) => k.atFloor).length;
-const atCeiling = kept.length - atFloor;
+const atFloor = kept.filter((k) => k.basis === "floor").length;
+const atTarget = kept.filter((k) => k.basis === "target").length;
+const competitorPriced = kept.filter((k) => k.ceilingSource === "competitor").length;
+const noCompetitor = kept.length - competitorPriced;
 const stats = {
   total: catalog.length, kept: kept.length, excluded: excluded.length,
   skippedUnprofitable: skippedUnprofitable.length,
@@ -582,7 +610,8 @@ const stats = {
   catCounts, exclReasons,
   meanMarkup: +meanMarkup.toFixed(3),
   pricingSource: srcCounts,
-  atFloor, atCeiling,
+  atFloor, atTarget,
+  competitorPriced, noCompetitor,
   featured: featuredList.map((k) => `${k.brand} ${k.name}`),
   skippedDetail: skippedUnprofitable,
 };
@@ -593,4 +622,4 @@ console.log("CATEGORIES:", JSON.stringify(catCounts));
 console.log("EXCLUDE REASONS:", JSON.stringify(exclReasons));
 console.log("PRICING SOURCE:", JSON.stringify(srcCounts));
 console.log("FEATURED (", featuredList.length, "):", featuredList.map((k) => k.brand + " " + k.name).join(" | "));
-console.log("meanMarkup:", meanMarkup.toFixed(3), "atFloor:", atFloor, "atCeiling:", atCeiling);
+console.log("meanMarkup:", meanMarkup.toFixed(3), "atTarget(beat-by-£1):", atTarget, "atFloor:", atFloor, "competitorPriced:", competitorPriced);

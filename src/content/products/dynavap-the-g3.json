@@ -3,7 +3,7 @@
   "name": "DynaVap The G3",
   "brand": "DynaVap",
   "category": "pen-vapes",
-  "price": 42.95,
+  "price": 32.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/DynaVap-The-G3.jpg?v=1752778083",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/DynaVap-The-G3-body.jpg?v=1752778083",
@@ -22,5 +22,5 @@
   ],
   "stripeLink": "",
   "rnSku": "15259706982774",
-  "order": 92
+  "order": 88
 }

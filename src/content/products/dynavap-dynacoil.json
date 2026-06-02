@@ -3,7 +3,7 @@
   "name": "Dynavap Dynacoil",
   "brand": "DynaVap",
   "category": "accessories",
-  "price": 32.95,
+  "price": 24.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/DynavapDynacoilUKinsidelayers.jpg?v=1692740192",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/DynavapDynacoilUKsideimage.jpg?v=1692740192"
@@ -19,5 +19,5 @@
   ],
   "stripeLink": "",
   "rnSku": "7779312369833",
-  "order": 374
+  "order": 371
 }

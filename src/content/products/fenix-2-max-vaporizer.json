@@ -3,7 +3,7 @@
   "name": "Fenix 2 MAX Vaporizer",
   "brand": "Weecke",
   "category": "portable-vapes",
-  "price": 166.95,
+  "price": 147.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/FENIX-2-MAX_Vaporizer.webp?v=1748878408",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/FENIX-2-MAX_Vaporizer-1.webp?v=1748878408",
@@ -60,5 +60,5 @@
   ],
   "stripeLink": "",
   "rnSku": "15202559590774",
-  "order": 65
+  "order": 59
 }

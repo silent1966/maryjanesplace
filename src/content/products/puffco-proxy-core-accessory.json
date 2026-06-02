@@ -3,7 +3,7 @@
   "name": "Puffco Proxy Core Accessory",
   "brand": "Puffco",
   "category": "accessories",
-  "price": 108.95,
+  "price": 82.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Puffco-Proxy-Core-Accessory-m.jpg?v=1773775876",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Puffco-Proxy-Core-Accessory-1.jpg?v=1773775876",
@@ -13,13 +13,14 @@
   "summary": "The Puffco Proxy Core Accessory upgrades the Proxy with a more durable and portable setup.",
   "description": "The Puffco Proxy Core Accessory upgrades the Proxy with a more durable and portable setup. It replaces traditional glass components with a rugged anodized aluminium cup and a comfortable silicone mouthpiece, creating a travel-ready configuration while maintaining the signature Puffco experience. Designed with an impact airpath system, the Core improves airflow and works with the included ceramic terp pearls to enhance vapour production and flavour. Compatible only with the Bluetooth-enabled Puffco Proxy. A practical part to keep your device working as it should.",
   "specs": [],
-  "inStock": true,
+  "inStock": false,
   "featured": false,
   "tags": [
     "accessory",
-    "puffco"
+    "puffco",
+    "price-review"
   ],
   "stripeLink": "",
   "rnSku": "15656034566518",
-  "order": 468
+  "order": 458
 }

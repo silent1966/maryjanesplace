@@ -3,7 +3,7 @@
   "name": "Vapman VapCase",
   "brand": "Inhale Vaporizers",
   "category": "accessories",
-  "price": 61.95,
+  "price": 53.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vapman-VapCase-Padauk.jpg?v=1758652568",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vapman-VapCase-inside.jpg?v=1758652568"
@@ -32,5 +32,5 @@
   ],
   "stripeLink": "",
   "rnSku": "15354845692278",
-  "order": 440
+  "order": 436
 }

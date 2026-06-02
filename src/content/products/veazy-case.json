@@ -3,7 +3,7 @@
   "name": "VEAZY Case",
   "brand": "Storz & Bickel",
   "category": "accessories",
-  "price": 34.95,
+  "price": 25.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/veazy-case_black_01.jpg?v=1758652572",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/veazy-case_orange_01.jpg?v=1758652572",
@@ -22,5 +22,5 @@
   ],
   "stripeLink": "",
   "rnSku": "15354846806390",
-  "order": 388
+  "order": 380
 }

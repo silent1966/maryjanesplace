@@ -3,7 +3,7 @@
   "name": "Plenty Filling Chamber",
   "brand": "Storz & Bickel",
   "category": "accessories",
-  "price": 37.95,
+  "price": 28.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Plenty_filling_chamber_3_99dcab10-b561-476a-a743-ffe79c2ebeeb.jpg?v=1692736522",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Plenty_filling_chamber_6_6e148e3a-7824-49ad-850d-d1c5e07a5619.jpg?v=1692736522",
@@ -20,5 +20,5 @@
   ],
   "stripeLink": "",
   "rnSku": "6980032102569",
-  "order": 397
+  "order": 396
 }

@@ -3,7 +3,7 @@
   "name": "Boundless CFX",
   "brand": "Boundless",
   "category": "portable-vapes",
-  "price": 128.95,
+  "price": 117.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Boundless_CFX.jpg?v=1692736398",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Boundless_CFX_uk.jpg?v=1692736398",
@@ -44,5 +44,5 @@
   ],
   "stripeLink": "",
   "rnSku": "6980024926377",
-  "order": 56
+  "order": 52
 }

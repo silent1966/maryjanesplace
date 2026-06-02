@@ -3,7 +3,7 @@
   "name": "Arizer Air Battery",
   "brand": "Arizer",
   "category": "accessories",
-  "price": 27.95,
+  "price": 20.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/8eea6edf53bee5493c62e414f9e5fdd4_1945e1d3-562d-4f44-978d-09bd6977366b.jpg?v=1692736326",
   "gallery": [],
   "summary": "Crafted specifically for the Arizer Air SE, these long-lasting Li-ion batteries deliver exceptional quality and high voltage capability.",
@@ -17,5 +17,5 @@
   ],
   "stripeLink": "",
   "rnSku": "6980025319593",
-  "order": 344
+  "order": 337
 }

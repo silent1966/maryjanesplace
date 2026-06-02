@@ -3,7 +3,7 @@
   "name": "Vessel Craftsman",
   "brand": "Vessel",
   "category": "cartridge-batteries",
-  "price": 56.95,
+  "price": 48.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vessel-Craftsman-Slate-Walnut.jpg?v=1763755987",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vessel-Craftsman-Slate-Blackwood.jpg?v=1763755987"
@@ -36,5 +36,5 @@
   ],
   "stripeLink": "",
   "rnSku": "15456078004598",
-  "order": 126
+  "order": 123
 }

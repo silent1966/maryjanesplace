@@ -3,7 +3,7 @@
   "name": "Puffco New Peak",
   "brand": "Puffco",
   "category": "dab-rigs",
-  "price": 312.95,
+  "price": 236.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Puffco-New-Peak-Concentrate-Portable-Vaporizer-1-1000x1000.jpg?v=1761766235",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Puffco-New-Peak-Onyx-2.jpg?v=1761766235",
@@ -19,13 +19,14 @@
       "value": "7\" High and 2.75\" Base / 17.7cm x 6.98cm"
     }
   ],
-  "inStock": true,
+  "inStock": false,
   "featured": false,
   "tags": [
     "concentrate",
-    "puffco"
+    "puffco",
+    "price-review"
   ],
   "stripeLink": "",
   "rnSku": "14636172575094",
-  "order": 106
+  "order": 102
 }

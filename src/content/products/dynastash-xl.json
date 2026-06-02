@@ -3,7 +3,7 @@
   "name": "DynaStash XL",
   "brand": "DynaVap",
   "category": "storage",
-  "price": 56.95,
+  "price": 48.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/079b0399022df0abad2aaba2e3c60fb0.jpg?v=1714599292",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/DynaStash-XL-Purpleheart.jpg?v=1714599292"
@@ -24,5 +24,5 @@
   ],
   "stripeLink": "",
   "rnSku": "6980027056297",
-  "order": 153
+  "order": 150
 }

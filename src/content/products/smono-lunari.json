@@ -3,7 +3,7 @@
   "name": "Smono Lunari",
   "brand": "Smono",
   "category": "portable-vapes",
-  "price": 123.95,
+  "price": 117.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Smono-Lunari-Vaporizer1.jpg?v=1760564301",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Smono-Lunari-Vaporizer2.jpg?v=1760564300",
@@ -22,5 +22,5 @@
   ],
   "stripeLink": "",
   "rnSku": "15390947803510",
-  "order": 52
+  "order": 48
 }

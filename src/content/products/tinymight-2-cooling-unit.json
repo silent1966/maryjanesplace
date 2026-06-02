@@ -3,7 +3,7 @@
   "name": "Tinymight 2 - Cooling unit",
   "brand": "Tinymight",
   "category": "accessories",
-  "price": 50.95,
+  "price": 41.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/TinyMight-Cooling-unit.jpg?v=1700167767",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/TinyMight-2-Cooling-unit.jpg?v=1700167767"
@@ -19,5 +19,5 @@
   ],
   "stripeLink": "",
   "rnSku": "7842404958377",
-  "order": 425
+  "order": 422
 }

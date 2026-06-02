@@ -3,7 +3,7 @@
   "name": "PAX Smell Proof Bag",
   "brand": "PAX",
   "category": "storage",
-  "price": 60.95,
+  "price": 52.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Pax-Smell-Proof-Bag_ce39e7fa-c64c-4929-88f3-174f14dad4e6.jpg?v=1706731992",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Pax-Smell-Proof-Bag-Open_a547e789-1871-4a4d-8b38-955d39bccbe7.jpg?v=1706731992",
@@ -21,5 +21,5 @@
   ],
   "stripeLink": "",
   "rnSku": "7898853998761",
-  "order": 154
+  "order": 151
 }

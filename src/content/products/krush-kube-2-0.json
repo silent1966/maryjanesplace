@@ -3,7 +3,7 @@
   "name": "KRUSH KUBE 2.0",
   "brand": "Krush",
   "category": "grinders",
-  "price": 47.95,
+  "price": 38.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/krush-black-5_1.jpg?v=1779300419",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/krush-black-4_1.jpg?v=1779300419",
@@ -35,5 +35,5 @@
   ],
   "stripeLink": "",
   "rnSku": "7781319475369",
-  "order": 139
+  "order": 136
 }

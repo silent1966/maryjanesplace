@@ -3,7 +3,7 @@
   "name": "Vessel USB-A to USB-C Charging Cable",
   "brand": "Vessel",
   "category": "batteries",
-  "price": 23.95,
+  "price": 17.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vessel-Magnetic-Charging-Cable-2.0_26354e42-9e7c-4e99-b8c7-3787f33d2199.jpg?v=1770216098",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vessel-USB-A-to-USB-C-Charging-Cable-Box.jpg?v=1763755988"
@@ -24,5 +24,5 @@
   ],
   "stripeLink": "",
   "rnSku": "15456078102902",
-  "order": 484
+  "order": 480
 }

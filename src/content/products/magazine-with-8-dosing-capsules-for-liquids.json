@@ -3,7 +3,7 @@
   "name": "Magazine with 8 Dosing Capsules",
   "brand": "Storz & Bickel",
   "category": "accessories",
-  "price": 34.95,
+  "price": 26.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Magazine_with_8_Dosing_Capsules_for_Liquids_2_da1512aa-a729-4614-8df6-d5d2b0d1bc65.jpg?v=1620661919",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Magazine_with_8_Dosing_Capsules_for_Liquids_3_7d505eff-fc4a-46aa-a616-e5d0a34df08f.jpg?v=1620661919",
@@ -29,5 +29,5 @@
   ],
   "stripeLink": "",
   "rnSku": "6980033249449",
-  "order": 389
+  "order": 388
 }

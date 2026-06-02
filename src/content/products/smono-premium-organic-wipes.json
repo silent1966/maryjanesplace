@@ -3,7 +3,7 @@
   "name": "Smono Premium Organic Wipe",
   "brand": "Smono",
   "category": "cleaning",
-  "price": 14.95,
+  "price": 10.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Smono-Premium-Organic-Vipes-10x_613cdb8b-317e-4239-b689-33a4093b914e.jpg?v=1692736782",
   "gallery": [],
   "summary": "This organic wipe makes cleaning your device and screen a breeze.",
@@ -22,5 +22,5 @@
   ],
   "stripeLink": "",
   "rnSku": "6980030103721",
-  "order": 158
+  "order": 155
 }

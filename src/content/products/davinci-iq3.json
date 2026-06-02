@@ -3,7 +3,7 @@
   "name": "DaVinci IQ3",
   "brand": "DaVinci",
   "category": "portable-vapes",
-  "price": 246.95,
+  "price": 187.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/DAVINCI-IQ3-Vaporizer-GunMetal.jpg?v=1726592558",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/DAVINCI-IQ3-Vaporizer-GunMetal-1.jpg?v=1726592558",
@@ -40,5 +40,5 @@
   ],
   "stripeLink": "",
   "rnSku": "8273833558185",
-  "order": 74
+  "order": 66
 }

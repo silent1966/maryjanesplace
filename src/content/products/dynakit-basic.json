@@ -3,7 +3,7 @@
   "name": "Dynakit: Basic",
   "brand": "DynaVap",
   "category": "accessories",
-  "price": 27.95,
+  "price": 21.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Dynavap-DynaKit.jpg?v=1763741339",
   "gallery": [],
   "summary": "The Dynakit: Basic is perfect for ensuring you have necessary spare parts when you need them.",
@@ -17,5 +17,5 @@
   ],
   "stripeLink": "",
   "rnSku": "7905135460521",
-  "order": 340
+  "order": 347
 }

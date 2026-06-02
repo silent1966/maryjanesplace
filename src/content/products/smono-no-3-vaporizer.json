@@ -3,7 +3,7 @@
   "name": "Smono 3 Vaporizer",
   "brand": "Smono",
   "category": "portable-vapes",
-  "price": 93.95,
+  "price": 73.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Smono-no-3-included_2b091d7e-15f6-43d0-ad31-43032ae01013.jpg?v=1693246479",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Smono-no-3-vaporizer.jpg?v=1693246479",
@@ -52,5 +52,5 @@
   ],
   "stripeLink": "",
   "rnSku": "6980034298025",
-  "order": 36
+  "order": 29
 }

@@ -3,7 +3,7 @@
   "name": "Arizer Solo - USB-C charger",
   "brand": "Arizer",
   "category": "batteries",
-  "price": 40.95,
+  "price": 30.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Arizer-Solo-USB-C-charger-UK.jpg?v=1755203592",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Arizer-Solo-USB-C-charger-EU.jpg?v=1755203592"
@@ -19,5 +19,5 @@
   ],
   "stripeLink": "",
   "rnSku": "15297708360054",
-  "order": 500
+  "order": 497
 }

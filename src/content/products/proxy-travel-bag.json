@@ -3,7 +3,7 @@
   "name": "Proxy Travel Bag",
   "brand": "Puffco",
   "category": "cases",
-  "price": 93.95,
+  "price": 77.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Proxy-travel-case-black.jpg?v=1692975877",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Proxy-travel-case-black-back.jpg?v=1692975877",
@@ -22,5 +22,5 @@
   ],
   "stripeLink": "",
   "rnSku": "7779984507049",
-  "order": 522
+  "order": 519
 }

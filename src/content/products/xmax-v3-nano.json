@@ -3,7 +3,7 @@
   "name": "XMAX V3 Nano",
   "brand": "Topgreen",
   "category": "portable-vapes",
-  "price": 59.95,
+  "price": 51.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Xmax-v3-nano-vaporizer-black.jpg?v=1725307590",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Xmax-v3-nano-vaporizer-black-parts.jpg?v=1725307590",
@@ -36,5 +36,5 @@
   ],
   "stripeLink": "",
   "rnSku": "8256150143145",
-  "order": 21
+  "order": 17
 }

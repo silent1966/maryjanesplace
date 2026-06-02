@@ -3,7 +3,7 @@
   "name": "Vessel Ridge Charger",
   "brand": "Vessel",
   "category": "batteries",
-  "price": 39.95,
+  "price": 29.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vessel-Ridge-Charger-1.jpg?v=1763755984",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vessel-Ridge-Charger-4.jpg?v=1763755984",
@@ -34,5 +34,5 @@
   ],
   "stripeLink": "",
   "rnSku": "15456077873526",
-  "order": 499
+  "order": 496
 }

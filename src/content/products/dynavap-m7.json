@@ -3,7 +3,7 @@
   "name": "DynaVap M 7",
   "brand": "DynaVap",
   "category": "pen-vapes",
-  "price": 84.95,
+  "price": 81.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Dynavap-M7-vape-pen1.jpg?v=1771633905",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Dynavap-M7-vape-pen2.jpg?v=1771633905",
@@ -23,5 +23,5 @@
   ],
   "stripeLink": "",
   "rnSku": "7952767090857",
-  "order": 95
+  "order": 91
 }

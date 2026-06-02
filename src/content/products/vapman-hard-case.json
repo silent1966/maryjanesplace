@@ -3,7 +3,7 @@
   "name": "Vapman Hard Case",
   "brand": "Inhale Vaporizers",
   "category": "cases",
-  "price": 35.95,
+  "price": 27.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vapman-hard-case-closed.jpg?v=1758652567",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vapman-hard-case-open.jpg?v=1758652567"
@@ -36,5 +36,5 @@
   ],
   "stripeLink": "",
   "rnSku": "15354845397366",
-  "order": 517
+  "order": 514
 }

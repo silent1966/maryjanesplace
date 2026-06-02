@@ -3,7 +3,7 @@
   "name": "Puffco Proxy Core Kit",
   "brand": "Puffco",
   "category": "portable-vapes",
-  "price": 268.95,
+  "price": 203.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Puffco-Proxy-Core-Kit-Portable-Concentrate-Vaporizer-m2.jpg?v=1773775874",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Puffco-Proxy-Core-size-in-hand.jpg?v=1773775874",
@@ -39,13 +39,14 @@
       "value": "All Puffco Proxy glass and accessories"
     }
   ],
-  "inStock": true,
-  "featured": true,
+  "inStock": false,
+  "featured": false,
   "tags": [
     "portable",
-    "puffco"
+    "puffco",
+    "price-review"
   ],
   "stripeLink": "",
   "rnSku": "15656034468214",
-  "order": 16
+  "order": 68
 }

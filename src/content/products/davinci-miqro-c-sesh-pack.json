@@ -3,7 +3,7 @@
   "name": "Davinci MIQRO-C Sesh Pack",
   "brand": "DaVinci",
   "category": "accessories",
-  "price": 33.95,
+  "price": 25.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Davinci-MIQRO-C-Sesh-Pack-1.jpg?v=1767972235",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Davinci-MIQRO-C-Sesh-Pack-2.jpg?v=1767972234",
@@ -22,5 +22,5 @@
   ],
   "stripeLink": "",
   "rnSku": "15542694347126",
-  "order": 380
+  "order": 379
 }

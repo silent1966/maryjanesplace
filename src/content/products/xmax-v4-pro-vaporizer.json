@@ -3,7 +3,7 @@
   "name": "XMAX V4 Pro Vaporizer",
   "brand": "Topgreen",
   "category": "portable-vapes",
-  "price": 123.95,
+  "price": 97.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/XMax-V4-Pro-Dry-Herb-Vaporizer.jpg?v=1779392150",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/X-Max-V4-Pro-Vaporizer.jpg?v=1771970065",
@@ -56,5 +56,5 @@
   ],
   "stripeLink": "",
   "rnSku": "15625683468662",
-  "order": 51
+  "order": 40
 }

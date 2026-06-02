@@ -3,7 +3,7 @@
   "name": "Smono Start",
   "brand": "Smono",
   "category": "accessories",
-  "price": 71.95,
+  "price": 65.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Start-Box-Device-Shadow-White.jpg?v=1769795021",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Smono-Start-R-ckseite.jpg?v=1769795021",
@@ -22,5 +22,5 @@
   ],
   "stripeLink": "",
   "rnSku": "7779299524777",
-  "order": 447
+  "order": 444
 }

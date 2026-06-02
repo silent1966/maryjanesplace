@@ -3,7 +3,7 @@
   "name": "Fenix NEO",
   "brand": "Weecke",
   "category": "portable-vapes",
-  "price": 166.95,
+  "price": 137.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Fenix-NEO-Vaporizer.jpg?v=1727979097",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Fenix-NEO-Vaporizer-parts.jpg?v=1727979097",
@@ -48,5 +48,5 @@
   ],
   "stripeLink": "",
   "rnSku": "14634993222006",
-  "order": 66
+  "order": 57
 }

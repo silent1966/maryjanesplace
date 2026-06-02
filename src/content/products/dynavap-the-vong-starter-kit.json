@@ -3,7 +3,7 @@
   "name": "DynaVap The VonG Starter Kit",
   "brand": "DynaVap",
   "category": "pen-vapes",
-  "price": 173.95,
+  "price": 145.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Dynavap-The-Vong-2021-Starter-Kit-Without-Coil.jpg?v=1692742025",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/The-Vong-attached-to-bong.jpg?v=1692742025",
@@ -55,5 +55,5 @@
   ],
   "stripeLink": "",
   "rnSku": "7779323478185",
-  "order": 13
+  "order": 12
 }

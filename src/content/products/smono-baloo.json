@@ -3,7 +3,7 @@
   "name": "Smono Baloo",
   "brand": "Smono",
   "category": "portable-vapes",
-  "price": 95.95,
+  "price": 77.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Smono-Baloo-Vaporizer.jpg?v=1707861062",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Smono-Baloo-Vaporizer-Replaceable-Battery.jpg?v=1707861062",
@@ -36,5 +36,5 @@
   ],
   "stripeLink": "",
   "rnSku": "7909793661097",
-  "order": 38
+  "order": 33
 }

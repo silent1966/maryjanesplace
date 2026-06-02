@@ -3,7 +3,7 @@
   "name": "PAX Four",
   "brand": "PAX",
   "category": "portable-vapes",
-  "price": 174.95,
+  "price": 187.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/PAX-Four-Vaporizer.jpg?v=1771621641",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/PAXFOURFrontOrthoGreenstone.jpg?v=1772741393",
@@ -52,5 +52,5 @@
   ],
   "stripeLink": "",
   "rnSku": "15622169362806",
-  "order": 14
+  "order": 13
 }

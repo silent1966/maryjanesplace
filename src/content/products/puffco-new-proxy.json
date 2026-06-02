@@ -3,7 +3,7 @@
   "name": "Puffco New Proxy",
   "brand": "Puffco",
   "category": "portable-vapes",
-  "price": 283.95,
+  "price": 222.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Puffco-New-Proxy-Onyx.jpg?v=1758652556",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Puffco-New-Proxy-Haze-joystick.jpg?v=1758652555",
@@ -39,5 +39,5 @@
   ],
   "stripeLink": "",
   "rnSku": "15354842284406",
-  "order": 17
+  "order": 14
 }

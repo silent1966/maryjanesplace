@@ -3,7 +3,7 @@
   "name": "EU/NA to UK Travel adapter (UK Tourist)",
   "brand": "Herbalize Store UK",
   "category": "batteries",
-  "price": 14.95,
+  "price": 11.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/EUUKTravelAdapter_UKtourist_2_a9d00b19-ead4-4a67-8310-e48916b140e6.jpg?v=1692736986",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/EUUKTravelAdapter_UKtourist_packfront_bfcdf02e-ab2f-44ef-a3e9-fc6d142a549e.jpg?v=1692736986",
@@ -20,5 +20,5 @@
   ],
   "stripeLink": "",
   "rnSku": "6980038394025",
-  "order": 478
+  "order": 475
 }

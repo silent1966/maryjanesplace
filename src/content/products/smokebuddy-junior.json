@@ -3,7 +3,7 @@
   "name": "Smokebuddy Junior",
   "brand": "SmokeBuddy",
   "category": "accessories",
-  "price": 33.95,
+  "price": 25.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Smokebuddy-Junior-Black-2.jpg?v=1692737381",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Smokebuddy-Junior-Black-package.jpg?v=1692737381",
@@ -21,5 +21,5 @@
   ],
   "stripeLink": "",
   "rnSku": "7779302310057",
-  "order": 386
+  "order": 385
 }

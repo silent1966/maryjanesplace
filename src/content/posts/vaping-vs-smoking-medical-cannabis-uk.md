@@ -5,9 +5,9 @@ summary: "Vaporising versus smoking is the line between legal medicine and a pub
 draft: false
 ---
 
-The single most important practical rule for UK medical cannabis patients is one line of law that almost nobody talks about: **you vaporise your medicine, you do not smoke it.** Not because it's healthier — though it is. Because the legislation that made cannabis prescribable in the first place draws the line through combustion.
+The single most important practical rule for UK medical cannabis patients is one line of law that almost nobody talks about: **you vaporise your medicine, you do not smoke it.** This isn't about health claims — it's because the legislation that made cannabis prescribable in the first place draws the line through combustion.
 
-Smoke and you are on the wrong side of the law. Vape and you are on the right side of it. That is the whole rule.
+Smoke and you are on the wrong side of the law. Vaporise and you are on the right side of it. That is the whole rule.
 
 ## What the legislation actually says
 

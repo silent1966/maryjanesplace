@@ -3,7 +3,7 @@
   "name": "Vapman Click",
   "brand": "Inhale Vaporizers",
   "category": "pen-vapes",
-  "price": 124.95,
+  "price": 94.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vapman-Click-Pure-Cherry-Wood.jpg?v=1758652540",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vapman-Click-Pure-Cherry-Wood-case.jpg?v=1758652542",
@@ -43,13 +43,14 @@
       "value": "Swiss engineered, handmade in Italy"
     }
   ],
-  "inStock": true,
+  "inStock": false,
   "featured": false,
   "tags": [
     "pen",
-    "inhale-vaporizers"
+    "inhale-vaporizers",
+    "price-review"
   ],
   "stripeLink": "",
   "rnSku": "15354837795190",
-  "order": 99
+  "order": 92
 }

@@ -3,7 +3,7 @@
   "name": "Puffco Peak Pro 3D XL Chamber",
   "brand": "Puffco",
   "category": "accessories",
-  "price": 133.95,
+  "price": 101.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Puffco-Peak-Pro-3D-XL-chamber-gold.jpg?v=1728075154",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Puffco-Peak-Pro-3D-XL-chamber.jpg?v=1728075154",
@@ -14,13 +14,14 @@
   "summary": "Experience 2x more vapour with the 78% larger 3DXL chamber of the Puffco Peak Pro, surpassing predecessor models.",
   "description": "Experience 2x more vapour with the 78% larger 3DXL chamber of the Puffco Peak Pro, surpassing predecessor models. This innovative e-rig chamber features a deep chamber and XL Joystick for larger loads and more powerful hits, while reducing reclaim. Easily customise your vapour experience with the Puffco Connect app for control. An impressive upgrade for any expert user. A practical part to keep your device working as it should.",
   "specs": [],
-  "inStock": true,
+  "inStock": false,
   "featured": false,
   "tags": [
     "accessory",
-    "puffco"
+    "puffco",
+    "price-review"
   ],
   "stripeLink": "",
   "rnSku": "14636173033846",
-  "order": 474
+  "order": 470
 }

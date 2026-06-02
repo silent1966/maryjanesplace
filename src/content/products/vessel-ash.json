@@ -3,7 +3,7 @@
   "name": "Vessel Ash",
   "brand": "Vessel",
   "category": "accessories",
-  "price": 127.95,
+  "price": 137.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vessel-Ash-Walnut.jpg?v=1763755991",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Vessel-Ash-Walnut-parts.jpg?v=1763755991",
@@ -34,5 +34,5 @@
   ],
   "stripeLink": "",
   "rnSku": "15456078233974",
-  "order": 472
+  "order": 474
 }

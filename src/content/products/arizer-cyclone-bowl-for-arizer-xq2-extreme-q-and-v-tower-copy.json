@@ -3,7 +3,7 @@
   "name": "Arizer Glass Whip Mouthpiece",
   "brand": "Arizer",
   "category": "accessories",
-  "price": 18.95,
+  "price": 13.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/8ccd910961abb19a2e0bf1d37ce0bb84.jpg?v=1723583582",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Arizer-Glass-Whip-Mouthpiece.jpg?v=1723583582"
@@ -19,5 +19,5 @@
   ],
   "stripeLink": "",
   "rnSku": "8228254023849",
-  "order": 201
+  "order": 183
 }

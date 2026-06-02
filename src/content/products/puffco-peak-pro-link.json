@@ -3,7 +3,7 @@
   "name": "Puffco Peak Pro Link",
   "brand": "Puffco",
   "category": "accessories",
-  "price": 171.95,
+  "price": 129.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Puffco-Peak-Pro-Link-Onyx.jpg?v=1771950637",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Puffco-Peak-Pro-Link-app.jpg?v=1771950638",
@@ -27,5 +27,5 @@
   ],
   "stripeLink": "",
   "rnSku": "15625657319798",
-  "order": 477
+  "order": 473
 }

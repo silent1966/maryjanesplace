@@ -34,16 +34,24 @@ import site from "../content/site/settings.json";
         or asked to leave. Open to verified patients from anywhere in the UK.
       </p>
       <div class="hero-cta rv">
-        <a class="btn" href="/medical-cannabis">Medical cannabis, explained <span class="arr">→</span></a>
+        <a class="btn" href="/shop">Shop devices <span class="arr">→</span></a>
+        <a class="btn ghost" href="/medical-cannabis">Medical cannabis, explained</a>
         <a class="btn ghost" href="/visit">Plan a visit</a>
       </div>
       <div class="reassure rv">
         <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12l5 5L20 6"/></svg> Legal since 2018</span>
-        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12l5 5L20 6"/></svg> Prescription required</span>
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12l5 5L20 6"/></svg> Vaporisers matched or beaten on UK price</span>
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12l5 5L20 6"/></svg> Free UK delivery over £60</span>
         <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12l5 5L20 6"/></svg> Vaporisers only · 18+</span>
       </div>
     </div>
+    <a class="scroll-cue" id="scroll-cue" href="#more" aria-label="Scroll for more">
+      <span>More below</span>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+    </a>
   </section>
+
+  <span id="more"></span>
 
   <section class="pad">
     <div class="wrap two vc">
@@ -136,3 +144,13 @@ import site from "../content/site/settings.json";
     </div>
   </section>
 </Base>
+
+<script>
+  // fade the scroll cue once the visitor starts scrolling
+  const cue = document.getElementById('scroll-cue');
+  if (cue) {
+    const onScroll = () => cue.classList.toggle('hide', window.scrollY > 80);
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+  }
+</script>

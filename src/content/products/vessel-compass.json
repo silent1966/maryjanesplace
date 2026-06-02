@@ -3,7 +3,7 @@
   "name": "Vessel Compass",
   "brand": "Vessel",
   "category": "cartridge-batteries",
-  "price": 43.95,
+  "price": 33.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/vessel-compass-gun-metal.jpg?v=1763755980",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/vessel-compass-mojave.jpg?v=1763755980",
@@ -31,5 +31,5 @@
   ],
   "stripeLink": "",
   "rnSku": "15456077709686",
-  "order": 124
+  "order": 121
 }

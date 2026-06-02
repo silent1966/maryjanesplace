@@ -3,7 +3,7 @@
   "name": "Zenco Glassware - To Go",
   "brand": "Zenco",
   "category": "accessories",
-  "price": 56.95,
+  "price": 48.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Zenco-Glassware-To-Go.jpg?v=1698262822",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/Zenco-Glassware-To-Go-Top.jpg?v=1698262822"
@@ -19,5 +19,5 @@
   ],
   "stripeLink": "",
   "rnSku": "7811728670889",
-  "order": 432
+  "order": 429
 }

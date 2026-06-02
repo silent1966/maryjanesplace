@@ -3,7 +3,7 @@
   "name": "G Pen Dash 2",
   "brand": "Grenco Science",
   "category": "portable-vapes",
-  "price": 65.95,
+  "price": 58.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/GPEN-Dash2-vaproizer11.jpg?v=1772825941",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Gpen-dash2-in-use.jpg?v=1772825941",
@@ -23,5 +23,5 @@
   ],
   "stripeLink": "",
   "rnSku": "15640974950774",
-  "order": 23
+  "order": 19
 }

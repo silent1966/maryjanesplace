@@ -3,7 +3,7 @@
   "name": "Santa Cruz Shredder - 2 Part Grinder",
   "brand": "Santa Cruz Shredder",
   "category": "grinders",
-  "price": 44.95,
+  "price": 34.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Santa-cruz-grinder-2-Black.jpg?v=1728592025",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Santa-cruz-grinder-2-Blue.jpg?v=1728592025",
@@ -20,5 +20,5 @@
   ],
   "stripeLink": "",
   "rnSku": "14640426746230",
-  "order": 138
+  "order": 135
 }

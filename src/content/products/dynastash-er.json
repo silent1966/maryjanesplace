@@ -3,7 +3,7 @@
   "name": "DynaStash ER",
   "brand": "DynaVap",
   "category": "storage",
-  "price": 60.95,
+  "price": 53.95,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/30c0d0c94fd20314e9ab4b456874e0d2.jpg?v=1714599296",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/DynaStash-ER-Movingui_d6165212-1606-4863-95b3-a8b87c527913.jpg?v=1714599296"
@@ -24,5 +24,5 @@
   ],
   "stripeLink": "",
   "rnSku": "6980026007721",
-  "order": 155
+  "order": 152
 }
