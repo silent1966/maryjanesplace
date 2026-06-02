@@ -486,16 +486,23 @@ for (const p of catalog) {
   const pr = computePrice(T, handle, brand, compareAt > 0 ? compareAt : 0);
   // FINAL = max(FLOOR, TARGET) is always >= floor, so we never sell at a loss.
 
+  // "price-review": RN trade is at/above the cheapest UK price, so the floor forces a
+  // price ABOVE the market. We do NOT list these at a silly price — mark them
+  // out-of-stock / enquire and tag them so they're easy to find and fix in /admin.
+  const compEntry = competitor[handle];
+  const priceReview = !!(compEntry && compEntry.min > 0 && pr.price > compEntry.min + 0.001);
+
   const { summary, description } = buildCopy(p, category, brand);
   const specs = extractSpecs(p.description_html, p, category).slice(0, 10);
   const tagsOut = buildTags(p, category, brand);
+  if (priceReview && !tagsOut.includes("price-review")) tagsOut.push("price-review");
 
   // images: reference RN's Shopify CDN directly (real photos, no download)
   const primaryUrl = clean(p.image_url) || (p.gallery || [])[0] || "";
   const galleryUrls = [...new Set((p.gallery || []).map((g) => clean(g)).filter(Boolean))].filter((g) => g !== primaryUrl).slice(0, 4);
 
   kept.push({
-    p, handle, name, brand, category, T,
+    p, handle, name, brand, category, T, priceReview,
     price: pr.price, floor: pr.floor, target: pr.target, ceilingSource: pr.source, basis: pr.basis, atFloor: pr.atFloor,
     summary, description, specs, tags: tagsOut,
     rnSku: String(p.rn_product_id),
@@ -518,6 +525,7 @@ for (const k of kept) {
 const featuredPick = new Map();
 for (const k of kept) {
   if (k.frank < 0) continue;
+  if (k.priceReview) continue; // don't feature a product we can't sell at a competitive price
   const cur = featuredPick.get(k.frank);
   if (!cur || k.T > cur.T) featuredPick.set(k.frank, k); // prefer the real device (higher trade cost) over an accessory match
 }
@@ -558,7 +566,7 @@ for (const k of kept) {
     summary,
     description,
     specs: k.specs,
-    inStock: true,
+    inStock: !k.priceReview,
     featured: !!k.featured,
     tags: k.tags,
     stripeLink: "",

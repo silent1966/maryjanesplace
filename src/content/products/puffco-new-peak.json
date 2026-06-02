@@ -19,13 +19,14 @@
       "value": "7\" High and 2.75\" Base / 17.7cm x 6.98cm"
     }
   ],
-  "inStock": true,
+  "inStock": false,
   "featured": false,
   "tags": [
     "concentrate",
-    "puffco"
+    "puffco",
+    "price-review"
   ],
   "stripeLink": "",
   "rnSku": "14636172575094",
-  "order": 106
+  "order": 105
 }

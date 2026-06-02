@@ -39,14 +39,15 @@
       "value": "180–220 °C"
     }
   ],
-  "inStock": true,
+  "inStock": false,
   "featured": false,
   "tags": [
     "portable",
     "dry-herb",
-    "norddampf"
+    "norddampf",
+    "price-review"
   ],
   "stripeLink": "",
   "rnSku": "15286475489654",
-  "order": 39
+  "order": 36
 }

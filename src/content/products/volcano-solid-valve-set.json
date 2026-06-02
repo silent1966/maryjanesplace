@@ -13,11 +13,12 @@
   "summary": "Volcano Solid Valve Set — a cleaning accessory for keeping your device clean for purer vapour.",
   "description": "The Volcano Solid Valve Set enables vaping of dry herbs using either the Volcano Classic or the Volcano Digital Vaporiser, providing all necessary components for a versatile experience. This trusted information is sourced from the manufacturer. A clean device gives cleaner vapour and a more reliable dose.",
   "specs": [],
-  "inStock": true,
+  "inStock": false,
   "featured": false,
   "tags": [
     "cleaning",
-    "storz-bickel"
+    "storz-bickel",
+    "price-review"
   ],
   "stripeLink": "",
   "rnSku": "6980032364713",

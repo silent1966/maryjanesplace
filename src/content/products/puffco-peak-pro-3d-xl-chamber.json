@@ -14,11 +14,12 @@
   "summary": "Experience 2x more vapour with the 78% larger 3DXL chamber of the Puffco Peak Pro, surpassing predecessor models.",
   "description": "Experience 2x more vapour with the 78% larger 3DXL chamber of the Puffco Peak Pro, surpassing predecessor models. This innovative e-rig chamber features a deep chamber and XL Joystick for larger loads and more powerful hits, while reducing reclaim. Easily customise your vapour experience with the Puffco Connect app for control. An impressive upgrade for any expert user. A practical part to keep your device working as it should.",
   "specs": [],
-  "inStock": true,
+  "inStock": false,
   "featured": false,
   "tags": [
     "accessory",
-    "puffco"
+    "puffco",
+    "price-review"
   ],
   "stripeLink": "",
   "rnSku": "14636173033846",

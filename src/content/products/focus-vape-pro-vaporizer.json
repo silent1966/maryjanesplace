@@ -19,14 +19,15 @@
       "value": "Dry Herb, Concentrates, Oils"
     }
   ],
-  "inStock": true,
+  "inStock": false,
   "featured": false,
   "tags": [
     "portable",
     "dry-herb",
-    "focus-vape"
+    "focus-vape",
+    "price-review"
   ],
   "stripeLink": "",
   "rnSku": "6980033740969",
-  "order": 44
+  "order": 41
 }

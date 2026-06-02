@@ -26,14 +26,15 @@
       "value": "3 years"
     }
   ],
-  "inStock": true,
+  "inStock": false,
   "featured": false,
   "tags": [
     "desktop",
     "dry-herb",
-    "storz-bickel"
+    "storz-bickel",
+    "price-review"
   ],
   "stripeLink": "",
   "rnSku": "6980037378217",
-  "order": 86
+  "order": 84
 }

@@ -124,8 +124,11 @@ const totalCount = products.length;
               <div class="prod-brand">{p.brand}</div>
               <h3 class="prod-name">{p.name}</h3>
               <div class="prod-price">
-                <span class="price-main">£{p.price.toFixed(2)}</span>
-                {p.salePrice && <span class="price-was">£{p.salePrice.toFixed(2)}</span>}
+                {(p.tags ?? []).includes("price-review")
+                  ? <span class="price-poa">Price on enquiry</span>
+                  : <><span class="price-main">£{p.price.toFixed(2)}</span>
+                      {p.salePrice && <span class="price-was">£{p.salePrice.toFixed(2)}</span>}</>
+                }
               </div>
             </div>
           </a>
@@ -426,6 +429,7 @@ const totalCount = products.length;
   .prod-price { display: flex; align-items: baseline; gap: 8px; }
   .price-main { font-size: 17px; font-weight: 800; color: var(--olive-d); letter-spacing: -0.01em; }
   .price-was { font-size: 13.5px; color: var(--ink-soft); text-decoration: line-through; }
+  .price-poa { font-size: 14px; font-weight: 700; color: var(--olive); }
 
   .empty-state {
     padding: 60px 20px;

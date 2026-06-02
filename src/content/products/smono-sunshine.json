@@ -14,14 +14,15 @@
   "summary": "A versatile ceramic-heated vaporiser for dry herb and concentrates, with an ergonomic mouthpiece.",
   "description": "The Smono Sunshine uses quick ceramic heaters with adjustable temperature control, working with both dry herb and concentrates via the included wax bowl. The ergonomic mouthpiece and sleek shape make for comfortable, flavourful sessions. USB-C charging and a full cleaning kit — brush, alcohol pads and swabs — come in the box. It suits a patient who wants one device that covers both flower and extracts without spending much. A 2-year manufacturer warranty applies from the day of purchase.",
   "specs": [],
-  "inStock": true,
+  "inStock": false,
   "featured": false,
   "tags": [
     "portable",
     "dry-herb",
-    "smono"
+    "smono",
+    "price-review"
   ],
   "stripeLink": "",
   "rnSku": "7779303653545",
-  "order": 40
+  "order": 37
 }

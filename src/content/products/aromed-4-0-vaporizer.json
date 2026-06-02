@@ -30,14 +30,15 @@
       "value": "5 Year Warranty"
     }
   ],
-  "inStock": true,
+  "inStock": false,
   "featured": false,
   "tags": [
     "desktop",
     "dry-herb",
-    "aromed-hq-vaporizer"
+    "aromed-hq-vaporizer",
+    "price-review"
   ],
   "stripeLink": "",
   "rnSku": "6980029120681",
-  "order": 91
+  "order": 90
 }

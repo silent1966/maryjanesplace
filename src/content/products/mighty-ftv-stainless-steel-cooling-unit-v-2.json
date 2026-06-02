@@ -12,11 +12,12 @@
   "summary": "This version of Mighty FTV Stainless Steel Cooling Unit provides a refined aesthetic and enhanced cooling capabilities for brief periods of use.",
   "description": "This version of Mighty FTV Stainless Steel Cooling Unit provides a refined aesthetic and enhanced cooling capabilities for brief periods of use. Fits both the Mighty and Mighty+ Vaporiser. This trusted information is sourced from the manufacturer. A practical part to keep your device working as it should.",
   "specs": [],
-  "inStock": true,
+  "inStock": false,
   "featured": false,
   "tags": [
     "accessory",
-    "storz-bickel"
+    "storz-bickel",
+    "price-review"
   ],
   "stripeLink": "",
   "rnSku": "6980037345449",

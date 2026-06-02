@@ -43,13 +43,14 @@
       "value": "Swiss engineered, handmade in Italy"
     }
   ],
-  "inStock": true,
+  "inStock": false,
   "featured": false,
   "tags": [
     "pen",
-    "inhale-vaporizers"
+    "inhale-vaporizers",
+    "price-review"
   ],
   "stripeLink": "",
   "rnSku": "15354837795190",
-  "order": 96
+  "order": 95
 }

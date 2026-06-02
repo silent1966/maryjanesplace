@@ -39,14 +39,15 @@
       "value": "USB Type C"
     }
   ],
-  "inStock": true,
+  "inStock": false,
   "featured": false,
   "tags": [
     "portable",
     "dry-herb",
-    "boundless"
+    "boundless",
+    "price-review"
   ],
   "stripeLink": "",
   "rnSku": "7846042075305",
-  "order": 68
+  "order": 65
 }

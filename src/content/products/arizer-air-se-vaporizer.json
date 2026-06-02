@@ -35,14 +35,15 @@
       "value": "1.18 in / 3 cm"
     }
   ],
-  "inStock": true,
+  "inStock": false,
   "featured": false,
   "tags": [
     "portable",
     "dry-herb",
-    "arizer"
+    "arizer",
+    "price-review"
   ],
   "stripeLink": "",
   "rnSku": "7779322658985",
-  "order": 29
+  "order": 26
 }

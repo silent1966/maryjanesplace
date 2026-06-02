@@ -29,18 +29,14 @@ Replaced the old multi-factor formula in `scripts/gen-products.mjs` and regenera
 - With a real competitor price: **109** — of which **79 beat the cheapest UK price by £1** and **30 are floor-prevented** (see below).
 - No competitor price (fallback formula): **414**.
 
-### ⚠️ Floor-prevented products (RN trade ≥ UK street price) — for your pricing review
-On **30** products the RN trade cost is at or above the cheapest UK retail price, so Rule 1 forces a price *above* market (we can't beat it without selling at a loss). These aren't viable as straight dropship — consider dropping them or renegotiating trade. The worst offenders:
+### Floor-prevented products — handled, not listed at silly prices
+On **30** products the RN trade cost is at or above the cheapest UK retail price, so Rule 1 would force a price *above* market. Rather than show an uncompetitive number, these are now:
+- **Marked out of stock** with a calm "Not available to order online right now — contact us for availability and price" message;
+- **Price hidden** ("Price on enquiry" on the card and product page);
+- **Tagged `price-review`** so you can find them instantly in `/admin` (filter/search by tag) and decide: drop, renegotiate RN trade, or keep as enquire-only;
+- **Removed from the featured row** (we don't feature what we can't sell competitively).
 
-| Product | Our price (floor) | Cheapest UK |
-|---|---|---|
-| Puffco Peak Pro | £424.95 | £289 |
-| S&B Volcano Medic 2 | £382.95 | £350 |
-| Boundless DV8 | £175.95 | £115 |
-| Aromed 4.0 | £489.95 | £399 |
-| DaVinci Artiq | £66.95 | £49 |
-
-(Full list of 30 in `scripts/gen-stats.json` / derivable from `scripts/competitor-prices.json`.)
+Examples (RN trade ≥ cheapest UK): Puffco Peak Pro (£339 vs £289), S&B Volcano Medic 2 (£305 vs £350… via medical channel), Boundless DV8 (£135 vs £115), Aromed 4.0, DaVinci Artiq. Full list = the 30 products tagged `price-review`.
 
 ## 2. Competitor scope expanded
 
@@ -64,6 +60,7 @@ No "healthier choice / safer alternative / say goodbye to smoking" phrasing was 
 
 - **Logo enlarged ~44%**: header 64→92px desktop, 56→78px (≤980), 48→66px (≤680); footer 70→88px. Header offsets (hero padding, sticky filters) adjusted so nothing is overlapped.
 - **Reveal animation no longer loses content**: the fade-in now triggers as soon as content enters, reveals everything if reduced-motion/JS-off, and has a failsafe that force-reveals after 1.4s and on reaching the page bottom — so scrolled-past or tall sections are never left invisible.
+- **Scroll affordance**: a subtle "More below ⌄" cue on the homepage hero that fades out once you scroll — so it's obvious there's more content.
 - **Mobile breathing room**: increased section padding (`.pad` 56→64, `.pad-sm` 36→48), grid gaps, and side padding to reduce density on small screens.
 - **Homepage**: added a primary **"Shop devices"** CTA and **"Free UK delivery over £60"** + "matched or beaten on UK price" trust signals above the fold.
 - Verified no lorem/placeholder text remains.
@@ -75,7 +72,7 @@ No "healthier choice / safer alternative / say goodbye to smoking" phrasing was 
 Manual checklist:
 - [ ] Verify Netlify deploy is green
 - [ ] Spot-check 5 product pages incognito (mobile + desktop)
-- [ ] **Review the 30 floor-prevented products** — drop or renegotiate RN trade
+- [ ] **Review the 30 `price-review`-tagged products** in `/admin` — they're set out-of-stock/enquire with the price hidden; drop them, renegotiate RN trade, or keep as enquire-only
 - [ ] Enable Netlify Identity for CMS (later, separate)
 - [ ] Wire Stripe checkout (later, separate)
 

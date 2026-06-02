@@ -26,14 +26,15 @@
       "value": "1 year for the device and 3 months for the batteries"
     }
   ],
-  "inStock": true,
+  "inStock": false,
   "featured": false,
   "tags": [
     "portable",
     "dry-herb",
-    "flowermate"
+    "flowermate",
+    "price-review"
   ],
   "stripeLink": "",
   "rnSku": "6980026204329",
-  "order": 41
+  "order": 38
 }

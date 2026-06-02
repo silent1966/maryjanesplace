@@ -14,11 +14,12 @@
   "summary": "The YLL 3.0 Induction Heater is a premium torch-free heating device designed for fast, precise, and consistent performance.",
   "description": "The YLL 3.0 Induction Heater is a premium torch-free heating device designed for fast, precise, and consistent performance. Built for DynaVap vaporisers, it features adjustable power from 30–100W, a customisable heating chamber, and a flip OLED display for complete control. Powered by dual removable 21700 batteries (not included), the YLL 3.0 delivers long-lasting portable performance with convenient USB-C charging. The YLL 3.0 allows users to fine-tune heat intensity and extraction with adjustable wattage and chamber depth settings. A practical part to keep your device working as it should.",
   "specs": [],
-  "inStock": true,
+  "inStock": false,
   "featured": false,
   "tags": [
     "accessory",
-    "dynavap"
+    "dynavap",
+    "price-review"
   ],
   "stripeLink": "",
   "rnSku": "15525111529846",

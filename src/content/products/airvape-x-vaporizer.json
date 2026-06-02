@@ -47,14 +47,15 @@
       "value": "Limited Lifetime Warranty"
     }
   ],
-  "inStock": true,
+  "inStock": false,
   "featured": false,
   "tags": [
     "portable",
     "dry-herb",
-    "airvape"
+    "airvape",
+    "price-review"
   ],
   "stripeLink": "",
   "rnSku": "6980024041641",
-  "order": 50
+  "order": 47
 }

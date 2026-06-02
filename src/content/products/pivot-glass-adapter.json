@@ -13,11 +13,12 @@
   "summary": "Pivot Glass Adapter — a accessory for keeping your kit running.",
   "description": "The Pivot Glass Adapter features a quick-release 3D Chamber and 10mm + 14mm glass joints, making it the perfect solution for enhancing your favorite glass rig or bong with 3D Chamber technology. A practical part to keep your device working as it should.",
   "specs": [],
-  "inStock": true,
+  "inStock": false,
   "featured": false,
   "tags": [
     "accessory",
-    "puffco"
+    "puffco",
+    "price-review"
   ],
   "stripeLink": "",
   "rnSku": "14652115222902",

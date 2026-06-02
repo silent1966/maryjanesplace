@@ -39,13 +39,14 @@
       "value": "All Puffco Proxy glass and accessories"
     }
   ],
-  "inStock": true,
-  "featured": true,
+  "inStock": false,
+  "featured": false,
   "tags": [
     "portable",
-    "puffco"
+    "puffco",
+    "price-review"
   ],
   "stripeLink": "",
   "rnSku": "15656034468214",
-  "order": 16
+  "order": 71
 }

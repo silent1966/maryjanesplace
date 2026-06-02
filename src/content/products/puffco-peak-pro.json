@@ -27,13 +27,14 @@
       "value": "USA"
     }
   ],
-  "inStock": true,
-  "featured": true,
+  "inStock": false,
+  "featured": false,
   "tags": [
     "concentrate",
-    "puffco"
+    "puffco",
+    "price-review"
   ],
   "stripeLink": "",
   "rnSku": "6980038820009",
-  "order": 15
+  "order": 106
 }

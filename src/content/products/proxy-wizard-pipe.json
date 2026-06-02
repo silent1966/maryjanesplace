@@ -14,11 +14,12 @@
   "summary": "Experience a magical journey with the Puffco Proxy Wizard - a captivating pipe that embodies the enchanting essence of Lord of the Rings.",
   "description": "Experience a magical journey with the Puffco Proxy Wizard - a captivating pipe that embodies the enchanting essence of Lord of the Rings. To utilize this innovative Wiz pipe, you will require The Puffco Proxy modular vaporiser, specifically designed for concentrates and hash. Its vintage smoking pipe design adds a touch of nostalgia. The Wizard pipe is the newest addition to the Puffco Proxy concentrate vape collection, and it has quickly become a favorite among users. A practical part to keep your device working as it should.",
   "specs": [],
-  "inStock": true,
+  "inStock": false,
   "featured": false,
   "tags": [
     "accessory",
-    "puffco"
+    "puffco",
+    "price-review"
   ],
   "stripeLink": "",
   "rnSku": "7779324526761",

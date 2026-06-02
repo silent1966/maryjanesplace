@@ -45,7 +45,13 @@ import site from "../content/site/settings.json";
         <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12l5 5L20 6"/></svg> Vaporisers only · 18+</span>
       </div>
     </div>
+    <a class="scroll-cue" id="scroll-cue" href="#more" aria-label="Scroll for more">
+      <span>More below</span>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+    </a>
   </section>
+
+  <span id="more"></span>
 
   <section class="pad">
     <div class="wrap two vc">
@@ -138,3 +144,13 @@ import site from "../content/site/settings.json";
     </div>
   </section>
 </Base>
+
+<script>
+  // fade the scroll cue once the visitor starts scrolling
+  const cue = document.getElementById('scroll-cue');
+  if (cue) {
+    const onScroll = () => cue.classList.toggle('hide', window.scrollY > 80);
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+  }
+</script>

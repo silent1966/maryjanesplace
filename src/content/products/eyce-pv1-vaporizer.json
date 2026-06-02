@@ -19,14 +19,15 @@
       "value": "350–370°F"
     }
   ],
-  "inStock": true,
+  "inStock": false,
   "featured": false,
   "tags": [
     "portable",
     "dry-herb",
-    "eyce"
+    "eyce",
+    "price-review"
   ],
   "stripeLink": "",
   "rnSku": "15477423112566",
-  "order": 36
+  "order": 33
 }

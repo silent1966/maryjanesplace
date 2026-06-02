@@ -19,14 +19,15 @@
       "value": "2 years"
     }
   ],
-  "inStock": true,
+  "inStock": false,
   "featured": false,
   "tags": [
     "portable",
     "dry-herb",
-    "storz-bickel"
+    "storz-bickel",
+    "price-review"
   ],
   "stripeLink": "",
   "rnSku": "7779298967721",
-  "order": 77
+  "order": 75
 }

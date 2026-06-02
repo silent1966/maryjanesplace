@@ -29,14 +29,15 @@
       "value": "8-10 (depending on temperature settings)"
     }
   ],
-  "inStock": true,
+  "inStock": false,
   "featured": false,
   "tags": [
     "portable",
     "dry-herb",
-    "smono"
+    "smono",
+    "price-review"
   ],
   "stripeLink": "",
   "rnSku": "6980035215529",
-  "order": 26
+  "order": 23
 }
