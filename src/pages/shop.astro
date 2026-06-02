@@ -322,14 +322,11 @@ const totalCount = products.length;
   .shop-count { font-size: 13px; font-weight: 600; color: var(--ink-soft); }
   .cat-scroll {
     display: flex;
+    flex-wrap: wrap;       /* wrap onto tidy rows on desktop — no scrollbar */
     gap: 8px;
-    overflow-x: auto;
     flex: 1;
-    padding: 4px 0;
-    scrollbar-width: thin;
+    padding: 2px 0;
   }
-  .cat-scroll::-webkit-scrollbar { height: 4px; }
-  .cat-scroll::-webkit-scrollbar-thumb { background: var(--sage-soft); border-radius: 2px; }
   .cat-pill {
     flex: none;
     background: var(--panel);
@@ -360,8 +357,9 @@ const totalCount = products.length;
 
   .prod-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+    /* denser, self-adjusting grid — ~5 across on desktop so cards aren't big empty squares */
+    grid-template-columns: repeat(auto-fill, minmax(188px, 1fr));
+    gap: 16px;
   }
   .prod-card {
     display: block;
@@ -380,7 +378,7 @@ const totalCount = products.length;
   }
   .prod-image {
     position: relative;
-    aspect-ratio: 1 / 1;
+    aspect-ratio: 1 / 0.84;
     background: var(--paper);
     overflow: hidden;
   }
@@ -388,7 +386,7 @@ const totalCount = products.length;
     width: 100%;
     height: 100%;
     object-fit: contain;
-    padding: 12px;
+    padding: 7px;
     transition: 0.4s;
   }
   .prod-card:hover .prod-image img { transform: scale(1.04); }
@@ -454,24 +452,25 @@ const totalCount = products.length;
   .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
 
   @media (max-width: 1100px) {
-    .prod-grid { grid-template-columns: repeat(3, 1fr); }
     .trust-band { grid-template-columns: repeat(2, 1fr); }
   }
   @media (max-width: 760px) {
     .shop-hero { padding-top: 108px; }
-    .prod-grid { grid-template-columns: repeat(2, 1fr); gap: 14px; }
     .shop-controls { flex-direction: column; align-items: stretch; gap: 12px; position: relative; top: 0; }
+    /* on phones, swipe-scroll the pills in one row, but hide the scrollbar chrome */
+    .cat-scroll { flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+    .cat-scroll::-webkit-scrollbar { display: none; }
     .sort-select { width: 100%; }
     .prod-meta { padding: 12px 14px 16px; }
     .prod-name { font-size: 14.5px; }
     .price-main { font-size: 16px; }
   }
-  @media (max-width: 420px) {
-    .prod-grid { gap: 12px; }
+  /* two columns on phones */
+  @media (max-width: 620px) {
+    .prod-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
     .prod-meta { padding: 11px 12px 14px; }
     .trust-band { grid-template-columns: 1fr; }
   }
-  /* keep two columns on phones — single column only on very small screens */
   @media (max-width: 340px) {
     .prod-grid { grid-template-columns: 1fr; }
   }
