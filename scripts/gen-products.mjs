@@ -279,10 +279,10 @@ function isMapBrand(brand) {
   const b = brand.toLowerCase();
   return MAP_BRANDS.some((m) => b.includes(m));
 }
-// round DOWN to the nearest .95 ending (used when TARGET wins)
-function roundDown95(x) { return +(Math.floor(x - 0.95 + 1e-9) + 0.95).toFixed(2); }
-// round UP to the nearest .95 ending (used when FLOOR wins)
-function roundUp95(x) { return +(Math.ceil(x - 0.95 - 1e-9) + 0.95).toFixed(2); }
+// round DOWN to the previous .99 ending (TARGET wins — keeps the ≥£1 undercut)
+function roundDown99(x) { return +(Math.floor(x - 0.99 + 1e-9) + 0.99).toFixed(2); }
+// round UP to the next .99 ending (FLOOR wins — stays above breakeven, never lose money)
+function roundUp99(x) { return +(Math.ceil(x - 0.99 - 1e-9) + 0.99).toFixed(2); }
 
 // TWO RULES, nothing else.
 //  RULE 1 — never lose money: FLOOR = (T + 8.19) / 0.8183
@@ -299,7 +299,7 @@ function computePrice(T, handle, brand, compareAt) {
   else { target = T * 1.85; source = "fallback"; }
 
   const targetWins = target >= floor;
-  const price = targetWins ? roundDown95(target) : roundUp95(floor);
+  const price = targetWins ? roundDown99(target) : roundUp99(floor);
   return {
     price,
     floor: +floor.toFixed(2),

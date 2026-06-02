@@ -736,6 +736,12 @@ footer {
   .rv { opacity: 1; transform: none; }
 }
 
+/* mobile touch + a11y: 16px form fields prevent iOS auto-zoom; comfortable tap targets */
+@media (max-width: 760px) {
+  input, select, textarea { font-size: 16px; }
+}
+.search-close { min-width: 42px; min-height: 42px; }
+
 /* product photos blend into the cream card background.
    Manufacturer photos have white backgrounds; multiply makes pure-white pixels
    blend transparently into the paper behind them. Product colours stay intact. */

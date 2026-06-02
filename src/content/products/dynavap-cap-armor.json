@@ -3,7 +3,7 @@
   "name": "Dynavap - Cap Armor",
   "brand": "DynaVap",
   "category": "accessories",
-  "price": 18.95,
+  "price": 18.99,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Dynavap-Cap-Armor.jpg?v=1770413838",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/files/Dynavap-Cap-Armor-1.jpg?v=1770413838"
@@ -19,5 +19,5 @@
   ],
   "stripeLink": "",
   "rnSku": "15603390382454",
-  "order": 282
+  "order": 284
 }

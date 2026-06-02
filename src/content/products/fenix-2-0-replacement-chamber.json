@@ -3,7 +3,7 @@
   "name": "Fenix 2.0 Replacement Chamber",
   "brand": "Weecke",
   "category": "accessories",
-  "price": 18.95,
+  "price": 17.99,
   "image": "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/fcdddd0a-d8f8-ba4e-8380-f704ad5bbd50_4a6eb832-ca23-471e-a740-33098255a26a.jpg?v=1620661924",
   "gallery": [
     "https://cdn.shopify.com/s/files/1/0568/8944/2473/products/a6da3070-23f1-1040-9926-bbdc3a21403f_871410b8-4c95-49ae-96b4-49f18d0df0ef.jpg?v=1620661924"
@@ -20,5 +20,5 @@
   ],
   "stripeLink": "",
   "rnSku": "6980035412137",
-  "order": 296
+  "order": 272
 }
