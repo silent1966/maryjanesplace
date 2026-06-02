@@ -114,7 +114,7 @@ header.scrolled {
   align-items: center;
   justify-content: space-between;
   padding: 14px 26px;
-  max-width: 1220px;
+  max-width: 1320px;
   margin: 0 auto;
 }
 .brand { display: flex; align-items: center; cursor: pointer; }

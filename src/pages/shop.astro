@@ -45,7 +45,7 @@ const totalCount = products.length;
   description="The UK shop for prescribed medical cannabis patients. Storz & Bickel, Arizer, DynaVap, PAX, Puffco and more — competitive UK pricing, free delivery over £60, 30-day returns."
 >
   <section class="shop-hero pad-sm">
-    <div class="wrap">
+    <div class="wrap shop-wrap">
       <div class="eyebrow kick rv">Shop</div>
       <h1 class="rv shop-h1" style="margin-bottom:10px">Vaporisers, grinders &amp; accessories</h1>
       <p class="rv lede" style="max-width:58ch">
@@ -62,7 +62,7 @@ const totalCount = products.length;
   </section>
 
   <section class="pad-sm" style="padding-top:8px">
-    <div class="wrap">
+    <div class="wrap shop-wrap">
       <div class="shop-layout">
       <aside class="shop-sidebar rv" aria-label="Filter products">
         <div class="shop-search">
@@ -155,7 +155,7 @@ const totalCount = products.length;
   </section>
 
   <section class="pad-sm">
-    <div class="wrap">
+    <div class="wrap shop-wrap">
       <div class="trust-band rv">
         <div class="trust-item">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="8" width="18" height="11" rx="2"/><path d="M7 8V6a5 5 0 0110 0v2"/></svg>
@@ -270,6 +270,8 @@ const totalCount = products.length;
 </script>
 
 <style>
+  /* the shop is a product listing — use more of the screen than reading-width pages */
+  .wrap.shop-wrap { max-width: 1320px; }
   .shop-hero { padding-top: 132px; padding-bottom: 18px; }
   .shop-hero .shop-h1 { font-size: clamp(24px, 2.6vw, 32px); font-weight: 700; letter-spacing: -0.01em; }
   .shop-hero .lede { font-size: 16px; }
