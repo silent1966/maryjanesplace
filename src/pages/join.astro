@@ -63,6 +63,9 @@ import MemberCard from "../components/MemberCard.astro";
         </p>
 
         <button class="btn" type="submit">Create my membership <span class="arr">→</span></button>
+        <p class="form-note" style="margin-top:14px">
+          Already a member? <a href="/member" style="color:var(--olive);font-weight:600">View your card →</a>
+        </p>
       </form>
 
       <!-- Confirmation (shown after submit) -->
@@ -128,6 +131,8 @@ import MemberCard from "../components/MemberCard.astro";
     e.preventDefault();
     const fd = new FormData(form);
     const name = (fd.get('name') as string) || 'Member';
+    // Persist the card on this device so the member can log back in at /member.
+    try { localStorage.setItem('mjp_member', JSON.stringify({ name, id: memberId, joinDate: todayISO })); } catch (e) {}
     try {
       await fetch('/', { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: new URLSearchParams(fd as any).toString() });
     } catch (err) { /* still show confirmation; Netlify also captures on deploy */ }
