@@ -9,7 +9,7 @@ function group(paths: string[]) {
   return paths.some((p) => pathname.startsWith(p)) ? "active" : "";
 }
 const loungeActive = group(["/vaping-lounge", "/hire", "/book", "/visit"]);
-const membersActive = group(["/membership", "/join", "/member"]);
+const membersActive = group(["/membership", "/join", "/member", "/portal"]);
 const aboutActive = group(["/about", "/your-rights", "/blog", "/partnerships", "/for-police-and-venues"]);
 const caret = `<svg class="caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 9l6 6 6-6"/></svg>`;
 ---
@@ -21,16 +21,16 @@ const caret = `<svg class="caret" viewBox="0 0 24 24" fill="none" stroke="curren
     </a>
 
     <nav class="links" id="navlinks" aria-label="Primary">
-      <a href="/shop" class={active("/shop")}>Shop</a>
       <a href="/medical-cannabis" class={active("/medical-cannabis")}>Medical Cannabis</a>
 
       <div class="has-drop">
-        <button type="button" class={`drop-toggle ${loungeActive}`} aria-haspopup="true" aria-expanded="false">Lounge &amp; Hire <Fragment set:html={caret} /></button>
+        <button type="button" class={`drop-toggle ${loungeActive}`} aria-haspopup="true" aria-expanded="false">Lounge <Fragment set:html={caret} /></button>
         <div class="drop" role="menu">
-          <a href="/vaping-lounge" role="menuitem">Vaping lounge</a>
-          <a href="/hire" role="menuitem">Hire</a>
+          <a href="/vaping-lounge" role="menuitem">The lounge</a>
+          <a href="/vaping-lounge#food" role="menuitem">Food &amp; drink</a>
           <a href="/book" role="menuitem">Book a slot</a>
           <a href="/visit" role="menuitem">Visit us</a>
+          <a href="/hire" role="menuitem">Equipment hire</a>
         </div>
       </div>
 
@@ -39,7 +39,8 @@ const caret = `<svg class="caret" viewBox="0 0 24 24" fill="none" stroke="curren
         <div class="drop" role="menu">
           <a href="/membership" role="menuitem">Membership</a>
           <a href="/join" role="menuitem">Join</a>
-          <a href="/member" role="menuitem">My card</a>
+          <a href="/portal" role="menuitem">Member portal</a>
+          <a href="/member" role="menuitem">My card &amp; points</a>
           <a href="/member-card-faq" role="menuitem">Member card help</a>
         </div>
       </div>
@@ -56,6 +57,7 @@ const caret = `<svg class="caret" viewBox="0 0 24 24" fill="none" stroke="curren
       </div>
 
       <a href="/contact" class={active("/contact")}>Contact</a>
+      <a href="/shop" class={`nav-extra ${active("/shop")}`}>Shop</a>
     </nav>
 
     <div class="nav-cta">
@@ -88,23 +90,23 @@ const caret = `<svg class="caret" viewBox="0 0 24 24" fill="none" stroke="curren
     <input type="search" name="q" placeholder="Search the shop…" autocomplete="off" aria-label="Search products" />
   </form>
 
-  <a class="drawer-top" href="/shop">Shop</a>
   <a class="drawer-top" href="/medical-cannabis">Medical Cannabis</a>
-  <a class="drawer-top" href="/contact">Contact</a>
 
   <div class="drawer-group">
-    <div class="drawer-group-h">Lounge &amp; Hire</div>
-    <a href="/vaping-lounge">Vaping lounge</a>
-    <a href="/hire">Hire</a>
+    <div class="drawer-group-h">Lounge</div>
+    <a href="/vaping-lounge">The lounge</a>
+    <a href="/vaping-lounge#food">Food &amp; drink</a>
     <a href="/book">Book a slot</a>
     <a href="/visit">Visit us</a>
+    <a href="/hire">Equipment hire</a>
   </div>
 
   <div class="drawer-group">
     <div class="drawer-group-h">Members</div>
     <a href="/membership">Membership</a>
     <a href="/join">Join</a>
-    <a href="/member">My card</a>
+    <a href="/portal">Member portal</a>
+    <a href="/member">My card &amp; points</a>
     <a href="/member-card-faq">Member card help</a>
   </div>
 
@@ -116,6 +118,9 @@ const caret = `<svg class="caret" viewBox="0 0 24 24" fill="none" stroke="curren
     <a href="/partnerships">Partnerships</a>
     <a href="/blog">Blog</a>
   </div>
+
+  <a class="drawer-top" href="/contact">Contact</a>
+  <a class="drawer-top" href="/shop">Shop</a>
 </div>
 
 <script>
